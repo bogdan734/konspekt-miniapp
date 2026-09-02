@@ -35,6 +35,63 @@ const key = card => `${card.topicID}:${card.front}`;
 const tg = window.Telegram?.WebApp;
 tg?.ready();
 tg?.expand();
+// Прокрутка сторінки не має тягнути вікно вниз і закривати застосунок.
+tg?.disableVerticalSwipes?.();
+
+/// Повний екран з'явився у Bot API 8.0. На старших клієнтах методу просто немає,
+/// тому все під перевіркою версії, а не під try/catch.
+const FULLSCREEN_API = Boolean(tg?.isVersionAtLeast?.('8.0') && tg?.requestFullscreen);
+
+/// У повному екрані шапка Telegram лежить поверх сторінки, і без цих відступів
+/// заголовок опиняється під кнопкою «закрити».
+function applyInsets() {
+  const root = document.documentElement;
+  const top = (tg?.safeAreaInset?.top ?? 0) + (tg?.contentSafeAreaInset?.top ?? 0);
+  const bottom = (tg?.safeAreaInset?.bottom ?? 0) + (tg?.contentSafeAreaInset?.bottom ?? 0);
+  root.style.setProperty('--safe-top', `${top}px`);
+  root.style.setProperty('--safe-bottom', `${bottom}px`);
+}
+
+const EXPAND = '<path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M16 3h3a2 2 0 0 1 2 2v3"/>'
+  + '<path d="M8 21H5a2 2 0 0 1-2-2v-3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/>';
+const COLLAPSE = '<path d="M3 8h3a2 2 0 0 0 2-2V3"/><path d="M21 8h-3a2 2 0 0 1-2-2V3"/>'
+  + '<path d="M3 16h3a2 2 0 0 1 2 2v3"/><path d="M21 16h-3a2 2 0 0 0-2 2v3"/>';
+
+function syncScreenToggle() {
+  const button = document.getElementById('screenToggle');
+  if (!button) return;
+  button.hidden = !FULLSCREEN_API;
+  if (!FULLSCREEN_API) return;
+  const full = Boolean(tg.isFullscreen);
+  button.innerHTML = svg(full ? COLLAPSE : EXPAND);
+  button.setAttribute('aria-label', full ? 'Вийти з повного екрана' : 'На весь екран');
+}
+
+function setFullscreen(on) {
+  if (!FULLSCREEN_API) return;
+  store.set('fullscreen', on);
+  if (on) tg.requestFullscreen(); else tg.exitFullscreen();
+}
+
+function wireScreen() {
+  applyInsets();
+  syncScreenToggle();
+  const button = document.getElementById('screenToggle');
+  if (button) button.onclick = () => setFullscreen(!tg.isFullscreen);
+
+  tg?.onEvent?.('safeAreaChanged', applyInsets);
+  tg?.onEvent?.('contentSafeAreaChanged', applyInsets);
+  tg?.onEvent?.('fullscreenChanged', () => { applyInsets(); syncScreenToggle(); });
+  // Наприклад, клієнт застарий або вікно вже розгорнуте — тоді просто лишаємось як є.
+  tg?.onEvent?.('fullscreenFailed', () => { store.set('fullscreen', false); syncScreenToggle(); });
+
+  // На комп'ютері й планшеті великий екран того вартий; на телефоні шапка
+  // Telegram і так не заважає, тому туди не лізу.
+  const roomy = Math.min(window.innerWidth, window.innerHeight) >= 700
+    || window.innerWidth >= 1000;
+  const remembered = store.get('fullscreen', null);
+  if (FULLSCREEN_API && !tg.isFullscreen && (remembered ?? roomy)) setFullscreen(true);
+}
 
 const view = document.getElementById('view');
 const WEEKDAYS = ['Понеділок', 'Вівторок', 'Середа', 'Четвер', "П'ятниця", 'Субота', 'Неділя'];
@@ -121,6 +178,7 @@ async function boot() {
       data.material[`${subject.id}/${topic.id}`] = { notes, lesson, quiz, cards };
     })));
 
+  wireScreen();
   current = store.get('subject', null)
     ?? (data.subjects.find(s => s.topics.length)?.id ?? data.subjects[0].id);
   buildTabs();
