@@ -5,7 +5,7 @@
 яких є навчальний план і розшифровані конспекти, отримують теми з матеріалом,
 решта лишаються в списку порожніми, щоб було видно, чого ще немає.
 """
-import json, pathlib, shutil, sys
+import hashlib, json, pathlib, re, shutil, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "miniapp" / "data"
@@ -95,9 +95,29 @@ def main() -> int:
     (DATA / "subjects.json").write_text(
         json.dumps({"subjects": subjects}, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    version = stamp()
     ready = sum(len(s["topics"]) for s in subjects)
-    print(f"предметів: {len(subjects)}, тем із матеріалом: {ready}")
+    print(f"предметів: {len(subjects)}, тем із матеріалом: {ready}, версія {version}")
     return 0
+
+
+def stamp() -> str:
+    """Проставляє відбиток версії в index.html.
+
+    Telegram тримає сторінку в своєму вебв'ю довго. Поки адреса скрипта не
+    змінюється, він показує старий застосунок; зміна ?v= змушує перечитати і
+    скрипт, і дані, які він тягне.
+    """
+    digest = hashlib.sha256()
+    for path in sorted((ROOT / "miniapp").rglob("*")):
+        if path.is_file() and path.name != "index.html" and ".git" not in path.parts:
+            digest.update(path.read_bytes())
+    version = digest.hexdigest()[:10]
+
+    index = ROOT / "miniapp" / "index.html"
+    text = re.sub(r'src="app\.js(\?v=[0-9a-f]+)?"', f'src="app.js?v={version}"', index.read_text(encoding="utf-8"))
+    index.write_text(text, encoding="utf-8")
+    return version
 
 if __name__ == "__main__":
     sys.exit(main())
