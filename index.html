@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Конспект</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+  :root {
+    --bg: var(--tg-theme-bg-color, #ffffff);
+    --card: var(--tg-theme-secondary-bg-color, #f2f2f7);
+    --text: var(--tg-theme-text-color, #1c1c1e);
+    --muted: var(--tg-theme-hint-color, #8a8a8e);
+    --accent: var(--tg-theme-button-color, #2f6fed);
+    --accent-text: var(--tg-theme-button-text-color, #ffffff);
+    --line: color-mix(in srgb, var(--muted) 25%, transparent);
+    --ok: #2e9e5b;
+    --bad: #d1443c;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding-bottom: 72px;
+  }
+  header { padding: 16px 16px 8px; }
+  h1 { font-size: 22px; margin: 0 0 2px; }
+  .sub { color: var(--muted); font-size: 13px; }
+  main { padding: 0 16px; }
+  .card {
+    background: var(--card); border-radius: 14px; padding: 14px; margin: 10px 0;
+  }
+  .card h2 { font-size: 16px; margin: 0 0 6px; }
+  .row { display: flex; gap: 10px; align-items: baseline; }
+  .row .time { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px; min-width: 44px; }
+  .row .subject { flex: 1; }
+  .row.now { color: var(--accent); font-weight: 600; }
+  .pill {
+    display: inline-block; padding: 2px 8px; border-radius: 999px;
+    background: color-mix(in srgb, var(--accent) 15%, transparent);
+    color: var(--accent); font-size: 12px; font-weight: 600;
+  }
+  button {
+    font: inherit; border: 0; border-radius: 12px; padding: 12px 16px;
+    background: var(--accent); color: var(--accent-text); font-weight: 600;
+  }
+  button.ghost { background: transparent; color: var(--accent); border: 1px solid var(--line); }
+  button.wide { width: 100%; margin-top: 8px; }
+  button:disabled { opacity: .45; }
+  .grades { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-top: 12px; }
+  .grades button { padding: 12px 4px; font-size: 14px; }
+  .grades .again { background: var(--bad); }
+  .grades .hard { background: #b8791f; }
+  .grades .easy { background: var(--ok); }
+  .flash { min-height: 132px; display: flex; flex-direction: column; justify-content: center;
+           text-align: center; gap: 10px; }
+  .flash .front { font-size: 22px; font-weight: 600; }
+  .flash .back { font-size: 17px; color: var(--muted); }
+  .opt { display: block; width: 100%; text-align: left; background: var(--card);
+         color: var(--text); border: 1px solid var(--line); margin: 6px 0; }
+  .opt.correct { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 18%, transparent); }
+  .opt.wrong { border-color: var(--bad); background: color-mix(in srgb, var(--bad) 18%, transparent); }
+  .muted { color: var(--muted); }
+  .small { font-size: 14px; }
+  .src { font-size: 13px; color: var(--muted); border-left: 2px solid var(--line);
+         padding-left: 10px; margin-top: 8px; white-space: pre-wrap; }
+  details summary { cursor: pointer; color: var(--accent); font-size: 14px; }
+  nav {
+    position: fixed; left: 0; right: 0; bottom: 0; display: grid;
+    grid-template-columns: repeat(4, 1fr); background: var(--bg);
+    border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom);
+  }
+  nav button { background: none; color: var(--muted); border-radius: 0; padding: 10px 2px;
+               font-size: 12px; font-weight: 500; display: grid; gap: 2px; }
+  nav button .ico { font-size: 19px; }
+  nav button.on { color: var(--accent); }
+  .bar { height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; }
+  .bar > i { display: block; height: 100%; background: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1 id="title">Конспект</h1>
+  <div class="sub" id="subtitle">завантаження…</div>
+</header>
+<main id="view"></main>
+<nav>
+  <button data-tab="today" class="on"><span class="ico">📅</span>Сьогодні</button>
+  <button data-tab="drill"><span class="ico">🔁</span>Тренування</button>
+  <button data-tab="topics"><span class="ico">📚</span>Теми</button>
+  <button data-tab="notes"><span class="ico">✍️</span>Конспект</button>
+</nav>
+<script type="module" src="app.js"></script>
+</body>
+</html>

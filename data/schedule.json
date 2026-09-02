@@ -1,0 +1,319 @@
+{
+  "groupID": 364,
+  "groupName": "ФВМ122",
+  "sessions": [
+    {
+      "weekday": 1,
+      "period": 1,
+      "subject": "Основи національного спротиву",
+      "lecturer": null,
+      "room": null,
+      "start": "10:00",
+      "end": "11:20",
+      "weekType": 1
+    },
+    {
+      "weekday": 2,
+      "period": 2,
+      "subject": "Латинська мова",
+      "lecturer": null,
+      "room": null,
+      "start": "10:35",
+      "end": "11:55",
+      "weekType": 1
+    },
+    {
+      "weekday": 2,
+      "period": 3,
+      "subject": "Хімія",
+      "lecturer": null,
+      "room": "6 (Л)",
+      "start": "12:35",
+      "end": "13:55",
+      "weekType": 1
+    },
+    {
+      "weekday": 2,
+      "period": 4,
+      "subject": "Хімія",
+      "lecturer": null,
+      "room": null,
+      "start": "14:10",
+      "end": "15:30",
+      "weekType": 1
+    },
+    {
+      "weekday": 2,
+      "period": 5,
+      "subject": "Іноземна мова (за професійним спрямуванням)",
+      "lecturer": null,
+      "room": null,
+      "start": "15:45",
+      "end": "17:05",
+      "weekType": 1
+    },
+    {
+      "weekday": 3,
+      "period": 1,
+      "subject": "Гістологія",
+      "lecturer": null,
+      "room": null,
+      "start": "09:00",
+      "end": "10:20",
+      "weekType": 1
+    },
+    {
+      "weekday": 3,
+      "period": 2,
+      "subject": "Історія України та цивілізаційний процес",
+      "lecturer": null,
+      "room": null,
+      "start": "10:35",
+      "end": "11:55",
+      "weekType": 1
+    },
+    {
+      "weekday": 3,
+      "period": 3,
+      "subject": "Анатомія тварин",
+      "lecturer": null,
+      "room": "5 (Л)",
+      "start": "12:35",
+      "end": "13:55",
+      "weekType": 1
+    },
+    {
+      "weekday": 3,
+      "period": 4,
+      "subject": "Анатомія тварин",
+      "lecturer": null,
+      "room": null,
+      "start": "14:10",
+      "end": "15:30",
+      "weekType": 1
+    },
+    {
+      "weekday": 3,
+      "period": 5,
+      "subject": "Анатомія тварин",
+      "lecturer": null,
+      "room": null,
+      "start": "15:45",
+      "end": "17:05",
+      "weekType": 1
+    },
+    {
+      "weekday": 4,
+      "period": 1,
+      "subject": "Антикорупція та доброчесність",
+      "lecturer": null,
+      "room": null,
+      "start": "09:00",
+      "end": "10:20",
+      "weekType": 1
+    },
+    {
+      "weekday": 4,
+      "period": 3,
+      "subject": "Історія України та цивілізаційний процес",
+      "lecturer": null,
+      "room": "6 (Л)",
+      "start": "12:35",
+      "end": "13:55",
+      "weekType": 1
+    },
+    {
+      "weekday": 4,
+      "period": 4,
+      "subject": "Хімія",
+      "lecturer": null,
+      "room": null,
+      "start": "14:10",
+      "end": "15:30",
+      "weekType": 1
+    },
+    {
+      "weekday": 4,
+      "period": 5,
+      "subject": "Іноземна мова (за професійним спрямуванням)",
+      "lecturer": null,
+      "room": null,
+      "start": "15:45",
+      "end": "17:05",
+      "weekType": 1
+    },
+    {
+      "weekday": 5,
+      "period": 3,
+      "subject": "Анатомія тварин",
+      "lecturer": null,
+      "room": "5 (Л)",
+      "start": "12:10",
+      "end": "13:30",
+      "weekType": 1
+    },
+    {
+      "weekday": 1,
+      "period": 1,
+      "subject": "Основи національного спротиву",
+      "lecturer": null,
+      "room": null,
+      "start": "10:00",
+      "end": "11:20",
+      "weekType": 2
+    },
+    {
+      "weekday": 2,
+      "period": 1,
+      "subject": "Латинська мова",
+      "lecturer": null,
+      "room": null,
+      "start": "09:00",
+      "end": "10:20",
+      "weekType": 2
+    },
+    {
+      "weekday": 2,
+      "period": 2,
+      "subject": "Хімія",
+      "lecturer": null,
+      "room": "6 (Л)",
+      "start": "10:35",
+      "end": "11:55",
+      "weekType": 2
+    },
+    {
+      "weekday": 2,
+      "period": 3,
+      "subject": "Історія України та цивілізаційний процес",
+      "lecturer": null,
+      "room": null,
+      "start": "12:35",
+      "end": "13:55",
+      "weekType": 2
+    },
+    {
+      "weekday": 2,
+      "period": 5,
+      "subject": "Іноземна мова (за професійним спрямуванням)",
+      "lecturer": null,
+      "room": null,
+      "start": "15:45",
+      "end": "17:05",
+      "weekType": 2
+    },
+    {
+      "weekday": 3,
+      "period": 1,
+      "subject": "Гістологія",
+      "lecturer": null,
+      "room": null,
+      "start": "09:00",
+      "end": "10:20",
+      "weekType": 2
+    },
+    {
+      "weekday": 3,
+      "period": 3,
+      "subject": "Анатомія тварин",
+      "lecturer": null,
+      "room": "5 (Л)",
+      "start": "12:35",
+      "end": "13:55",
+      "weekType": 2
+    },
+    {
+      "weekday": 3,
+      "period": 4,
+      "subject": "Анатомія тварин",
+      "lecturer": null,
+      "room": null,
+      "start": "14:10",
+      "end": "15:30",
+      "weekType": 2
+    },
+    {
+      "weekday": 3,
+      "period": 5,
+      "subject": "Анатомія тварин",
+      "lecturer": null,
+      "room": null,
+      "start": "15:45",
+      "end": "17:05",
+      "weekType": 2
+    },
+    {
+      "weekday": 4,
+      "period": 1,
+      "subject": "Гістологія",
+      "lecturer": null,
+      "room": "6 (Л)",
+      "start": "09:00",
+      "end": "10:20",
+      "weekType": 2
+    },
+    {
+      "weekday": 4,
+      "period": 2,
+      "subject": "Антикорупція та доброчесність",
+      "lecturer": null,
+      "room": "6 (Л)",
+      "start": "10:35",
+      "end": "11:55",
+      "weekType": 2
+    },
+    {
+      "weekday": 4,
+      "period": 3,
+      "subject": "Хімія",
+      "lecturer": null,
+      "room": null,
+      "start": "12:35",
+      "end": "13:55",
+      "weekType": 2
+    },
+    {
+      "weekday": 4,
+      "period": 5,
+      "subject": "Іноземна мова (за професійним спрямуванням)",
+      "lecturer": null,
+      "room": null,
+      "start": "15:45",
+      "end": "17:05",
+      "weekType": 2
+    },
+    {
+      "weekday": 5,
+      "period": 1,
+      "subject": "Антикорупція та доброчесність",
+      "lecturer": null,
+      "room": null,
+      "start": "09:00",
+      "end": "10:20",
+      "weekType": 2
+    },
+    {
+      "weekday": 5,
+      "period": 2,
+      "subject": "Латинська мова",
+      "lecturer": null,
+      "room": null,
+      "start": "10:35",
+      "end": "11:55",
+      "weekType": 2
+    },
+    {
+      "weekday": 5,
+      "period": 3,
+      "subject": "Анатомія тварин",
+      "lecturer": null,
+      "room": "5 (Л)",
+      "start": "12:10",
+      "end": "13:30",
+      "weekType": 2
+    }
+  ],
+  "curricula": {
+    "Анатомія тварин": "anatomy-ua-full"
+  }
+}

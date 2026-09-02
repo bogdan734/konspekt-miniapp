@@ -1,0 +1,187 @@
+[
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "planum medianum",
+    "back": "серединна площина — ділить тіло на дві рівні половини",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "periosteum",
+    "back": "окістя — оболонка зовні кістки",
+    "sourceSegmentIDs": [
+      33
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "substantia ossea compacta",
+    "back": "компактна речовина кістки",
+    "sourceSegmentIDs": [
+      35
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "substantia ossea spongiosa",
+    "back": "губчаста речовина кістки",
+    "sourceSegmentIDs": [
+      35
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "corpus vertebrae",
+    "back": "тіло хребця",
+    "sourceSegmentIDs": [
+      44
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "arcus vertebrae",
+    "back": "дуга хребця",
+    "sourceSegmentIDs": [
+      45
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "foramen vertebrae",
+    "back": "хребцевий отвір",
+    "sourceSegmentIDs": [
+      46
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "canalis vertebralis",
+    "back": "хребтовий канал (у конспекті — canalis intervertebrae)",
+    "sourceSegmentIDs": [
+      47
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "caput vertebrae",
+    "back": "головка хребця",
+    "sourceSegmentIDs": [
+      49
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "fossa vertebrae",
+    "back": "ямка хребця",
+    "sourceSegmentIDs": [
+      50
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "processus spinosus",
+    "back": "остистий відросток",
+    "sourceSegmentIDs": [
+      52
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "processus mamillaris",
+    "back": "соскоподібний відросток (у конспекті — mamularis)",
+    "sourceSegmentIDs": [
+      56
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "processus transversus",
+    "back": "поперечний відросток",
+    "sourceSegmentIDs": [
+      57
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "costa vera",
+    "back": "справжнє ребро — з'єднується з грудиною",
+    "sourceSegmentIDs": [
+      65
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "arcus costalis",
+    "back": "реберна дуга зі зрощених хрящів несправжніх ребер",
+    "sourceSegmentIDs": [
+      65
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "manubrium sterni",
+    "back": "ручка грудини",
+    "sourceSegmentIDs": [
+      74
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "processus xiphoideus",
+    "back": "мечоподібний відросток грудини (у конспекті — xsiphodeus)",
+    "sourceSegmentIDs": [
+      76
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Грудні хребці: кінь / ВРХ / свиня / собака",
+    "back": "18 / 13 / 14–16 / 13",
+    "sourceSegmentIDs": [
+      59,
+      60,
+      61,
+      62
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Діафрагмальний хребець собаки",
+    "back": "одинадцятий грудний",
+    "sourceSegmentIDs": [
+      63,
+      64
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Пальмарна і плантарна поверхні",
+    "back": "пальмарна — задня поверхня кисті, плантарна — задня поверхня стопи",
+    "sourceSegmentIDs": [
+      24,
+      25
+    ]
+  }
+]
