@@ -43,7 +43,19 @@ def main() -> int:
     timetable = json.loads((ROOT / "schedule" / "fvm122.json").read_text(encoding="utf-8"))
     (DATA / "schedule.json").write_text(json.dumps(timetable, ensure_ascii=False), encoding="utf-8")
 
-    linked = timetable.get("curricula", {})
+    linked = dict(timetable.get("curricula", {}))
+
+    # Предмет може мати конспекти задовго до того, як хтось сфотографує його
+    # робочу програму: теку з конспектами прив'язує сам файл, полем subjectTitle.
+    for folder in sorted((ROOT / "notes").glob("*")):
+        if not folder.is_dir():
+            continue
+        for notes_file in folder.glob("T*.json"):
+            notes = json.loads(notes_file.read_text(encoding="utf-8"))
+            title = notes.get("subjectTitle")
+            if title and title not in linked:
+                linked[title] = notes["curriculumID"]
+
     subjects = []
 
     for name in dict.fromkeys(session["subject"] for session in timetable["sessions"]):
@@ -68,7 +80,7 @@ def main() -> int:
             for notes_file in sorted(notes_dir.glob("T*.json")) if notes_dir.exists() else []:
                 notes = json.loads(notes_file.read_text(encoding="utf-8"))
                 topic_id = notes["topicID"]
-                built = ROOT / "generated" / topic_id
+                built = ROOT / "generated" / curriculum_id / topic_id
                 folder = DATA / curriculum_id / topic_id
                 folder.mkdir(parents=True, exist_ok=True)
 

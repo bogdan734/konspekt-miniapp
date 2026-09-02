@@ -18,6 +18,23 @@
       ]
     },
     {
+      "id": "chemistry-ua",
+      "title": "Хімія",
+      "short": "Хімія",
+      "hue": 38,
+      "curriculum": null,
+      "topics": [
+        {
+          "id": "T3",
+          "title": "Основні класи неорганічних сполук",
+          "notes": "chemistry-ua/T3/notes.json",
+          "lesson": "chemistry-ua/T3/lesson.json",
+          "quiz": "chemistry-ua/T3/quiz.json",
+          "cards": "chemistry-ua/T3/cards.json"
+        }
+      ]
+    },
+    {
       "id": "subject-14",
       "title": "Основи національного спротиву",
       "short": "Спротив",
@@ -30,14 +47,6 @@
       "title": "Латинська мова",
       "short": "Латина",
       "hue": 276,
-      "curriculum": null,
-      "topics": []
-    },
-    {
-      "id": "subject-38",
-      "title": "Хімія",
-      "short": "Хімія",
-      "hue": 38,
       "curriculum": null,
       "topics": []
     },
