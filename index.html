@@ -138,6 +138,33 @@
   .go.ghost { background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent); }
 
   /* ---------- drills, notes ---------- */
+  /* smuga predmetiv */
+  .subjects {
+    display: flex; gap: 8px; overflow-x: auto; padding: 2px 16px 2px; margin: 0 -16px 4px;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  }
+  .subjects::-webkit-scrollbar { display: none; }
+  .chip {
+    flex: none; min-height: 38px; padding: 0 14px; border-radius: 999px;
+    display: inline-flex; align-items: center; gap: 7px; white-space: nowrap;
+    background: var(--card); color: var(--muted); font-size: 14px; font-weight: 600;
+    transition: background-color 180ms ease, color 180ms ease;
+  }
+  .chip i { width: 8px; height: 8px; border-radius: 50%; background: var(--dot, var(--muted)); flex: none; }
+  .chip.on { color: var(--dot, var(--accent)); background: color-mix(in srgb, var(--dot, var(--accent)) 16%, var(--card)); }
+  .chip .count { font-size: 12px; font-weight: 700; opacity: .7; }
+  .topic-row {
+    display: flex; gap: 10px; align-items: center; width: 100%; text-align: left;
+    min-height: var(--tap); padding: 8px 0;
+  }
+  .topic-row .tag {
+    flex: none; min-width: 34px; font-size: 12px; font-weight: 700; color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .topic-row .name { flex: 1; font-size: 15px; line-height: 1.3; }
+  .topic-row .chev { color: var(--muted); flex: none; }
+  .topic-row[disabled] { opacity: .5; }
+  .empty-note { color: var(--muted); font-size: 14px; padding: 4px 0 2px; }
   .seg { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
          background: var(--card); padding: 4px; border-radius: var(--r-md); }
   .seg button {

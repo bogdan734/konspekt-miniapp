@@ -1,0 +1,77 @@
+{
+  "subjects": [
+    {
+      "id": "anatomy-ua-full",
+      "title": "Анатомія тварин",
+      "short": "Анатомія",
+      "hue": 222,
+      "curriculum": "curriculum-anatomy-ua-full.json",
+      "topics": [
+        {
+          "id": "T1",
+          "title": "Анатомічна термінологія. Площини і напрямки. Будова кістки і хребця",
+          "notes": "anatomy-ua-full/T1/notes.json",
+          "lesson": "anatomy-ua-full/T1/lesson.json",
+          "quiz": "anatomy-ua-full/T1/quiz.json",
+          "cards": "anatomy-ua-full/T1/cards.json"
+        }
+      ]
+    },
+    {
+      "id": "subject-14",
+      "title": "Основи національного спротиву",
+      "short": "Спротив",
+      "hue": 14,
+      "curriculum": null,
+      "topics": []
+    },
+    {
+      "id": "subject-276",
+      "title": "Латинська мова",
+      "short": "Латина",
+      "hue": 276,
+      "curriculum": null,
+      "topics": []
+    },
+    {
+      "id": "subject-38",
+      "title": "Хімія",
+      "short": "Хімія",
+      "hue": 38,
+      "curriculum": null,
+      "topics": []
+    },
+    {
+      "id": "subject-142",
+      "title": "Іноземна мова (за професійним спрямуванням)",
+      "short": "Іноземна",
+      "hue": 142,
+      "curriculum": null,
+      "topics": []
+    },
+    {
+      "id": "subject-168",
+      "title": "Гістологія",
+      "short": "Гістологія",
+      "hue": 168,
+      "curriculum": null,
+      "topics": []
+    },
+    {
+      "id": "subject-344",
+      "title": "Історія України та цивілізаційний процес",
+      "short": "Історія",
+      "hue": 344,
+      "curriculum": null,
+      "topics": []
+    },
+    {
+      "id": "subject-200",
+      "title": "Антикорупція та доброчесність",
+      "short": "Доброчесність",
+      "hue": 200,
+      "curriculum": null,
+      "topics": []
+    }
+  ]
+}

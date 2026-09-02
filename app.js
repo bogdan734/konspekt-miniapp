@@ -19,7 +19,8 @@ const SUBJECT_HUE = {
   'Іноземна мова (за професійним спрямуванням)': 142,
   'Антикорупція та доброчесність': 200, 'Основи національного спротиву': 14,
 };
-const hueOf = subject => SUBJECT_HUE[subject]
+const hueOf = subject => data.subjectOf?.[subject]?.hue
+  ?? SUBJECT_HUE[subject]
   ?? [...subject].reduce((h, c) => (h * 31 + c.charCodeAt(0)) % 360, 7);
 const colorOf = subject => `hsl(${hueOf(subject)} 62% 52%)`;
 
@@ -43,7 +44,13 @@ const store = {
 };
 
 const data = {};
-const load = async name => (await fetch(`data/${name}.json`)).json();
+const cache = new Map();
+const load = async path => {
+  if (!cache.has(path)) cache.set(path, fetch(`data/${path}`).then(r => r.json()));
+  return cache.get(path);
+};
+/// Cards are keyed by subject as well as topic: «T1» exists in every syllabus.
+const cardKey = (subjectID, card) => `${subjectID}:${key(card)}`;
 const el = (tag, className, html) => {
   const node = document.createElement(tag);
   if (className) node.className = className;
@@ -56,14 +63,85 @@ const svg = path =>
 
 let tab = 'today';
 let pickedDay = null;
+let current = null;      // id обраного предмета
+let openTopic = null;    // тема, відкрита в конспекті
 
 async function boot() {
-  const [curriculum, timetable, notes, lesson, quiz, cards] = await Promise.all(
-    ['curriculum', 'schedule', 'notes-T1', 'lesson-T1', 'quiz-T1', 'cards-T1'].map(load)
+  const [manifest, timetable] = await Promise.all(
+    ['subjects.json', 'schedule.json'].map(load)
   );
-  Object.assign(data, { curriculum, timetable, notes, lesson, quiz, cards });
+  data.subjects = manifest.subjects;
+  data.timetable = timetable;
+  data.subjectOf = Object.fromEntries(data.subjects.map(s => [s.title, s]));
+  migrateReviews();
+
+  // Everything a subject teaches from, pulled once and kept.
+  data.material = {};
+  await Promise.all(data.subjects.flatMap(subject =>
+    subject.topics.map(async topic => {
+      const [notes, lesson, quiz, cards] = await Promise.all([
+        topic.notes && load(topic.notes), topic.lesson && load(topic.lesson),
+        topic.quiz && load(topic.quiz), topic.cards && load(topic.cards),
+      ]);
+      data.material[`${subject.id}/${topic.id}`] = { notes, lesson, quiz, cards };
+    })));
+
+  current = store.get('subject', null)
+    ?? (data.subjects.find(s => s.topics.length)?.id ?? data.subjects[0].id);
   buildTabs();
   render('today');
+}
+
+/// Review state written before subjects existed was keyed «T1:front».
+function migrateReviews() {
+  const states = store.get('reviews', {});
+  const fixed = {};
+  let moved = false;
+  for (const [name, state] of Object.entries(states)) {
+    if (name.split(':').length === 2) {
+      fixed[`anatomy-ua-full:${name}`] = state;
+      moved = true;
+    } else {
+      fixed[name] = state;
+    }
+  }
+  if (moved) store.set('reviews', fixed);
+}
+
+const subjectByID = id => data.subjects.find(s => s.id === id);
+const materialOf = (subject, topic) => data.material[`${subject.id}/${topic.id}`] ?? {};
+const topicsWith = (subject, kind) => subject.topics.filter(topic => topic[kind]);
+
+/// The strip of subjects above the three study screens.
+function subjectStrip(kind, { all = false } = {}) {
+  const strip = el('div', 'subjects');
+  const entries = all ? [{ id: '*', short: 'Усі', hue: null }, ...data.subjects] : data.subjects;
+
+  for (const subject of entries) {
+    const count = subject.id === '*'
+      ? data.subjects.reduce((sum, s) => sum + topicsWith(s, kind).length, 0)
+      : topicsWith(subject, kind).length;
+    const chip = el('button', `chip${current === subject.id ? ' on' : ''}`,
+      `<i></i>${subject.short}${count ? `<span class="count">${count}</span>` : ''}`);
+    if (subject.hue !== null && subject.hue !== undefined) {
+      chip.style.setProperty('--dot', `hsl(${subject.hue} 62% 52%)`);
+    }
+    chip.onclick = () => {
+      current = subject.id;
+      store.set('subject', current);
+      openTopic = null;
+      tg?.HapticFeedback?.selectionChanged?.();
+      render(tab);
+    };
+    strip.append(chip);
+  }
+  // Обраний предмет має бути видно, навіть якщо він не перший у смужці.
+  requestAnimationFrame(() => {
+    const active = strip.querySelector('.chip.on');
+    if (!active) return;
+    strip.scrollLeft = active.offsetLeft - (strip.clientWidth - active.offsetWidth) / 2;
+  });
+  return strip;
 }
 
 function buildTabs() {
@@ -107,9 +185,10 @@ function setHeader() {
     today: `${WEEKDAYS[universityWeekday(now) - 1]}, ${now.getDate()} ${MONTHS[now.getMonth()]}`,
     drill: 'Тренування', topics: 'Навчальний план', notes: 'Конспект',
   };
+  const subject = subjectByID(current);
   eyebrow.textContent = tab === 'today'
     ? data.timetable.groupName
-    : `${data.timetable.groupName} · Анатомія`;
+    : `${data.timetable.groupName} · ${subject?.short ?? ''}`;
   badge.textContent = tab === 'today' ? `тиждень ${weekType(now)}` : '';
   badge.style.display = tab === 'today' ? '' : 'none';
   title.textContent = headings[tab];
@@ -147,10 +226,16 @@ function renderToday() {
 
   view.append(dayTimeline(day, week, day === today ? now : null));
 
+  // Огляд дня рахує всі предмети разом: студентка бачить свій день, а не предмет.
   const states = store.get('reviews', {});
-  const dueNow = due(data.cards, states);
-  const learned = data.cards.length - dueNow.length;
-  view.append(revisionCard(dueNow.length, learned, nextAnatomy(now, week)));
+  const pool = data.subjects.flatMap(subject =>
+    topicsWith(subject, 'cards').flatMap(topic =>
+      (materialOf(subject, topic).cards ?? []).map(card => ({ subject, card }))));
+  const dueNow = pool.filter(({ subject, card }) => {
+    const state = states[cardKey(subject.id, card)];
+    return !state || state.dueDate <= Date.now();
+  });
+  view.append(revisionCard(pool, dueNow, nextAnatomy(now, week)));
 }
 
 function dayTimeline(day, week, now) {
@@ -199,9 +284,12 @@ function dayTimeline(day, week, now) {
   return box;
 }
 
-function revisionCard(dueCount, learned, next) {
-  const total = data.cards.length;
+function revisionCard(pool, dueList, next) {
+  const total = pool.length;
+  const dueCount = dueList.length;
   const done = total - dueCount;
+  // Скільки предметів чекають — щоб «19 карток» не звучало як одна купа.
+  const waiting = new Set(dueList.map(({ subject }) => subject.short));
   const circumference = 2 * Math.PI * 26;
   const box = el('div', 'card');
   box.append(el('h2', null, 'Повторення'));
@@ -219,12 +307,19 @@ function revisionCard(dueCount, learned, next) {
 
   const text = el('div', 'txt');
   text.append(el('b', null, dueCount ? `${dueCount} карток чекають` : 'На сьогодні все'));
-  text.append(el('span', null,
-    next ? `наступна анатомія ${next.when}` : `вивчено ${done} з ${total}`));
+  text.append(el('span', null, dueCount
+    ? `${[...waiting].join(', ')}${next ? ` · анатомія ${next.when}` : ''}`
+    : `вивчено ${done} з ${total}${next ? ` · анатомія ${next.when}` : ''}`));
   line.append(text);
 
   const go = el('button', 'go', dueCount ? 'Почати' : 'Наперед');
-  go.onclick = () => render('drill');
+  go.onclick = () => {
+    // Веде до предмета, який справді чекає, а не до останнього відкритого.
+    const first = dueList[0]?.subject ?? subjectByID(current);
+    current = first.id;
+    store.set('subject', current);
+    render('drill');
+  };
   line.append(go);
 
   box.append(line);
@@ -251,6 +346,18 @@ function nextAnatomy(now, week) {
 let drill = { mode: 'cards', kind: null, revealed: false, answers: {} };
 
 function renderDrill() {
+  view.append(subjectStrip('cards'));
+  const subject = subjectByID(current);
+  const ready = topicsWith(subject, 'cards');
+
+  if (!ready.length) {
+    const empty = el('div', 'card');
+    empty.append(el('h2', null, subject.title));
+    empty.append(el('div', 'empty-note',
+      'Матеріалу ще немає. Надішли фото конспекту — і тут з\'являться картки, тест і завдання.'));
+    return view.append(empty);
+  }
+
   const seg = el('div', 'seg');
   for (const [mode, label] of [
     ['cards', 'Картки'], ['latin', 'Латина'], ['quiz', 'Тест'], ['homework', 'Домашнє'],
@@ -271,8 +378,15 @@ function renderDrill() {
 }
 
 function renderCards() {
+  const subject = subjectByID(current);
   const states = store.get('reviews', {});
-  const queue = due(data.cards, states, Date.now(), drill.kind);
+  const pool = topicsWith(subject, 'cards')
+    .flatMap(topic => materialOf(subject, topic).cards ?? []);
+  const scoped = Object.fromEntries(
+    Object.entries(states)
+      .filter(([name]) => name.startsWith(`${subject.id}:`))
+      .map(([name, state]) => [name.slice(subject.id.length + 1), state]));
+  const queue = due(pool, scoped, Date.now(), drill.kind);
 
   if (!queue.length) {
     const done = el('div', 'card');
@@ -300,7 +414,7 @@ function renderCards() {
     ]) {
       const button = el('button', cls, label);
       button.onclick = () => {
-        states[key(card)] = schedule(state, grade);
+        states[cardKey(subject.id, card)] = schedule(state, grade);
         store.set('reviews', states);
         drill.revealed = false;
         tg?.HapticFeedback?.impactOccurred?.('light');
@@ -314,11 +428,14 @@ function renderCards() {
   box.append(el('div', 'muted small',
     `Залишилось ${queue.length}${state ? ` · інтервал ${state.intervalDays} дн.` : ' · нова'}`));
   view.append(box);
-  view.append(source(card.sourceSegmentIDs));
+  view.append(source(subject, card.topicID, card.sourceSegmentIDs));
 }
 
 function renderQuiz() {
-  const questions = data.quiz.questions;
+  const subject = subjectByID(current);
+  const topic = topicsWith(subject, 'quiz')[0];
+  const material = materialOf(subject, topic);
+  const questions = material.quiz.questions;
   const answered = Object.keys(drill.answers).length;
 
   const progress = el('div', 'card');
@@ -357,14 +474,17 @@ function renderQuiz() {
     });
     if (chosen !== undefined) {
       box.append(el('div', 'muted small', question.explanation));
-      box.append(source(question.sourceSegmentIDs));
+      box.append(source(subject, topic.id, question.sourceSegmentIDs));
     }
     view.append(box);
   });
 }
 
 function renderHomework() {
-  for (const [index, task] of data.lesson.homework.entries()) {
+  const subject = subjectByID(current);
+  const topic = topicsWith(subject, 'lesson')[0];
+  const lesson = materialOf(subject, topic).lesson;
+  for (const [index, task] of lesson.homework.entries()) {
     const box = el('div', 'card');
     box.append(el('div', null, `<b>Завдання ${index + 1}.</b> ${task.prompt}`));
     const answer = el('details');
@@ -374,16 +494,29 @@ function renderHomework() {
     for (const item of task.rubric) rubric.append(el('li', null, item));
     answer.append(rubric);
     box.append(answer);
-    box.append(source(task.sourceSegmentIDs));
+    box.append(source(subject, topic.id, task.sourceSegmentIDs));
     view.append(box);
   }
 }
 
 // ---------- Теми ----------
 
-function renderTopics() {
-  const ready = new Set(['T1']);
-  for (const section of data.curriculum.sections) {
+async function renderTopics() {
+  view.append(subjectStrip('notes'));
+  const subject = subjectByID(current);
+
+  if (!subject.curriculum) {
+    const box = el('div', 'card');
+    box.append(el('h2', null, subject.title));
+    box.append(el('div', 'empty-note', 'Робочої програми ще немає. Сфотографуй її — і теми стануть тут.'));
+    return view.append(box);
+  }
+
+  const ready = new Set(subject.topics.map(topic => topic.id));
+  const curriculum = await load(subject.curriculum);
+  if (tab !== 'topics') return;   // встигли перемкнутися, поки вантажилось
+
+  for (const section of curriculum.sections) {
     const box = el('div', 'card');
     box.append(el('h2', null, `Розділ ${section.number} · ${section.title}`));
     for (const topic of section.topics) {
@@ -401,9 +534,47 @@ function renderTopics() {
 // ---------- Конспект ----------
 
 function renderNotes() {
-  const lesson = data.lesson;
+  view.append(subjectStrip('lesson'));
+  const subject = subjectByID(current);
+  const ready = topicsWith(subject, 'lesson');
+
+  if (!ready.length) {
+    const box = el('div', 'card');
+    box.append(el('h2', null, subject.title));
+    box.append(el('div', 'empty-note',
+      'Конспекту ще немає. Надішли фото сторінок — і тема з\'явиться тут.'));
+    return view.append(box);
+  }
+
+  const topic = ready.find(item => item.id === openTopic) ?? (ready.length === 1 ? ready[0] : null);
+  if (!topic) return view.append(topicList(subject, ready));
+
+  if (ready.length > 1) {
+    const back = el('button', 'go ghost', '← Усі теми');
+    back.onclick = () => { openTopic = null; render('notes'); };
+    view.append(back);
+  }
+  renderTopicNotes(subject, topic);
+}
+
+function topicList(subject, topics) {
+  const box = el('div', 'card');
+  box.append(el('h2', null, 'Теми з конспектом'));
+  for (const topic of topics) {
+    const row = el('button', 'topic-row');
+    row.innerHTML = `<span class="tag">${topic.id}</span>
+      <span class="name">${topic.title}</span>
+      <span class="chev">${svg('<path d="m9 18 6-6-6-6"/>')}</span>`;
+    row.onclick = () => { openTopic = topic.id; render('notes'); };
+    box.append(row);
+  }
+  return box;
+}
+
+function renderTopicNotes(subject, topic) {
+  const { lesson, notes } = materialOf(subject, topic);
   const head = el('div', 'card');
-  head.append(el('h2', null, lesson.title));
+  head.append(el('h2', null, `${topic.id} · ${lesson.title}`));
   head.append(el('div', 'small', lesson.summary));
   view.append(head);
 
@@ -411,7 +582,7 @@ function renderNotes() {
     const box = el('div', 'card');
     box.append(el('h2', null, section.heading));
     box.append(el('div', 'small', section.body));
-    box.append(source(section.sourceSegmentIDs));
+    box.append(source(subject, topic.id, section.sourceSegmentIDs));
     view.append(box);
   }
 
@@ -423,27 +594,29 @@ function renderNotes() {
   }
   view.append(glossary);
 
-  if (data.notes.corrections?.length) {
+  if (notes?.corrections?.length) {
     const box = el('div', 'card');
     box.append(el('h2', null, 'Виправити в зошиті'));
-    for (const fix of data.notes.corrections) {
+    for (const fix of notes.corrections) {
       box.append(el('div', 'small', `<s>${fix.asWritten}</s> → <b>${fix.correct}</b>`));
     }
     view.append(box);
   }
 
-  if (data.notes.checks?.length) {
+  if (notes?.checks?.length) {
     const box = el('div', 'card');
     box.append(el('h2', null, 'Звірити з підручником'));
-    for (const check of data.notes.checks) box.append(el('div', 'small', `• ${check}`));
+    for (const check of notes.checks) box.append(el('div', 'small', `• ${check}`));
     view.append(box);
   }
 }
 
 /// Every claim points back at the lines of the notebook it came from.
-function source(ids) {
+function source(subject, topicID, ids) {
   if (!ids?.length) return el('div');
-  const lines = data.notes.pages.flatMap(page => page.lines.filter(line => line.trim()));
+  const notes = data.material[`${subject.id}/${topicID}`]?.notes;
+  if (!notes) return el('div');
+  const lines = notes.pages.flatMap(page => page.lines.filter(line => line.trim()));
   const details = el('details');
   details.append(el('summary', null, `Джерело · ${ids.length} рядк.`));
   details.append(el('div', 'src', ids.map(id => lines[id]).filter(Boolean).join('\n')));
