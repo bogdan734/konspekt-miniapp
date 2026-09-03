@@ -1,0 +1,345 @@
+{
+  "title": "Латинський алфавіт і правила читання",
+  "summary": "Викладач просить розказати алфавіт за другою колонкою — назви літер, за це оцінка на наступній парі. Далі — правила читання: коли c дає [ц], а коли [к], чому qu — це [кв], як читаються ae, oe, ch, ph, th, ti.",
+  "sections": [
+    {
+      "heading": "Що саме вимагає викладач",
+      "body": "Розказувати алфавіт треба за другою колонкою таблиці — тобто НАЗВИ літер, а не звуки: а, бе, це, де, е, еф, ге, га, і, йот, ка, ель, ем, ен, о, пе, ку, ер, ес, те, у, ве, дубльве, ікс, іпсилон, зета. Це домашнє на наступну пару, за нього ставлять оцінку. Фонетику (правила читання) розбирають на другому занятті, тож її варто знати наступною. Конспект писати не обов'язково.",
+      "sourceSegmentIDs": [
+        40,
+        41,
+        43,
+        44,
+        45,
+        46
+      ]
+    },
+    {
+      "heading": "Алфавіт: що саме треба вимовити",
+      "body": "Кожну літеру називають окремо: a, бе, це, де, е, еф, ге, га, і, йот, ка, ель, ем, ен, о, пе, ку, ер, ес, те, у, ве, дубльве, ікс, іпсилон, зета. На занятті просять і назву літери, і звук, і слово-приклад — тому вчити треба трійками.",
+      "sourceSegmentIDs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "heading": "Літери з двома звуками",
+      "body": "Чотири літери читаються по-різному залежно від оточення. C: [ц] перед e, i, y, ae, oe (cervix, acidum) і [к] перед a, o, u та приголосними (caput, corpus). S: [с], але між двома голосними і між голосним та m, n — [з] (dosis, plasma). I: [і], а перед голосним на початку слова — [й] (Iodum). Q завжди стоїть із u, і qu разом дають [кв]: aqua [аква].",
+      "sourceSegmentIDs": [
+        3,
+        9,
+        17,
+        19,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "heading": "Сполучення, без яких не прочитати діагноз",
+      "body": "ae та oe = [е] (vertebrae, oedema); au = [ау], eu = [еу]; ch = [х], ph = [ф], rh = [р], th = [т] (thorax, phosphorus); ngu перед голосним = [нгв] (sanguis, lingua); ti перед голосним = [ці] (solutio), але після s, t, x — [ті] (mixtio).",
+      "sourceSegmentIDs": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "heading": "Наголос",
+      "body": "Наголос ніколи не падає на останній склад. Він стоїть на другому складі від кінця, якщо той довгий, інакше зсувається на третій. Тому vertebra має наголос на другому від кінця, а musculus — на третьому.",
+      "sourceSegmentIDs": [
+        38
+      ]
+    },
+    {
+      "heading": "Літери-винятки",
+      "body": "K зустрічається лише в кількох словах грецького походження (Kalium, kefir). W вживається тільки в іншомовних словах і прізвищах (Willis, Wirsung) — тому в таблиці до неї й немає приклада; частина підручників подає алфавіт як 25 літер без W. Y (іпсилон) буває лише у словах грецького походження.",
+      "sourceSegmentIDs": [
+        11,
+        23,
+        25
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "c",
+      "latin": "cervix / caput",
+      "definition": "[ц] перед e, i, y, ae, oe; [к] перед a, o, u і приголосними"
+    },
+    {
+      "term": "s",
+      "latin": "dosis",
+      "definition": "[с], але між голосними та перед m, n — [з]"
+    },
+    {
+      "term": "qu",
+      "latin": "aqua",
+      "definition": "[кв] — q без u не буває"
+    },
+    {
+      "term": "ngu",
+      "latin": "sanguis",
+      "definition": "[нгв] перед голосним"
+    },
+    {
+      "term": "ti",
+      "latin": "solutio",
+      "definition": "[ці] перед голосним; [ті] після s, t, x"
+    },
+    {
+      "term": "ae, oe",
+      "latin": "vertebrae, oedema",
+      "definition": "дифтонги, читаються [е]"
+    },
+    {
+      "term": "ch, ph, rh, th",
+      "latin": "thorax, phosphorus",
+      "definition": "[х], [ф], [р], [т]"
+    },
+    {
+      "term": "j",
+      "latin": "jejunum",
+      "definition": "[й] перед голосним"
+    },
+    {
+      "term": "y",
+      "latin": "myoma",
+      "definition": "іпсилон, [і], лише у грецьких словах"
+    }
+  ],
+  "homework": [
+    {
+      "kind": "term",
+      "prompt": "Назви літери й звуки для: C, H, Q, S, Y. Для кожної — приклад слова.",
+      "referenceAnswer": "C — це, [ц] або [к]: cerebrum, caput. H — га, [г]: homo. Q — ку, лише з u, qu = [кв]: quantitas. S — ес, [с] або [з]: sanguis, dosis. Y — іпсилон, [і], у грецьких словах: myoma.",
+      "rubric": [
+        "названо назву літери",
+        "названо звук(и)",
+        "наведено приклад"
+      ],
+      "sourceSegmentIDs": [
+        3,
+        8,
+        17,
+        19,
+        25
+      ]
+    },
+    {
+      "kind": "openQuestion",
+      "prompt": "Прочитай і поясни вибір звука: cervix, caput, dosis, aqua, sanguis, solutio.",
+      "referenceAnswer": "цервікс (c перед e), капут (c перед a), дозіс (s між голосними), аква (qu = [кв]), сангвіс (ngu перед голосним), солюціо (ti перед голосним).",
+      "rubric": [
+        "усі шість прочитано правильно",
+        "названо правило для кожного"
+      ],
+      "sourceSegmentIDs": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "kind": "term",
+      "prompt": "Як читаються ae, oe, ch, ph, th? Дай по слову на кожне.",
+      "referenceAnswer": "ae — [е] (vertebrae), oe — [е] (oedema), ch — [х] (charta), ph — [ф] (phosphorus), th — [т] (thorax).",
+      "rubric": [
+        "усі п'ять сполучень",
+        "приклади доречні"
+      ],
+      "sourceSegmentIDs": [
+        35,
+        37
+      ]
+    },
+    {
+      "kind": "caseStudy",
+      "prompt": "У конспекті записано Torax і Myoyoma. Знайди помилки й напиши правильно.",
+      "referenceAnswer": "Thorax — грецьке θώραξ дає th. Myoma — myo- (м'яз) + -oma (пухлина), зайвий склад «yo» помилковий.",
+      "rubric": [
+        "виправлено Thorax",
+        "виправлено Myoma",
+        "пояснено походження"
+      ],
+      "sourceSegmentIDs": [
+        20,
+        25,
+        37
+      ]
+    },
+    {
+      "kind": "openQuestion",
+      "prompt": "Де стоїть наголос у словах vertebra, musculus, ligamentum? Сформулюй правило.",
+      "referenceAnswer": "Наголос не падає на останній склад: він на другому складі від кінця, якщо той довгий, інакше на третьому. verTEbra, MUSculus, ligaMENtum.",
+      "rubric": [
+        "сформульовано правило",
+        "розставлено наголоси"
+      ],
+      "sourceSegmentIDs": [
+        38
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "front": "A a",
+      "back": "а · [а] · Anemia — анемія",
+      "sourceSegmentIDs": [
+        1
+      ]
+    },
+    {
+      "front": "B b",
+      "back": "бе · [б] · Brachium — плече",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "front": "C c",
+      "back": "це · [ц] перед e, i, y, ae, oe; [к] перед a, o, u · Cerebrum, Caput",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "front": "D d",
+      "back": "де · [д] · Digitus — палець",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "front": "E e",
+      "back": "е · [е] · Enzymum — фермент",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "front": "F f",
+      "back": "еф · [ф] · Facies — обличчя",
+      "sourceSegmentIDs": [
+        6
+      ]
+    },
+    {
+      "front": "G g",
+      "back": "ге · [г] · Gaster — шлунок",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "front": "H h",
+      "back": "га · [г] · Homo — людина",
+      "sourceSegmentIDs": [
+        8
+      ]
+    },
+    {
+      "front": "I i",
+      "back": "і · [і], перед голосним [й] · Infectio, Iodum",
+      "sourceSegmentIDs": [
+        9
+      ]
+    },
+    {
+      "front": "J j",
+      "back": "йот · [й] перед голосним · Jejunum — порожня кишка",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "front": "K k",
+      "back": "ка · [к], лише грецькі слова · Kalium — калій",
+      "sourceSegmentIDs": [
+        11
+      ]
+    },
+    {
+      "front": "L l",
+      "back": "ель · [л'] завжди м'яке · Labium — губа",
+      "sourceSegmentIDs": [
+        12
+      ]
+    },
+    {
+      "front": "M m",
+      "back": "ем · [м] · Musculus — м'яз",
+      "sourceSegmentIDs": [
+        13
+      ]
+    },
+    {
+      "front": "N n",
+      "back": "ен · [н] · Nervus — нерв",
+      "sourceSegmentIDs": [
+        14
+      ]
+    },
+    {
+      "front": "O o",
+      "back": "о · [о] · Oculus — око",
+      "sourceSegmentIDs": [
+        15
+      ]
+    },
+    {
+      "front": "P p",
+      "back": "пе · [п] · Pulmo — легеня",
+      "sourceSegmentIDs": [
+        16
+      ]
+    },
+    {
+      "front": "Q q",
+      "back": "ку · лише з u, qu = [кв] · Quantitas — кількість",
+      "sourceSegmentIDs": [
+        17
+      ]
+    },
+    {
+      "front": "R r",
+      "back": "ер · [р] · Radix — корінь",
+      "sourceSegmentIDs": [
+        18
+      ]
+    },
+    {
+      "front": "S s",
+      "back": "ес · [с]; між голосними та перед m, n — [з] · Sanguis, Dosis",
+      "sourceSegmentIDs": [
+        19
+      ]
+    },
+    {
+      "front": "T t",
+      "back": "те · [т] · Thorax — грудна клітка",
+      "sourceSegmentIDs": [
+        20
+      ]
+    }
+  ]
+}

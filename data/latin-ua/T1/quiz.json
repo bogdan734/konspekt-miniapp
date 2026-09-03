@@ -1,0 +1,332 @@
+{
+  "questions": [
+    {
+      "prompt": "За якою колонкою таблиці викладач просить розказувати алфавіт?",
+      "options": [
+        "За звуками — [а], [б], [ц]",
+        "За назвами літер — а, бе, це",
+        "За прикладами слів — Anemia, Brachium",
+        "За написанням — A a, B b"
+      ],
+      "correctIndex": 1,
+      "explanation": "Друга колонка — назви літер: а, бе, це, де… Саме їх треба проказати на оцінку.",
+      "sourceSegmentIDs": [
+        43,
+        44
+      ]
+    },
+    {
+      "prompt": "Як читається c у слові cervix?",
+      "options": [
+        "[к]",
+        "[ц]",
+        "[ч]",
+        "[с]"
+      ],
+      "correctIndex": 1,
+      "explanation": "Перед e, i, y, ae, oe — [ц].",
+      "sourceSegmentIDs": [
+        3,
+        28
+      ]
+    },
+    {
+      "prompt": "Як читається c у слові caput?",
+      "options": [
+        "[ц]",
+        "[к]",
+        "[х]",
+        "[ч]"
+      ],
+      "correctIndex": 1,
+      "explanation": "Перед a, o, u і приголосними — [к].",
+      "sourceSegmentIDs": [
+        3,
+        29
+      ]
+    },
+    {
+      "prompt": "Як читається s у слові dosis?",
+      "options": [
+        "[с]",
+        "[з]",
+        "[ш]",
+        "[ц]"
+      ],
+      "correctIndex": 1,
+      "explanation": "Між двома голосними s дає [з].",
+      "sourceSegmentIDs": [
+        19,
+        30
+      ]
+    },
+    {
+      "prompt": "Як читається qu у слові aqua?",
+      "options": [
+        "[ку]",
+        "[кв]",
+        "[к]",
+        "[кю]"
+      ],
+      "correctIndex": 1,
+      "explanation": "q без u не буває, разом дають [кв].",
+      "sourceSegmentIDs": [
+        17,
+        31
+      ]
+    },
+    {
+      "prompt": "Назва літери Y:",
+      "options": [
+        "ігрек",
+        "іпсилон",
+        "йот",
+        "зета"
+      ],
+      "correctIndex": 1,
+      "explanation": "Y — іпсилон, у грецьких словах.",
+      "sourceSegmentIDs": [
+        25
+      ]
+    },
+    {
+      "prompt": "Назва літери J:",
+      "options": [
+        "жі",
+        "йот",
+        "ель",
+        "ку"
+      ],
+      "correctIndex": 1,
+      "explanation": "J — йот, [й] перед голосним.",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "prompt": "Як читається ngu у слові sanguis?",
+      "options": [
+        "[нгу]",
+        "[нгв]",
+        "[нг]",
+        "[нж]"
+      ],
+      "correctIndex": 1,
+      "explanation": "ngu перед голосним = [нгв]: сангвіс.",
+      "sourceSegmentIDs": [
+        32
+      ]
+    },
+    {
+      "prompt": "Як читається ti у слові solutio?",
+      "options": [
+        "[ті]",
+        "[ці]",
+        "[ши]",
+        "[сі]"
+      ],
+      "correctIndex": 1,
+      "explanation": "ti перед голосним = [ці].",
+      "sourceSegmentIDs": [
+        33
+      ]
+    },
+    {
+      "prompt": "А в mixtio ti читається:",
+      "options": [
+        "[ці]",
+        "[ті]",
+        "[ши]",
+        "[зі]"
+      ],
+      "correctIndex": 1,
+      "explanation": "Після s, t, x — [ті].",
+      "sourceSegmentIDs": [
+        34
+      ]
+    },
+    {
+      "prompt": "Дифтонг ae читається:",
+      "options": [
+        "[ае]",
+        "[е]",
+        "[а]",
+        "[ай]"
+      ],
+      "correctIndex": 1,
+      "explanation": "ae та oe = [е]: vertebrae [вертебре].",
+      "sourceSegmentIDs": [
+        35
+      ]
+    },
+    {
+      "prompt": "Сполучення th читається:",
+      "options": [
+        "[тх]",
+        "[т]",
+        "[ф]",
+        "[х]"
+      ],
+      "correctIndex": 1,
+      "explanation": "th = [т]: thorax [торакс].",
+      "sourceSegmentIDs": [
+        37
+      ]
+    },
+    {
+      "prompt": "Сполучення ph читається:",
+      "options": [
+        "[п]",
+        "[ф]",
+        "[пх]",
+        "[в]"
+      ],
+      "correctIndex": 1,
+      "explanation": "ph = [ф]: phosphorus.",
+      "sourceSegmentIDs": [
+        37
+      ]
+    },
+    {
+      "prompt": "Сполучення ch читається:",
+      "options": [
+        "[ч]",
+        "[х]",
+        "[к]",
+        "[ш]"
+      ],
+      "correctIndex": 1,
+      "explanation": "ch = [х]: charta.",
+      "sourceSegmentIDs": [
+        37
+      ]
+    },
+    {
+      "prompt": "Яка літера завжди м'яка?",
+      "options": [
+        "N",
+        "L",
+        "R",
+        "D"
+      ],
+      "correctIndex": 1,
+      "explanation": "L завжди м'яке: labium [лябіум].",
+      "sourceSegmentIDs": [
+        12
+      ]
+    },
+    {
+      "prompt": "У якому слові є приклад літери K?",
+      "options": [
+        "Kalium",
+        "Caput",
+        "Quantitas",
+        "Cerebrum"
+      ],
+      "correctIndex": 0,
+      "explanation": "K зустрічається лише в кількох грецьких словах: Kalium.",
+      "sourceSegmentIDs": [
+        11
+      ]
+    },
+    {
+      "prompt": "Чому в таблиці до W немає приклада?",
+      "options": [
+        "Літери W немає в алфавіті",
+        "W вживається лише в чужих словах і прізвищах",
+        "W читається як U",
+        "W пишеться тільки з h"
+      ],
+      "correctIndex": 1,
+      "explanation": "W — тільки іншомовні слова й прізвища: Willis, Wirsung.",
+      "sourceSegmentIDs": [
+        23
+      ]
+    },
+    {
+      "prompt": "Правильне написання слова «грудна клітка»:",
+      "options": [
+        "Torax",
+        "Thorax",
+        "Toraks",
+        "Thoraks"
+      ],
+      "correctIndex": 1,
+      "explanation": "Грецьке θώραξ дає th: thorax.",
+      "sourceSegmentIDs": [
+        20,
+        37
+      ]
+    },
+    {
+      "prompt": "Правильне написання слова «міома»:",
+      "options": [
+        "Myoyoma",
+        "Myoma",
+        "Mioma",
+        "Myooma"
+      ],
+      "correctIndex": 1,
+      "explanation": "myo- + -oma = myoma.",
+      "sourceSegmentIDs": [
+        25
+      ]
+    },
+    {
+      "prompt": "На який склад НІКОЛИ не падає наголос у латині?",
+      "options": [
+        "На перший",
+        "На другий від кінця",
+        "На останній",
+        "На третій від кінця"
+      ],
+      "correctIndex": 2,
+      "explanation": "Наголос не буває на останньому складі.",
+      "sourceSegmentIDs": [
+        38
+      ]
+    },
+    {
+      "prompt": "Звук літери X:",
+      "options": [
+        "[кс]",
+        "[з]",
+        "[ікс]",
+        "[к]"
+      ],
+      "correctIndex": 0,
+      "explanation": "X = [кс]: xerosis [ксерозіс].",
+      "sourceSegmentIDs": [
+        24
+      ]
+    },
+    {
+      "prompt": "Приклад до літери G:",
+      "options": [
+        "Gaster",
+        "Homo",
+        "Iodum",
+        "Vena"
+      ],
+      "correctIndex": 0,
+      "explanation": "G — ге, [г]: Gaster (шлунок).",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "prompt": "Як читається i у слові Iodum?",
+      "options": [
+        "[і]",
+        "[й]",
+        "[ї]",
+        "[и]"
+      ],
+      "correctIndex": 1,
+      "explanation": "Перед голосним на початку слова i дає [й]: йодум.",
+      "sourceSegmentIDs": [
+        9
+      ]
+    }
+  ]
+}

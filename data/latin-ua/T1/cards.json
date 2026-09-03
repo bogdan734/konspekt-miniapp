@@ -1,0 +1,344 @@
+[
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "Проказати весь алфавіт (назви літер)",
+    "back": "а · бе · це · де · е · еф · ге · га · і · йот · ка · ель · ем · ен · о · пе · ку · ер · ес · те · у · ве · дубльве · ікс · іпсилон · зета",
+    "sourceSegmentIDs": [
+      44
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "A a",
+    "back": "а · [а] · Anemia — анемія",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "B b",
+    "back": "бе · [б] · Brachium — плече",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "C c",
+    "back": "це · [ц] перед e, i, y, ae, oe; [к] перед a, o, u · Cerebrum, Caput",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "D d",
+    "back": "де · [д] · Digitus — палець",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "E e",
+    "back": "е · [е] · Enzymum — фермент",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "F f",
+    "back": "еф · [ф] · Facies — обличчя",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "G g",
+    "back": "ге · [г] · Gaster — шлунок",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "H h",
+    "back": "га · [г] · Homo — людина",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "I i",
+    "back": "і · [і], перед голосним [й] · Infectio, Iodum",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "J j",
+    "back": "йот · [й] перед голосним · Jejunum — порожня кишка",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "K k",
+    "back": "ка · [к], лише грецькі слова · Kalium — калій",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "L l",
+    "back": "ель · [л'] завжди м'яке · Labium — губа",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "M m",
+    "back": "ем · [м] · Musculus — м'яз",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "N n",
+    "back": "ен · [н] · Nervus — нерв",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "O o",
+    "back": "о · [о] · Oculus — око",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "P p",
+    "back": "пе · [п] · Pulmo — легеня",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "Q q",
+    "back": "ку · лише з u, qu = [кв] · Quantitas — кількість",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "R r",
+    "back": "ер · [р] · Radix — корінь",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "S s",
+    "back": "ес · [с]; між голосними та перед m, n — [з] · Sanguis, Dosis",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "T t",
+    "back": "те · [т] · Thorax — грудна клітка",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "U u",
+    "back": "у · [у] · Unguentum — мазь",
+    "sourceSegmentIDs": [
+      21
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "V v",
+    "back": "ве · [в] · Vena — вена",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "W w",
+    "back": "дубльве · [в], лише чужі слова й прізвища · Willis",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "X x",
+    "back": "ікс · [кс] · Xerosis — сухість",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "Y y",
+    "back": "іпсилон · [і], лише грецькі слова · Myoma — міома",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "Z z",
+    "back": "зета · [з] · Zincum — цинк",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "c перед e, i, y, ae, oe",
+    "back": "[ц]: cervix [цервікс]",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "c перед a, o, u і приголосними",
+    "back": "[к]: caput [капут]",
+    "sourceSegmentIDs": [
+      29
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "s між голосними",
+    "back": "[з]: dosis [дозіс]",
+    "sourceSegmentIDs": [
+      30
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "qu",
+    "back": "[кв]: aqua [аква]",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "ngu + голосний",
+    "back": "[нгв]: sanguis [сангвіс]",
+    "sourceSegmentIDs": [
+      32
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "ti + голосний",
+    "back": "[ці]: solutio [солюціо]",
+    "sourceSegmentIDs": [
+      33
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "ti після s, t, x",
+    "back": "[ті]: mixtio [мікстіо]",
+    "sourceSegmentIDs": [
+      34
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "ae, oe",
+    "back": "[е]: vertebrae, oedema",
+    "sourceSegmentIDs": [
+      35
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "au, eu",
+    "back": "[ау], [еу]: auris, pneumonia",
+    "sourceSegmentIDs": [
+      36
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "ch, ph, rh, th",
+    "back": "[х], [ф], [р], [т]: thorax, phosphorus",
+    "sourceSegmentIDs": [
+      37
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "Наголос",
+    "back": "не на останньому складі: другий від кінця, якщо довгий, інакше третій",
+    "sourceSegmentIDs": [
+      38
+    ]
+  }
+]

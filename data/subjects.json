@@ -18,6 +18,23 @@
       ]
     },
     {
+      "id": "latin-ua",
+      "title": "Латинська мова",
+      "short": "Латина",
+      "hue": 276,
+      "curriculum": null,
+      "topics": [
+        {
+          "id": "T1",
+          "title": "Латинський алфавіт і правила читання",
+          "notes": "latin-ua/T1/notes.json",
+          "lesson": "latin-ua/T1/lesson.json",
+          "quiz": "latin-ua/T1/quiz.json",
+          "cards": "latin-ua/T1/cards.json"
+        }
+      ]
+    },
+    {
       "id": "chemistry-ua",
       "title": "Хімія",
       "short": "Хімія",
@@ -64,14 +81,6 @@
       "title": "Основи національного спротиву",
       "short": "Спротив",
       "hue": 14,
-      "curriculum": null,
-      "topics": []
-    },
-    {
-      "id": "subject-276",
-      "title": "Латинська мова",
-      "short": "Латина",
-      "hue": 276,
       "curriculum": null,
       "topics": []
     },
