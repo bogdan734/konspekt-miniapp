@@ -1,0 +1,147 @@
+[
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "higher school",
+    "back": "вищий навчальний заклад",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "chair",
+    "back": "кафедра",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "faculty",
+    "back": "факультет",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "full-time studies",
+    "back": "стаціонарна форма навчання",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "extra-mural studies",
+    "back": "заочна форма навчання",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "to run (the University)",
+    "back": "керувати університетом",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "to head (a faculty)",
+    "back": "очолювати факультет",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "to train",
+    "back": "навчати, готувати фахівців",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "lecture-hall",
+    "back": "лекційна зала",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "hostel",
+    "back": "гуртожиток",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "at the students' disposal",
+    "back": "у розпорядженні студентів",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "postgraduate",
+    "back": "аспірант",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "to do research",
+    "back": "проводити дослідження",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Present Indefinite: заперечення",
+    "back": "do/does not + інфінітив без -s",
+    "sourceSegmentIDs": [
+      24,
+      25
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Present Indefinite: питання",
+    "back": "Do/Does + підмет + інфінітив без -s",
+    "sourceSegmentIDs": [
+      27
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "There aren't any…",
+    "back": "заперечення наявності: There are not any texts…",
+    "sourceSegmentIDs": [
+      31
+    ]
+  }
+]

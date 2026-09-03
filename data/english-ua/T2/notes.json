@@ -1,0 +1,52 @@
+{
+  "curriculumID": "english-ua",
+  "subjectTitle": "Іноземна мова (за професійним спрямуванням)",
+  "topicID": "T2",
+  "title": "Our University. Part 2: History",
+  "pages": [
+    {
+      "index": 0,
+      "confidence": 1,
+      "lines": [
+        "Topic 2. OUR UNIVERSITY (PART 2: HISTORY)",
+        "Our university has rich and glorious history that begins with the department of veterinary medicine founded in 1784 at the medical faculty of Lviv University.",
+        "In 1881 the veterinary school was opened in the city of Lviv.",
+        "In 1896 the school was renamed into Lviv Academy of Veterinary Medicine.",
+        "Since 1939 it was the Veterinary Institute with one faculty only.",
+        "The second faculty — Zootechnical or Zooengineering, now the Faculty of Biology and Technology — was set up in 1949.",
+        "In 1991 the third faculty — the Sanitary and Technological Faculty, now the Faculty of Food Technologies and Biotechnology — was opened here.",
+        "In June 1992 the higher school regained its former name — the Academy of Veterinary Medicine.",
+        "In 2002 the Faculty of Economics and Management was created.",
+        "Professor Peter Seifman was the first director of Veterinary school, professor Joseph Spielman was the first rector of the Academy.",
+        "In 1994 the Academy received the name of its former student, prominent scientist — Prof. Stepan Gzhytskyi (1900-1976).",
+        "In 2007 the Academy was renamed into the University."
+      ]
+    },
+    {
+      "index": 1,
+      "confidence": 1,
+      "lines": [
+        "TASK 2. Синоніми (мій запис)",
+        "to found — to establish, to create, to open, to set up",
+        "glorious — notable, remarkable",
+        "to rename — to change name",
+        "to regain — to receive back",
+        "former — previous",
+        "prominent — eminent, famous, celebrated",
+        "a scientist — a scholar",
+        "a department — a chair"
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "asWritten": "to rename — to change name",
+      "correct": "to rename — to change the name",
+      "note": "перед іменником потрібен артикль: to change the name"
+    }
+  ],
+  "checks": [
+    "Текст побудований на пасивному стані (was opened, was renamed, was set up) — Task 5 питає саме про це: які конструкції переважають і чому.",
+    "Task 3 просить поділити дієслова на правильні й неправильні та дати три форми: to be, to have, to begin — неправильні; to found, to open, to rename, to set (up) — set неправильне (set-set-set), решта правильні."
+  ]
+}

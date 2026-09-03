@@ -1,0 +1,260 @@
+{
+  "questions": [
+    {
+      "prompt": "When was the veterinary school opened in Lviv?",
+      "options": [
+        "1784",
+        "1881",
+        "1896",
+        "1939"
+      ],
+      "correctIndex": 1,
+      "explanation": "1881 — школа; 1784 — кафедра при Львівському університеті.",
+      "sourceSegmentIDs": [
+        1,
+        2
+      ]
+    },
+    {
+      "prompt": "What happened in 1896?",
+      "options": [
+        "The school was founded",
+        "The school was renamed into the Academy",
+        "The Institute was created",
+        "The University was opened"
+      ],
+      "correctIndex": 1,
+      "explanation": "In 1896 the school was renamed into Lviv Academy of Veterinary Medicine.",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "prompt": "Синонім до «to found»:",
+      "options": [
+        "to regain",
+        "to set up",
+        "to rename",
+        "to head"
+      ],
+      "correctIndex": 1,
+      "explanation": "to found — to establish, to create, to open, to set up.",
+      "sourceSegmentIDs": [
+        13
+      ]
+    },
+    {
+      "prompt": "«Prominent» означає:",
+      "options": [
+        "former",
+        "eminent",
+        "glorious",
+        "previous"
+      ],
+      "correctIndex": 1,
+      "explanation": "prominent — eminent, famous, celebrated.",
+      "sourceSegmentIDs": [
+        18
+      ]
+    },
+    {
+      "prompt": "Синонім до «former»:",
+      "options": [
+        "previous",
+        "notable",
+        "remarkable",
+        "celebrated"
+      ],
+      "correctIndex": 0,
+      "explanation": "former — previous.",
+      "sourceSegmentIDs": [
+        17
+      ]
+    },
+    {
+      "prompt": "«A scientist» = ",
+      "options": [
+        "a scholar",
+        "a chair",
+        "a dean",
+        "a tutor"
+      ],
+      "correctIndex": 0,
+      "explanation": "a scientist — a scholar.",
+      "sourceSegmentIDs": [
+        19
+      ]
+    },
+    {
+      "prompt": "У 1992 році університет:",
+      "options": [
+        "було закрито",
+        "повернув колишню назву Академії",
+        "став Університетом",
+        "отримав ім'я Гжицького"
+      ],
+      "correctIndex": 1,
+      "explanation": "In June 1992 the higher school regained its former name.",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "prompt": "Чиє ім'я Академія отримала в 1994 році?",
+      "options": [
+        "Peter Seifman",
+        "Joseph Spielman",
+        "Stepan Gzhytskyi",
+        "Ivan Franko"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ім'я колишнього студента, видатного вченого Степана Гжицького.",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "prompt": "Хто був першим ректором Академії?",
+      "options": [
+        "Peter Seifman",
+        "Joseph Spielman",
+        "Stepan Gzhytskyi",
+        "The Dean"
+      ],
+      "correctIndex": 1,
+      "explanation": "Seifman — перший директор школи, Spielman — перший ректор Академії.",
+      "sourceSegmentIDs": [
+        9
+      ]
+    },
+    {
+      "prompt": "Яка конструкція переважає в тексті?",
+      "options": [
+        "Active Voice",
+        "Passive Voice",
+        "Future Simple",
+        "Present Continuous"
+      ],
+      "correctIndex": 1,
+      "explanation": "was opened, was renamed, was set up — пасивний стан.",
+      "sourceSegmentIDs": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "prompt": "Формула пасиву в минулому:",
+      "options": [
+        "have + V3",
+        "was/were + V3",
+        "did + V1",
+        "will be + V1"
+      ],
+      "correctIndex": 1,
+      "explanation": "was/were + Past Participle.",
+      "sourceSegmentIDs": [
+        2,
+        3
+      ]
+    },
+    {
+      "prompt": "У 2007 році:",
+      "options": [
+        "Академію перейменували на Університет",
+        "створено факультет економіки",
+        "відкрито третій факультет",
+        "повернуто назву Академії"
+      ],
+      "correctIndex": 0,
+      "explanation": "In 2007 the Academy was renamed into the University.",
+      "sourceSegmentIDs": [
+        11
+      ]
+    },
+    {
+      "prompt": "Синонім до «glorious»:",
+      "options": [
+        "previous",
+        "remarkable",
+        "former",
+        "eminent"
+      ],
+      "correctIndex": 1,
+      "explanation": "glorious — notable, remarkable.",
+      "sourceSegmentIDs": [
+        14
+      ]
+    },
+    {
+      "prompt": "«To regain» означає:",
+      "options": [
+        "перейменувати",
+        "заснувати",
+        "повернути собі",
+        "очолити"
+      ],
+      "correctIndex": 2,
+      "explanation": "to regain — to receive back.",
+      "sourceSegmentIDs": [
+        16
+      ]
+    },
+    {
+      "prompt": "Скільки факультетів мав Інститут із 1939 року?",
+      "options": [
+        "один",
+        "два",
+        "три",
+        "чотири"
+      ],
+      "correctIndex": 0,
+      "explanation": "With one faculty only.",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "prompt": "Другий факультет (1949) сьогодні називається:",
+      "options": [
+        "факультет харчових технологій",
+        "факультет біології та технології",
+        "факультет економіки",
+        "факультет ветеринарної медицини"
+      ],
+      "correctIndex": 1,
+      "explanation": "Зоотехнічний → нині Faculty of Biology and Technology.",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "prompt": "«A department» у британському вжитку університету =",
+      "options": [
+        "a faculty",
+        "a chair",
+        "a hostel",
+        "a circle"
+      ],
+      "correctIndex": 1,
+      "explanation": "a department — a chair (кафедра).",
+      "sourceSegmentIDs": [
+        20
+      ]
+    },
+    {
+      "prompt": "Правильна форма: «In 1991 the third faculty … here.»",
+      "options": [
+        "was opened",
+        "were opened",
+        "has opened",
+        "opened was"
+      ],
+      "correctIndex": 0,
+      "explanation": "Підмет однини — was opened.",
+      "sourceSegmentIDs": [
+        6
+      ]
+    }
+  ]
+}

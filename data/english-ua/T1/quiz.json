@@ -1,0 +1,266 @@
+{
+  "questions": [
+    {
+      "prompt": "«Кафедра» англійською:",
+      "options": [
+        "a faculty",
+        "a chair",
+        "a hostel",
+        "a college"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chair = кафедра; faculty = факультет.",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "prompt": "The University is … by the Rector.",
+      "options": [
+        "headed",
+        "run",
+        "trained",
+        "opened"
+      ],
+      "correctIndex": 1,
+      "explanation": "To run — керувати установою; факультети — to head.",
+      "sourceSegmentIDs": [
+        5,
+        17
+      ]
+    },
+    {
+      "prompt": "The faculties are … by Deans.",
+      "options": [
+        "run",
+        "headed",
+        "attended",
+        "founded"
+      ],
+      "correctIndex": 1,
+      "explanation": "Faculties are headed by Deans.",
+      "sourceSegmentIDs": [
+        5,
+        18
+      ]
+    },
+    {
+      "prompt": "«Заочна форма навчання»:",
+      "options": [
+        "full-time",
+        "extra-mural",
+        "part-time job",
+        "postgraduate"
+      ],
+      "correctIndex": 1,
+      "explanation": "Extra-mural studies — заочна; full-time — стаціонарна.",
+      "sourceSegmentIDs": [
+        2,
+        15
+      ]
+    },
+    {
+      "prompt": "Скільки кафедр в університеті за текстом?",
+      "options": [
+        "близько 15",
+        "близько 30",
+        "близько 300",
+        "п'ять"
+      ],
+      "correctIndex": 1,
+      "explanation": "About 30 chairs; 300 — це викладачі.",
+      "sourceSegmentIDs": [
+        3,
+        4
+      ]
+    },
+    {
+      "prompt": "Заперечення до «A rector runs the faculty»:",
+      "options": [
+        "A rector not runs the faculty",
+        "A rector doesn't runs the faculty",
+        "A rector doesn't run the faculty",
+        "A rector don't run the faculty"
+      ],
+      "correctIndex": 2,
+      "explanation": "Does not забирає -s у дієслова, підмет в однині — doesn't.",
+      "sourceSegmentIDs": [
+        25
+      ]
+    },
+    {
+      "prompt": "Питання до «Your friend studies at the University»:",
+      "options": [
+        "Does your friend studies…?",
+        "Do your friend study…?",
+        "Does your friend study…?",
+        "Your friend does study…?"
+      ],
+      "correctIndex": 2,
+      "explanation": "Does + підмет + інфінітив без -s.",
+      "sourceSegmentIDs": [
+        27
+      ]
+    },
+    {
+      "prompt": "«At the students' disposal» означає:",
+      "options": [
+        "за рахунок студентів",
+        "у розпорядженні студентів",
+        "на розсуд деканату",
+        "поза розкладом"
+      ],
+      "correctIndex": 1,
+      "explanation": "Дослівно «у розпорядженні студентів».",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "prompt": "Скільки музеїв в університеті?",
+      "options": [
+        "один",
+        "два",
+        "три",
+        "чотири"
+      ],
+      "correctIndex": 2,
+      "explanation": "Museum of University's History, Museum of Horseshoes, Anatomical Museum.",
+      "sourceSegmentIDs": [
+        11,
+        21
+      ]
+    },
+    {
+      "prompt": "«Аспірант» англійською:",
+      "options": [
+        "a graduate",
+        "a postgraduate",
+        "a bachelor",
+        "a tutor"
+      ],
+      "correctIndex": 1,
+      "explanation": "Postgraduate — той, хто вчиться після диплома і готується до PhD.",
+      "sourceSegmentIDs": [
+        8
+      ]
+    },
+    {
+      "prompt": "Правильне заперечення наявності:",
+      "options": [
+        "There isn't any texts",
+        "There aren't any texts",
+        "There don't any texts",
+        "There hasn't texts"
+      ],
+      "correctIndex": 1,
+      "explanation": "Texts — множина, отже are not.",
+      "sourceSegmentIDs": [
+        31
+      ]
+    },
+    {
+      "prompt": "«Гуртожиток»:",
+      "options": [
+        "a hostel",
+        "a hospital",
+        "a building",
+        "a camp"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hostel — гуртожиток.",
+      "sourceSegmentIDs": [
+        10,
+        20
+      ]
+    },
+    {
+      "prompt": "Ступінь після бакалавра:",
+      "options": [
+        "a PhD",
+        "a master",
+        "a tutor",
+        "a lecturer"
+      ],
+      "correctIndex": 1,
+      "explanation": "Bachelor → master → PhD.",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "prompt": "«Навчати, готувати фахівців»:",
+      "options": [
+        "to teach",
+        "to train",
+        "to study",
+        "to attend"
+      ],
+      "correctIndex": 1,
+      "explanation": "Our University trains veterinary doctors…",
+      "sourceSegmentIDs": [
+        6,
+        23
+      ]
+    },
+    {
+      "prompt": "Скільки навчальних корпусів?",
+      "options": [
+        "три",
+        "чотири",
+        "п'ять",
+        "шість"
+      ],
+      "correctIndex": 2,
+      "explanation": "Five educational buildings.",
+      "sourceSegmentIDs": [
+        9,
+        20
+      ]
+    },
+    {
+      "prompt": "Where … you study? — яке допоміжне слово потрібне?",
+      "options": [
+        "are",
+        "do",
+        "does",
+        "is"
+      ],
+      "correctIndex": 1,
+      "explanation": "Підмет you — допоміжне do.",
+      "sourceSegmentIDs": [
+        22,
+        27
+      ]
+    },
+    {
+      "prompt": "«Лекційна зала»:",
+      "options": [
+        "a classroom",
+        "a laboratory",
+        "a lecture-hall",
+        "a library"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lecture-hall — лекційна зала.",
+      "sourceSegmentIDs": [
+        9
+      ]
+    },
+    {
+      "prompt": "Що з переліченого НЕ є в університеті за текстом?",
+      "options": [
+        "спорткомплекс",
+        "спортивний табір",
+        "ботанічний сад",
+        "чотири клініки"
+      ],
+      "correctIndex": 2,
+      "explanation": "Ботанічного саду в тексті немає.",
+      "sourceSegmentIDs": [
+        10,
+        20
+      ]
+    }
+  ]
+}

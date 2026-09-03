@@ -1,0 +1,300 @@
+{
+  "title": "Our University. Part 1: Modern Times",
+  "summary": "Текст про університет плюс граматика Present Indefinite. Головне — лексика вищої освіти (chair, faculty, to run, to head) і те, як будувати заперечення та питання з do/does.",
+  "sections": [
+    {
+      "heading": "Що каже текст",
+      "body": "Університет має дві форми навчання — full-time (стаціонарна) і extra-mural (заочна), близько 30 кафедр (chairs) і понад 300 викладачів. Керує університетом ректор (the University is run by the Rector), факультети очолюють декани (the faculties are headed by Deans).",
+      "sourceSegmentIDs": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "heading": "Кого готують і що є для студентів",
+      "body": "Готують veterinary doctors, technologists, ecologists, managers, marketing specialists. Ступені: bachelor, потім master; є postgraduates, які роблять дослідження заради PhD. У розпорядженні студентів (at the students' disposal) п'ять навчальних корпусів, чотири гуртожитки, дві бібліотеки, чотири клініки, спорткомплекс і спортивний табір, а також три музеї.",
+      "sourceSegmentIDs": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "heading": "Present Indefinite: три форми",
+      "body": "Стверджувальне: додаємо -s у третій особі однини — Our higher school trains… Заперечення: do not / does not + інфінітив без -s — Deans do not head…, A rector doesn't run… Питання: допоміжне попереду — Does your friend study…? Головна пастка: у запереченні й питанні -s переходить на does, а саме дієслово лишається чистим.",
+      "sourceSegmentIDs": [
+        22,
+        23,
+        24,
+        25,
+        27
+      ]
+    },
+    {
+      "heading": "There is / There are",
+      "body": "Про наявність кажуть There are three museums…, There are about 30 chairs… У запереченні — There aren't any texts…, у питанні — Are there three museums…? У письмовій роботі скорочення краще розкривати повністю.",
+      "sourceSegmentIDs": [
+        11,
+        30,
+        31
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "higher school",
+      "latin": null,
+      "definition": "вищий навчальний заклад"
+    },
+    {
+      "term": "chair",
+      "latin": null,
+      "definition": "кафедра (department у британському вжитку)"
+    },
+    {
+      "term": "faculty",
+      "latin": null,
+      "definition": "факультет"
+    },
+    {
+      "term": "full-time / extra-mural",
+      "latin": null,
+      "definition": "стаціонарна / заочна форма навчання"
+    },
+    {
+      "term": "to run",
+      "latin": null,
+      "definition": "керувати (the University is run by the Rector)"
+    },
+    {
+      "term": "to head",
+      "latin": null,
+      "definition": "очолювати (faculties are headed by Deans)"
+    },
+    {
+      "term": "to train",
+      "latin": null,
+      "definition": "навчати, готувати фахівців"
+    },
+    {
+      "term": "lecture-hall",
+      "latin": null,
+      "definition": "лекційна зала"
+    },
+    {
+      "term": "hostel",
+      "latin": null,
+      "definition": "гуртожиток"
+    },
+    {
+      "term": "at the students' disposal",
+      "latin": null,
+      "definition": "у розпорядженні студентів"
+    },
+    {
+      "term": "postgraduate",
+      "latin": null,
+      "definition": "аспірант"
+    },
+    {
+      "term": "scientific circle",
+      "latin": null,
+      "definition": "науковий гурток"
+    }
+  ],
+  "homework": [
+    {
+      "kind": "openQuestion",
+      "prompt": "Answer in full sentences: Who runs the University and who heads the faculties?",
+      "referenceAnswer": "The University is run by the Rector. The faculties are headed by Deans.",
+      "rubric": [
+        "вжито to run для університету",
+        "вжито to head для факультетів",
+        "речення повні"
+      ],
+      "sourceSegmentIDs": [
+        5,
+        17,
+        18
+      ]
+    },
+    {
+      "kind": "term",
+      "prompt": "Дай англійські відповідники: кафедра, факультет, гуртожиток, лекційна зала, заочна форма навчання.",
+      "referenceAnswer": "a chair, a faculty, a hostel, a lecture-hall, extra-mural studies.",
+      "rubric": [
+        "усі п'ять перекладено правильно"
+      ],
+      "sourceSegmentIDs": [
+        2,
+        3,
+        9,
+        10
+      ]
+    },
+    {
+      "kind": "openQuestion",
+      "prompt": "Постав у заперечну і питальну форму: Our higher school trains veterinary students.",
+      "referenceAnswer": "Our higher school does not (doesn't) train veterinary students. Does our higher school train veterinary students?",
+      "rubric": [
+        "вжито does у третій особі",
+        "дієслово без -s після does",
+        "обидві форми побудовано"
+      ],
+      "sourceSegmentIDs": [
+        23,
+        25,
+        27
+      ]
+    },
+    {
+      "kind": "caseStudy",
+      "prompt": "У зошиті написано «Our state needs well-educated specialists?» — знайди помилку і виправ.",
+      "referenceAnswer": "Це питання, тому потрібне допоміжне does і дієслово без -s: Does our state need well-educated specialists?",
+      "rubric": [
+        "названо потребу в does",
+        "прибрано -s з дієслова"
+      ],
+      "sourceSegmentIDs": [
+        26
+      ]
+    },
+    {
+      "kind": "openQuestion",
+      "prompt": "Describe the facilities of the University in four sentences using There is / There are.",
+      "referenceAnswer": "There are five educational buildings. There are four hostels and two libraries. There are four clinics and a sports complex. There are three museums at the University.",
+      "rubric": [
+        "чотири речення",
+        "правильний вибір is/are",
+        "лексика з тексту"
+      ],
+      "sourceSegmentIDs": [
+        9,
+        10,
+        11,
+        20
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "front": "higher school",
+      "back": "вищий навчальний заклад",
+      "sourceSegmentIDs": [
+        1
+      ]
+    },
+    {
+      "front": "chair",
+      "back": "кафедра",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "front": "faculty",
+      "back": "факультет",
+      "sourceSegmentIDs": [
+        14
+      ]
+    },
+    {
+      "front": "full-time studies",
+      "back": "стаціонарна форма навчання",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "front": "extra-mural studies",
+      "back": "заочна форма навчання",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "front": "to run (the University)",
+      "back": "керувати університетом",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "front": "to head (a faculty)",
+      "back": "очолювати факультет",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "front": "to train",
+      "back": "навчати, готувати фахівців",
+      "sourceSegmentIDs": [
+        6
+      ]
+    },
+    {
+      "front": "lecture-hall",
+      "back": "лекційна зала",
+      "sourceSegmentIDs": [
+        9
+      ]
+    },
+    {
+      "front": "hostel",
+      "back": "гуртожиток",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "front": "at the students' disposal",
+      "back": "у розпорядженні студентів",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "front": "postgraduate",
+      "back": "аспірант",
+      "sourceSegmentIDs": [
+        8
+      ]
+    },
+    {
+      "front": "to do research",
+      "back": "проводити дослідження",
+      "sourceSegmentIDs": [
+        8
+      ]
+    },
+    {
+      "front": "Present Indefinite: заперечення",
+      "back": "do/does not + інфінітив без -s",
+      "sourceSegmentIDs": [
+        24,
+        25
+      ]
+    },
+    {
+      "front": "Present Indefinite: питання",
+      "back": "Do/Does + підмет + інфінітив без -s",
+      "sourceSegmentIDs": [
+        27
+      ]
+    },
+    {
+      "front": "There aren't any…",
+      "back": "заперечення наявності: There are not any texts…",
+      "sourceSegmentIDs": [
+        31
+      ]
+    }
+  ]
+}

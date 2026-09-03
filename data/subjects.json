@@ -35,6 +35,31 @@
       ]
     },
     {
+      "id": "english-ua",
+      "title": "Іноземна мова (за професійним спрямуванням)",
+      "short": "Іноземна",
+      "hue": 142,
+      "curriculum": null,
+      "topics": [
+        {
+          "id": "T1",
+          "title": "Our University. Part 1: Modern Times",
+          "notes": "english-ua/T1/notes.json",
+          "lesson": "english-ua/T1/lesson.json",
+          "quiz": "english-ua/T1/quiz.json",
+          "cards": "english-ua/T1/cards.json"
+        },
+        {
+          "id": "T2",
+          "title": "Our University. Part 2: History",
+          "notes": "english-ua/T2/notes.json",
+          "lesson": "english-ua/T2/lesson.json",
+          "quiz": "english-ua/T2/quiz.json",
+          "cards": "english-ua/T2/cards.json"
+        }
+      ]
+    },
+    {
       "id": "subject-14",
       "title": "Основи національного спротиву",
       "short": "Спротив",
@@ -47,14 +72,6 @@
       "title": "Латинська мова",
       "short": "Латина",
       "hue": 276,
-      "curriculum": null,
-      "topics": []
-    },
-    {
-      "id": "subject-142",
-      "title": "Іноземна мова (за професійним спрямуванням)",
-      "short": "Іноземна",
-      "hue": 142,
       "curriculum": null,
       "topics": []
     },

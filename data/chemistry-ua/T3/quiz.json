@@ -178,6 +178,156 @@
       "sourceSegmentIDs": [
         34
       ]
+    },
+    {
+      "prompt": "Луг — це:",
+      "options": [
+        "Будь-яка основа",
+        "Розчинна у воді основа",
+        "Кисла сіль",
+        "Амфотерний оксид"
+      ],
+      "correctIndex": 1,
+      "explanation": "Лугами називають розчинні основи: NaOH, KOH, Ca(OH)₂.",
+      "sourceSegmentIDs": [
+        10,
+        11
+      ]
+    },
+    {
+      "prompt": "Який оксид основний?",
+      "options": [
+        "SO₃",
+        "CO₂",
+        "Na₂O",
+        "NO"
+      ],
+      "correctIndex": 2,
+      "explanation": "Na₂O — оксид металу, йому відповідає основа NaOH.",
+      "sourceSegmentIDs": [
+        4,
+        5
+      ]
+    },
+    {
+      "prompt": "Кислотний залишок у H₂SO₄:",
+      "options": [
+        "SO₄²⁻",
+        "SO₃²⁻",
+        "S²⁻",
+        "HSO₃⁻"
+      ],
+      "correctIndex": 0,
+      "explanation": "Кислотний залишок — частина без Гідрогену: SO₄²⁻.",
+      "sourceSegmentIDs": [
+        14,
+        15
+      ]
+    },
+    {
+      "prompt": "Продукти реакції HCl + NaOH:",
+      "options": [
+        "NaCl + H₂",
+        "NaCl + H₂O",
+        "NaOH + Cl₂",
+        "Na₂O + HCl"
+      ],
+      "correctIndex": 1,
+      "explanation": "Нейтралізація дає сіль і воду.",
+      "sourceSegmentIDs": [
+        19,
+        28,
+        29
+      ]
+    },
+    {
+      "prompt": "Cu(OH)₂ належить до:",
+      "options": [
+        "Кислот",
+        "Основ",
+        "Солей",
+        "Оксидів"
+      ],
+      "correctIndex": 1,
+      "explanation": "Метал і гідроксогрупи — основа, у ланцюжку міді вона між основною сіллю та оксидом.",
+      "sourceSegmentIDs": [
+        10,
+        31,
+        32
+      ]
+    },
+    {
+      "prompt": "Що НЕ можна віднести ні до кислот, ні до основ однозначно?",
+      "options": [
+        "NaOH",
+        "H₂SO₄",
+        "Al(OH)₃",
+        "CaO"
+      ],
+      "correctIndex": 2,
+      "explanation": "Al(OH)₃ амфотерний: з кислотою поводиться як основа, з лугом — як кислота.",
+      "sourceSegmentIDs": [
+        20,
+        21
+      ]
+    },
+    {
+      "prompt": "Сіль, у якій лишився Гідроген кислоти:",
+      "options": [
+        "NaCl",
+        "NaHCO₃",
+        "Cu(OH)NO₃",
+        "CuSO₄"
+      ],
+      "correctIndex": 1,
+      "explanation": "NaHCO₃ — кисла сіль.",
+      "sourceSegmentIDs": [
+        25,
+        26
+      ]
+    },
+    {
+      "prompt": "Структурна формула NaHSO₄:",
+      "options": [
+        "Na–H–S–O₄",
+        "Na⁺[HSO₄]⁻",
+        "Na₂[SO₄]",
+        "NaOH·SO₃"
+      ],
+      "correctIndex": 1,
+      "explanation": "Для солей записують іони.",
+      "sourceSegmentIDs": [
+        35
+      ]
+    },
+    {
+      "prompt": "Що дає CO₂ з водою?",
+      "options": [
+        "Основу",
+        "Кислоту",
+        "Сіль",
+        "Нічого не дає"
+      ],
+      "correctIndex": 1,
+      "explanation": "CO₂ — кислотний оксид, дає карбонатну кислоту H₂CO₃.",
+      "sourceSegmentIDs": [
+        5,
+        16
+      ]
+    },
+    {
+      "prompt": "Оксид, що не утворює ні кислоти, ні основи, називають:",
+      "options": [
+        "Амфотерним",
+        "Несолетворним",
+        "Основним",
+        "Кислотним"
+      ],
+      "correctIndex": 1,
+      "explanation": "CO і NO — несолетворні.",
+      "sourceSegmentIDs": [
+        7
+      ]
     }
   ]
 }

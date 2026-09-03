@@ -186,6 +186,160 @@
         81,
         82
       ]
+    },
+    {
+      "prompt": "Напрямок «до рота» на голові:",
+      "options": [
+        "Каудальний",
+        "Оральний",
+        "Дистальний",
+        "Вентральний"
+      ],
+      "correctIndex": 1,
+      "explanation": "На голові вживають оральний (ростральний) — до рота, аборальний — від рота.",
+      "sourceSegmentIDs": [
+        15,
+        16,
+        18
+      ]
+    },
+    {
+      "prompt": "Пальмарна поверхня стосується:",
+      "options": [
+        "Грудної кінцівки",
+        "Тазової кінцівки",
+        "Голови",
+        "Хвоста"
+      ],
+      "correctIndex": 0,
+      "explanation": "Пальмарна — кисть (грудна кінцівка), плантарна — стопа (тазова).",
+      "sourceSegmentIDs": [
+        24,
+        25
+      ]
+    },
+    {
+      "prompt": "Середня частина трубчастої кістки:",
+      "options": [
+        "Епіфіз",
+        "Метафіз",
+        "Діафіз",
+        "Апофіз"
+      ],
+      "correctIndex": 2,
+      "explanation": "Діафіз — середня частина; епіфізи — кінці.",
+      "sourceSegmentIDs": [
+        29,
+        31
+      ]
+    },
+    {
+      "prompt": "Де у молодої тварини хрящова пластинка росту?",
+      "options": [
+        "В епіфізі",
+        "У метафізі",
+        "У діафізі",
+        "В окісті"
+      ],
+      "correctIndex": 1,
+      "explanation": "Метафіз — між епіфізом і діафізом, там пластинка росту.",
+      "sourceSegmentIDs": [
+        29,
+        32
+      ]
+    },
+    {
+      "prompt": "Дуга хребця латиною:",
+      "options": [
+        "corpus vertebrae",
+        "arcus vertebrae",
+        "crista vertebrae",
+        "caput vertebrae"
+      ],
+      "correctIndex": 1,
+      "explanation": "arcus vertebrae — дуга; corpus — тіло; caput — головка.",
+      "sourceSegmentIDs": [
+        44,
+        45,
+        49
+      ]
+    },
+    {
+      "prompt": "Остистий відросток:",
+      "options": [
+        "processus transversus",
+        "processus spinosus",
+        "processus mamillaris",
+        "processus cranialis"
+      ],
+      "correctIndex": 1,
+      "explanation": "processus spinosus — остистий; transversus — поперечний.",
+      "sourceSegmentIDs": [
+        52,
+        57
+      ]
+    },
+    {
+      "prompt": "Скільки грудних хребців у свині?",
+      "options": [
+        "13",
+        "14–16",
+        "18",
+        "11"
+      ],
+      "correctIndex": 1,
+      "explanation": "Свиня 14–16; кінь 18; ВРХ і собака 13.",
+      "sourceSegmentIDs": [
+        59,
+        60,
+        61,
+        62
+      ]
+    },
+    {
+      "prompt": "Мечоподібний відросток грудини:",
+      "options": [
+        "manubrium sterni",
+        "processus xiphoideus",
+        "arcus costalis",
+        "cartilago"
+      ],
+      "correctIndex": 1,
+      "explanation": "processus xiphoideus — мечоподібний відросток.",
+      "sourceSegmentIDs": [
+        74,
+        76
+      ]
+    },
+    {
+      "prompt": "Кісткова речовина буває:",
+      "options": [
+        "Тільки компактна",
+        "Компактна і губчаста",
+        "Тільки губчаста",
+        "Хрящова і кісткова"
+      ],
+      "correctIndex": 1,
+      "explanation": "Два види: компактна по периферії, губчаста в епіфізах.",
+      "sourceSegmentIDs": [
+        34,
+        35
+      ]
+    },
+    {
+      "prompt": "Зсередини кістка вкрита:",
+      "options": [
+        "Окістям",
+        "Ендостом",
+        "Періостом",
+        "Суглобовим хрящем"
+      ],
+      "correctIndex": 1,
+      "explanation": "Зовні — окістя (periosteum), зсередини — ендост.",
+      "sourceSegmentIDs": [
+        33,
+        36
+      ]
     }
   ]
 }

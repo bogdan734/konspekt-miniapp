@@ -223,6 +223,8 @@ function subjectStrip(kind, { all = false } = {}) {
       current = subject.id;
       store.set('subject', current);
       openTopic = null;
+      drill.topic = null;
+      drill.answers = {};
       tg?.HapticFeedback?.selectionChanged?.();
       render(tab);
     };
@@ -436,7 +438,76 @@ function nextAnatomy(now, week) {
 
 // ---------- Тренування ----------
 
-let drill = { mode: 'cards', kind: null, revealed: false, answers: {} };
+let drill = { mode: 'cards', kind: null, revealed: false, answers: {}, topicID: null };
+
+/// Скільки питань у одному варіанті. Банк більший, тож варіанти не збігаються.
+const QUIZ_SIZE = 10;
+
+/// Відтворюваний генератор: поки варіант той самий, питання й порядок відповідей
+/// не стрибають від кожного перемальовування екрана.
+function seeded(seed) {
+  let state = seed >>> 0;
+  return () => {
+    state = (state + 0x6d2b79f5) >>> 0;
+    let value = Math.imul(state ^ (state >>> 15), 1 | state);
+    value = (value + Math.imul(value ^ (value >>> 7), 61 | value)) ^ value;
+    return ((value ^ (value >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function shuffled(items, random) {
+  const copy = [...items];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+/// Збирає варіант: десять питань із банку, і в кожному переставлені варіанти
+/// відповідей — щоб не запам'ятовувалося «правильна завжди третя».
+function variantOf(pool, seed) {
+  const random = seeded(seed * 2654435761);
+  return shuffled(pool, random).slice(0, Math.min(QUIZ_SIZE, pool.length)).map(question => {
+    const order = shuffled(question.options.map((option, index) => index), random);
+    return {
+      ...question,
+      options: order.map(index => question.options[index]),
+      correctIndex: order.indexOf(question.correctIndex),
+    };
+  });
+}
+
+const variantKey = (subject, topic) => `variant:${subject.id}:${topic.id}`;
+
+/// Тест і домашнє стосуються однієї теми, а тем у предмета буває кілька.
+function chosenTopic(subject, kind) {
+  const ready = topicsWith(subject, kind);
+  return ready.find(topic => topic.id === drill.topic) ?? ready[0];
+}
+
+function topicStrip(subject, kind, chosen) {
+  const ready = topicsWith(subject, kind);
+  if (ready.length < 2) return el('div');
+
+  const strip = el('div', 'subjects');
+  for (const topic of ready) {
+    // «Our University. Part 2: History» → «History»: спільний початок назв тем
+    // нічого не розрізняє, розрізняє хвіст.
+    const tail = topic.title.split(/[.:]/).filter(part => part.trim()).pop().trim();
+    const chip = el('button', `chip${topic.id === chosen.id ? ' on' : ''}`,
+      `<i></i>${topic.id} · ${tail}`);
+    chip.style.setProperty('--dot', `hsl(${subject.hue} 62% 52%)`);
+    chip.onclick = () => {
+      drill.topic = topic.id;
+      drill.answers = {};
+      tg?.HapticFeedback?.selectionChanged?.();
+      render('drill');
+    };
+    strip.append(chip);
+  }
+  return strip;
+}
 
 function renderDrill() {
   view.append(subjectStrip('cards'));
@@ -526,13 +597,28 @@ function renderCards() {
 
 function renderQuiz() {
   const subject = subjectByID(current);
-  const topic = topicsWith(subject, 'quiz')[0];
-  const material = materialOf(subject, topic);
-  const questions = material.quiz.questions;
+  const topic = chosenTopic(subject, 'quiz');
+  view.append(topicStrip(subject, 'quiz', topic));
+  const pool = materialOf(subject, topic).quiz.questions;
+
+  // Відповіді належать одному варіанту одного предмета; перемкнулися — почали заново.
+  if (drill.topicID !== `${subject.id}/${topic.id}`) {
+    drill = { ...drill, answers: {}, topicID: `${subject.id}/${topic.id}` };
+  }
+  const seed = store.get(variantKey(subject, topic), 1);
+  const questions = variantOf(pool, seed);
   const answered = Object.keys(drill.answers).length;
 
+  const newVariant = () => {
+    store.set(variantKey(subject, topic), seed + 1);
+    drill.answers = {};
+    tg?.HapticFeedback?.impactOccurred?.('light');
+    render('drill');
+  };
+
   const progress = el('div', 'card');
-  progress.append(el('h2', null, `Тест · ${answered} з ${questions.length}`));
+  progress.append(el('h2', null,
+    `Варіант ${seed} · ${answered} з ${questions.length}`));
   const bar = el('div', 'bar', '<i></i>');
   bar.firstChild.style.transform = `scaleX(${answered / questions.length})`;
   progress.append(bar);
@@ -541,9 +627,18 @@ function renderQuiz() {
     const percent = Math.round((correct / questions.length) * 100);
     progress.append(el('div', 'small', `<b>${percent}%</b> — ${correct} із ${questions.length}`
       + (percent >= 90 ? ' <span class="pill">рівень «відмінно»</span>' : '')));
-    const again = el('button', 'go ghost wide', 'Пройти ще раз');
-    again.onclick = () => { drill.answers = {}; render('drill'); };
+    const again = el('button', 'go wide', 'Новий варіант');
+    again.onclick = newVariant;
     progress.append(again);
+    const repeat = el('button', 'go ghost wide', 'Пройти цей ще раз');
+    repeat.onclick = () => { drill.answers = {}; render('drill'); };
+    progress.append(repeat);
+  } else {
+    progress.append(el('div', 'muted small',
+      `${questions.length} питань із банку на ${pool.length}`));
+    const another = el('button', 'go ghost wide', 'Інший варіант');
+    another.onclick = newVariant;
+    progress.append(another);
   }
   view.append(progress);
 
@@ -575,7 +670,8 @@ function renderQuiz() {
 
 function renderHomework() {
   const subject = subjectByID(current);
-  const topic = topicsWith(subject, 'lesson')[0];
+  const topic = chosenTopic(subject, 'lesson');
+  view.append(topicStrip(subject, 'lesson', topic));
   const lesson = materialOf(subject, topic).lesson;
   for (const [index, task] of lesson.homework.entries()) {
     const box = el('div', 'card');

@@ -1,0 +1,297 @@
+{
+  "title": "Our University. Part 2: History",
+  "summary": "Історія університету від 1784 року до 2007-го — і граматика, заради якої цей текст дали: майже всі речення в пасивному стані минулого часу (was opened, was renamed, was set up). Плюс синоніми з Task 2.",
+  "sections": [
+    {
+      "heading": "Хронологія",
+      "body": "1784 — засновано кафедру ветеринарної медицини на медичному факультеті Львівського університету. 1881 — відкрито ветеринарну школу у Львові. 1896 — перейменовано на Львівську академію ветеринарної медицини. З 1939 — Ветеринарний інститут з одним факультетом. 1949 — створено другий факультет, зоотехнічний (нині біології та технології). 1991 — третій, санітарно-технологічний (нині харчових технологій і біотехнології). Червень 1992 — повернуто попередню назву Академії. 2002 — факультет економіки та менеджменту. 2007 — Академія стала Університетом.",
+      "sourceSegmentIDs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        11
+      ]
+    },
+    {
+      "heading": "Люди",
+      "body": "Перший директор ветеринарної школи — професор Peter Seifman; перший ректор Академії — професор Joseph Spielman. У 1994 році Академія отримала ім'я свого колишнього студента, видатного вченого Степана Гжицького (1900–1976).",
+      "sourceSegmentIDs": [
+        9,
+        10
+      ]
+    },
+    {
+      "heading": "Пасивний стан — чому весь текст такий",
+      "body": "Коли важлива дія, а не її виконавець, англійська ставить присудок у пасив: was opened, was renamed, was set up, was created. Формула — was/were + Past Participle. Саме про це питає Task 5: у тексті переважають пасивні конструкції, бо йдеться про те, що сталося з закладом, а не хто це зробив. Виняток — активні речення з regained і received, де діяч названий.",
+      "sourceSegmentIDs": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11
+      ]
+    },
+    {
+      "heading": "Синоніми з Task 2",
+      "body": "to found — to establish, to create, to open, to set up; glorious — notable, remarkable; to rename — to change the name; to regain — to receive back; former — previous; prominent — eminent, famous, celebrated; a scientist — a scholar; a department — a chair.",
+      "sourceSegmentIDs": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "to found",
+      "latin": null,
+      "definition": "засновувати — to establish, to create, to open, to set up"
+    },
+    {
+      "term": "glorious",
+      "latin": null,
+      "definition": "славетний — notable, remarkable"
+    },
+    {
+      "term": "to rename",
+      "latin": null,
+      "definition": "перейменовувати — to change the name"
+    },
+    {
+      "term": "to regain",
+      "latin": null,
+      "definition": "повернути (собі) — to receive back"
+    },
+    {
+      "term": "former",
+      "latin": null,
+      "definition": "колишній, попередній — previous"
+    },
+    {
+      "term": "prominent",
+      "latin": null,
+      "definition": "видатний — eminent, famous, celebrated"
+    },
+    {
+      "term": "a scientist",
+      "latin": null,
+      "definition": "вчений — a scholar"
+    },
+    {
+      "term": "a department",
+      "latin": null,
+      "definition": "кафедра, відділ — a chair"
+    },
+    {
+      "term": "Passive Voice (Past)",
+      "latin": null,
+      "definition": "was/were + Past Participle: was opened, was renamed"
+    }
+  ],
+  "homework": [
+    {
+      "kind": "term",
+      "prompt": "Give synonyms: to found, glorious, to regain, former, prominent, a scientist.",
+      "referenceAnswer": "to found — to establish/create/open/set up; glorious — notable, remarkable; to regain — to receive back; former — previous; prominent — eminent, famous, celebrated; a scientist — a scholar.",
+      "rubric": [
+        "усі шість слів мають синоніми",
+        "синоніми з тексту завдання"
+      ],
+      "sourceSegmentIDs": [
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "kind": "openQuestion",
+      "prompt": "When was the veterinary school founded, and when did it become a University? Answer in full sentences.",
+      "referenceAnswer": "The veterinary school was opened in 1881; the department of veterinary medicine had been founded in 1784. In 2007 the Academy was renamed into the University.",
+      "rubric": [
+        "названо 1881 (і 1784)",
+        "названо 2007",
+        "вжито пасивний стан"
+      ],
+      "sourceSegmentIDs": [
+        1,
+        2,
+        11
+      ]
+    },
+    {
+      "kind": "caseStudy",
+      "prompt": "Task 3: поділи на правильні й неправильні та дай три форми — to be, to begin, to found, to open, to set up, to receive.",
+      "referenceAnswer": "Неправильні: to be — was/were — been; to begin — began — begun; to set — set — set. Правильні: to found — founded — founded; to open — opened — opened; to receive — received — received.",
+      "rubric": [
+        "поділ правильний",
+        "три форми для кожного дієслова"
+      ],
+      "sourceSegmentIDs": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "kind": "openQuestion",
+      "prompt": "Task 5: які конструкції переважають у тексті й чому? Наведи два приклади.",
+      "referenceAnswer": "Переважає пасивний стан: was opened, was renamed, was set up, was created. Так пишуть, коли важлива подія, а не виконавець дії.",
+      "rubric": [
+        "названо пасив",
+        "наведено два приклади з тексту",
+        "пояснено причину"
+      ],
+      "sourceSegmentIDs": [
+        2,
+        3,
+        5,
+        8
+      ]
+    },
+    {
+      "kind": "term",
+      "prompt": "Переклади: у 1992 році вища школа повернула свою колишню назву.",
+      "referenceAnswer": "In 1992 the higher school regained its former name.",
+      "rubric": [
+        "вжито regained",
+        "вжито former name"
+      ],
+      "sourceSegmentIDs": [
+        7,
+        16,
+        17
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "front": "to found",
+      "back": "засновувати (to establish, to create, to set up)",
+      "sourceSegmentIDs": [
+        13
+      ]
+    },
+    {
+      "front": "glorious",
+      "back": "славетний (notable, remarkable)",
+      "sourceSegmentIDs": [
+        14
+      ]
+    },
+    {
+      "front": "to rename",
+      "back": "перейменовувати (to change the name)",
+      "sourceSegmentIDs": [
+        15
+      ]
+    },
+    {
+      "front": "to regain",
+      "back": "повернути собі (to receive back)",
+      "sourceSegmentIDs": [
+        16
+      ]
+    },
+    {
+      "front": "former",
+      "back": "колишній (previous)",
+      "sourceSegmentIDs": [
+        17
+      ]
+    },
+    {
+      "front": "prominent",
+      "back": "видатний (eminent, famous, celebrated)",
+      "sourceSegmentIDs": [
+        18
+      ]
+    },
+    {
+      "front": "a scientist",
+      "back": "вчений (a scholar)",
+      "sourceSegmentIDs": [
+        19
+      ]
+    },
+    {
+      "front": "a department",
+      "back": "кафедра (a chair)",
+      "sourceSegmentIDs": [
+        20
+      ]
+    },
+    {
+      "front": "1784",
+      "back": "заснована кафедра ветеринарної медицини",
+      "sourceSegmentIDs": [
+        1
+      ]
+    },
+    {
+      "front": "1881",
+      "back": "відкрито ветеринарну школу у Львові",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "front": "1896",
+      "back": "перейменовано на Львівську академію ветеринарної медицини",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "front": "1949",
+      "back": "створено другий факультет — зоотехнічний",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "front": "1992",
+      "back": "повернуто назву Академії",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "front": "1994",
+      "back": "ім'я Степана Гжицького",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "front": "2007",
+      "back": "Академія стала Університетом",
+      "sourceSegmentIDs": [
+        11
+      ]
+    },
+    {
+      "front": "Passive Voice (Past)",
+      "back": "was/were + Past Participle",
+      "sourceSegmentIDs": [
+        2,
+        3
+      ]
+    }
+  ]
+}

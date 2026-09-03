@@ -1,0 +1,79 @@
+{
+  "curriculumID": "english-ua",
+  "subjectTitle": "Іноземна мова (за професійним спрямуванням)",
+  "topicID": "T1",
+  "title": "Our University. Part 1: Modern Times",
+  "pages": [
+    {
+      "index": 0,
+      "confidence": 1,
+      "lines": [
+        "Topic 1. OUR UNIVERSITY (PART 1: MODERN TIMES)",
+        "Stepan Gzhytskyi National University of Veterinary Medicine and Biotechnologies Lviv is one of the state higher schools.",
+        "There are two forms of studying at our University: full-time and extra-mural.",
+        "There are about 30 chairs at the University.",
+        "More than 300 lecturers and professors work here.",
+        "The University is run by the Rector and the faculties are headed by Deans.",
+        "Our University trains veterinary doctors, technologists of production and processing of animal products, ecologists, managers, marketing specialists, and many others.",
+        "Some students will graduate with a degree of a bachelor, the others will go on to do a second degree of a master.",
+        "There are also postgraduates who do researches and prepare to get a PhD.",
+        "The University has five educational buildings with many lecture-halls, classrooms and laboratories.",
+        "Four hostels, two libraries, four clinics, a sports complex and a sports camp are at the students' disposal.",
+        "There are three museums at the University: the Museum of University's History, the Museum of Horseshoes, and the Anatomical Museum."
+      ]
+    },
+    {
+      "index": 1,
+      "confidence": 1,
+      "lines": [
+        "TASK 2 (мої відповіді)",
+        "1. The name of my higher school is Stepan Gzhytskyi National University of Veterinary Medicine and Biotechnologies Lviv.",
+        "2. I study at the Faculty of Veterinary Medicine.",
+        "3. There're two forms of studying: full-time and extra-mural.",
+        "4. There're about 30 chairs at the University.",
+        "5. The University is run by the Rector.",
+        "6. The faculties are headed by Deans.",
+        "7. Our students will become veterinary doctors, technologists, ecologists, managers, marketing specialists, and etc.",
+        "8. There're 5 educational buildings, lecture-halls, classrooms, laboratories, four hostels, two libraries, four clinics, a sports complex and a sports camp.",
+        "9. There're 3 museums: the Museum of University's History, the Museum of Horseshoes, and the Anatomical Museum."
+      ]
+    },
+    {
+      "index": 2,
+      "confidence": 1,
+      "lines": [
+        "TASK 4. Present Indefinite (мої речення)",
+        "1. Our higher school trains veterinary students and other specialists.",
+        "2. Deans do not head the university.",
+        "3. A rector doesn't run the faculty.",
+        "4. Our state needs well-educated specialists?",
+        "5. Does your friend study at the University too?",
+        "6. The students attend practical classes in laboratories.",
+        "7. Our University is one of sixteen state higher schools in Lviv.",
+        "8. Are there 3 museums at the University?",
+        "9. There aren't any texts about economics in this book."
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "asWritten": "Deans do not don't head the university",
+      "correct": "Deans do not head the university.",
+      "note": "у зошиті двічі написано заперечення: do not і don't — треба одне"
+    },
+    {
+      "asWritten": "Our state needs well-educated specialists?",
+      "correct": "Does our state need well-educated specialists?",
+      "note": "у завданні знак питання — отже потрібне питальне речення з do/does, а дієслово без -s"
+    },
+    {
+      "asWritten": "and etc.",
+      "correct": "etc.",
+      "note": "etc. = et cetera, «and» уже всередині; «and etc.» — тавтологія"
+    }
+  ],
+  "checks": [
+    "Речення 7 у Task 4: підручник дає «one of sixteen state higher schools in Lviv» — перевір цифру на парі, у сучасних джерелах кількість інша.",
+    "There're / There aren't — у письмових роботах скорочення краще розкривати: There are, There are not."
+  ]
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "to found",
+    "back": "засновувати (to establish, to create, to set up)",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "glorious",
+    "back": "славетний (notable, remarkable)",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "to rename",
+    "back": "перейменовувати (to change the name)",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "to regain",
+    "back": "повернути собі (to receive back)",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "former",
+    "back": "колишній (previous)",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "prominent",
+    "back": "видатний (eminent, famous, celebrated)",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "a scientist",
+    "back": "вчений (a scholar)",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "a department",
+    "back": "кафедра (a chair)",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "1784",
+    "back": "заснована кафедра ветеринарної медицини",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "1881",
+    "back": "відкрито ветеринарну школу у Львові",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "1896",
+    "back": "перейменовано на Львівську академію ветеринарної медицини",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "1949",
+    "back": "створено другий факультет — зоотехнічний",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "1992",
+    "back": "повернуто назву Академії",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "1994",
+    "back": "ім'я Степана Гжицького",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "2007",
+    "back": "Академія стала Університетом",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Passive Voice (Past)",
+    "back": "was/were + Past Participle",
+    "sourceSegmentIDs": [
+      2,
+      3
+    ]
+  }
+]
