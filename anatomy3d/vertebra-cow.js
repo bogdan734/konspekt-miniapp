@@ -17,6 +17,39 @@ function mat(color, opts = {}) {
 const structureById = Object.fromEntries(STRUCTURES.map(s => [s.id, s]));
 const parts = {}; // id -> THREE.Mesh[]
 
+// Проста процедурна текстура кістки (плямистість + поздовжні волокна), щоб
+// поверхня не виглядала пластиковою. Ніяких зовнішніх файлів — усе canvas'ом.
+function boneTexture() {
+  const size = 256;
+  const c = document.createElement('canvas');
+  c.width = c.height = size;
+  const ctx = c.getContext('2d');
+  ctx.fillStyle = '#efe6d0';
+  ctx.fillRect(0, 0, size, size);
+  for (let i = 0; i < 1400; i++) {
+    const x = Math.random() * size, y = Math.random() * size;
+    const r = Math.random() * 1.8 + 0.3;
+    const dark = Math.random() > 0.5;
+    ctx.fillStyle = dark
+      ? `rgba(150,130,95,${Math.random() * 0.18})`
+      : `rgba(255,250,235,${Math.random() * 0.22})`;
+    ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
+  }
+  ctx.strokeStyle = 'rgba(120,100,70,0.05)';
+  for (let i = 0; i < 50; i++) {
+    const x = Math.random() * size;
+    ctx.beginPath();
+    ctx.moveTo(x, 0);
+    ctx.lineTo(x + (Math.random() * 24 - 12), size);
+    ctx.stroke();
+  }
+  const tex = new THREE.CanvasTexture(c);
+  tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
+  tex.repeat.set(2, 2);
+  return tex;
+}
+const BONE_TEX = boneTexture();
+
 function addPart(id, mesh, group) {
   mesh.userData.partID = id;
   group.add(mesh);
@@ -31,12 +64,22 @@ function buildVertebra({ ghost = false, z = 0 } = {}) {
   const group = new THREE.Group();
   group.position.z = z;
   const ghostMat = () => mat(COLOR.ghost, { transparent: true, opacity: 0.28 });
-  const boneMat = () => (ghost ? ghostMat() : mat(COLOR.bone));
+  const boneMat = () => (ghost ? ghostMat() : mat(0xffffff, { map: BONE_TEX }));
   const darkMat = () => (ghost ? ghostMat() : mat(COLOR.boneDark));
   const cartMat = () => (ghost ? ghostMat() : mat(COLOR.cartilage));
 
-  const corpus = new THREE.Mesh(new THREE.CylinderGeometry(2.1, 2.1, 5, 24), boneMat());
+  // Тіло не циліндр, а «талія»: вужче посередині, ширше на кінцях (як у
+  // реальних грудних хребців ВРХ) — профіль обертання (Lathe) замість Cylinder.
+  const bodyProfile = [
+    new THREE.Vector2(1.95, 0.0), new THREE.Vector2(2.1, 0.35),
+    new THREE.Vector2(1.88, 1.2), new THREE.Vector2(1.72, 2.5),
+    new THREE.Vector2(1.88, 3.8), new THREE.Vector2(2.1, 4.65),
+    new THREE.Vector2(1.95, 5.0),
+  ];
+  const corpus = new THREE.Mesh(new THREE.LatheGeometry(bodyProfile, 28), boneMat());
+  corpus.geometry.translate(0, -2.5, 0);
   corpus.rotation.x = Math.PI / 2;
+  corpus.scale.y = 0.92;
   if (ghost) group.add(corpus); else addPart('corpus', corpus, group);
 
   const caput = new THREE.Mesh(
@@ -78,8 +121,9 @@ function buildVertebra({ ghost = false, z = 0 } = {}) {
     addPart('fovea-ca', fa, group);
   }
 
-  const ridge = new THREE.Mesh(new THREE.BoxGeometry(0.55, 0.4, 5), darkMat());
-  ridge.position.set(0, 4.55, 0);
+  const ridge = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.28, 5, 12), darkMat());
+  ridge.rotation.x = Math.PI / 2;
+  ridge.position.set(0, 4.5, 0);
   addPart('crista-arcus', ridge, group);
 
   const canal = new THREE.Mesh(
@@ -89,14 +133,26 @@ function buildVertebra({ ghost = false, z = 0 } = {}) {
   canal.position.y = 2.55;
   addPart('foramen-vertebrae', canal, group);
 
-  const spinous = new THREE.Mesh(new THREE.BoxGeometry(0.5, 8, 1.5), boneMat());
-  spinous.position.set(0, 8.5, -0.6);
-  spinous.rotation.x = -0.35;
-  addPart('proc-spinosus', spinous, group);
+  // Остистий відросток — не рівний брусок, а звужений догори і вигнутий
+  // каудально «шаблею»: чотири складені сегменти замість одного прямого.
+  const spineSegs = [
+    { w: 0.62, h: 2.3, d: 1.6, y: 4.75, z: -0.05, rot: -0.08 },
+    { w: 0.50, h: 2.3, d: 1.35, y: 6.75, z: -0.42, rot: -0.20 },
+    { w: 0.38, h: 2.1, d: 1.05, y: 8.65, z: -1.05, rot: -0.34 },
+    { w: 0.24, h: 1.7, d: 0.7, y: 10.25, z: -1.85, rot: -0.48 },
+  ];
+  for (const s of spineSegs) {
+    const seg = new THREE.Mesh(new THREE.BoxGeometry(s.w, s.h, s.d), boneMat());
+    seg.position.set(0, s.y, s.z);
+    seg.rotation.x = s.rot;
+    addPart('proc-spinosus', seg, group);
+  }
 
-  const tpGeo = new THREE.BoxGeometry(4, 0.6, 1.8);
+  // Поперечний відросток звужується до кінчика — конус, сплюснутий дорзовентрально.
+  const tpGeo = new THREE.CylinderGeometry(0.4, 0.85, 4, 14);
   const tipGeo = new THREE.CylinderGeometry(0.5, 0.5, 0.15, 16);
-  const apGeo = new THREE.BoxGeometry(0.9, 0.9, 0.9);
+  // Суглобові відростки — не кубики, а витягнуті горбки (еліпсоїди).
+  const apGeo = new THREE.SphereGeometry(0.55, 12, 10);
   const facetGeo = new THREE.CylinderGeometry(0.42, 0.42, 0.12, 16);
   const mamGeo = new THREE.SphereGeometry(0.32, 12, 10);
   const notchGeo = new THREE.CylinderGeometry(0.5, 0.5, 0.12, 14);
@@ -105,6 +161,8 @@ function buildVertebra({ ghost = false, z = 0 } = {}) {
 
   for (const side of [-1, 1]) {
     const tp = new THREE.Mesh(tpGeo, tpM);
+    tp.rotation.z = -side * Math.PI / 2;
+    tp.scale.x = 0.45; // сплюснутий дорзовентрально
     tp.position.set(side * 4.1, 2.3, 0.1);
     addPart('proc-transversus', tp, group);
 
@@ -114,6 +172,7 @@ function buildVertebra({ ghost = false, z = 0 } = {}) {
     addPart('fovea-tp', tip, group);
 
     const crAP = new THREE.Mesh(apGeo, apCrM);
+    crAP.scale.set(1, 0.8, 1.15);
     crAP.position.set(side * 1.35, 3.3, 2.3);
     addPart('proc-art-cr', crAP, group);
     const crFacet = new THREE.Mesh(facetGeo, facetM);
@@ -121,6 +180,7 @@ function buildVertebra({ ghost = false, z = 0 } = {}) {
     addPart('facies-articularis', crFacet, group);
 
     const caAP = new THREE.Mesh(apGeo, apCaM);
+    caAP.scale.set(1, 0.8, 1.15);
     caAP.position.set(side * 1.35, 3.3, -2.3);
     addPart('proc-art-ca', caAP, group);
     const caFacet = new THREE.Mesh(facetGeo, facetM);
