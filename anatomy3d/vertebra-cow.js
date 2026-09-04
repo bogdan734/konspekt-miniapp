@@ -1,21 +1,31 @@
-// Інтерактивна 3D-модель грудного хребця ВРХ. Схематична процедурна геометрія
-// (не 3D-скан): форми спрощені для наочності, підписи й описи анатомічно точні.
+// Інтерактивна 3D-модель хребця ВРХ, з перемиканням між відділами хребта.
+// Шийний і поперековий відділи — гібридний режим (реальний 3D-скан кістки як
+// візуальна оболонка + окремі клікабельні маркери-"хотспоти" на анатомічних
+// орієнтирах). Грудний, крижовий і хвостовий — процедурна геометрія (кожна
+// структура — окремий меш, тому можна ховати частини й бачити внутрішні
+// структури; для сканів це технічно неможливо на єдиній зшитій поверхні).
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import { STRUCTURES, CATEGORY_ORDER, VIEWS, SPECIES_NOTE } from './vertebra-cow-data.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { REGIONS, REGION_ORDER, VIEWS, ATTRIBUTIONS } from './vertebra-regions.js';
 
 const COLOR = {
   bone: 0xEFE6D0, boneDark: 0xD9C9A3, cartilage: 0x6FA8D6,
   ghost: 0xC9BFA6, highlight: 0xFF8A3D, quizHit: 0x2fae66,
-  quizMiss: 0xd3453c, quiz: 0x3DA5FF, canal: 0x9FD1E8,
+  quizMiss: 0xd3453c, quiz: 0x3DA5FF, canal: 0x9FD1E8, hotspot: 0x3DA5FF,
 };
 
 function mat(color, opts = {}) {
   return new THREE.MeshStandardMaterial({ color, roughness: 0.82, metalness: 0.04, ...opts });
 }
 
-const structureById = Object.fromEntries(STRUCTURES.map(s => [s.id, s]));
-const parts = {}; // id -> THREE.Mesh[]
+// ---------- стан поточного відділу (мутується при перемиканні) ----------
+let structureById = {};
+let currentStructures = [];
+let currentCategoryOrder = [];
+let currentMode = 'procedural';
+let currentRegionId = null;
+const parts = {}; // id -> THREE.Mesh[], перебудовується щоразу при зміні відділу
 
 // Проста процедурна текстура кістки (плямистість + поздовжні волокна), щоб
 // поверхня не виглядала пластиковою. Ніяких зовнішніх файлів — усе canvas'ом.
@@ -58,7 +68,7 @@ function addPart(id, mesh, group) {
   return mesh;
 }
 
-// ---------- геометрія хребця ----------
+// ---------- ГРУДНИЙ ВІДДІЛ: процедурна геометрія ----------
 // ghost: спрощена напівпрозора копія сусіднього хребця (контекст, не клікабельна).
 function buildVertebra({ ghost = false, z = 0 } = {}) {
   const group = new THREE.Group();
@@ -204,6 +214,189 @@ function buildVertebra({ ghost = false, z = 0 } = {}) {
   return group;
 }
 
+// Обгортає основний хребець + 2 напівпрозорих сусідніх + маркери міжхребцевого
+// отвору в ОДНУ групу, яку можна цілком додати/прибрати при зміні відділу.
+function buildThoracicScene() {
+  const group = new THREE.Group();
+  group.add(buildVertebra());
+  group.add(buildVertebra({ ghost: true, z: 6.6 }));
+  group.add(buildVertebra({ ghost: true, z: -6.6 }));
+
+  const ivfGeo = new THREE.SphereGeometry(0.4, 14, 12);
+  const ivfCranial = new THREE.Mesh(ivfGeo, mat(0x2b2b2b, { transparent: true, opacity: 0.85 }));
+  ivfCranial.position.set(1.7, 1.9, 4.2);
+  addPart('foramen-intervertebrale', ivfCranial, group);
+  const ivfCaudal = new THREE.Mesh(ivfGeo, mat(0x2b2b2b, { transparent: true, opacity: 0.85 }));
+  ivfCaudal.position.set(1.7, 1.9, -4.2);
+  addPart('foramen-intervertebrale', ivfCaudal, group);
+
+  return group;
+}
+
+// ---------- КРИЖОВИЙ ВІДДІЛ: процедурна геометрія (5 зрощених сегментів) ----------
+function buildSacrum() {
+  const group = new THREE.Group();
+  const boneMat = () => mat(0xffffff, { map: BONE_TEX });
+  const darkMat = () => mat(COLOR.boneDark);
+  const nSeg = 5, segLen = 2.1, total = segLen * nSeg;
+
+  // Тіло — зрощені сегменти, що звужуються каудально (крижова кістка ширша
+  // й масивніша краніально, де вона несе основне навантаження від тазу).
+  const profile = [];
+  for (let i = 0; i <= nSeg; i++) {
+    const t = i / nSeg;
+    const r = THREE.MathUtils.lerp(2.35, 0.95, t);
+    const notch = (i > 0 && i < nSeg) ? 0.85 : 1; // легке звуження між сегментами
+    profile.push(new THREE.Vector2(r * notch, i * segLen));
+  }
+  const corpus = new THREE.Mesh(new THREE.LatheGeometry(profile, 28), boneMat());
+  corpus.rotation.x = Math.PI / 2;
+  corpus.position.z = total / 2;
+  corpus.scale.y = 0.72; // сплюснута дорзовентрально
+  addPart('corpus', corpus, group);
+
+  // Крило крижа — велика трикутна пластинка на краніальному кінці, для
+  // зчленування з клубовою кісткою (facies auricularis), спрямована
+  // краніолатерально й трохи дорзально.
+  const alaShape = new THREE.Shape();
+  alaShape.moveTo(0, -1.3);
+  alaShape.lineTo(4.4, 1.4);
+  alaShape.lineTo(3.2, 3.2);
+  alaShape.lineTo(0, 1.5);
+  alaShape.closePath();
+  for (const side of [-1, 1]) {
+    const alaGeo = new THREE.ExtrudeGeometry(alaShape, { depth: 0.6, bevelEnabled: false });
+    alaGeo.translate(0, 0, -0.3);
+    const ala = new THREE.Mesh(alaGeo, boneMat());
+    ala.scale.x = side * 0.95;
+    ala.rotation.y = -side * 0.18;
+    ala.position.set(side * 2.15, 0.35, total - segLen * 1.15);
+    addPart('ala', ala, group);
+  }
+
+  // Серединний крижовий гребінь — зубчастий гребінь по дорзальній лінії,
+  // утворений злиттям остистих відростків, знижується каудально.
+  for (let i = 0; i < nSeg; i++) {
+    const h = 0.95 - i * 0.13;
+    const crest = new THREE.Mesh(new THREE.BoxGeometry(0.32, Math.max(h, 0.3), segLen * 0.8), darkMat());
+    crest.position.set(0, 1.65 + h / 2, total - segLen / 2 - i * segLen);
+    addPart('crista-sacralis', crest, group);
+  }
+
+  // Крижовий канал — порожнистий по всій довжині зрощеної кістки.
+  const canal = new THREE.Mesh(
+    new THREE.CylinderGeometry(0.7, 0.5, total, 20, 1, true),
+    mat(COLOR.canal, { transparent: true, opacity: 0.35, side: THREE.DoubleSide }));
+  canal.rotation.x = Math.PI / 2;
+  canal.position.set(0, 1.15, total / 2);
+  addPart('canalis-sacralis', canal, group);
+
+  // Дорзальні й вентральні крижові отвори — по 4 пари, між сусідніми сегментами.
+  const foramenGeo = new THREE.CylinderGeometry(0.3, 0.3, 0.3, 14);
+  for (let i = 1; i < nSeg; i++) {
+    const zc = total - i * segLen;
+    for (const side of [-1, 1]) {
+      const fd = new THREE.Mesh(foramenGeo, darkMat());
+      fd.position.set(side * 1.05, 1.55, zc);
+      addPart('foramina-dorsalia', fd, group);
+      const fv = new THREE.Mesh(foramenGeo, darkMat());
+      fv.position.set(side * 1.25, -0.55, zc);
+      addPart('foramina-ventralia', fv, group);
+    }
+  }
+
+  return group;
+}
+
+// ---------- ХВОСТОВИЙ ВІДДІЛ: процедурна геометрія (3 сегменти, що звужуються) ----------
+// У ВРХ хвостові хребці спрощуються каудально: дуга й відростки чітко виражені
+// лише в проксимальних сегментах, дистальні — практично гладкі кісткові стрижні.
+function buildCaudal() {
+  const group = new THREE.Group();
+  const boneMat = () => mat(0xffffff, { map: BONE_TEX });
+  const darkMat = () => mat(COLOR.boneDark);
+  const segLen = 3.2;
+  const radii = [1.25, 0.8, 0.48, 0.3];
+  let zCursor = 0;
+
+  for (let i = 0; i < 3; i++) {
+    const r0 = radii[i], r1 = radii[i + 1];
+    const profile = [
+      new THREE.Vector2(r0 * 0.88, 0), new THREE.Vector2(r0, 0.35),
+      new THREE.Vector2((r0 + r1) / 2, segLen / 2), new THREE.Vector2(r1, segLen - 0.35),
+      new THREE.Vector2(r1 * 0.88, segLen),
+    ];
+    const corpus = new THREE.Mesh(new THREE.LatheGeometry(profile, 20), boneMat());
+    corpus.rotation.x = Math.PI / 2;
+    corpus.position.z = zCursor;
+    corpus.scale.y = 0.82;
+    addPart('corpus', corpus, group);
+
+    // Дуга й відростки — лише на перших двох (проксимальних) сегментах; у
+    // дистальних хвостових хребцях ВРХ дуга редукується до кісткової пластинки.
+    if (i < 2) {
+      const arch = new THREE.Mesh(new THREE.BoxGeometry(r0 * 1.15, 0.5, segLen * 0.7), boneMat());
+      arch.position.set(0, r0 * 0.8, zCursor + segLen / 2);
+      addPart('arcus', arch, group);
+
+      const tpGeo = new THREE.CylinderGeometry(0.16, 0.34, segLen * 0.65, 10);
+      for (const side of [-1, 1]) {
+        const tp = new THREE.Mesh(tpGeo, boneMat());
+        tp.rotation.z = -side * Math.PI / 2.3;
+        tp.position.set(side * r0 * 1.7, -0.05, zCursor + segLen / 2);
+        addPart('proc-transversus', tp, group);
+      }
+
+      // Гемальний відросток/дуга — вентрально, захищає хвостову артерію/вену;
+      // добре виражений лише в перших хвостових хребцях.
+      const hemGeo = new THREE.BoxGeometry(0.28, 0.85, segLen * 0.45);
+      for (const side of [-1, 1]) {
+        const hem = new THREE.Mesh(hemGeo, darkMat());
+        hem.position.set(side * 0.32, -r0 * 0.9, zCursor + segLen / 2);
+        hem.rotation.z = side * 0.16;
+        addPart('proc-hemalis', hem, group);
+      }
+    }
+    zCursor += segLen * 0.82;
+  }
+
+  return group;
+}
+
+// ---------- ШИЙНИЙ / ПОПЕРЕКОВИЙ ВІДДІЛИ: гібридний режим (скан + хотспоти) ----------
+const gltfLoader = new GLTFLoader();
+
+function loadScanGroup(region) {
+  return new Promise((resolve, reject) => {
+    gltfLoader.load(region.asset, (gltf) => {
+      const group = new THREE.Group();
+      const shell = gltf.scene;
+      shell.traverse((child) => {
+        if (child.isMesh) {
+          // Після децимації нормалі скану можуть бути відсутні/пошкоджені —
+          // без них MeshStandardMaterial виглядає суцільно чорним (dot(N,L)=0).
+          child.geometry.computeVertexNormals();
+          child.material = mat(0xffffff, { map: BONE_TEX, side: THREE.DoubleSide });
+          // Оболонка скану — суцільна зшита поверхня без окремих структур,
+          // тому вимикаємо для неї raycast: клік завжди «проходить крізь»
+          // і влучає у маркер-хотспот, а не в поверхню під ним.
+          child.raycast = () => {};
+        }
+      });
+      group.add(shell);
+
+      const hotspotGeo = new THREE.SphereGeometry(0.42, 14, 12);
+      for (const s of region.structures) {
+        if (!s.position) continue;
+        const hs = new THREE.Mesh(hotspotGeo, mat(COLOR.hotspot, { transparent: true, opacity: 0.55 }));
+        hs.position.set(...s.position);
+        addPart(s.id, hs, group);
+      }
+      resolve(group);
+    }, undefined, reject);
+  });
+}
+
 // ---------- сцена ----------
 const canvas = document.getElementById('scene');
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
@@ -222,17 +415,6 @@ scene.add(fillLight);
 
 const root = new THREE.Group();
 scene.add(root);
-root.add(buildVertebra());
-root.add(buildVertebra({ ghost: true, z: 6.6 }));
-root.add(buildVertebra({ ghost: true, z: -6.6 }));
-
-const ivfGeo = new THREE.SphereGeometry(0.4, 14, 12);
-const ivfCranial = new THREE.Mesh(ivfGeo, mat(0x2b2b2b, { transparent: true, opacity: 0.85 }));
-ivfCranial.position.set(1.7, 1.9, 4.2);
-addPart('foramen-intervertebrale', ivfCranial, root);
-const ivfCaudal = new THREE.Mesh(ivfGeo, mat(0x2b2b2b, { transparent: true, opacity: 0.85 }));
-ivfCaudal.position.set(1.7, 1.9, -4.2);
-addPart('foramen-intervertebrale', ivfCaudal, root);
 
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
@@ -283,7 +465,7 @@ const infoTitle = document.getElementById('infoTitle');
 const infoLatin = document.getElementById('infoLatin');
 const infoText = document.getElementById('infoText');
 const listEl = document.getElementById('structureList');
-const rowByID = {};
+let rowByID = {};
 
 function renderInfo(s) {
   infoCard.hidden = false;
@@ -297,6 +479,7 @@ function syncListSelection(id) {
 }
 
 function selectPart(id) {
+  if (!structureById[id]) return;
   if (quizMode) return handleQuizGuess(id);
   clearHighlight();
   selectedID = id;
@@ -313,7 +496,7 @@ canvas.addEventListener('pointerdown', (ev) => {
   const raycaster = new THREE.Raycaster();
   raycaster.setFromCamera(pointer, camera);
   const hit = raycaster.intersectObjects(root.children, true)
-    .find(i => i.object.userData.partID);
+    .find(i => i.object.userData.partID && parts[i.object.userData.partID]);
   if (hit) selectPart(hit.object.userData.partID);
 });
 
@@ -326,26 +509,34 @@ function toggleVisible(id, eyeBtn) {
 }
 
 function buildList() {
-  for (const cat of CATEGORY_ORDER) {
-    const group = STRUCTURES.filter(s => s.category === cat);
+  listEl.innerHTML = '';
+  rowByID = {};
+  const cats = (currentCategoryOrder && currentCategoryOrder.length) ? currentCategoryOrder : [null];
+  for (const cat of cats) {
+    const group = cat ? currentStructures.filter(s => s.category === cat) : currentStructures;
     if (!group.length) continue;
-    const h = document.createElement('div');
-    h.className = 'cat-heading';
-    h.textContent = cat;
-    listEl.appendChild(h);
+    if (cat) {
+      const h = document.createElement('div');
+      h.className = 'cat-heading';
+      h.textContent = cat;
+      listEl.appendChild(h);
+    }
     for (const s of group) {
       const row = document.createElement('div');
       row.className = 'struct-row';
       const btn = document.createElement('button');
       btn.className = 'struct-btn';
-      btn.innerHTML = `<span class="name">${s.short}</span><span class="la">${s.la}</span>`;
+      btn.innerHTML = `<span class="name">${s.short || s.ua}</span><span class="la">${s.la}</span>`;
       btn.onclick = () => selectPart(s.id);
-      const eye = document.createElement('button');
-      eye.className = 'eye-btn';
-      eye.setAttribute('aria-label', 'Показати / приховати');
-      eye.textContent = '\u{1F441}';
-      eye.onclick = (e) => { e.stopPropagation(); toggleVisible(s.id, eye); };
-      row.append(btn, eye);
+      row.append(btn);
+      if (currentMode !== 'scan') {
+        const eye = document.createElement('button');
+        eye.className = 'eye-btn';
+        eye.setAttribute('aria-label', 'Показати / приховати');
+        eye.textContent = '\u{1F441}';
+        eye.onclick = (e) => { e.stopPropagation(); toggleVisible(s.id, eye); };
+        row.append(eye);
+      }
       listEl.appendChild(row);
       rowByID[s.id] = row;
     }
@@ -392,6 +583,7 @@ rotateBtn.onclick = () => {
 let internalOn = false;
 const internalBtn = document.getElementById('toggleInternal');
 internalBtn.onclick = () => {
+  if (internalBtn.disabled) return;
   internalOn = !internalOn;
   internalBtn.classList.toggle('on', internalOn);
   for (const id of ['corpus', 'arcus', 'caput', 'fossa']) {
@@ -403,9 +595,111 @@ internalBtn.onclick = () => {
       m.material.needsUpdate = true;
     }
   }
-  const canal = parts['foramen-vertebrae'];
+  const canal = parts['foramen-vertebrae'] || parts['canalis-sacralis'];
   if (canal) for (const m of canal) m.material.opacity = internalOn ? 0.85 : 0.35;
 };
+
+// ---------- перемикач відділів хребта + атрибуція ----------
+const regionTabsEl = document.getElementById('regionTabs');
+const attributionEl = document.getElementById('attribution');
+const regionTabButtons = {};
+
+for (const id of REGION_ORDER) {
+  const region = REGIONS[id];
+  const b = document.createElement('button');
+  b.className = 'region-btn';
+  b.textContent = region.short;
+  b.onclick = () => loadRegion(id);
+  regionTabsEl.appendChild(b);
+  regionTabButtons[id] = b;
+}
+
+function syncRegionTabs() {
+  for (const [id, btn] of Object.entries(regionTabButtons)) btn.classList.toggle('on', id === currentRegionId);
+}
+
+function updateAttribution(regionId) {
+  const a = ATTRIBUTIONS.find(x => x.region === regionId);
+  if (!a) { attributionEl.hidden = true; attributionEl.innerHTML = ''; return; }
+  attributionEl.hidden = false;
+  attributionEl.innerHTML = `3D-скан кістки: <a href="${a.url}" target="_blank" rel="noopener noreferrer">${a.author}</a> `
+    + `(${a.source}), ліцензія ${a.license}.`;
+}
+
+function clearRegion() {
+  clearHighlight();
+  selectedID = null;
+  infoCard.hidden = true;
+  while (root.children.length) {
+    const obj = root.children.pop();
+    root.remove(obj);
+    obj.traverse((c) => { if (c.geometry) c.geometry.dispose(); });
+  }
+  for (const k of Object.keys(parts)) delete parts[k];
+}
+
+let loadToken = 0;
+
+async function loadRegion(regionId) {
+  const region = REGIONS[regionId];
+  if (!region) return;
+  const token = ++loadToken;
+
+  currentStructures = region.structures;
+  currentCategoryOrder = region.categoryOrder || [];
+  structureById = Object.fromEntries(currentStructures.map(s => [s.id, s]));
+  currentMode = region.mode;
+
+  let group;
+  if (region.mode === 'scan') {
+    try {
+      group = await loadScanGroup(region);
+    } catch (err) {
+      console.error('Не вдалося завантажити 3D-скан для відділу', regionId, err);
+      if (token !== loadToken) return;
+      clearRegion();
+      currentRegionId = regionId;
+      infoCard.hidden = false;
+      infoTitle.textContent = 'Помилка завантаження';
+      infoLatin.textContent = '';
+      infoText.textContent = 'Не вдалося завантажити 3D-модель цього відділу. Перевір з’єднання й спробуй ще раз.';
+      syncRegionTabs();
+      return;
+    }
+    if (token !== loadToken) return; // користувач уже перемкнув на інший відділ
+  } else if (region.builder === 'thoracic') {
+    group = buildThoracicScene();
+  } else if (region.builder === 'sacral') {
+    group = buildSacrum();
+  } else if (region.builder === 'caudal') {
+    group = buildCaudal();
+  }
+
+  clearRegion();
+  currentRegionId = regionId;
+  root.add(group);
+
+  const isScan = region.mode === 'scan';
+  internalBtn.disabled = isScan;
+  internalBtn.classList.toggle('disabled', isScan);
+  if (isScan && internalOn) {
+    internalOn = false;
+    internalBtn.classList.remove('on');
+  }
+
+  document.getElementById('introTitle').textContent = region.intro.title;
+  document.getElementById('introLatin').textContent = region.intro.la;
+  document.getElementById('introText').textContent = region.intro.text;
+  updateAttribution(regionId);
+
+  buildList();
+  syncRegionTabs();
+  camera.position.set(...VIEWS[0].position);
+  controls.target.set(0, 0, 0);
+  controls.update();
+
+  if (quizMode) startQuiz();
+}
 
 // ---------- режим самоперевірки ----------
 let quizMode = false;
@@ -445,12 +739,12 @@ function updateQuizScore() {
 
 function renderQuizChoices() {
   quizChoices.innerHTML = '';
-  const others = shuffle(STRUCTURES.map(s => s.id).filter(id => id !== quizTarget));
+  const others = shuffle(currentStructures.map(s => s.id).filter(id => id !== quizTarget));
   const choices = shuffle([quizTarget, ...others.slice(0, 3)]);
   for (const id of choices) {
     const b = document.createElement('button');
     b.className = 'choice-btn';
-    b.textContent = structureById[id].short;
+    b.textContent = structureById[id].short || structureById[id].ua;
     b.onclick = () => submitQuizAnswer(id, true);
     quizChoices.appendChild(b);
   }
@@ -458,7 +752,7 @@ function renderQuizChoices() {
 
 function nextQuizQuestion() {
   clearHighlight();
-  if (!quizPool.length) quizPool = STRUCTURES.map(s => s.id);
+  if (!quizPool.length) quizPool = currentStructures.map(s => s.id);
   quizTarget = quizPool.splice(Math.floor(Math.random() * quizPool.length), 1)[0];
   selectedID = quizTarget;
   setEmissive(quizTarget, COLOR.quiz, 0.6);
@@ -471,8 +765,9 @@ function nextQuizQuestion() {
 }
 
 function startQuiz() {
-  quizPool = STRUCTURES.map(s => s.id)
+  quizPool = currentStructures.map(s => s.id)
     .filter(id => !parts[id] || parts[id][0].visible !== false);
+  if (!quizPool.length) quizPool = currentStructures.map(s => s.id);
   quizScore = { correct: 0, total: 0 };
   updateQuizScore();
   nextQuizQuestion();
@@ -521,8 +816,5 @@ quizInput.addEventListener('keydown', (e) => {
 });
 document.getElementById('quizNext').onclick = () => nextQuizQuestion();
 
-// ---------- ініціалізація UI ----------
-document.getElementById('introTitle').textContent = SPECIES_NOTE.title;
-document.getElementById('introLatin').textContent = SPECIES_NOTE.la;
-document.getElementById('introText').textContent = SPECIES_NOTE.intro;
-buildList();
+// ---------- ініціалізація ----------
+loadRegion('thoracic');
