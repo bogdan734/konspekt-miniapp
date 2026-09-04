@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Хребець ВРХ · 3D · Конспект</title>
+<style>
+  :root {
+    --bg: #ffffff; --card: #f4f4f7; --text: #101014; --muted: #6b6b73;
+    --accent: #2f6fed; --accent-text: #ffffff;
+    --line: color-mix(in srgb, var(--muted) 22%, transparent);
+    --ok: #2f9e63; --bad: #d3453c; --quiz: #3da5ff;
+    --r-lg: 20px; --r-md: 14px; --r-sm: 10px; --tap: 44px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #101014; --card: #1c1c21; --text: #f2f2f4; --muted: #9a9aa3; }
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  }
+  button { font: inherit; border: 0; background: none; color: inherit; cursor: pointer; }
+  header { padding: 14px 16px 8px; }
+  .back { color: var(--accent); font-weight: 600; font-size: 14px; text-decoration: none; }
+  h1 { font-size: 21px; margin: 6px 0 0; letter-spacing: -0.01em; }
+  .latin { color: var(--muted); font-style: italic; font-size: 14px; margin-top: 2px; }
+  .intro { color: var(--muted); font-size: 13px; margin-top: 8px; line-height: 1.5; }
+  main {
+    display: grid; grid-template-columns: 1fr; gap: 12px; padding: 8px 12px 24px;
+    max-width: 1100px; margin: 0 auto;
+  }
+  @media (min-width: 860px) {
+    main { grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.8fr); align-items: start; }
+  }
+
+  .stage {
+    background: var(--card); border-radius: var(--r-lg); overflow: hidden;
+    display: flex; flex-direction: column;
+  }
+  #scene { width: 100%; height: 46vh; min-height: 320px; display: block; touch-action: none; }
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 12px;
+    border-top: 1px solid var(--line);
+  }
+  .tool-btn {
+    min-height: 38px; padding: 0 12px; border-radius: 999px; font-size: 13px; font-weight: 600;
+    background: color-mix(in srgb, var(--text) 6%, transparent); color: var(--text);
+  }
+  .tool-btn.on { background: var(--accent); color: var(--accent-text); }
+  .views {
+    display: flex; gap: 6px; overflow-x: auto; padding: 0 12px 10px; scrollbar-width: none;
+  }
+  .views::-webkit-scrollbar { display: none; }
+  .view-btn {
+    flex: none; min-height: 34px; padding: 0 12px; border-radius: 999px; font-size: 12px;
+    font-weight: 600; background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent);
+  }
+  .view-btn:active { opacity: .7; }
+  .card { background: var(--card); border-radius: var(--r-lg); padding: 14px 16px; }
+  .card h2 {
+    font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+    color: var(--muted); margin: 0 0 10px;
+  }
+
+  #infoCard b { font-size: 16px; }
+  #infoLatin { color: var(--muted); font-style: italic; font-size: 13px; display: block; margin: 2px 0 8px; }
+  #infoText { font-size: 14px; line-height: 1.55; }
+  #structureList { max-height: 42vh; overflow-y: auto; }
+  .cat-heading {
+    font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
+    color: var(--muted); margin: 12px 0 4px;
+  }
+  .cat-heading:first-child { margin-top: 0; }
+  .struct-row { display: flex; align-items: center; gap: 4px; }
+  .struct-btn {
+    flex: 1; text-align: left; min-height: var(--tap); padding: 6px 8px; border-radius: var(--r-sm);
+    display: flex; flex-direction: column; align-items: flex-start; gap: 1px;
+  }
+  .struct-btn .name { font-size: 14px; font-weight: 600; }
+  .struct-btn .la { font-size: 12px; color: var(--muted); font-style: italic; }
+  .struct-btn:active, .struct-row.active .struct-btn {
+    background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--accent);
+  }
+  .struct-row.active .struct-btn .la { color: var(--accent); opacity: .8; }
+  .eye-btn {
+    flex: none; width: 34px; height: 34px; border-radius: 50%; font-size: 16px;
+    display: grid; place-items: center; opacity: .85;
+  }
+  .eye-btn.off { opacity: .3; }
+
+  #quizPanel[hidden] { display: none; }
+  #quizPanel { display: flex; flex-direction: column; gap: 10px; }
+  #quizPrompt { font-size: 14px; }
+  #quizChoices { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .choice-btn {
+    min-height: var(--tap); border-radius: var(--r-md); padding: 8px 10px; font-size: 13px;
+    font-weight: 600; background: color-mix(in srgb, var(--text) 6%, transparent); text-align: left;
+  }
+  .quiz-row { display: flex; gap: 8px; }
+  #quizInput {
+    flex: 1; min-height: var(--tap); border-radius: var(--r-md); border: 1.5px solid var(--line);
+    background: var(--bg); color: var(--text); padding: 0 12px; font-size: 14px;
+  }
+  #quizSubmit, #quizNext {
+    min-height: var(--tap); padding: 0 16px; border-radius: var(--r-md); font-weight: 700;
+    background: var(--accent); color: var(--accent-text);
+  }
+  .quiz-feedback { font-size: 13px; font-weight: 600; min-height: 18px; }
+  .quiz-feedback.ok { color: var(--ok); }
+  .quiz-feedback.bad { color: var(--bad); }
+  #quizScoreWrap { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); }
+  #quizScore { font-weight: 700; color: var(--text); }
+  .hint { color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<header>
+  <a class="back" href="../index.html">← Конспект</a>
+  <h1 id="introTitle">Хребець</h1>
+  <div class="latin" id="introLatin">vertebra</div>
+  <div class="intro" id="introText"></div>
+</header>
+<main>
+  <div class="stage">
+    <canvas id="scene"></canvas>
+    <div class="views" id="viewButtons"></div>
+    <div class="toolbar">
+      <button class="tool-btn" id="zoomIn">+ Наблизити</button>
+      <button class="tool-btn" id="zoomOut">− Віддалити</button>
+      <button class="tool-btn" id="toggleAutoRotate">↻ Обертати</button>
+      <button class="tool-btn" id="toggleInternal">Внутрішні структури</button>
+      <button class="tool-btn" id="quizToggle">Самоперевірка</button>
+    </div>
+  </div>
+  <div>
+    <div class="card" id="infoCard" hidden style="margin-bottom:12px">
+      <h2>Обрана структура</h2>
+      <b id="infoTitle"></b>
+      <span id="infoLatin" class="latin"></span>
+      <div id="infoText"></div>
+    </div>
+
+    <div class="card" id="quizPanel" hidden style="margin-bottom:12px">
+      <h2>Самоперевірка</h2>
+      <div id="quizScoreWrap">
+        <span>Рахунок</span><span id="quizScore">0 / 0</span>
+      </div>
+      <p id="quizPrompt"></p>
+      <div class="quiz-row">
+        <input id="quizInput" type="text" placeholder="Назва українською або латиною…" autocomplete="off">
+        <button id="quizSubmit">OK</button>
+      </div>
+      <div id="quizChoices"></div>
+      <div class="quiz-feedback" id="quizFeedback"></div>
+      <button class="tool-btn" id="quizNext">Наступна структура →</button>
+    </div>
+    <div class="card">
+      <h2>Структури</h2>
+      <div class="hint">Обери зі списку, натисни на модель або сховай частину значком ока.</div>
+      <div id="structureList"></div>
+    </div>
+  </div>
+</main>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="vertebra-cow.js"></script>
+</body>
+</html>

@@ -101,6 +101,10 @@ const MONTHS = ['січня', 'лютого', 'березня', 'квітня', 
 // The semester this timetable belongs to; weeks 1 and 2 alternate from here.
 const SEMESTER_START = new Date('2025-09-01T00:00:00+03:00');
 
+// Офіційне джерело розкладу ФВМ122 — щоб можна було звірити з оригіналом.
+const OFFICIAL_SCHEDULE = week =>
+  `https://rozklad.lvet.edu.ua/public/?uni_faculty_id=1&faculty_id=35&course_id=104&group_id=364&week_type=${week}`;
+
 // Один сталий колір на предмет: розклад читається периферійним зором.
 const SUBJECT_HUE = {
   'Анатомія тварин': 222, 'Гістологія': 168, 'Хімія': 38, 'Латинська мова': 276,
@@ -336,6 +340,16 @@ function renderToday() {
 function dayTimeline(day, week, now) {
   const box = el('div', 'card');
   box.append(el('h2', null, day === universityWeekday(new Date()) ? 'Сьогодні' : WEEKDAYS[day - 1]));
+
+  const official = el('a', 'small', `Офіційний розклад (тиждень ${week}) ↗`);
+  official.href = OFFICIAL_SCHEDULE(week);
+  official.target = '_blank';
+  official.rel = 'noopener';
+  Object.assign(official.style, {
+    display: 'inline-block', color: 'var(--accent)', textDecoration: 'none', marginBottom: '10px',
+  });
+  box.append(official);
+
   const sessions = sessionsOf(day, week);
 
   if (!sessions.length) {
@@ -770,6 +784,20 @@ function renderTopicNotes(subject, topic) {
   head.append(el('h2', null, `${topic.id} · ${lesson.title}`));
   head.append(el('div', 'small', lesson.summary));
   view.append(head);
+
+  if (subject.id === 'anatomy-ua-full' && topic.id === 'T1') {
+    const promo = el('div', 'card');
+    promo.append(el('h2', null, '3D-модель'));
+    const link = el('a', 'go wide', '🐄 Інтерактивний хребець ВРХ · 3D');
+    link.href = 'anatomy3d/vertebra-cow.html';
+    link.style.display = 'block';
+    link.style.textAlign = 'center';
+    link.style.textDecoration = 'none';
+    promo.append(link);
+    promo.append(el('div', 'small muted',
+      'Обертання, види, приховування частин і режим самоперевірки з укр./лат. назвами.'));
+    view.append(promo);
+  }
 
   for (const section of lesson.sections) {
     const box = el('div', 'card');
