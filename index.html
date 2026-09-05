@@ -223,6 +223,17 @@
   .pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 11px;
           font-weight: 700; background: color-mix(in srgb, var(--ok) 18%, transparent); color: var(--ok); }
 
+  /* ---------- таблиці всередині секцій конспекту (напр. алфавіт) ---------- */
+  .table-wrap { overflow-x: auto; margin: 10px -4px 0; -webkit-overflow-scrolling: touch; }
+  .ltable { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  .ltable th, .ltable td { padding: 7px 8px; text-align: left; border-bottom: 1px solid var(--line);
+                            vertical-align: top; }
+  .ltable th { font-size: 10.5px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
+               color: var(--muted); white-space: nowrap; }
+  .ltable td:first-child { font-weight: 700; white-space: nowrap; }
+  .ltable tr:last-child td { border-bottom: none; }
+  .ltable .ex { color: var(--muted); }
+
   /* ---------- tab bar ---------- */
   nav {
     position: fixed; z-index: var(--z-nav); left: 0; right: 0; margin-inline: auto;
@@ -267,6 +278,6 @@
 </header>
 <main id="view"></main>
 <nav id="tabs" aria-label="Розділи"></nav>
-<script type="module" src="app.js?v=8c589a6e6f"></script>
+<script type="module" src="app.js?v=953cfe4bc9"></script>
 </body>
 </html>
