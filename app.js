@@ -208,6 +208,8 @@ function migrateReviews() {
 const subjectByID = id => data.subjects.find(s => s.id === id);
 const materialOf = (subject, topic) => data.material[`${subject.id}/${topic.id}`] ?? {};
 const topicsWith = (subject, kind) => subject.topics.filter(topic => topic[kind]);
+const topicLabel = (subject, topic) =>
+  subject.id === 'anatomy-ua-full' && topic.id === 'T1' ? 'T1ГС' : topic.id;
 
 /// The strip of subjects above the three study screens.
 function subjectStrip(kind, { all = false } = {}) {
@@ -510,7 +512,7 @@ function topicStrip(subject, kind, chosen) {
     // нічого не розрізняє, розрізняє хвіст.
     const tail = topic.title.split(/[.:]/).filter(part => part.trim()).pop().trim();
     const chip = el('button', `chip${topic.id === chosen.id ? ' on' : ''}`,
-      `<i></i>${topic.id} · ${tail}`);
+      `<i></i>${topicLabel(subject, topic)} · ${tail}`);
     chip.style.setProperty('--dot', `hsl(${subject.hue} 62% 52%)`);
     chip.onclick = () => {
       drill.topic = topic.id;
@@ -724,7 +726,7 @@ async function renderTopics() {
     box.append(el('h2', null, `Розділ ${section.number} · ${section.title}`));
     for (const topic of section.topics) {
       const row = el('div', 'row small');
-      row.append(el('span', 'time', topic.id));
+      row.append(el('span', 'time', topicLabel(subject, topic)));
       row.append(el('span', 'subject',
         topic.title + (ready.has(topic.id) ? ' <span class="pill">готово</span>' : '')));
       row.append(el('span', 'muted', `${topic.hours.lecture + topic.hours.lab} год`));
@@ -769,7 +771,7 @@ function topicList(subject, topics) {
   box.append(el('h2', null, 'Теми з конспектом'));
   for (const topic of topics) {
     const row = el('button', 'topic-row');
-    row.innerHTML = `<span class="tag">${topic.id}</span>
+    row.innerHTML = `<span class="tag">${topicLabel(subject, topic)}</span>
       <span class="name">${topic.title}</span>
       <span class="chev">${svg('<path d="m9 18 6-6-6-6"/>')}</span>`;
     row.onclick = () => { openTopic = topic.id; render('notes'); };
@@ -781,7 +783,7 @@ function topicList(subject, topics) {
 function renderTopicNotes(subject, topic) {
   const { lesson, notes } = materialOf(subject, topic);
   const head = el('div', 'card');
-  head.append(el('h2', null, `${topic.id} · ${lesson.title}`));
+  head.append(el('h2', null, `${topicLabel(subject, topic)} · ${lesson.title}`));
   head.append(el('div', 'small', lesson.summary));
   view.append(head);
 
