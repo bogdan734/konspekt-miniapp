@@ -1,0 +1,396 @@
+{
+  "title": "Classification of Animals",
+  "summary": "Лексика класифікації тварин: за середовищем (terrestrial / aquatic), за температурою тіла (cold- / warm-blooded), за хребтом (vertebrates / invertebrates), за їжею (herbivorous / carnivorous / omnivorous) і за ступенями систематики (phylum, order, species). Плюс жуйні та їхній складний шлунок — те, що прямо перетинається з анатомією.",
+  "sections": [
+    {
+      "heading": "Навіщо класифікація і як про неї говорять",
+      "body": "Тварин divide into groups за certain similarities — це arranging, a handy way опису величезної кількості видів. Одиниця класифікації — species (вид), вищі щаблі — phylum (тип) і order (ряд).",
+      "sourceSegmentIDs": [
+        1,
+        2,
+        3,
+        4,
+        20,
+        53,
+        54
+      ]
+    },
+    {
+      "heading": "За середовищем і способом руху",
+      "body": "Terrestrial animals живуть на суходолі, aquatic — у воді. Способи руху дають окремі дієслова: crawl (повзати, як worms і lizards), hop (стрибати), swim. Приклади з конспекту: octopuses і whales — водні, bats — ссавці, що літають, cheetahs — найшвидші наземні.",
+      "sourceSegmentIDs": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "heading": "Тепло- і холоднокровні",
+      "body": "Cold-blooded тварини залежать від surroundings: температура тіла змінюється разом із середовищем. Warm-blooded тримають сталу температуру regardless of the surroundings — саме заради цього слова regardless і записане в конспекті. Mammals — теплокровні.",
+      "sourceSegmentIDs": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "heading": "Хребетні та безхребетні",
+      "body": "Ознака — backbone. The vast majority видів не має хребта: invertebrates це clams, jellyfish, sea urchins, snails, sponges, worms. Хребетні — риби, амфібії, рептилії, птахи, mammals.",
+      "sourceSegmentIDs": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "heading": "За типом живлення",
+      "body": "Herbivorous їдять рослини, carnivorous — м'ясо (flesh-eating), omnivorous — і те, і те. Травоїдні as they consume coarse food (leaves, stems) мають травний тракт considerably larger, а жуйні — compound stomachs, здатні digesting coarse fibrous material. Unlike carnivorous тварин, їм потрібна additional salt: common salt is supplied окремо.",
+      "sourceSegmentIDs": [
+        29,
+        30,
+        31,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "heading": "Жуйні",
+      "body": "Ruminants (the ox — типовий приклад) chew the cud: повертають їжу з рубця й пережовують удруге. Саме тому вони capable of digesting грубий рослинний матеріал, який інші тварини utilize не можуть.",
+      "sourceSegmentIDs": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        52
+      ]
+    },
+    {
+      "heading": "Task 5: pets і wild animals",
+      "body": "Pets — animals who live in someone's home; representatives: parrot, fish, cats, dogs. Wild animals — animals that live in nature; representatives: bear, wolf, hog. Це шаблон відповіді: означення через who/that + перелік представників.",
+      "sourceSegmentIDs": [
+        55,
+        56,
+        57,
+        58,
+        59
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "species",
+      "latin": "[ˈspiːʃiːz]",
+      "definition": "вид — і однина, і множина однакові"
+    },
+    {
+      "term": "backbone",
+      "latin": null,
+      "definition": "хребет; ознака поділу на vertebrates / invertebrates"
+    },
+    {
+      "term": "invertebrates",
+      "latin": null,
+      "definition": "безхребетні: clams, jellyfish, sea urchins, snails, sponges"
+    },
+    {
+      "term": "herbivorous",
+      "latin": null,
+      "definition": "травоїдний (іменник — herbivore)"
+    },
+    {
+      "term": "carnivorous",
+      "latin": null,
+      "definition": "м'ясоїдний, хижий (іменник — carnivore)"
+    },
+    {
+      "term": "omnivorous",
+      "latin": null,
+      "definition": "всеїдний (іменник — omnivore)"
+    },
+    {
+      "term": "ruminants",
+      "latin": null,
+      "definition": "жуйні тварини; chew the cud"
+    },
+    {
+      "term": "compound stomachs",
+      "latin": null,
+      "definition": "складний (багатокамерний) шлунок жуйних"
+    },
+    {
+      "term": "coarse fibrous material",
+      "latin": null,
+      "definition": "грубоволокнистий корм"
+    },
+    {
+      "term": "regardless of",
+      "latin": null,
+      "definition": "незважаючи на; warm-blooded regardless of the surroundings"
+    },
+    {
+      "term": "vast majority",
+      "latin": null,
+      "definition": "переважна більшість"
+    },
+    {
+      "term": "phylum / order / species",
+      "latin": null,
+      "definition": "тип / ряд / вид — щаблі систематики"
+    }
+  ],
+  "homework": [
+    {
+      "kind": "term",
+      "prompt": "Give English words: наземні тварини, водні, холоднокровні, теплокровні, безхребетні, жуйні.",
+      "referenceAnswer": "terrestrial animals, aquatic animals, cold-blooded, warm-blooded, invertebrates, ruminants.",
+      "rubric": [
+        "усі шість перекладено",
+        "написання без помилок"
+      ],
+      "sourceSegmentIDs": [
+        5,
+        6,
+        15,
+        16,
+        23,
+        41
+      ]
+    },
+    {
+      "kind": "openQuestion",
+      "prompt": "Explain in English the difference between cold-blooded and warm-blooded animals. Use «surroundings» and «regardless».",
+      "referenceAnswer": "The body temperature of cold-blooded animals changes with their surroundings, while warm-blooded animals keep a constant temperature regardless of the surroundings.",
+      "rubric": [
+        "вжито surroundings",
+        "вжито regardless",
+        "думку сформульовано правильно"
+      ],
+      "sourceSegmentIDs": [
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "kind": "openQuestion",
+      "prompt": "Why is the digestive tract of herbivorous animals considerably larger? Answer in two sentences.",
+      "referenceAnswer": "As they consume coarse food — leaves and stems — herbivorous animals need a considerably larger digestive tract. Ruminants even have compound stomachs capable of digesting coarse fibrous material.",
+      "rubric": [
+        "названо coarse food",
+        "названо compound stomachs або більший тракт"
+      ],
+      "sourceSegmentIDs": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        43,
+        46,
+        47
+      ]
+    },
+    {
+      "kind": "caseStudy",
+      "prompt": "Sort into three groups and name the group: cow, wolf, pig, ox, cheetah, bear.",
+      "referenceAnswer": "Herbivorous: cow, ox. Carnivorous: wolf, cheetah. Omnivorous: pig, bear.",
+      "rubric": [
+        "три групи названо правильно",
+        "тварини розподілені без помилок"
+      ],
+      "sourceSegmentIDs": [
+        29,
+        30,
+        31,
+        40
+      ]
+    },
+    {
+      "kind": "term",
+      "prompt": "Task 5: give a definition and three representatives for pets and for wild animals.",
+      "referenceAnswer": "Pets are animals who live in someone's home: a parrot, a cat, a dog. Wild animals are animals that live in nature: a bear, a wolf, a hog.",
+      "rubric": [
+        "два означення",
+        "по три представники",
+        "структура who/that"
+      ],
+      "sourceSegmentIDs": [
+        55,
+        56,
+        57,
+        58,
+        59
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "front": "divide into",
+      "back": "поділяти на",
+      "sourceSegmentIDs": [
+        1
+      ]
+    },
+    {
+      "front": "certain similarities",
+      "back": "певні подібності",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "front": "arranging",
+      "back": "впорядкування",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "front": "a handy way",
+      "back": "зручний спосіб",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "front": "terrestrial animals",
+      "back": "наземні тварини",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "front": "aquatic animals",
+      "back": "водні тварини",
+      "sourceSegmentIDs": [
+        6
+      ]
+    },
+    {
+      "front": "lizards",
+      "back": "ящірки",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "front": "worms",
+      "back": "черви",
+      "sourceSegmentIDs": [
+        8
+      ]
+    },
+    {
+      "front": "octopuses",
+      "back": "восьминоги",
+      "sourceSegmentIDs": [
+        9
+      ]
+    },
+    {
+      "front": "whales",
+      "back": "кити",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "front": "bats",
+      "back": "кажани",
+      "sourceSegmentIDs": [
+        11
+      ]
+    },
+    {
+      "front": "crawl",
+      "back": "повзати",
+      "sourceSegmentIDs": [
+        12
+      ]
+    },
+    {
+      "front": "cheetahs",
+      "back": "гепарди",
+      "sourceSegmentIDs": [
+        13
+      ]
+    },
+    {
+      "front": "hop",
+      "back": "стрибати",
+      "sourceSegmentIDs": [
+        14
+      ]
+    },
+    {
+      "front": "cold-blooded",
+      "back": "холоднокровні",
+      "sourceSegmentIDs": [
+        15
+      ]
+    },
+    {
+      "front": "warm-blooded",
+      "back": "теплокровні",
+      "sourceSegmentIDs": [
+        16
+      ]
+    },
+    {
+      "front": "surroundings",
+      "back": "довкілля, середовище",
+      "sourceSegmentIDs": [
+        17
+      ]
+    },
+    {
+      "front": "regardless of",
+      "back": "незважаючи на",
+      "sourceSegmentIDs": [
+        18
+      ]
+    },
+    {
+      "front": "mammals",
+      "back": "ссавці",
+      "sourceSegmentIDs": [
+        19
+      ]
+    },
+    {
+      "front": "species",
+      "back": "вид [ˈspiːʃiːz]",
+      "sourceSegmentIDs": [
+        20
+      ]
+    }
+  ]
+}

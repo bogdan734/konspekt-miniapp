@@ -73,6 +73,14 @@
           "lesson": "english-ua/T2/lesson.json",
           "quiz": "english-ua/T2/quiz.json",
           "cards": "english-ua/T2/cards.json"
+        },
+        {
+          "id": "T3",
+          "title": "Classification of Animals",
+          "notes": "english-ua/T3/notes.json",
+          "lesson": "english-ua/T3/lesson.json",
+          "quiz": "english-ua/T3/quiz.json",
+          "cards": "english-ua/T3/cards.json"
         }
       ]
     },

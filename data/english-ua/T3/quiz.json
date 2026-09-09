@@ -1,0 +1,334 @@
+{
+  "questions": [
+    {
+      "prompt": "«Наземні тварини» англійською:",
+      "options": [
+        "aquatic animals",
+        "terrestrial animals",
+        "domestic animals",
+        "wild animals"
+      ],
+      "correctIndex": 1,
+      "explanation": "terra (земля) → terrestrial.",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "prompt": "Invertebrates — це тварини:",
+      "options": [
+        "з хребтом",
+        "без хребта",
+        "теплокровні",
+        "домашні"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ознака — backbone: без нього invertebrates.",
+      "sourceSegmentIDs": [
+        21,
+        23
+      ]
+    },
+    {
+      "prompt": "Хто з переліку НЕ належить до invertebrates?",
+      "options": [
+        "jellyfish",
+        "snails",
+        "whales",
+        "sea urchins"
+      ],
+      "correctIndex": 2,
+      "explanation": "Кити — ссавці, отже хребетні.",
+      "sourceSegmentIDs": [
+        10,
+        23,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "prompt": "«Жуйні тварини»:",
+      "options": [
+        "carnivores",
+        "ruminants",
+        "invertebrates",
+        "omnivores"
+      ],
+      "correctIndex": 1,
+      "explanation": "ruminants — chew the cud.",
+      "sourceSegmentIDs": [
+        41,
+        42
+      ]
+    },
+    {
+      "prompt": "Chew the cud означає:",
+      "options": [
+        "ковтати цілком",
+        "жувати жуйку",
+        "пити воду",
+        "гризти кістку"
+      ],
+      "correctIndex": 1,
+      "explanation": "Повертають їжу з рубця й пережовують удруге.",
+      "sourceSegmentIDs": [
+        42
+      ]
+    },
+    {
+      "prompt": "Warm-blooded тварини тримають температуру:",
+      "options": [
+        "залежно від середовища",
+        "незважаючи на середовище",
+        "тільки взимку",
+        "лише під час руху"
+      ],
+      "correctIndex": 1,
+      "explanation": "…regardless of the surroundings.",
+      "sourceSegmentIDs": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "prompt": "«Всеїдні»:",
+      "options": [
+        "herbivorous",
+        "carnivorous",
+        "omnivorous",
+        "flesh-eating"
+      ],
+      "correctIndex": 2,
+      "explanation": "omni- (все) + vorous (той, що їсть).",
+      "sourceSegmentIDs": [
+        31
+      ]
+    },
+    {
+      "prompt": "Чому травоїдні мають більший травний тракт?",
+      "options": [
+        "бо більші за розміром",
+        "бо споживають грубу їжу",
+        "бо п'ють більше води",
+        "бо теплокровні"
+      ],
+      "correctIndex": 1,
+      "explanation": "As they consume coarse food — leaves and stems.",
+      "sourceSegmentIDs": [
+        33,
+        34,
+        35,
+        37
+      ]
+    },
+    {
+      "prompt": "Compound stomachs — це:",
+      "options": [
+        "порожній шлунок",
+        "складний багатокамерний шлунок",
+        "хворий шлунок",
+        "шлунок хижака"
+      ],
+      "correctIndex": 1,
+      "explanation": "Складний шлунок жуйних, здатний перетравлювати грубий корм.",
+      "sourceSegmentIDs": [
+        46,
+        47
+      ]
+    },
+    {
+      "prompt": "«Species» перекладається як:",
+      "options": [
+        "тип",
+        "ряд",
+        "вид",
+        "клас"
+      ],
+      "correctIndex": 2,
+      "explanation": "phylum — тип, order — ряд, species — вид.",
+      "sourceSegmentIDs": [
+        20,
+        53,
+        54
+      ]
+    },
+    {
+      "prompt": "«Vast majority» означає:",
+      "options": [
+        "невелика частина",
+        "переважна більшість",
+        "рівно половина",
+        "жоден"
+      ],
+      "correctIndex": 1,
+      "explanation": "vast majority of species — переважна більшість видів.",
+      "sourceSegmentIDs": [
+        22
+      ]
+    },
+    {
+      "prompt": "Sponges — це:",
+      "options": [
+        "губчаста тканина",
+        "губки, тварини типу Porifera",
+        "водорості",
+        "мушлі"
+      ],
+      "correctIndex": 1,
+      "explanation": "Це тварини, а не прикметник «губчастий».",
+      "sourceSegmentIDs": [
+        28
+      ]
+    },
+    {
+      "prompt": "«Кажани» англійською:",
+      "options": [
+        "rats",
+        "bats",
+        "cats",
+        "bugs"
+      ],
+      "correctIndex": 1,
+      "explanation": "bats — кажани, єдині ссавці, що літають.",
+      "sourceSegmentIDs": [
+        11
+      ]
+    },
+    {
+      "prompt": "Crawl означає:",
+      "options": [
+        "стрибати",
+        "повзати",
+        "пливти",
+        "летіти"
+      ],
+      "correctIndex": 1,
+      "explanation": "crawl — повзати; hop — стрибати.",
+      "sourceSegmentIDs": [
+        12,
+        14
+      ]
+    },
+    {
+      "prompt": "Flesh-eating — це:",
+      "options": [
+        "той, що їсть сире",
+        "плотоїдний, м'ясоїдний",
+        "той, що їсть траву",
+        "всеїдний"
+      ],
+      "correctIndex": 1,
+      "explanation": "flesh — м'ясо; про термічну обробку слово нічого не каже.",
+      "sourceSegmentIDs": [
+        50
+      ]
+    },
+    {
+      "prompt": "The ox — це:",
+      "options": [
+        "вівця",
+        "віл",
+        "кінь",
+        "олень"
+      ],
+      "correctIndex": 1,
+      "explanation": "the ox — віл, класичний приклад жуйної тварини.",
+      "sourceSegmentIDs": [
+        40
+      ]
+    },
+    {
+      "prompt": "«Незважаючи на»:",
+      "options": [
+        "due to",
+        "unlike",
+        "regardless of",
+        "as they"
+      ],
+      "correctIndex": 2,
+      "explanation": "regardless of the surroundings.",
+      "sourceSegmentIDs": [
+        18,
+        45,
+        49
+      ]
+    },
+    {
+      "prompt": "Unlike перекладається як:",
+      "options": [
+        "подібно до",
+        "на відміну від",
+        "разом з",
+        "завдяки"
+      ],
+      "correctIndex": 1,
+      "explanation": "unlike carnivorous animals — на відміну від хижих.",
+      "sourceSegmentIDs": [
+        45
+      ]
+    },
+    {
+      "prompt": "Морські їжаки:",
+      "options": [
+        "jellyfish",
+        "sea urchins",
+        "clams",
+        "snails"
+      ],
+      "correctIndex": 1,
+      "explanation": "sea urchins — морські їжаки.",
+      "sourceSegmentIDs": [
+        26
+      ]
+    },
+    {
+      "prompt": "У Task 5 pets означають як:",
+      "options": [
+        "animals that live in nature",
+        "animals who live in someone's home",
+        "animals that give milk",
+        "animals with a backbone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pets — animals who live in someone's home.",
+      "sourceSegmentIDs": [
+        55,
+        56
+      ]
+    },
+    {
+      "prompt": "Додаткова сіль потрібна насамперед:",
+      "options": [
+        "хижакам",
+        "травоїдним",
+        "рибам",
+        "безхребетним"
+      ],
+      "correctIndex": 1,
+      "explanation": "Unlike carnivorous, травоїдним common salt is supplied окремо.",
+      "sourceSegmentIDs": [
+        38,
+        39,
+        45,
+        51
+      ]
+    },
+    {
+      "prompt": "Utilize означає:",
+      "options": [
+        "утилізувати як сміття",
+        "використовувати",
+        "уникати",
+        "перетравлювати"
+      ],
+      "correctIndex": 1,
+      "explanation": "utilize — використовувати; перетравлювати — digest.",
+      "sourceSegmentIDs": [
+        44,
+        52
+      ]
+    }
+  ]
+}

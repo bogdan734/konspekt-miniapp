@@ -216,5 +216,320 @@
     "sourceSegmentIDs": [
       76
     ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "vertebrae lumbales",
+    "back": "поперекові хребці",
+    "sourceSegmentIDs": [
+      83
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "processus costo-transversarius",
+    "back": "поперечно-реберний відросток",
+    "sourceSegmentIDs": [
+      84
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "processus accessorius",
+    "back": "додатковий відросток (у собаки)",
+    "sourceSegmentIDs": [
+      94
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "foramen vertebrale laterale",
+    "back": "латеральний хребцевий отвір",
+    "sourceSegmentIDs": [
+      94
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Поперекові: кінь / корова / свиня / собака",
+    "back": "6 · 6 · 7 · 7",
+    "sourceSegmentIDs": [
+      86
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Поперекові фасетки: кінь і собака",
+    "back": "плоскі краніальні й каудальні",
+    "sourceSegmentIDs": [
+      89
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Поперекові фасетки: корова і свиня",
+    "back": "краніальні увігнуті, каудальні випуклі",
+    "sourceSegmentIDs": [
+      90
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "os sacrum",
+    "back": "крижова кістка",
+    "sourceSegmentIDs": [
+      95
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "promontorium",
+    "back": "мис крижової кістки",
+    "sourceSegmentIDs": [
+      96
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "crista sacralis mediana",
+    "back": "середній крижовий гребінь — зрослі остисті відростки",
+    "sourceSegmentIDs": [
+      97
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "crista sacralis lateralis",
+    "back": "бічний крижовий гребінь — зрослі суглобові відростки",
+    "sourceSegmentIDs": [
+      97
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "ala ossis sacri",
+    "back": "крило крижової кістки",
+    "sourceSegmentIDs": [
+      98
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "facies auricularis",
+    "back": "вушкоподібна поверхня на крилі",
+    "sourceSegmentIDs": [
+      98
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "canalis sacralis",
+    "back": "крижовий канал",
+    "sourceSegmentIDs": [
+      99
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Крижових хребців: кінь / корова / свиня / собака",
+    "back": "5 · 5 · 4 · 3",
+    "sourceSegmentIDs": [
+      100
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Зрощення крижових хребців",
+    "back": "кінь 4,5 р · корова 3–3,5 р · свиня 1,5 р · собака 6 міс",
+    "sourceSegmentIDs": [
+      105
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "vertebrae caudales",
+    "back": "хвостові хребці",
+    "sourceSegmentIDs": [
+      107
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "arcus haemalis",
+    "back": "гемальна дужка — для середньої хвостової артерії",
+    "sourceSegmentIDs": [
+      110
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Гемальні дужки є у…",
+    "back": "собаки і жуйних",
+    "sourceSegmentIDs": [
+      113
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Хвостових хребців: кінь / корова / свиня / собака",
+    "back": "18 · 18–20 · 20–23 · 20–23",
+    "sourceSegmentIDs": [
+      111
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "vertebrae cervicales",
+    "back": "шийні хребці",
+    "sourceSegmentIDs": [
+      115
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "foramen transversarium",
+    "back": "поперечний отвір в основі відростка",
+    "sourceSegmentIDs": [
+      116
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Скільки шийних хребців",
+    "back": "завжди сім, незалежно від довжини шиї",
+    "sourceSegmentIDs": [
+      119
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Бічні хребцеві отвори є лише у…",
+    "back": "свині",
+    "sourceSegmentIDs": [
+      126
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "atlas",
+    "back": "перший шийний хребець, без тіла",
+    "sourceSegmentIDs": [
+      127
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "arcus dorsalis / arcus ventralis",
+    "back": "дорсальна і вентральна дужки атланта",
+    "sourceSegmentIDs": [
+      127
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "fovea dentis",
+    "back": "ямка зуба на вентральній дужці атланта",
+    "sourceSegmentIDs": [
+      128
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "ala atlantis",
+    "back": "крило атланта",
+    "sourceSegmentIDs": [
+      129
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "fossa alaris / foramen alare",
+    "back": "крилова ямка / криловий отвір",
+    "sourceSegmentIDs": [
+      129
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Крилова ямка: кінь / корова / свиня / собака",
+    "back": "глибока · мілка · глибока · плоска",
+    "sourceSegmentIDs": [
+      131
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "У кого криловий отвір замінений вирізкою",
+    "back": "у собаки",
+    "sourceSegmentIDs": [
+      133
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "axis seu epistropheus",
+    "back": "епістрофей — другий шийний хребець",
+    "sourceSegmentIDs": [
+      134
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "latin",
+    "front": "dens epistrophei",
+    "back": "зубоподібний відросток епістрофея",
+    "sourceSegmentIDs": [
+      134
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Зуб епістрофея: кінь / корова / свиня / собака",
+    "back": "напівциліндричний · порожнистий напівциліндричний · конічний тупий · циліндричний видовжений",
+    "sourceSegmentIDs": [
+      135
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Остистий гребінь епістрофея у собаки",
+    "back": "сильно розвинений, дзьобоподібний",
+    "sourceSegmentIDs": [
+      137
+    ]
   }
 ]

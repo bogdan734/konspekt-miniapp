@@ -1,0 +1,123 @@
+{
+  "curriculumID": "english-ua",
+  "subjectTitle": "Іноземна мова (за професійним спрямуванням)",
+  "topicID": "T3",
+  "title": "Classification of Animals",
+  "pages": [
+    {
+      "index": 0,
+      "confidence": 1,
+      "lines": [
+        "Class work 03.09.2026 — Classification of Animals",
+        "divide into — поділяють",
+        "certain similarities — певні подібності",
+        "arranging — впорядкування",
+        "a handy way — easy way, зручний спосіб",
+        "terrestrial animals — наземні тварини",
+        "aquatic animals — водні",
+        "lizards — ящірки",
+        "worms — черви",
+        "octopuses — восьминоги",
+        "whales — кити",
+        "bats — кажани",
+        "crawl — повзати",
+        "cheetahs — гепарди",
+        "hop — jump, стрибати",
+        "cold-blooded — холоднокровні",
+        "warm-blooded — теплокровні",
+        "surroundings — довкілля, середовище",
+        "regardless — незважаючи (на)",
+        "mammals — ссавці"
+      ]
+    },
+    {
+      "index": 1,
+      "confidence": 1,
+      "lines": [
+        "species [ˈspiːʃiːz] — вид",
+        "backbone — хребет",
+        "vast majority — переважна більшість",
+        "invertebrates — безхребетні",
+        "clams — двостулкові молюски",
+        "jellyfish — медузи",
+        "sea urchins — морські їжаки",
+        "snails — равлики",
+        "sponges — губки",
+        "herbivorous — травоїдні",
+        "carnivorous — м'ясоїдні",
+        "omnivorous — всеїдні",
+        "domestic — домашні",
+        "as they consume — оскільки вони споживають",
+        "coarse food — груба їжа",
+        "leaves — листя",
+        "stems — стебла",
+        "considerably larger — значно більший",
+        "is supplied — забезпечується",
+        "common salt — кухонна сіль",
+        "the ox — віл",
+        "ruminants — жуйні тварини"
+      ]
+    },
+    {
+      "index": 2,
+      "confidence": 1,
+      "lines": [
+        "chew the cud — жувати жуйку",
+        "capable of — бути здатним",
+        "digesting — перетравлювати",
+        "unlike — на відміну від",
+        "coarse fibrous material — грубоволокнистий матеріал",
+        "compound stomachs — складний шлунок",
+        "carnivorous — хижі",
+        "due to — через щось, завдяки",
+        "flesh-eating — плотоїдні",
+        "additional salt — додаткові солі",
+        "utilize — використовувати",
+        "phylum — тип",
+        "order — ряд",
+        "TASK 5. Classifications: pets",
+        "Def.: an animal who lives in someone's home",
+        "Representatives: parrot, fish, cats, dogs",
+        "Wild animals — animals that live in nature",
+        "Representatives: bear, wolf, hog"
+      ]
+    }
+  ],
+  "corrections": [
+    {
+      "asWritten": "terrertrial",
+      "correct": "terrestrial",
+      "note": "terra (земля) → terrestrial: дві r не поруч, а через s-t"
+    },
+    {
+      "asWritten": "cheetash",
+      "correct": "cheetahs",
+      "note": "cheetah + s; sh на кінці немає"
+    },
+    {
+      "asWritten": "octopures",
+      "correct": "octopuses",
+      "note": "множина octopus → octopuses (у наукових текстах octopodes, але не octopures)"
+    },
+    {
+      "asWritten": "flesh-eating — сироїди",
+      "correct": "flesh-eating — плотоїдні, м'ясоїдні",
+      "note": "flesh — м'ясо, а не «сире»: слово нічого не каже про термічну обробку"
+    },
+    {
+      "asWritten": "As the consume",
+      "correct": "As they consume",
+      "note": "пропущений підмет they"
+    },
+    {
+      "asWritten": "sponges — губчаті",
+      "correct": "sponges — губки",
+      "note": "це тварини (тип Porifera), а не прикметник «губчастий»"
+    }
+  ],
+  "checks": [
+    "carnivorous і herbivorous — прикметники, а іменники будуть carnivore і herbivore. У Task 5 це різні колонки, не переплутай.",
+    "Біля carnivorous на полях написано «non rhotic» — це про вимову: у британській r на кінці складу не вимовляється, [ˈkɑːnɪvərəs]. Перевір, чи саме це мав на увазі викладач.",
+    "clams — це саме двостулкові (мідії, устриці), а molluscs — увесь тип. У тесті можуть питати різницю."
+  ]
+}

@@ -1,0 +1,461 @@
+[
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "divide into",
+    "back": "поділяти на",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "certain similarities",
+    "back": "певні подібності",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "arranging",
+    "back": "впорядкування",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "a handy way",
+    "back": "зручний спосіб",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "terrestrial animals",
+    "back": "наземні тварини",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "aquatic animals",
+    "back": "водні тварини",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "lizards",
+    "back": "ящірки",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "worms",
+    "back": "черви",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "octopuses",
+    "back": "восьминоги",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "whales",
+    "back": "кити",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "bats",
+    "back": "кажани",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "crawl",
+    "back": "повзати",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "cheetahs",
+    "back": "гепарди",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "hop",
+    "back": "стрибати",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "cold-blooded",
+    "back": "холоднокровні",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "warm-blooded",
+    "back": "теплокровні",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "surroundings",
+    "back": "довкілля, середовище",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "regardless of",
+    "back": "незважаючи на",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "mammals",
+    "back": "ссавці",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "species",
+    "back": "вид [ˈspiːʃiːz]",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "backbone",
+    "back": "хребет",
+    "sourceSegmentIDs": [
+      21
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "vast majority",
+    "back": "переважна більшість",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "invertebrates",
+    "back": "безхребетні",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "clams",
+    "back": "двостулкові молюски",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "jellyfish",
+    "back": "медузи",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "sea urchins",
+    "back": "морські їжаки",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "snails",
+    "back": "равлики",
+    "sourceSegmentIDs": [
+      27
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "sponges",
+    "back": "губки",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "herbivorous",
+    "back": "травоїдні",
+    "sourceSegmentIDs": [
+      29
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "carnivorous",
+    "back": "м'ясоїдні, хижі",
+    "sourceSegmentIDs": [
+      30
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "omnivorous",
+    "back": "всеїдні",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "domestic",
+    "back": "домашні",
+    "sourceSegmentIDs": [
+      32
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "as they consume",
+    "back": "оскільки вони споживають",
+    "sourceSegmentIDs": [
+      33
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "coarse food",
+    "back": "груба їжа",
+    "sourceSegmentIDs": [
+      34
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "leaves / stems",
+    "back": "листя / стебла",
+    "sourceSegmentIDs": [
+      35
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "considerably larger",
+    "back": "значно більший",
+    "sourceSegmentIDs": [
+      37
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "is supplied",
+    "back": "забезпечується",
+    "sourceSegmentIDs": [
+      38
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "common salt",
+    "back": "кухонна сіль",
+    "sourceSegmentIDs": [
+      39
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "the ox",
+    "back": "віл",
+    "sourceSegmentIDs": [
+      40
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "ruminants",
+    "back": "жуйні тварини",
+    "sourceSegmentIDs": [
+      41
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "chew the cud",
+    "back": "жувати жуйку",
+    "sourceSegmentIDs": [
+      42
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "capable of",
+    "back": "бути здатним",
+    "sourceSegmentIDs": [
+      43
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "digesting",
+    "back": "перетравлювати",
+    "sourceSegmentIDs": [
+      44
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "unlike",
+    "back": "на відміну від",
+    "sourceSegmentIDs": [
+      45
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "coarse fibrous material",
+    "back": "грубоволокнистий матеріал",
+    "sourceSegmentIDs": [
+      46
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "compound stomachs",
+    "back": "складний шлунок",
+    "sourceSegmentIDs": [
+      47
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "due to",
+    "back": "через, завдяки",
+    "sourceSegmentIDs": [
+      49
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "flesh-eating",
+    "back": "плотоїдний",
+    "sourceSegmentIDs": [
+      50
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "additional salt",
+    "back": "додаткові солі",
+    "sourceSegmentIDs": [
+      51
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "utilize",
+    "back": "використовувати",
+    "sourceSegmentIDs": [
+      52
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "phylum / order",
+    "back": "тип / ряд",
+    "sourceSegmentIDs": [
+      53
+    ]
+  }
+]
