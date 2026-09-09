@@ -44,6 +44,21 @@
         30,
         31
       ]
+    },
+    {
+      "heading": "Слова — переклад",
+      "body": "higher school — вищий навчальний заклад\nchair — кафедра\nfaculty — факультет\nfull-time studies — стаціонарне навчання\nextra-mural studies — заочне навчання\nto run — керувати\nto head — очолювати\nto train — навчати, готувати фахівців\nveterinary doctor — ветеринарний лікар\nlecture-hall — лекційна зала\nhostel — гуртожиток\npostgraduate — аспірант\nto do research — проводити дослідження\nat the students' disposal — у розпорядженні студентів\nbachelor — бакалавр\nmaster — магістр\nclinic — клініка\nmuseum — музей\nsports complex — спортивний комплекс",
+      "sourceSegmentIDs": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ]
     }
   ],
   "glossary": [
