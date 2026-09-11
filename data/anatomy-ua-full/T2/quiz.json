@@ -281,6 +281,290 @@
       "sourceSegmentIDs": [
         44
       ]
+    },
+    {
+      "prompt": "Скільки частин має потилична кістка?",
+      "options": [
+        "Дві",
+        "Три",
+        "Чотири",
+        "П'ять"
+      ],
+      "correctIndex": 2,
+      "explanation": "Тіло, луска і дві бокові частини навколо foramen magnum.",
+      "sourceSegmentIDs": [
+        65
+      ]
+    },
+    {
+      "prompt": "Де лежить ямка для довгастого мозку?",
+      "options": [
+        "На лусці",
+        "На pars basilaris",
+        "На боковій частині",
+        "На яремному відростку"
+      ],
+      "correctIndex": 1,
+      "explanation": "fossa medullae oblongatae — на мозковій поверхні тіла.",
+      "sourceSegmentIDs": [
+        66
+      ]
+    },
+    {
+      "prompt": "Що розташоване на бокових частинах потиличної кістки?",
+      "options": [
+        "Потиличний гребінь",
+        "Виростки, яремні відростки, під'язикові отвори",
+        "Луска",
+        "М'язовий горбик"
+      ],
+      "correctIndex": 1,
+      "explanation": "condyli occipitales, processus jugularis, foramen hypoglossi.",
+      "sourceSegmentIDs": [
+        69
+      ]
+    },
+    {
+      "prompt": "Дорсальний край луски потиличної кістки називається:",
+      "options": [
+        "crista sagittalis",
+        "crista occipitalis",
+        "linea nuchae",
+        "margo orbitalis"
+      ],
+      "correctIndex": 1,
+      "explanation": "crista occipitalis — потиличний гребінь.",
+      "sourceSegmentIDs": [
+        67
+      ]
+    },
+    {
+      "prompt": "У кого великий потиличний отвір трикутний?",
+      "options": [
+        "У коня і корови",
+        "У свині й собаки",
+        "Тільки у корови",
+        "Тільки у коня"
+      ],
+      "correctIndex": 1,
+      "explanation": "Кінь і корова — круглий; свиня і собака — трикутний.",
+      "sourceSegmentIDs": [
+        83
+      ]
+    },
+    {
+      "prompt": "Яремні відростки дуже довгі, прямі, вентрально — у:",
+      "options": [
+        "коня",
+        "корови",
+        "свині",
+        "собаки"
+      ],
+      "correctIndex": 2,
+      "explanation": "Свиня; у собаки короткі та прямі.",
+      "sourceSegmentIDs": [
+        75
+      ]
+    },
+    {
+      "prompt": "У кого немає потиличного гребеня?",
+      "options": [
+        "у коня",
+        "у корови",
+        "у свині",
+        "у собаки"
+      ],
+      "correctIndex": 1,
+      "explanation": "Корова; у свині широкий ввігнутий.",
+      "sourceSegmentIDs": [
+        80
+      ]
+    },
+    {
+      "prompt": "Зовнішній сагітальний гребінь є у:",
+      "options": [
+        "коня і собаки",
+        "корови і свині",
+        "усіх",
+        "тільки корови"
+      ],
+      "correctIndex": 0,
+      "explanation": "У корови і свині його немає.",
+      "sourceSegmentIDs": [
+        77,
+        90
+      ]
+    },
+    {
+      "prompt": "Виростковий канал потиличної кістки є у:",
+      "options": [
+        "коня і свині",
+        "корови і собаки",
+        "усіх",
+        "нікого"
+      ],
+      "correctIndex": 1,
+      "explanation": "Каудальніше під'язикового отвору у корови і собаки.",
+      "sourceSegmentIDs": [
+        82
+      ]
+    },
+    {
+      "prompt": "Що є на внутрішній поверхні тім'яної кістки?",
+      "options": [
+        "Вискова ямка",
+        "Пальцеві втиснення і мозкові гребені",
+        "Роговий відросток",
+        "Лобова пазуха"
+      ],
+      "correctIndex": 1,
+      "explanation": "impressiones digitatae, juga cerebralia, sulci vasculosi.",
+      "sourceSegmentIDs": [
+        86
+      ]
+    },
+    {
+      "prompt": "Міжтім'яна кістка відсутня у:",
+      "options": [
+        "коня",
+        "корови",
+        "свині",
+        "собаки"
+      ],
+      "correctIndex": 2,
+      "explanation": "Кінь чотирикутна, корова трикутна, свиня відсутня, собака серцевидна.",
+      "sourceSegmentIDs": [
+        92
+      ]
+    },
+    {
+      "prompt": "Міжтім'яна кістка помітна:",
+      "options": [
+        "у дорослих",
+        "лише у плодів і новонароджених",
+        "лише у старих",
+        "у всіх однаково"
+      ],
+      "correctIndex": 1,
+      "explanation": "У дорослих зростається з потиличною і тім'яними.",
+      "sourceSegmentIDs": [
+        91
+      ]
+    },
+    {
+      "prompt": "Скільки частин має лобова кістка?",
+      "options": [
+        "Дві",
+        "Три",
+        "Чотири",
+        "П'ять"
+      ],
+      "correctIndex": 1,
+      "explanation": "Лобно-носова, вискова, очна.",
+      "sourceSegmentIDs": [
+        94
+      ]
+    },
+    {
+      "prompt": "Який гребінь відділяє носову і очну частини лобової кістки?",
+      "options": [
+        "crista frontalis externa",
+        "margo orbitalis",
+        "crista orbito-temporalis",
+        "crista temporalis"
+      ],
+      "correctIndex": 1,
+      "explanation": "margo orbitalis — орбітальний край.",
+      "sourceSegmentIDs": [
+        95
+      ]
+    },
+    {
+      "prompt": "Надочноямковий отвір відсутній у:",
+      "options": [
+        "коня",
+        "корови",
+        "свині",
+        "собаки"
+      ],
+      "correctIndex": 3,
+      "explanation": "У собаки foramen supraorbitale немає.",
+      "sourceSegmentIDs": [
+        100
+      ]
+    },
+    {
+      "prompt": "Блокова ямка fossa trochlearis на лобовій кістці — ознака:",
+      "options": [
+        "коня",
+        "корови",
+        "свині",
+        "собаки"
+      ],
+      "correctIndex": 0,
+      "explanation": "На орбітальній поверхні у коня.",
+      "sourceSegmentIDs": [
+        102
+      ]
+    },
+    {
+      "prompt": "Рогові відростки відходять від:",
+      "options": [
+        "виличного відростка",
+        "заднього лобового гребеня",
+        "тім'яної кістки",
+        "потиличної луски"
+      ],
+      "correctIndex": 1,
+      "explanation": "crista frontalis caudalis корови.",
+      "sourceSegmentIDs": [
+        103
+      ]
+    },
+    {
+      "prompt": "Турецьке сідло лежить на:",
+      "options": [
+        "пресфеноїді",
+        "базисфеноїді",
+        "лусці потиличної",
+        "лобовій кістці"
+      ],
+      "correctIndex": 1,
+      "explanation": "fossa hypophysialis = sella turcica на базисфеноїді.",
+      "sourceSegmentIDs": [
+        106
+      ]
+    },
+    {
+      "prompt": "Що відрізняє 7-й шийний хребець від 6-го?",
+      "options": [
+        "Є поперечний отвір",
+        "Немає поперечно-реберного відростка і поперечного отвору",
+        "Немає остистого відростка",
+        "Є гемальна дужка"
+      ],
+      "correctIndex": 1,
+      "explanation": "Лише поперечний відросток без отвору, плюс каудальні реберні ямки.",
+      "sourceSegmentIDs": [
+        60,
+        61
+      ]
+    },
+    {
+      "prompt": "У кого поперечно-реберний відросток 6-го шийного ділиться на три гілки?",
+      "options": [
+        "у коня",
+        "у корови",
+        "у свині",
+        "у собаки"
+      ],
+      "correctIndex": 0,
+      "explanation": "Кінь; у свині віялоподібний, у корови широкий довгий.",
+      "sourceSegmentIDs": [
+        56,
+        57,
+        58
+      ]
     }
   ]
 }

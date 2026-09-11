@@ -313,5 +313,410 @@
     "sourceSegmentIDs": [
       54
     ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "6-й шийний у коня",
+    "back": "поперечно-реберний відросток ділиться на 3 гілки",
+    "sourceSegmentIDs": [
+      56
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "7-й шийний хребець",
+    "back": "немає поперечно-реберного відростка і поперечного отвору; є каудальні реберні ямки",
+    "sourceSegmentIDs": [
+      60
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "os occipitale",
+    "back": "потилична кістка — 4 частини навколо foramen magnum",
+    "sourceSegmentIDs": [
+      65
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "pars basilaris",
+    "back": "тіло потиличної: fossa medullae oblongatae, fossa pontis, tuberculum musculare",
+    "sourceSegmentIDs": [
+      66
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "squama occipitalis",
+    "back": "луска потиличної кістки; край — crista occipitalis",
+    "sourceSegmentIDs": [
+      67
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "protuberantia occipitalis externa",
+    "back": "зовнішнє потиличне підвищення на facies nuchalis",
+    "sourceSegmentIDs": [
+      68
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "condyli occipitales",
+    "back": "потиличні виростки — для атланта",
+    "sourceSegmentIDs": [
+      69
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "processus jugularis",
+    "back": "яремний відросток",
+    "sourceSegmentIDs": [
+      69
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "foramen hypoglossi",
+    "back": "під'язиковий отвір",
+    "sourceSegmentIDs": [
+      69
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "canalis nervi hypoglossi",
+    "back": "канал під'язикового нерва",
+    "sourceSegmentIDs": [
+      70
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "crista nuchae / linea nuchae",
+    "back": "карковий гребінь / каркова лінія",
+    "sourceSegmentIDs": [
+      70
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "meatus acusticus externus",
+    "back": "зовнішній слуховий прохід",
+    "sourceSegmentIDs": [
+      71
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "bulla tympanica",
+    "back": "барабанний міхур",
+    "sourceSegmentIDs": [
+      71
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "processus mastoideus",
+    "back": "соскоподібний відросток скроневої кістки",
+    "sourceSegmentIDs": [
+      71
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "processus cornualis",
+    "back": "роговий відросток; collum — шийка, corona — вінчик",
+    "sourceSegmentIDs": [
+      72
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "os lacrimale",
+    "back": "слізна кістка; fossa sacci lacrimalis — ямка слізного мішка",
+    "sourceSegmentIDs": [
+      72
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Тіло потиличної: кінь / корова / свиня / собака",
+    "back": "циліндричне · циліндричне коротке широке · сплющене · сплющене",
+    "sourceSegmentIDs": [
+      74
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Яремні відростки: кінь / корова / свиня / собака",
+    "back": "прямі · короткі загнуті медіально · дуже довгі вентрально · короткі прямі",
+    "sourceSegmentIDs": [
+      75
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Crista sagittalis externa є у…",
+    "back": "коня і собаки; у корови і свині немає",
+    "sourceSegmentIDs": [
+      77
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Потиличний гребінь відсутній у…",
+    "back": "корови",
+    "sourceSegmentIDs": [
+      80
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Виростковий канал є у…",
+    "back": "корови і собаки, каудальніше під'язикового отвору",
+    "sourceSegmentIDs": [
+      82
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Великий потиличний отвір: форма",
+    "back": "кінь і корова круглий · свиня і собака трикутний",
+    "sourceSegmentIDs": [
+      83
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "os parietale",
+    "back": "тім'яна кістка",
+    "sourceSegmentIDs": [
+      85
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "impressiones digitatae / juga cerebralia",
+    "back": "пальцеві втиснення / мозкові гребені на мозковій поверхні",
+    "sourceSegmentIDs": [
+      86
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "sulci vasculosi",
+    "back": "судинні борозни",
+    "sourceSegmentIDs": [
+      86
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "crista temporalis",
+    "back": "висковий гребінь тім'яної кістки (корова, свиня)",
+    "sourceSegmentIDs": [
+      88
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "sinus parietalis",
+    "back": "тім'яна пазуха у дорослої свині",
+    "sourceSegmentIDs": [
+      89
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "os interparietale",
+    "back": "міжтім'яна кістка — лише у плодів і новонароджених",
+    "sourceSegmentIDs": [
+      91
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Міжтім'яна: кінь / корова / свиня / собака",
+    "back": "чотирикутна · трикутна · відсутня · серцевидна",
+    "sourceSegmentIDs": [
+      92
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "tentorium cerebelli osseum",
+    "back": "кістково-мозочкове шатро (собака)",
+    "sourceSegmentIDs": [
+      92
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "os frontale",
+    "back": "лобова кістка",
+    "sourceSegmentIDs": [
+      93
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Частини лобової кістки",
+    "back": "лобно-носова · вискова · очна",
+    "sourceSegmentIDs": [
+      94
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "crista frontalis externa",
+    "back": "зовнішній лобний гребінь — між лобною і висковою частинами",
+    "sourceSegmentIDs": [
+      95
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "margo orbitalis",
+    "back": "орбітальний край — між носовою і очною частинами",
+    "sourceSegmentIDs": [
+      95
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "crista orbito-temporalis",
+    "back": "очно-висковий гребінь",
+    "sourceSegmentIDs": [
+      95
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "processus zygomaticus ossis frontalis",
+    "back": "виличний відросток лобової кістки",
+    "sourceSegmentIDs": [
+      96
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "foramen ethmoideum",
+    "back": "решітчастий отвір на очній поверхні",
+    "sourceSegmentIDs": [
+      97
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "foramen supraorbitale",
+    "back": "надочноямковий отвір; у собаки відсутній",
+    "sourceSegmentIDs": [
+      97
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "sinus frontalis",
+    "back": "лобова пазуха",
+    "sourceSegmentIDs": [
+      96
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Надочноямковий отвір відсутній у…",
+    "back": "собаки",
+    "sourceSegmentIDs": [
+      100
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "fossa trochlearis",
+    "back": "блокова ямка на орбітальній поверхні лобової кістки коня",
+    "sourceSegmentIDs": [
+      102
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "crista frontalis caudalis",
+    "back": "задній лобовий (міжроговий) гребінь корови",
+    "sourceSegmentIDs": [
+      103
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "os sphenoidale",
+    "back": "клиноподібна кістка: corpus, ala orbitalis, ala temporalis, processus pterygoideus",
+    "sourceSegmentIDs": [
+      105
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "sella turcica",
+    "back": "турецьке сідло — fossa hypophysialis на базисфеноїді",
+    "sourceSegmentIDs": [
+      106
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "sulcus chiasmatis / foramen opticum",
+    "back": "борозна зорового перехрестя / зоровий отвір на пресфеноїді",
+    "sourceSegmentIDs": [
+      106
+    ]
   }
 ]

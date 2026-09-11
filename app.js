@@ -718,11 +718,11 @@ async function renderTopics() {
   }
 
   // Рядок програми «готовий», коли його живить хоч один запис.
-  const ready = new Set(subject.topics.map(topic => topic.syllabus ?? topic.id));
+  const rowsOf = topic => [].concat(topic.syllabus ?? topic.id);
+  const ready = new Set(subject.topics.flatMap(rowsOf));
   const sources = {};
   for (const topic of subject.topics) {
-    const row = topic.syllabus ?? topic.id;
-    sources[row] = (sources[row] ?? 0) + 1;
+    for (const row of rowsOf(topic)) sources[row] = (sources[row] ?? 0) + 1;
   }
   const curriculum = await load(subject.curriculum);
   if (tab !== 'topics') return;   // встигли перемкнутися, поки вантажилось

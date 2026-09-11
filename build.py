@@ -87,7 +87,8 @@ def main() -> int:
                 topic = {"id": topic_id, "title": notes["title"],
                          # який рядок програми живить цей запис: один рядок може
                          # мати кілька джерел — зошит і методичку
-                         "syllabus": notes.get("syllabusTopicID", topic_id),
+                         "syllabus": notes.get("syllabusTopicIDs")
+                                     or [notes.get("syllabusTopicID", topic_id)],
                          "notes": None, "lesson": None, "quiz": None, "cards": None}
                 (folder / "notes.json").write_text(
                     notes_file.read_text(encoding="utf-8"), encoding="utf-8")

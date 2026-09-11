@@ -10,7 +10,9 @@
         {
           "id": "T1",
           "title": "Анатомічна термінологія. Площини і напрямки. Будова кістки і хребця",
-          "syllabus": "T1",
+          "syllabus": [
+            "T1"
+          ],
           "notes": "anatomy-ua-full/T1/notes.json",
           "lesson": "anatomy-ua-full/T1/lesson.json",
           "quiz": "anatomy-ua-full/T1/quiz.json",
@@ -18,8 +20,11 @@
         },
         {
           "id": "T2",
-          "title": "Хребці за методичкою",
-          "syllabus": "T1",
+          "title": "Методичка: хребці й череп",
+          "syllabus": [
+            "T1",
+            "T2"
+          ],
           "notes": "anatomy-ua-full/T2/notes.json",
           "lesson": "anatomy-ua-full/T2/lesson.json",
           "quiz": "anatomy-ua-full/T2/quiz.json",
@@ -37,7 +42,9 @@
         {
           "id": "T1",
           "title": "Латинський алфавіт і правила читання",
-          "syllabus": "T1",
+          "syllabus": [
+            "T1"
+          ],
           "notes": "latin-ua/T1/notes.json",
           "lesson": "latin-ua/T1/lesson.json",
           "quiz": "latin-ua/T1/quiz.json",
@@ -55,7 +62,9 @@
         {
           "id": "T3",
           "title": "Основні класи неорганічних сполук",
-          "syllabus": "T3",
+          "syllabus": [
+            "T3"
+          ],
           "notes": "chemistry-ua/T3/notes.json",
           "lesson": "chemistry-ua/T3/lesson.json",
           "quiz": "chemistry-ua/T3/quiz.json",
@@ -73,7 +82,9 @@
         {
           "id": "T1",
           "title": "Our University. Part 1: Modern Times",
-          "syllabus": "T1",
+          "syllabus": [
+            "T1"
+          ],
           "notes": "english-ua/T1/notes.json",
           "lesson": "english-ua/T1/lesson.json",
           "quiz": "english-ua/T1/quiz.json",
@@ -82,7 +93,9 @@
         {
           "id": "T2",
           "title": "Our University. Part 2: History",
-          "syllabus": "T2",
+          "syllabus": [
+            "T2"
+          ],
           "notes": "english-ua/T2/notes.json",
           "lesson": "english-ua/T2/lesson.json",
           "quiz": "english-ua/T2/quiz.json",
@@ -91,7 +104,9 @@
         {
           "id": "T3",
           "title": "Classification of Animals",
-          "syllabus": "T3",
+          "syllabus": [
+            "T3"
+          ],
           "notes": "english-ua/T3/notes.json",
           "lesson": "english-ua/T3/lesson.json",
           "quiz": "english-ua/T3/quiz.json",
