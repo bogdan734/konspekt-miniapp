@@ -717,7 +717,13 @@ async function renderTopics() {
     return view.append(box);
   }
 
-  const ready = new Set(subject.topics.map(topic => topic.id));
+  // Рядок програми «готовий», коли його живить хоч один запис.
+  const ready = new Set(subject.topics.map(topic => topic.syllabus ?? topic.id));
+  const sources = {};
+  for (const topic of subject.topics) {
+    const row = topic.syllabus ?? topic.id;
+    sources[row] = (sources[row] ?? 0) + 1;
+  }
   const curriculum = await load(subject.curriculum);
   if (tab !== 'topics') return;   // встигли перемкнутися, поки вантажилось
 
@@ -727,8 +733,10 @@ async function renderTopics() {
     for (const topic of section.topics) {
       const row = el('div', 'row small');
       row.append(el('span', 'time', topicLabel(subject, topic)));
-      row.append(el('span', 'subject',
-        topic.title + (ready.has(topic.id) ? ' <span class="pill">готово</span>' : '')));
+      const badge = ready.has(topic.id)
+        ? ` <span class="pill">готово${sources[topic.id] > 1 ? ` · ${sources[topic.id]} дж.` : ''}</span>`
+        : '';
+      row.append(el('span', 'subject', topic.title + badge));
       row.append(el('span', 'muted', `${topic.hours.lecture + topic.hours.lab} год`));
       box.append(row);
     }
