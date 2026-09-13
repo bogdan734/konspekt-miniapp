@@ -85,6 +85,8 @@ def main() -> int:
                 folder.mkdir(parents=True, exist_ok=True)
 
                 topic = {"id": topic_id, "title": notes["title"],
+                         # підпис у списку: «T1ГС» — голосове, «TV» — відео
+                         "label": notes.get("label", topic_id),
                          # який рядок програми живить цей запис: один рядок може
                          # мати кілька джерел — зошит і методичку
                          "syllabus": notes.get("syllabusTopicIDs")

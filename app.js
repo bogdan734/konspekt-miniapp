@@ -208,8 +208,7 @@ function migrateReviews() {
 const subjectByID = id => data.subjects.find(s => s.id === id);
 const materialOf = (subject, topic) => data.material[`${subject.id}/${topic.id}`] ?? {};
 const topicsWith = (subject, kind) => subject.topics.filter(topic => topic[kind]);
-const topicLabel = (subject, topic) =>
-  subject.id === 'anatomy-ua-full' && topic.id === 'T1' ? 'T1ГС' : topic.id;
+const topicLabel = (subject, topic) => topic.label ?? topic.id;
 
 /// The strip of subjects above the three study screens.
 function subjectStrip(kind, { all = false } = {}) {
@@ -806,6 +805,20 @@ function renderTopicNotes(subject, topic) {
     promo.append(link);
     promo.append(el('div', 'small muted',
       'Обертання, види, приховування частин і режим самоперевірки з укр./лат. назвами.'));
+    view.append(promo);
+  }
+
+  if (notes?.source?.kind === 'video') {
+    const promo = el('div', 'card');
+    promo.append(el('h2', null, 'Відео'));
+    const link = el('a', 'go wide', `▶ Дивитись на YouTube · ${notes.source.duration}`);
+    link.href = notes.source.url;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    Object.assign(link.style, { display: 'block', textAlign: 'center', textDecoration: 'none' });
+    promo.append(link);
+    promo.append(el('div', 'small muted',
+      `${notes.source.author}. Кожен розділ нижче має мітку часу — у конспекті це рядки «ВІДЕО …».`));
     view.append(promo);
   }
 

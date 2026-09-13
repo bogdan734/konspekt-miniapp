@@ -1,0 +1,573 @@
+[
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "vertebrae cervicales",
+    "back": "шийні хребці",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Скільки шийних хребців у свійських тварин",
+    "back": "7, незалежно від довжини шиї",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Які шийні хребці типові",
+    "back": "3, 4, 5, 6-й; особливі — 1, 2 і 7-й",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "atlas",
+    "back": "атлант — перший шийний хребець",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Чому атлант — несправжній хребець",
+    "back": "бо не має тіла хребця",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "arcus dorsalis",
+    "back": "дорсальна дуга атланта",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "arcus ventralis",
+    "back": "вентральна дуга атланта",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "massa lateralis",
+    "back": "бічна маса атланта",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "З чого утворена бічна маса атланта",
+    "back": "зрослі поперечні, суглобові та соскоподібні відростки",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "ala atlantis",
+    "back": "крило атланта",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "fossa atlantis",
+    "back": "ямка атланта — вентрально на крилі",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "foramen alare",
+    "back": "криловий отвір — веде в ямку атланта",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "foramen vertebrale laterale",
+    "back": "латеральний хребцевий отвір — у хребтовий канал",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Що проходить через латеральний хребцевий отвір атланта",
+    "back": "перша пара шийних спинномозкових нервів",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Де лежить латеральний хребцевий отвір",
+    "back": "медіальніше крилового, на дорсальній поверхні крила",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Як з'єднані латеральний хребцевий і криловий отвори",
+    "back": "борозною",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "foramen transversarium",
+    "back": "поперечний отвір — для хребцевої артерії",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Де на атланті поперечний отвір",
+    "back": "каудально на крилі",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "fovea articularis cranialis",
+    "back": "краніальна суглобова ямка атланта — для потиличної кістки",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "fovea articularis caudalis",
+    "back": "каудальна суглобова ямка атланта — для осьового хребця",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "fovea dentis",
+    "back": "ямка зуба — на вентральній дузі атланта",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "tuberculum dorsale",
+    "back": "дорсальний горбок атланта — на місці остистого відростка",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "tuberculum ventrale",
+    "back": "вентральний горбок атланта — дещо більший за дорсальний",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Отвори атланта: ВРХ",
+    "back": "2 — криловий і латеральний хребцевий; поперечного немає",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Отвори атланта: кінь",
+    "back": "усі 3 пари",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Отвори атланта: свиня",
+    "back": "усі 3 пари; поперечні каудально в основі крил",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Отвори атланта: собака",
+    "back": "латеральний хребцевий + поперечний; замість крилового — крилова вирізка",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "incisura alaris",
+    "back": "крилова вирізка — у собаки замість крилового отвору",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Крила атланта ВРХ",
+    "back": "масивні, краніально вужчі, каудально ширші",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Крила атланта коня",
+    "back": "тонкі, краї заокруглені й загнуті вентрально — ямки глибокі",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Крила атланта свині",
+    "back": "невеликі, масивні; ямка добре виражена",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Крила атланта собаки",
+    "back": "тонкі, горизонтальні — ямка атланта не виражена",
+    "sourceSegmentIDs": [
+      21
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Вентральний горбок атланта свині",
+    "back": "великий, повернутий каудально",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Дуги атланта собаки",
+    "back": "дорсальна широка без горбка; вентральна вузька, вся вкрита поверхнею для зуба",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "axis",
+    "back": "осьовий хребець, вісь — другий шийний",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "epistropheus",
+    "back": "епістрофей — застаріла назва осьового хребця",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "dens axis",
+    "back": "зуб осьового хребця — замість головки",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Що в осьового хребця замість краніальних суглобових відростків",
+    "back": "вентральна і дорсальна суглобові поверхні",
+    "sourceSegmentIDs": [
+      27
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "facies articularis ventralis",
+    "back": "вентральна суглобова поверхня — на вентральній поверхні зуба",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "facies articularis dorsalis",
+    "back": "дорсальна суглобова поверхня — краніально на тілі з обох боків зуба",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "processus spinosus",
+    "back": "остистий відросток; «дорсальний гребінь» — не номенклатурний термін",
+    "sourceSegmentIDs": [
+      29
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Осьовий хребець ВРХ",
+    "back": "остистий відросток — прямокутна пластинка; зуб — порожнистий напівциліндр",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Осьовий хребець коня",
+    "back": "остистий відросток каудально роздвоєний, зливається з каудальними суглобовими; зуб плоский дорсально, опуклий вентрально",
+    "sourceSegmentIDs": [
+      32
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Осьовий хребець свині",
+    "back": "остистий відросток крилоподібний, вузький, високий, каудально; зуб конусоподібний, тупий",
+    "sourceSegmentIDs": [
+      33
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Осьовий хребець собаки",
+    "back": "остистий відросток довгий, нависає над зубом; замість латерального отвору — вирізка; зуб циліндричний",
+    "sourceSegmentIDs": [
+      34
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Остистий відросток типових шийних",
+    "back": "слабкий або відсутній; довшає до кожного наступного",
+    "sourceSegmentIDs": [
+      37
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Суглобові відростки типових шийних",
+    "back": "дуже добре розвинуті, з великими поверхнями",
+    "sourceSegmentIDs": [
+      38
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "processus transversus",
+    "back": "поперечний відросток; «поперечно-реберний» — не за номенклатурою",
+    "sourceSegmentIDs": [
+      39
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "processus costalis",
+    "back": "реберний відросток — іде разом із поперечним, далі краніовентрально",
+    "sourceSegmentIDs": [
+      41
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Типові шийні ВРХ",
+    "back": "довгі, масивні; головка і ямка добре виражені; гребінь добрий каудально",
+    "sourceSegmentIDs": [
+      43
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Типові шийні коня",
+    "back": "довгі, немасивні; остистого майже немає; головка, ямка, гребінь добрі",
+    "sourceSegmentIDs": [
+      44
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Типові шийні свині",
+    "back": "масивні, короткі; головка і ямка плоскі під прямим кутом; дуги коротші за тіла; гребеня немає",
+    "sourceSegmentIDs": [
+      45,
+      46
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Дорсовентральний отвір в основі поперечного відростка",
+    "back": "свиня — на всіх шийних хребцях",
+    "sourceSegmentIDs": [
+      46,
+      58
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Типові шийні собаки",
+    "back": "головка і ямка плоскі, під кутом; соскоподібні відростки на каудальних суглобових",
+    "sourceSegmentIDs": [
+      47
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Головка і ямка тіла: свиня vs собака",
+    "back": "свиня — майже під прямим кутом; собака — під кутом",
+    "sourceSegmentIDs": [
+      45,
+      47
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Чим шостий шийний відрізняється від 3–5",
+    "back": "гребінь відсутній або слабкий; реберний відросток — вентральна пластинка",
+    "sourceSegmentIDs": [
+      49,
+      50
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "lamina ventralis",
+    "back": "вентральна пластинка — реберний відросток шостого шийного",
+    "sourceSegmentIDs": [
+      50
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Шостий шийний свині",
+    "back": "пластинка значно довша, ніж на інших типових",
+    "sourceSegmentIDs": [
+      51
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "latin",
+    "front": "foveae costales caudales",
+    "back": "каудальні реберні ямки сьомого шийного — для першого ребра",
+    "sourceSegmentIDs": [
+      53
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Чого немає в сьомого шийного",
+    "back": "поперечного отвору і реберного відростка — лише поперечний відросток",
+    "sourceSegmentIDs": [
+      54
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Сьомий шийний ВРХ",
+    "back": "гребеня немає; остистий широкий і високий; головка і ямка добрі",
+    "sourceSegmentIDs": [
+      56
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Сьомий шийний коня",
+    "back": "добрий гребінь; остистий маленький; головка і ямка добрі",
+    "sourceSegmentIDs": [
+      57
+    ]
+  },
+  {
+    "topicID": "T3",
+    "kind": "term",
+    "front": "Сьомий шийний собаки",
+    "back": "остистий майже вертикально; каудальні реберні ямки слабкі або відсутні",
+    "sourceSegmentIDs": [
+      59
+    ]
+  }
+]
