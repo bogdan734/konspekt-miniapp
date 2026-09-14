@@ -3,8 +3,8 @@
   "summary": "Текст про університет плюс граматика Present Indefinite. Головне — лексика вищої освіти (chair, faculty, to run, to head) і те, як будувати заперечення та питання з do/does.",
   "sections": [
     {
-      "heading": "Що каже текст",
-      "body": "Університет має дві форми навчання — full-time (стаціонарна) і extra-mural (заочна), близько 30 кафедр (chairs) і понад 300 викладачів. Керує університетом ректор (the University is run by the Rector), факультети очолюють декани (the faculties are headed by Deans).",
+      "heading": "Tell about the structure of our University. — Розкажи про структуру університету.",
+      "body": "Our University has two forms of studies — full-time and extra-mural (стаціонарна і заочна).\nThere are about 30 chairs (кафедр) and more than 300 teachers.\nThe University is run by the Rector (керує ректор), and the faculties are headed by Deans (очолюють декани).",
       "sourceSegmentIDs": [
         1,
         2,
@@ -14,8 +14,8 @@
       ]
     },
     {
-      "heading": "Кого готують і що є для студентів",
-      "body": "Готують veterinary doctors, technologists, ecologists, managers, marketing specialists. Ступені: bachelor, потім master; є postgraduates, які роблять дослідження заради PhD. У розпорядженні студентів (at the students' disposal) п'ять навчальних корпусів, чотири гуртожитки, дві бібліотеки, чотири клініки, спорткомплекс і спортивний табір, а також три музеї.",
+      "heading": "Whom does the University train and what is at the students' disposal? — Кого готують і що є для студентів?",
+      "body": "The University trains veterinary doctors, technologists, ecologists, managers and marketing specialists.\nStudents get a bachelor's degree, then a master's degree. Postgraduates do research for a PhD.\nAt the students' disposal (у розпорядженні студентів) there are five academic buildings, four hostels, two libraries, four clinics, a sports complex, a sports camp and three museums.",
       "sourceSegmentIDs": [
         6,
         7,
@@ -26,8 +26,8 @@
       ]
     },
     {
-      "heading": "Present Indefinite: три форми",
-      "body": "Стверджувальне: додаємо -s у третій особі однини — Our higher school trains… Заперечення: do not / does not + інфінітив без -s — Deans do not head…, A rector doesn't run… Питання: допоміжне попереду — Does your friend study…? Головна пастка: у запереченні й питанні -s переходить на does, а саме дієслово лишається чистим.",
+      "heading": "Як утворюються три форми Present Indefinite?",
+      "body": "Стверджувальна: у третій особі однини додаємо -s — Our higher school trains…\nЗаперечна: do not / does not + інфінітив без -s — Deans do not head…, A rector doesn't run…\nПитальна: допоміжне дієслово попереду — Does your friend study…?\nГоловна пастка: у запереченні й питанні закінчення -s переходить на does, а саме дієслово залишається чистим.",
       "sourceSegmentIDs": [
         22,
         23,
@@ -37,8 +37,8 @@
       ]
     },
     {
-      "heading": "There is / There are",
-      "body": "Про наявність кажуть There are three museums…, There are about 30 chairs… У запереченні — There aren't any texts…, у питанні — Are there three museums…? У письмовій роботі скорочення краще розкривати повністю.",
+      "heading": "Як вживати There is / There are?",
+      "body": "Конструкція каже про наявність: There are three museums… There are about 30 chairs…\nЗаперечення: There aren't any texts…\nПитання: Are there three museums…?\nУ письмовій роботі скорочення краще розкривати повністю: there are not.",
       "sourceSegmentIDs": [
         11,
         30,
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "heading": "Слова — переклад",
+      "heading": "Переклади слова з тексту Our University, Part 1.",
       "body": "higher school — вищий навчальний заклад\nchair — кафедра\nfaculty — факультет\nfull-time studies — стаціонарне навчання\nextra-mural studies — заочне навчання\nto run — керувати\nto head — очолювати\nto train — навчати, готувати фахівців\nveterinary doctor — ветеринарний лікар\nlecture-hall — лекційна зала\nhostel — гуртожиток\npostgraduate — аспірант\nto do research — проводити дослідження\nat the students' disposal — у розпорядженні студентів\nbachelor — бакалавр\nmaster — магістр\nclinic — клініка\nmuseum — музей\nsports complex — спортивний комплекс",
       "sourceSegmentIDs": [
         1,

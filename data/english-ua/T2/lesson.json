@@ -3,8 +3,8 @@
   "summary": "Історія університету від 1784 року до 2007-го — і граматика, заради якої цей текст дали: майже всі речення в пасивному стані минулого часу (was opened, was renamed, was set up). Плюс синоніми з Task 2.",
   "sections": [
     {
-      "heading": "Хронологія",
-      "body": "1784 — засновано кафедру ветеринарної медицини на медичному факультеті Львівського університету. 1881 — відкрито ветеринарну школу у Львові. 1896 — перейменовано на Львівську академію ветеринарної медицини. З 1939 — Ветеринарний інститут з одним факультетом. 1949 — створено другий факультет, зоотехнічний (нині біології та технології). 1991 — третій, санітарно-технологічний (нині харчових технологій і біотехнології). Червень 1992 — повернуто попередню назву Академії. 2002 — факультет економіки та менеджменту. 2007 — Академія стала Університетом.",
+      "heading": "Tell about the history of the University. — Розкажи історію університету за датами.",
+      "body": "In 1784 the chair of veterinary medicine was set up at the medical faculty of Lviv University.\nIn 1881 the veterinary school was opened in Lviv.\nIn 1896 it was renamed the Lviv Academy of Veterinary Medicine.\nFrom 1939 it was the Veterinary Institute with one faculty.\nIn 1949 the second faculty was created — zootechnical (now Biology and Technology).\nIn 1991 the third faculty was created — sanitary-technological (now Food Technologies and Biotechnology).\nIn June 1992 the Academy regained its former name.\nIn 2002 the faculty of Economics and Management was opened.\nIn 2007 the Academy became the University.",
       "sourceSegmentIDs": [
         1,
         2,
@@ -18,16 +18,16 @@
       ]
     },
     {
-      "heading": "Люди",
-      "body": "Перший директор ветеринарної школи — професор Peter Seifman; перший ректор Академії — професор Joseph Spielman. У 1994 році Академія отримала ім'я свого колишнього студента, видатного вченого Степана Гжицького (1900–1976).",
+      "heading": "Who were the first director and the first rector? Whose name does the University bear? — Хто був першим директором і ректором, чиє ім'я носить університет?",
+      "body": "The first director of the veterinary school was professor Peter Seifman.\nThe first rector of the Academy was professor Joseph Spielman.\nIn 1994 the Academy received the name of its former student, the prominent scientist Stepan Gzhytskyi (1900–1976).",
       "sourceSegmentIDs": [
         9,
         10
       ]
     },
     {
-      "heading": "Пасивний стан — чому весь текст такий",
-      "body": "Коли важлива дія, а не її виконавець, англійська ставить присудок у пасив: was opened, was renamed, was set up, was created. Формула — was/were + Past Participle. Саме про це питає Task 5: у тексті переважають пасивні конструкції, бо йдеться про те, що сталося з закладом, а не хто це зробив. Виняток — активні речення з regained і received, де діяч названий.",
+      "heading": "Чому в тексті переважає пасивний стан і як він утворюється?",
+      "body": "Коли важлива дія, а не її виконавець, англійська ставить присудок у пасив: was opened, was renamed, was set up, was created.\nФормула: was / were + Past Participle.\nСаме про це питає Task 5: у тексті переважають пасивні конструкції, бо йдеться про те, що сталося з закладом, а не хто це зробив.\nВиняток — активні речення з regained і received, де діяч названий.",
       "sourceSegmentIDs": [
         2,
         3,
@@ -40,8 +40,8 @@
       ]
     },
     {
-      "heading": "Синоніми з Task 2",
-      "body": "to found — to establish, to create, to open, to set up; glorious — notable, remarkable; to rename — to change the name; to regain — to receive back; former — previous; prominent — eminent, famous, celebrated; a scientist — a scholar; a department — a chair.",
+      "heading": "Назви синоніми до слів з Task 2.",
+      "body": "to found — to establish, to create, to open, to set up\nglorious — notable, remarkable\nto rename — to change the name\nto regain — to receive back\nformer — previous\nprominent — eminent, famous, celebrated\na scientist — a scholar\na department — a chair",
       "sourceSegmentIDs": [
         13,
         14,
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "heading": "Слова — переклад",
+      "heading": "Переклади слова з тексту Our University, Part 2.",
       "body": "to found — засновувати\nto establish — засновувати, створювати\nto open — відкривати\nto set up — створювати, засновувати\nglorious — славетний\nnotable — визначний\nremarkable — видатний\nto rename — перейменовувати\nto change the name — змінювати назву\nto regain — повертати собі\nformer — колишній, попередній\nprevious — попередній\nprominent — видатний\neminent — видатний\nfamous — відомий\ncelebrated — славетний\na scientist — учений\na scholar — науковець\na department — кафедра, відділ\na chair — кафедра\nwas opened — було відкрито\nwas renamed — було перейменовано\nwas set up — було створено\nwas created — було створено",
       "sourceSegmentIDs": [
         1,

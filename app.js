@@ -161,6 +161,7 @@ let tab = 'today';
 let pickedDay = null;
 let current = null;      // id обраного предмета
 let openTopic = null;    // тема, відкрита в конспекті
+let hideAnswers = false;
 
 async function boot() {
   const [manifest, timetable] = await Promise.all(
@@ -822,13 +823,30 @@ function renderTopicNotes(subject, topic) {
     view.append(promo);
   }
 
-  for (const section of lesson.sections) {
-    const box = el('div', 'card');
-    box.append(el('h2', null, section.heading));
-    box.append(el('div', 'small', section.body));
-    box.append(source(subject, topic.id, section.sourceSegmentIDs));
+  // Конспект — це відповіді на питання, як їх ставлять на опитуванні.
+  // У режимі самоперевірки відповіді сховані: прочитала питання, відповіла
+  // вголос, тицьнула — звірила.
+  const mode = el('div', 'card flat qa-mode');
+  const toggle = el('button', 'go ghost wide',
+    hideAnswers ? '👁 Показати всі відповіді' : '🙈 Сховати відповіді — самоперевірка');
+  toggle.onclick = () => { hideAnswers = !hideAnswers; render('notes'); };
+  mode.append(toggle);
+  view.append(mode);
+
+  lesson.sections.forEach((section, index) => {
+    const box = el('div', `card qa${hideAnswers ? ' closed' : ''}`);
+    box.append(el('div', 'qa-label', `Питання ${index + 1}`));
+    box.append(el('h3', 'qa-q', section.heading));
+    const answer = el('div', 'qa-a');
+    answer.append(el('div', 'qa-label', 'Відповідь'));
+    answer.append(el('div', 'small', section.body));
+    answer.append(source(subject, topic.id, section.sourceSegmentIDs));
+    box.append(answer);
+    const reveal = el('button', 'go ghost wide qa-reveal', 'Показати відповідь');
+    reveal.onclick = () => box.classList.remove('closed');
+    box.append(reveal);
     view.append(box);
-  }
+  });
 
   const glossary = el('div', 'card');
   glossary.append(el('h2', null, 'Терміни'));

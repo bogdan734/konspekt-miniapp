@@ -211,6 +211,16 @@
   .bar > i { display: block; height: 100%; background: var(--accent);
              transition: transform 240ms ease; transform-origin: left; }
   .muted { color: var(--muted); }
+  /* конспект у форматі питання → відповідь */
+  .qa-label { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+              color: var(--accent); margin: 0 0 6px; }
+  .qa-q { font-size: 17px; font-weight: 700; line-height: 1.3; margin: 0 0 14px; letter-spacing: -0.01em; }
+  .qa-a { border-top: 1px solid var(--line); padding-top: 12px; }
+  .qa-a .qa-label { color: var(--muted); }
+  .qa-reveal { display: none; margin-top: 0; }
+  .qa.closed .qa-a { display: none; }
+  .qa.closed .qa-reveal { display: block; }
+  .qa-mode { margin: 4px 0 -4px; }
   .small { font-size: 14px; white-space: pre-line; }
   .src { font-size: 13px; color: var(--muted); border-left: 2px solid var(--line);
          padding-left: 10px; margin-top: 8px; white-space: pre-wrap; }
@@ -278,6 +288,6 @@
 </header>
 <main id="view"></main>
 <nav id="tabs" aria-label="Розділи"></nav>
-<script type="module" src="app.js?v=bd5a7654db"></script>
+<script type="module" src="app.js?v=cd82d1ef1f"></script>
 </body>
 </html>

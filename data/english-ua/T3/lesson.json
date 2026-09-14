@@ -3,8 +3,8 @@
   "summary": "Лексика класифікації тварин: за середовищем (terrestrial / aquatic), за температурою тіла (cold- / warm-blooded), за хребтом (vertebrates / invertebrates), за їжею (herbivorous / carnivorous / omnivorous) і за ступенями систематики (phylum, order, species). Плюс жуйні та їхній складний шлунок — те, що прямо перетинається з анатомією.",
   "sections": [
     {
-      "heading": "Навіщо класифікація і як про неї говорять",
-      "body": "Тварин divide into groups за certain similarities — це arranging, a handy way опису величезної кількості видів. Одиниця класифікації — species (вид), вищі щаблі — phylum (тип) і order (ряд).",
+      "heading": "Why do we classify animals? — Навіщо класифікувати тварин і які одиниці класифікації?",
+      "body": "Animals are divided into groups according to certain similarities (за певними подібностями). Arranging is a handy way (зручний спосіб) to describe a huge number of species.\nThe unit of classification is the species (вид). Higher ranks are the phylum (тип) and the order (ряд).",
       "sourceSegmentIDs": [
         1,
         2,
@@ -16,8 +16,8 @@
       ]
     },
     {
-      "heading": "За середовищем і способом руху",
-      "body": "Terrestrial animals живуть на суходолі, aquatic — у воді. Способи руху дають окремі дієслова: crawl (повзати, як worms і lizards), hop (стрибати), swim. Приклади з конспекту: octopuses і whales — водні, bats — ссавці, що літають, cheetahs — найшвидші наземні.",
+      "heading": "How are animals classified by habitat and movement? — Як ділять тварин за середовищем і способом руху?",
+      "body": "By habitat: terrestrial animals live on land, aquatic animals live in water. Octopuses and whales are aquatic.\nBy movement: animals crawl (повзають — worms, lizards), hop (стрибають), swim, fly. Bats are flying mammals; cheetahs are the fastest terrestrial animals.",
       "sourceSegmentIDs": [
         5,
         6,
@@ -32,8 +32,8 @@
       ]
     },
     {
-      "heading": "Тепло- і холоднокровні",
-      "body": "Cold-blooded тварини залежать від surroundings: температура тіла змінюється разом із середовищем. Warm-blooded тримають сталу температуру regardless of the surroundings — саме заради цього слова regardless і записане в конспекті. Mammals — теплокровні.",
+      "heading": "What is the difference between cold-blooded and warm-blooded animals? — Чим відрізняються холоднокровні й теплокровні?",
+      "body": "Cold-blooded animals depend on the surroundings (довкілля): their body temperature changes with the environment.\nWarm-blooded animals keep a constant body temperature regardless of the surroundings (незважаючи на довкілля). Mammals are warm-blooded.",
       "sourceSegmentIDs": [
         15,
         16,
@@ -43,8 +43,8 @@
       ]
     },
     {
-      "heading": "Хребетні та безхребетні",
-      "body": "Ознака — backbone. The vast majority видів не має хребта: invertebrates це clams, jellyfish, sea urchins, snails, sponges, worms. Хребетні — риби, амфібії, рептилії, птахи, mammals.",
+      "heading": "What are vertebrates and invertebrates? — Хто такі хребетні й безхребетні?",
+      "body": "The sign is the backbone (хребет).\nThe vast majority (переважна більшість) of species have no backbone — they are invertebrates: clams, jellyfish, sea urchins, snails, sponges, worms.\nVertebrates are fish, amphibians, reptiles, birds and mammals.",
       "sourceSegmentIDs": [
         21,
         22,
@@ -57,8 +57,8 @@
       ]
     },
     {
-      "heading": "За типом живлення",
-      "body": "Herbivorous їдять рослини, carnivorous — м'ясо (flesh-eating), omnivorous — і те, і те. Травоїдні as they consume coarse food (leaves, stems) мають травний тракт considerably larger, а жуйні — compound stomachs, здатні digesting coarse fibrous material. Unlike carnivorous тварин, їм потрібна additional salt: common salt is supplied окремо.",
+      "heading": "How are animals classified by the type of feeding? — Як ділять тварин за типом живлення?",
+      "body": "Herbivorous animals eat plants, carnivorous (flesh-eating) animals eat meat, omnivorous animals eat both.\nAs herbivores consume coarse food (груба їжа — leaves, stems), their digestive tract is considerably larger, and ruminants have compound stomachs capable of digesting coarse fibrous material.\nUnlike carnivorous animals, herbivores need additional salt — common salt (кухонна сіль) is supplied separately.",
       "sourceSegmentIDs": [
         29,
         30,
@@ -80,8 +80,8 @@
       ]
     },
     {
-      "heading": "Жуйні",
-      "body": "Ruminants (the ox — типовий приклад) chew the cud: повертають їжу з рубця й пережовують удруге. Саме тому вони capable of digesting грубий рослинний матеріал, який інші тварини utilize не можуть.",
+      "heading": "What are ruminants? — Хто такі жуйні?",
+      "body": "Ruminants (the ox is a typical example) chew the cud (жують жуйку): they return food from the rumen and chew it a second time.\nThat is why they are capable of digesting coarse plant material which other animals cannot utilize.",
       "sourceSegmentIDs": [
         40,
         41,
@@ -92,8 +92,8 @@
       ]
     },
     {
-      "heading": "Task 5: pets і wild animals",
-      "body": "Pets — animals who live in someone's home; representatives: parrot, fish, cats, dogs. Wild animals — animals that live in nature; representatives: bear, wolf, hog. Це шаблон відповіді: означення через who/that + перелік представників.",
+      "heading": "What are pets and wild animals? Give examples. — Що таке домашні улюбленці й дикі тварини? (Task 5)",
+      "body": "Pets are animals who live in someone's home. Representatives: a parrot, fish, cats, dogs.\nWild animals are animals that live in nature. Representatives: a bear, a wolf, a hog.\nШаблон відповіді: означення через who / that + перелік представників.",
       "sourceSegmentIDs": [
         55,
         56,
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "heading": "Слова — переклад",
+      "heading": "Переклади слова з тексту Classification of Animals.",
       "body": "divide into — поділяти на\ncertain similarities — певні подібності\narranging — впорядкування\na handy way — зручний спосіб\nterrestrial animals — наземні тварини\naquatic animals — водні тварини\nlizards — ящірки\nworms — черви\noctopuses — восьминоги\nwhales — кити\nbats — кажани\ncrawl — повзати\ncheetahs — гепарди\nhop — стрибати\ncold-blooded — холоднокровні\nwarm-blooded — теплокровні\nsurroundings — довкілля, середовище\nregardless of — незважаючи на\nmammals — ссавці\nspecies — вид\nbackbone — хребет\nvast majority — переважна більшість\ninvertebrates — безхребетні\nclams — двостулкові молюски\njellyfish — медузи\nsea urchins — морські їжаки\nsnails — равлики\nsponges — губки\nherbivorous — травоїдний\ncarnivorous — м'ясоїдний, хижий\nomnivorous — всеїдний\ndomestic — домашній\ncoarse food — груба їжа\nleaves — листя\nstems — стебла\ncompound stomachs — складні шлунки\nchew the cud — жувати жуйку\ncapable of — здатний до\ndigesting — перетравлювати\nunlike — на відміну від\nflesh-eating — плотоїдний, м'ясоїдний\nadditional salt — додаткова сіль\ncommon salt — кухонна сіль\nutilize — використовувати\nphylum — тип\norder — ряд\npets — домашні тварини\nwild animals — дикі тварини\nrepresentatives — представники",
       "sourceSegmentIDs": [
         1,

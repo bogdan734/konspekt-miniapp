@@ -3,8 +3,8 @@
   "summary": "Викладач просить розказати алфавіт за другою колонкою — назви літер, за це оцінка на наступній парі. Далі — правила читання: коли c дає [ц], а коли [к], чому qu — це [кв], як читаються ae, oe, ch, ph, th, ti.",
   "sections": [
     {
-      "heading": "Що саме вимагає викладач",
-      "body": "Розказувати алфавіт треба за другою колонкою таблиці — тобто НАЗВИ літер, а не звуки: а, бе, це, де, е, еф, ге, га, і, йот, ка, ель, ем, ен, о, пе, ку, ер, ес, те, у, ве, дубльве, ікс, іпсилон, зета. Це домашнє на наступну пару, за нього ставлять оцінку. Фонетику (правила читання) розбирають на другому занятті, тож її варто знати наступною. Конспект писати не обов'язково.",
+      "heading": "Як треба розказувати алфавіт на оцінку і що ще вимагає викладач?",
+      "body": "Алфавіт розказують за другою колонкою таблиці — тобто НАЗВИ літер, а не звуки: а, бе, це, де, е, еф, ге, га, і, йот, ка, ель, ем, ен, о, пе, ку, ер, ес, те, у, ве, дубльве, ікс, іпсилон, зета.\nЦе домашнє завдання на наступну пару, за нього ставлять оцінку.\nФонетику — правила читання — розбирають на другому занятті, тож її треба знати наступною. Конспект писати не обов'язково.",
       "sourceSegmentIDs": [
         40,
         41,
@@ -15,8 +15,8 @@
       ]
     },
     {
-      "heading": "Таблиця алфавіту: назва · вимова · приклад",
-      "body": "Розказувати на оцінку треба за назвою літери (друга колонка) — а, бе, це, де, е, еф, ге, га, і, йот, ка, ель, ем, ен, о, пе, ку, ер, ес, те, у, ве, дубльве, ікс, іпсилон, зета. Нижче — повна таблиця для самоперевірки: назва, звук і приклад медичного/анатомічного терміна на кожну літеру.<div class='table-wrap'><table class='ltable'><thead><tr><th>Літера</th><th>Назва</th><th>Вимова</th><th>Приклад</th></tr></thead><tbody><tr><td>A a</td><td>а</td><td>[а]</td><td>Anemia <span class='ex'>(анемія)</span></td></tr><tr><td>B b</td><td>бе</td><td>[б]</td><td>Brachium <span class='ex'>(плече)</span></td></tr><tr><td>C c</td><td>це</td><td>[ц] перед e, i, y, ae, oe; [к] перед a, o, u</td><td>Cerebrum <span class='ex'>(мозок — [це])</span>, Caput <span class='ex'>(голова — [ка])</span></td></tr><tr><td>D d</td><td>де</td><td>[д]</td><td>Digitus <span class='ex'>(палець)</span></td></tr><tr><td>E e</td><td>е</td><td>[е]</td><td>Enzymum <span class='ex'>(фермент)</span></td></tr><tr><td>F f</td><td>еф</td><td>[ф]</td><td>Facies <span class='ex'>(обличчя)</span></td></tr><tr><td>G g</td><td>ге</td><td>[г]</td><td>Gaster <span class='ex'>(шлунок)</span></td></tr><tr><td>H h</td><td>га</td><td>[г] (фрикативний)</td><td>Homo <span class='ex'>(людина)</span></td></tr><tr><td>I i</td><td>і</td><td>[і] або [й] перед голосним</td><td>Infectio <span class='ex'>(інфекція)</span>, Iodum <span class='ex'>(йод)</span></td></tr><tr><td>J j</td><td>йот</td><td>[й] перед голосним</td><td>Jejunum <span class='ex'>(порожня кишка)</span></td></tr><tr><td>K k</td><td>ка</td><td>[к] (лише грецькі слова)</td><td>Kalium <span class='ex'>(калій)</span></td></tr><tr><td>L l</td><td>ель</td><td>[л'] завжди м'яке</td><td>Labium <span class='ex'>(губа)</span></td></tr><tr><td>M m</td><td>ем</td><td>[м]</td><td>Musculus <span class='ex'>(м'яз)</span></td></tr><tr><td>N n</td><td>ен</td><td>[н]</td><td>Nervus <span class='ex'>(нерв)</span></td></tr><tr><td>O o</td><td>о</td><td>[о]</td><td>Oculus <span class='ex'>(око)</span></td></tr><tr><td>P p</td><td>пе</td><td>[п]</td><td>Pulmo <span class='ex'>(легеня)</span></td></tr><tr><td>Q q</td><td>ку</td><td>[к], лише разом з u; qu = [кв]</td><td>Aqua <span class='ex'>(вода)</span>, Quantitas <span class='ex'>(кількість)</span></td></tr><tr><td>R r</td><td>ер</td><td>[р]</td><td>Radix <span class='ex'>(корінь)</span></td></tr><tr><td>S s</td><td>ес</td><td>[с] або [з] між голосними/перед m, n</td><td>Sanguis <span class='ex'>(кров — [с])</span>, Dosis <span class='ex'>(доза — [з])</span></td></tr><tr><td>T t</td><td>те</td><td>[т]</td><td>Thorax <span class='ex'>(грудна клітка)</span></td></tr><tr><td>U u</td><td>у</td><td>[у]</td><td>Unguentum <span class='ex'>(мазь)</span></td></tr><tr><td>V v</td><td>ве</td><td>[в]</td><td>Vena <span class='ex'>(вена)</span></td></tr><tr><td>W w</td><td>дубльве</td><td>[в]</td><td><span class='ex'>класичного латинського слова немає — див. примітку нижче</span></td></tr><tr><td>X x</td><td>ікс</td><td>[кс]</td><td>Xerosis <span class='ex'>(сухість)</span></td></tr><tr><td>Y y</td><td>іпсилон</td><td>[і] (лише у грецьких словах)</td><td>Myoma <span class='ex'>(міома)</span></td></tr><tr><td>Z z</td><td>зета</td><td>[з]</td><td>Zincum <span class='ex'>(цинк)</span></td></tr></tbody></table></div><div class='small muted' style='margin-top:8px'>W — рідкісна літера: власного класичного латинського слова з нею немає, тому в таблиці — примітка замість прикладу. У медичній латині W трапляється лише в латинізованих власних назвах іншомовного походження, напр. <i>Willis</i> (<i>circulus arteriosus Willisii</i> — Виллізієве артеріальне коло) або <i>Wirsung</i> (<i>ductus Wirsungianus</i> — Вірзунгова протока підшлункової залози). Частина підручників взагалі подає латинський алфавіт як 25 літер, без W.</div>",
+      "heading": "Назви літери латинського алфавіту: назву, вимову і приклад на кожну.",
+      "body": "Відповідати треба назвами літер: а, бе, це, де, е, еф, ге, га, і, йот, ка, ель, ем, ен, о, пе, ку, ер, ес, те, у, ве, дубльве, ікс, іпсилон, зета.\nПовна таблиця для самоперевірки — назва, звук і приклад медичного терміна на кожну літеру:<div class='table-wrap'><table class='ltable'><thead><tr><th>Літера</th><th>Назва</th><th>Вимова</th><th>Приклад</th></tr></thead><tbody><tr><td>A a</td><td>а</td><td>[а]</td><td>Anemia <span class='ex'>(анемія)</span></td></tr><tr><td>B b</td><td>бе</td><td>[б]</td><td>Brachium <span class='ex'>(плече)</span></td></tr><tr><td>C c</td><td>це</td><td>[ц] перед e, i, y, ae, oe; [к] перед a, o, u</td><td>Cerebrum <span class='ex'>(мозок — [це])</span>, Caput <span class='ex'>(голова — [ка])</span></td></tr><tr><td>D d</td><td>де</td><td>[д]</td><td>Digitus <span class='ex'>(палець)</span></td></tr><tr><td>E e</td><td>е</td><td>[е]</td><td>Enzymum <span class='ex'>(фермент)</span></td></tr><tr><td>F f</td><td>еф</td><td>[ф]</td><td>Facies <span class='ex'>(обличчя)</span></td></tr><tr><td>G g</td><td>ге</td><td>[г]</td><td>Gaster <span class='ex'>(шлунок)</span></td></tr><tr><td>H h</td><td>га</td><td>[г] (фрикативний)</td><td>Homo <span class='ex'>(людина)</span></td></tr><tr><td>I i</td><td>і</td><td>[і] або [й] перед голосним</td><td>Infectio <span class='ex'>(інфекція)</span>, Iodum <span class='ex'>(йод)</span></td></tr><tr><td>J j</td><td>йот</td><td>[й] перед голосним</td><td>Jejunum <span class='ex'>(порожня кишка)</span></td></tr><tr><td>K k</td><td>ка</td><td>[к] (лише грецькі слова)</td><td>Kalium <span class='ex'>(калій)</span></td></tr><tr><td>L l</td><td>ель</td><td>[л'] завжди м'яке</td><td>Labium <span class='ex'>(губа)</span></td></tr><tr><td>M m</td><td>ем</td><td>[м]</td><td>Musculus <span class='ex'>(м'яз)</span></td></tr><tr><td>N n</td><td>ен</td><td>[н]</td><td>Nervus <span class='ex'>(нерв)</span></td></tr><tr><td>O o</td><td>о</td><td>[о]</td><td>Oculus <span class='ex'>(око)</span></td></tr><tr><td>P p</td><td>пе</td><td>[п]</td><td>Pulmo <span class='ex'>(легеня)</span></td></tr><tr><td>Q q</td><td>ку</td><td>[к], лише разом з u; qu = [кв]</td><td>Aqua <span class='ex'>(вода)</span>, Quantitas <span class='ex'>(кількість)</span></td></tr><tr><td>R r</td><td>ер</td><td>[р]</td><td>Radix <span class='ex'>(корінь)</span></td></tr><tr><td>S s</td><td>ес</td><td>[с] або [з] між голосними/перед m, n</td><td>Sanguis <span class='ex'>(кров — [с])</span>, Dosis <span class='ex'>(доза — [з])</span></td></tr><tr><td>T t</td><td>те</td><td>[т]</td><td>Thorax <span class='ex'>(грудна клітка)</span></td></tr><tr><td>U u</td><td>у</td><td>[у]</td><td>Unguentum <span class='ex'>(мазь)</span></td></tr><tr><td>V v</td><td>ве</td><td>[в]</td><td>Vena <span class='ex'>(вена)</span></td></tr><tr><td>W w</td><td>дубльве</td><td>[в]</td><td><span class='ex'>класичного латинського слова немає — див. примітку нижче</span></td></tr><tr><td>X x</td><td>ікс</td><td>[кс]</td><td>Xerosis <span class='ex'>(сухість)</span></td></tr><tr><td>Y y</td><td>іпсилон</td><td>[і] (лише у грецьких словах)</td><td>Myoma <span class='ex'>(міома)</span></td></tr><tr><td>Z z</td><td>зета</td><td>[з]</td><td>Zincum <span class='ex'>(цинк)</span></td></tr></tbody></table></div><div class='small muted' style='margin-top:8px'>W — рідкісна літера: власного класичного латинського слова з нею немає, тому в таблиці — примітка замість прикладу. У медичній латині W трапляється лише в латинізованих власних назвах іншомовного походження, напр. <i>Willis</i> (<i>circulus arteriosus Willisii</i> — Виллізієве артеріальне коло) або <i>Wirsung</i> (<i>ductus Wirsungianus</i> — Вірзунгова протока підшлункової залози). Частина підручників взагалі подає латинський алфавіт як 25 літер, без W.</div>",
       "sourceSegmentIDs": [
         1,
         2,
@@ -47,8 +47,8 @@
       ]
     },
     {
-      "heading": "Літери з двома звуками",
-      "body": "Чотири літери читаються по-різному залежно від оточення. C: [ц] перед e, i, y, ae, oe (cervix, acidum) і [к] перед a, o, u та приголосними (caput, corpus). S: [с], але між двома голосними і між голосним та m, n — [з] (dosis, plasma). I: [і], а перед голосним на початку слова — [й] (Iodum). Q завжди стоїть із u, і qu разом дають [кв]: aqua [аква].",
+      "heading": "Які літери читаються двома способами і від чого це залежить?",
+      "body": "Чотири літери читаються по-різному залежно від оточення.\nC — [ц] перед e, i, y, ae, oe (cervix, acidum) і [к] перед a, o, u та приголосними (caput, corpus).\nS — [с], але між двома голосними і між голосним та m, n — [з] (dosis, plasma).\nI — [і], а перед голосним на початку слова — [й] (Iodum).\nQ — завжди стоїть з u, і qu разом читається [кв]: aqua [аква].",
       "sourceSegmentIDs": [
         3,
         9,
@@ -61,8 +61,8 @@
       ]
     },
     {
-      "heading": "Сполучення, без яких не прочитати діагноз",
-      "body": "ae та oe = [е] (vertebrae, oedema); au = [ау], eu = [еу]; ch = [х], ph = [ф], rh = [р], th = [т] (thorax, phosphorus); ngu перед голосним = [нгв] (sanguis, lingua); ti перед голосним = [ці] (solutio), але після s, t, x — [ті] (mixtio).",
+      "heading": "Як читаються сполучення літер у латинській мові?",
+      "body": "Дифтонги: ae та oe = [е] (vertebrae, oedema); au = [ау]; eu = [еу].\nДиграфи з h: ch = [х], ph = [ф], rh = [р], th = [т] (thorax, phosphorus).\nngu перед голосним = [нгв] (sanguis, lingua).\nti перед голосним = [ці] (solutio), але після s, t, x — [ті] (mixtio).",
       "sourceSegmentIDs": [
         32,
         33,
@@ -73,15 +73,15 @@
       ]
     },
     {
-      "heading": "Наголос",
-      "body": "Наголос ніколи не падає на останній склад. Він стоїть на другому складі від кінця, якщо той довгий, інакше зсувається на третій. Тому vertebra має наголос на другому від кінця, а musculus — на третьому.",
+      "heading": "Де ставиться наголос у латинському слові?",
+      "body": "Наголос ніколи не падає на останній склад.\nВін стоїть на другому складі від кінця, якщо той довгий; якщо короткий — зсувається на третій від кінця.\nПриклади: vértebra — наголос на третьому від кінця; músculus — на третьому; natúra — на другому.",
       "sourceSegmentIDs": [
         38
       ]
     },
     {
-      "heading": "Літери-винятки",
-      "body": "K зустрічається лише в кількох словах грецького походження (Kalium, kefir). W вживається тільки в іншомовних словах і прізвищах (Willis, Wirsung) — тому в таблиці до неї й немає приклада; частина підручників подає алфавіт як 25 літер без W. Y (іпсилон) буває лише у словах грецького походження.",
+      "heading": "Які літери-винятки є в латинському алфавіті?",
+      "body": "K — лише в кількох словах грецького походження (Kalium, kefir).\nW — тільки в іншомовних словах і прізвищах (Willis, Wirsung); тому в таблиці до неї немає прикладу, а частина підручників подає алфавіт як 25 літер без W.\nY (іпсилон) — лише у словах грецького походження (Myoma).",
       "sourceSegmentIDs": [
         11,
         23,
