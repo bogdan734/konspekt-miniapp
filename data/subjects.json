@@ -21,7 +21,7 @@
         },
         {
           "id": "T2",
-          "title": "Методичка: хребці й череп",
+          "title": "Методичка: хребці й череп (с. 11–45)",
           "label": "T2",
           "syllabus": [
             "T1",
@@ -134,6 +134,27 @@
       ]
     },
     {
+      "id": "history-ua",
+      "title": "Історія України та цивілізаційний процес",
+      "short": "Історія",
+      "hue": 344,
+      "curriculum": null,
+      "topics": [
+        {
+          "id": "T2",
+          "title": "Витоки Русі. Візантійська спадщина. Соціальні світи Русі",
+          "label": "T2",
+          "syllabus": [
+            "T2"
+          ],
+          "notes": "history-ua/T2/notes.json",
+          "lesson": "history-ua/T2/lesson.json",
+          "quiz": "history-ua/T2/quiz.json",
+          "cards": "history-ua/T2/cards.json"
+        }
+      ]
+    },
+    {
       "id": "subject-14",
       "title": "Основи національного спротиву",
       "short": "Спротив",
@@ -146,14 +167,6 @@
       "title": "Гістологія",
       "short": "Гістологія",
       "hue": 168,
-      "curriculum": null,
-      "topics": []
-    },
-    {
-      "id": "subject-344",
-      "title": "Історія України та цивілізаційний процес",
-      "short": "Історія",
-      "hue": 344,
       "curriculum": null,
       "topics": []
     },

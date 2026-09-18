@@ -1,0 +1,72 @@
+[
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Русь",
+    "back": "Rus'; східнослов'янська держава навколо Києва",
+    "sourceSegmentIDs": [1]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Галицько-Волинська держава",
+    "back": "Regnum Galiciae et Volhyniae; політичне ядро української державності у XII–XIII ст.",
+    "sourceSegmentIDs": [3]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Хрещення Русі",
+    "back": "Baptismus Rusiae; прийняття християнства в 988 році",
+    "sourceSegmentIDs": [5]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Візантія",
+    "back": "Byzantium; джерело релігійної та культурної спадщини Русі",
+    "sourceSegmentIDs": [5, 6]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Oratores",
+    "back": "oratores; служителі церкви, книжники, духовенство",
+    "sourceSegmentIDs": [8]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Bellatores",
+    "back": "bellatores; воїни, дружинники, захисники",
+    "sourceSegmentIDs": [9]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Laboratores",
+    "back": "laboratores; працівники землі, ремісники, селяни",
+    "sourceSegmentIDs": [10]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Данило Романович",
+    "back": "Danylo Romanovych; князь, який укріпив Галицько-Волинську державу",
+    "sourceSegmentIDs": [4]
+  },
+  {
+    "topicID": "T2",
+    "kind": "fact",
+    "front": "988",
+    "back": "Хрещення Русі; Володимир прийняв християнство",
+    "sourceSegmentIDs": [5]
+  },
+  {
+    "topicID": "T2",
+    "kind": "fact",
+    "front": "Соціальні світи",
+    "back": "Oratores, bellatores, laboratores — три основні функціональні групи середньовічного суспільства",
+    "sourceSegmentIDs": [8, 9, 10]
+  }
+]
