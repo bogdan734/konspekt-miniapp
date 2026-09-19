@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Череп коня · 3D-скан · Конспект</title>
+<title>Череп коня · схема · Конспект</title>
 <style>
   :root {
     --bg: #ffffff; --card: #f4f4f7; --text: #101014; --muted: #6b6b73;
     --accent: #2f6fed; --accent-text: #ffffff;
     --line: color-mix(in srgb, var(--muted) 22%, transparent);
-    --ok: #2f9e63; --bad: #d3453c;
+    --ok: #2f9e63; --bad: #d3453c; --quiz: #3da5ff;
     --r-lg: 20px; --r-md: 14px; --r-sm: 10px; --tap: 44px;
   }
   @media (prefers-color-scheme: dark) {
@@ -34,98 +34,78 @@
     main { grid-template-columns: minmax(0, 1.3fr) minmax(280px, 0.8fr); align-items: start; }
   }
 
-  .stage { background: var(--card); border-radius: var(--r-lg); overflow: hidden; }
-  .frame-wrap { position: relative; width: 100%; height: 46vh; min-height: 320px; background: #111; }
-  #api-frame { width: 100%; height: 100%; border: 0; display: block; }
-  #loader {
-    position: absolute; inset: 0; display: grid; place-items: center;
-    color: #cfcfd6; font-size: 13px; text-align: center; padding: 20px; pointer-events: none;
+  .stage {
+    background: var(--card); border-radius: var(--r-lg); overflow: hidden;
+    display: flex; flex-direction: column;
   }
-  #loader[hidden] { display: none; }
-
-  /* Маркер обраної структури. Скан — суцільна поверхня, окремих кісток у ньому
-     як об'єктів немає, тому підсвічуємо не меш, а місце: кільце тримається за
-     точку на кістці й їздить разом з моделлю при обертанні. */
-  #marker {
-    position: absolute; left: 0; top: 0; width: 92px; height: 66px;
-    margin: -33px 0 0 -46px; border-radius: 50%;
-    background: radial-gradient(ellipse at center,
-      rgba(64, 226, 106, 0.92) 0%,
-      rgba(64, 226, 106, 0.78) 42%,
-      rgba(64, 226, 106, 0.34) 72%,
-      rgba(64, 226, 106, 0) 100%);
-    mix-blend-mode: screen;
-    pointer-events: none; opacity: 0; transition: opacity .25s ease;
-    will-change: transform;
+  #scene { width: 100%; height: 46vh; min-height: 320px; display: block; touch-action: none; }
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 12px;
+    border-top: 1px solid var(--line);
   }
-  #marker.on { opacity: 1; animation: markerPulse 2.2s ease-in-out infinite; }
-  @keyframes markerPulse {
-    0%   { transform: scale(0.94); }
-    50%  { transform: scale(1.04); }
-    100% { transform: scale(0.94); }
-  }
-  #markerLabel {
-    position: absolute; left: 0; top: 0; transform: translate(-50%, -64px);
-    padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 700;
-    white-space: nowrap; background: #ffd44d; color: #1a1400;
-    pointer-events: none; opacity: 0; transition: opacity .25s ease;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
-  }
-  #markerLabel.on { opacity: 1; }
-
-  .parts { display: flex; gap: 6px; padding: 10px 12px 0; }
-  .part-btn {
-    flex: 1; min-height: 40px; border-radius: var(--r-md); font-size: 14px; font-weight: 600;
+  .tool-btn {
+    min-height: 38px; padding: 0 12px; border-radius: 999px; font-size: 13px; font-weight: 600;
     background: color-mix(in srgb, var(--text) 6%, transparent); color: var(--text);
   }
-  .part-btn.on { background: var(--accent); color: var(--accent-text); }
-  .views { display: flex; gap: 6px; overflow-x: auto; padding: 10px 12px; scrollbar-width: none; }
+  .tool-btn.on { background: var(--accent); color: var(--accent-text); }
+  .tool-btn.disabled, .tool-btn:disabled { opacity: .35; pointer-events: none; }
+  .views {
+    display: flex; gap: 6px; overflow-x: auto; padding: 0 12px 10px; scrollbar-width: none;
+  }
   .views::-webkit-scrollbar { display: none; }
   .view-btn {
     flex: none; min-height: 34px; padding: 0 12px; border-radius: 999px; font-size: 12px;
     font-weight: 600; background: color-mix(in srgb, var(--accent) 12%, transparent); color: var(--accent);
   }
   .view-btn:active { opacity: .7; }
-  .toolbar { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 12px 10px; }
-  .tool-btn {
-    min-height: 38px; padding: 0 12px; border-radius: 999px; font-size: 13px; font-weight: 600;
-    background: color-mix(in srgb, var(--text) 6%, transparent); color: var(--text);
-  }
-  .tool-btn.on { background: var(--accent); color: var(--accent-text); }
-
   .card { background: var(--card); border-radius: var(--r-lg); padding: 14px 16px; }
   .card h2 {
     font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
     color: var(--muted); margin: 0 0 10px;
   }
+
   #infoCard b { font-size: 16px; }
   #infoLatin { color: var(--muted); font-style: italic; font-size: 13px; display: block; margin: 2px 0 8px; }
   #infoText { font-size: 14px; line-height: 1.55; }
-  #structureList { max-height: 44vh; overflow-y: auto; }
+  #structureList { max-height: 42vh; overflow-y: auto; }
   .cat-heading {
     font-size: 11px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
     color: var(--muted); margin: 12px 0 4px;
   }
   .cat-heading:first-child { margin-top: 0; }
+  .struct-row { display: flex; align-items: center; gap: 4px; }
   .struct-btn {
-    width: 100%; text-align: left; min-height: var(--tap); padding: 6px 8px; border-radius: var(--r-sm);
+    flex: 1; text-align: left; min-height: var(--tap); padding: 6px 8px; border-radius: var(--r-sm);
     display: flex; flex-direction: column; align-items: flex-start; gap: 1px;
   }
   .struct-btn .name { font-size: 14px; font-weight: 600; }
   .struct-btn .la { font-size: 12px; color: var(--muted); font-style: italic; }
-  .struct-btn:active, .struct-btn.active {
+  .struct-btn:active, .struct-row.active .struct-btn {
     background: color-mix(in srgb, var(--accent) 14%, transparent); color: var(--accent);
   }
-  .struct-btn.active .la { color: var(--accent); opacity: .8; }
-  .struct-btn .other-part { font-size: 11px; color: var(--muted); }
+  .struct-row.active .struct-btn .la { color: var(--accent); opacity: .8; }
+  .eye-btn {
+    flex: none; width: 34px; height: 34px; border-radius: 50%; font-size: 16px;
+    display: grid; place-items: center; opacity: .85;
+  }
+  .eye-btn.off { opacity: .3; }
 
   #quizPanel[hidden] { display: none; }
   #quizPanel { display: flex; flex-direction: column; gap: 10px; }
   #quizPrompt { font-size: 14px; }
-  #quizChoices { display: grid; gap: 8px; }
+  #quizChoices { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
   .choice-btn {
     min-height: var(--tap); border-radius: var(--r-md); padding: 8px 10px; font-size: 13px;
     font-weight: 600; background: color-mix(in srgb, var(--text) 6%, transparent); text-align: left;
+  }
+  .quiz-row { display: flex; gap: 8px; }
+  #quizInput {
+    flex: 1; min-height: var(--tap); border-radius: var(--r-md); border: 1.5px solid var(--line);
+    background: var(--bg); color: var(--text); padding: 0 12px; font-size: 14px;
+  }
+  #quizSubmit, #quizNext {
+    min-height: var(--tap); padding: 0 16px; border-radius: var(--r-md); font-weight: 700;
+    background: var(--accent); color: var(--accent-text);
   }
   .quiz-feedback { font-size: 13px; font-weight: 600; min-height: 18px; }
   .quiz-feedback.ok { color: var(--ok); }
@@ -133,31 +113,34 @@
   #quizScoreWrap { display: flex; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); }
   #quizScore { font-weight: 700; color: var(--text); }
   .hint { color: var(--muted); font-size: 13px; }
-  .attribution { margin-top: 8px; font-size: 12px; color: var(--muted); line-height: 1.5; }
+  .attribution {
+    margin-top: 8px; font-size: 12px; color: var(--muted); line-height: 1.5;
+  }
   .attribution a { color: var(--accent); }
 </style>
 </head>
 <body>
 <header>
   <a class="back" href="../index.html">← Конспект</a>
-  <h1 id="introTitle">Череп коня</h1>
+  <h1 id="introTitle">Череп коня — схема</h1>
   <div class="latin" id="introLatin">cranium, Equus caballus</div>
   <div class="intro" id="introText"></div>
-  <div class="attribution" id="attribution"></div>
+  <div class="attribution">
+    Схема процедурна: кожна кістка — окремий об'єкт, тому її видно підсвіченою з будь-якого боку.
+    Форми спрощені, підписи й описи — за методичкою кафедри (тема T4) і NAV.
+    Реальну кістку дивись у режимі <a href="skull-horse.html">3D-скану музейного черепа</a>.
+  </div>
 </header>
 <main>
   <div class="stage">
-    <div class="parts" id="partButtons"></div>
-    <div class="frame-wrap">
-      <iframe id="api-frame" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen
-              mozallowfullscreen="true" webkitallowfullscreen="true" title="3D-скан черепа коня"></iframe>
-      <div id="loader">Завантажую 3D-скан музейного зразка…<br>Це 2 млн полігонів, тож перший раз може зайняти кілька секунд.</div>
-      <div id="marker"></div>
-      <div id="markerLabel"></div>
-    </div>
+    <canvas id="scene"></canvas>
     <div class="views" id="viewButtons"></div>
     <div class="toolbar">
-      <button class="tool-btn" id="resetView">⟲ Скинути вигляд</button>
+      <button class="tool-btn" id="zoomIn">+ Наблизити</button>
+      <button class="tool-btn" id="zoomOut">− Віддалити</button>
+      <button class="tool-btn" id="toggleAutoRotate">↻ Обертати</button>
+      <button class="tool-btn" id="toggleJaw">Відкрити щелепу</button>
+      <button class="tool-btn" id="toggleInternal">Внутрішні структури</button>
       <button class="tool-btn" id="quizToggle">Самоперевірка</button>
     </div>
   </div>
@@ -171,21 +154,33 @@
 
     <div class="card" id="quizPanel" hidden style="margin-bottom:12px">
       <h2>Самоперевірка</h2>
-      <div id="quizScoreWrap"><span>Рахунок</span><span id="quizScore">0 / 0</span></div>
+      <div id="quizScoreWrap">
+        <span>Рахунок</span><span id="quizScore">0 / 0</span>
+      </div>
       <p id="quizPrompt"></p>
+      <div class="quiz-row">
+        <input id="quizInput" type="text" placeholder="Назва українською або латиною…" autocomplete="off">
+        <button id="quizSubmit">OK</button>
+      </div>
       <div id="quizChoices"></div>
       <div class="quiz-feedback" id="quizFeedback"></div>
-      <button class="tool-btn" id="quizNext">Наступне питання →</button>
+      <button class="tool-btn" id="quizNext">Наступна структура →</button>
     </div>
-
     <div class="card">
       <h2>Структури</h2>
-      <div class="hint">Обери структуру — камера повернеться потрібним боком, а жовте кільце покаже місце на кістці й триматиметься за нього, коли крутиш модель. Модель крути пальцем, щипок — масштаб.</div>
+      <div class="hint">Обери зі списку, натисни на модель або сховай частину значком ока.</div>
       <div id="structureList"></div>
     </div>
   </div>
 </main>
-<script src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"></script>
-<script type="module" src="skull-horse.js?v=65b790ac01"></script>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="skull-horse-model.js?v=65b790ac01"></script>
 </body>
 </html>

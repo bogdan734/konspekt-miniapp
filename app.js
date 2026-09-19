@@ -811,17 +811,25 @@ function renderTopicNotes(subject, topic) {
 
   if (subject.id === 'anatomy-ua-full' && topic.id === 'T4') {
     const promo = el('div', 'card');
-    promo.append(el('h2', null, '3D-скан'));
-    const link = el('a', 'go wide', '🐴 Череп коня · реальний скан · 3D');
-    link.href = 'anatomy3d/skull-horse.html';
-    link.style.display = 'block';
-    link.style.textAlign = 'center';
-    link.style.textDecoration = 'none';
-    promo.append(link);
+    promo.append(el('h2', null, '3D: череп коня'));
+
+    const modelLink = el('a', 'go wide', '🐴 Схема з підсвіткою структур');
+    modelLink.href = 'anatomy3d/skull-horse-model.html';
+    Object.assign(modelLink.style, { display: 'block', textAlign: 'center', textDecoration: 'none' });
+    promo.append(modelLink);
     promo.append(el('div', 'small muted',
-      'Скан справжнього черепа з музею (Барселона, зразок MZB 94-0689): череп і нижня '
-      + 'щелепа окремо, ракурси, підписи структур українською й латиною, самоперевірка. '
-      + 'Важкий скан — вантажиться кілька секунд і потребує інтернету.'));
+      'Кожна кістка — окремий об\'єкт: обрана структура підсвічується з будь-якого боку, '
+      + 'частини можна ховати, щелепа відкривається, є самоперевірка. Для вивчення назв.'));
+
+    const scanLink = el('a', 'go wide', '📷 Реальний скан музейного черепа');
+    scanLink.href = 'anatomy3d/skull-horse.html';
+    Object.assign(scanLink.style, {
+      display: 'block', textAlign: 'center', textDecoration: 'none', marginTop: '10px',
+    });
+    promo.append(scanLink);
+    promo.append(el('div', 'small muted',
+      'Фотоскан справжнього черепа (Барселона, зразок MZB 94-0689) — щоб знати, як кістка '
+      + 'виглядає насправді. Важкий, вантажиться кілька секунд і потребує інтернету.'));
     view.append(promo);
   }
 
