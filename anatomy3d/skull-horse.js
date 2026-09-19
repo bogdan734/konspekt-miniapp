@@ -88,21 +88,28 @@ function loadPart(partId) {
 // після цього ставимо свій загальний ракурс.
 function frameAfterLoad(partId) {
   if (!api || partId !== currentPart) return;
-  if (pendingView) {
-    const pv = pendingView;
-    pendingView = null;
-    userChose = true;
-    api.recenterCamera();  // теж спершу лагодимо масштаб, потім ракурс структури
-    setTimeout(() => { if (api && partId === currentPart) applyView(pv.view, pv.zoom); }, 1500);
-    return;
-  }
-  if (userChose) return;
-  // recenterCamera() приводить до ладу внутрішній масштаб переглядача: без нього
-  // setCameraLookAt ставить камеру правильно, але кістка малюється крапкою.
-  // Чекаємо, поки її анімація добіжить, і аж тоді ставимо свій ракурс — інакше
-  // перебиваємо recenter на півдорозі й масштаб лишається зламаним.
-  api.recenterCamera();
-  setTimeout(() => { if (api && !userChose && partId === currentPart) applyView('default'); }, 1500);
+  const pv = pendingView;
+  if (!pv && userChose) return;   // вона вже сама обрала ракурс — не чіпаємо
+  if (pv) { pendingView = null; userChose = true; }
+  const view = pv ? pv.view : 'default';
+  const zoom = pv ? pv.zoom : 1;
+
+  // Порядок тут важливий і вистражданий. Одразу після завантаження переглядач
+  // має зламаний внутрішній масштаб: setCameraLookAt ставить камеру куди треба,
+  // але кістка малюється крапкою. Лагодить це тільки recenterCamera() — і вона
+  // зберігає напрямок погляду, лише підганяючи відстань. Тому: спершу задаємо
+  // напрямок, потім recenter (він і лагодить масштаб, і вписує модель), а тоді
+  // ще раз свій ракурс — бо recenter міряє по габаритній коробці, а в щелепи
+  // вона роздута. Після першого recenter масштаб лишається справним, і далі
+  // кнопки ракурсів працюють без цих танців.
+  applyView(view, zoom);
+  setTimeout(() => {
+    if (!api || partId !== currentPart) return;
+    api.recenterCamera();
+    setTimeout(() => {
+      if (api && partId === currentPart) applyView(view, zoom);
+    }, 1400);
+  }, 800);
 }
 
 function applyView(viewId, zoom = 1) {
