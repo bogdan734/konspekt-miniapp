@@ -809,6 +809,22 @@ function renderTopicNotes(subject, topic) {
     view.append(promo);
   }
 
+  if (subject.id === 'anatomy-ua-full' && topic.id === 'T4') {
+    const promo = el('div', 'card');
+    promo.append(el('h2', null, '3D-скан'));
+    const link = el('a', 'go wide', '🐴 Череп коня · реальний скан · 3D');
+    link.href = 'anatomy3d/skull-horse.html';
+    link.style.display = 'block';
+    link.style.textAlign = 'center';
+    link.style.textDecoration = 'none';
+    promo.append(link);
+    promo.append(el('div', 'small muted',
+      'Скан справжнього черепа з музею (Барселона, зразок MZB 94-0689): череп і нижня '
+      + 'щелепа окремо, ракурси, підписи структур українською й латиною, самоперевірка. '
+      + 'Важкий скан — вантажиться кілька секунд і потребує інтернету.'));
+    view.append(promo);
+  }
+
   if (notes?.source?.kind === 'video') {
     const promo = el('div', 'card');
     promo.append(el('h2', null, 'Відео'));

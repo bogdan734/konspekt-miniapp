@@ -126,15 +126,25 @@ def stamp() -> str:
     змінюється, він показує старий застосунок; зміна ?v= змушує перечитати і
     скрипт, і дані, які він тягне.
     """
+    # Сторінки, у які ми самі дописуємо ?v=, з хешу виключені: інакше кожен
+    # білд міняв би їхній вміст і версія стрибала б без змін у матеріалі.
+    stamped = {"index.html", *(p.name for p in (ROOT / "miniapp" / "anatomy3d").glob("*.html"))}
     digest = hashlib.sha256()
     for path in sorted((ROOT / "miniapp").rglob("*")):
-        if path.is_file() and path.name != "index.html" and ".git" not in path.parts:
+        if path.is_file() and path.name not in stamped and ".git" not in path.parts:
             digest.update(path.read_bytes())
     version = digest.hexdigest()[:10]
 
     index = ROOT / "miniapp" / "index.html"
     text = re.sub(r'src="app\.js(\?v=[0-9a-f]+)?"', f'src="app.js?v={version}"', index.read_text(encoding="utf-8"))
     index.write_text(text, encoding="utf-8")
+
+    # Те саме для сторінок 3D: Telegram інакше тримає стару версію скрипта.
+    for page in sorted((ROOT / "miniapp" / "anatomy3d").glob("*.html")):
+        body = page.read_text(encoding="utf-8")
+        body = re.sub(r'src="([\w.-]+\.js)(\?v=[0-9a-f]+)?"',
+                      lambda m: f'src="{m.group(1)}?v={version}"', body)
+        page.write_text(body, encoding="utf-8")
     return version
 
 if __name__ == "__main__":
