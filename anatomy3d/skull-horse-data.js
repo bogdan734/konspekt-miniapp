@@ -59,7 +59,7 @@ export const CATEGORY_ORDER = [
 // Центр беремо зі стартової камери Sketchfab (він правильний), а відстань — з
 // поля distance відповідної частини (рідна відстань у щелепи хибна).
 // Коли обрана структура — під'їжджаємо трохи ближче, ніж по кнопці ракурсу.
-export const STRUCTURE_ZOOM = 0.9;
+export const STRUCTURE_ZOOM = 0.62;
 
 export const VIEWS = [
   { id: "default", ua: "Загальний", dir: [-0.55, -1, 0.42] },

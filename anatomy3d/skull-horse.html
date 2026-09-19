@@ -47,18 +47,22 @@
      як об'єктів немає, тому підсвічуємо не меш, а місце: кільце тримається за
      точку на кістці й їздить разом з моделлю при обертанні. */
   #marker {
-    position: absolute; left: 0; top: 0; width: 64px; height: 64px;
-    margin: -32px 0 0 -32px; border-radius: 50%;
-    border: 3px solid #ffd44d; background: rgba(255, 212, 77, 0.14);
-    box-shadow: 0 0 0 2px rgba(0, 0, 0, .45), 0 0 22px 6px rgba(255, 212, 77, .35);
+    position: absolute; left: 0; top: 0; width: 92px; height: 66px;
+    margin: -33px 0 0 -46px; border-radius: 50%;
+    background: radial-gradient(ellipse at center,
+      rgba(64, 226, 106, 0.92) 0%,
+      rgba(64, 226, 106, 0.78) 42%,
+      rgba(64, 226, 106, 0.34) 72%,
+      rgba(64, 226, 106, 0) 100%);
+    mix-blend-mode: screen;
     pointer-events: none; opacity: 0; transition: opacity .25s ease;
     will-change: transform;
   }
-  #marker.on { opacity: 1; animation: markerPulse 1.8s ease-out infinite; }
+  #marker.on { opacity: 1; animation: markerPulse 2.2s ease-in-out infinite; }
   @keyframes markerPulse {
-    0%   { transform: scale(0.82); }
-    55%  { transform: scale(1.06); }
-    100% { transform: scale(0.82); }
+    0%   { transform: scale(0.94); }
+    50%  { transform: scale(1.04); }
+    100% { transform: scale(0.94); }
   }
   #markerLabel {
     position: absolute; left: 0; top: 0; transform: translate(-50%, -64px);
@@ -182,6 +186,6 @@
   </div>
 </main>
 <script src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"></script>
-<script type="module" src="skull-horse.js?v=87fe99dca8"></script>
+<script type="module" src="skull-horse.js?v=d9697646cf"></script>
 </body>
 </html>
