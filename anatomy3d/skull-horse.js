@@ -101,6 +101,9 @@ function frameAfterLoad(partId) {
   // треба, а кістка малюється крапкою. Лагодить це лише recenterCamera(), і
   // вона зберігає напрямок погляду, підганяючи тільки відстань. Тому спершу
   // задаємо напрямок, а recenter лишаємо ОСТАННІМ кроком.
+  // Важливо: setCameraLookAt анімується цілу секунду, і recenterCamera(),
+  // покликана посеред цієї анімації, просто губиться. Тому між кроками —
+  // пауза з запасом, більша за тривалість анімації.
   const part = PARTS.find(p => p.id === partId);
   applyView(view, zoom);
   setTimeout(() => {
@@ -109,9 +112,9 @@ function frameAfterLoad(partId) {
     // Виняток — щелепа: recenter міряє по її роздутій коробці й відлітає
     // задалеко, тому там ракурс доводиться повернути ще раз.
     if (part?.refitAfterRecenter) {
-      setTimeout(() => { if (api && partId === currentPart) applyView(view, zoom); }, 1400);
+      setTimeout(() => { if (api && partId === currentPart) applyView(view, zoom); }, 2200);
     }
-  }, 900);
+  }, 2200);
 }
 
 function applyView(viewId, zoom = 1) {
@@ -153,7 +156,7 @@ for (const view of VIEWS) {
 document.getElementById('resetView').onclick = () => {
   userChose = true;
   applyView('default');
-  setTimeout(() => api?.recenterCamera(), 900);
+  setTimeout(() => api?.recenterCamera(), 2200);
 };
 
 // ---------- список структур ----------
