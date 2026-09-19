@@ -191,8 +191,12 @@ function trackMarker() {
   requestAnimationFrame(trackMarker);
   if (!api || !markerPoint || markerBusy) return;
   markerBusy = true;
+  const asked = markerPoint;
   api.getWorldToScreenCoordinates(markerPoint, res => {
     markerBusy = false;
+    // Поки чекали на відповідь, структуру могли зняти або перемкнути кістку —
+    // інакше кільце лишалося б висіти на старій точці.
+    if (markerPoint !== asked) { hideMarker(); return; }
     const c = res?.canvasCoord;
     if (!c) { hideMarker(); return; }
     const x = c[0] ?? c['0'];
