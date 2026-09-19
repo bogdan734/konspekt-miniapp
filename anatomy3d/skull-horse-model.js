@@ -210,14 +210,14 @@ function buildCranium() {
     addPart('lacrimale', l, group);
 
     // Носова кістка: лежить на спинці носа й спускається до загостреного кінця
-    const n = new THREE.Mesh(new THREE.CylinderGeometry(0.26, 0.44, 10.2, 14), boneMat());
-    n.rotation.x = Math.PI / 2 + 0.085;
-    n.scale.x = 0.62;
-    n.position.set(side * 0.58, 1.85, 5.9);
+    const n = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.46, 9.4, 14), boneMat());
+    n.rotation.x = Math.PI / 2 + 0.075;
+    n.scale.x = 0.66;
+    n.position.set(side * 0.55, 1.35, 5.6);
     addPart('nasale', n, group);
-    const tip = new THREE.Mesh(new THREE.ConeGeometry(0.24, 1.4, 10), boneMat());
-    tip.rotation.x = Math.PI / 2 + 0.085;
-    tip.position.set(side * 0.5, 0.92, 11.4);
+    const tip = new THREE.Mesh(new THREE.ConeGeometry(0.26, 1.2, 10), boneMat());
+    tip.rotation.x = Math.PI / 2 + 0.075;
+    tip.position.set(side * 0.48, 0.62, 10.6);
     addPart('nasale', tip, group);
   }
 
