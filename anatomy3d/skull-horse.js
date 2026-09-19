@@ -58,7 +58,8 @@ function loadPart(partId) {
           // viewerready спрацьовує ще до того, як скан домалювався повністю, і
           // Sketchfab після цього сам переставляє камеру. Тому вписуємо ще раз
           // згодом — але тільки якщо користувачка ще нічого не обрала сама.
-          setTimeout(() => frameAfterLoad(partId), 2500);
+          setTimeout(() => frameAfterLoad(partId), 3000);
+          setTimeout(() => frameAfterLoad(partId), 9000);
         });
       });
     },
@@ -91,12 +92,17 @@ function frameAfterLoad(partId) {
     const pv = pendingView;
     pendingView = null;
     userChose = true;
-    applyView(pv.view, pv.zoom);
+    api.recenterCamera();  // теж спершу лагодимо масштаб, потім ракурс структури
+    setTimeout(() => { if (api && partId === currentPart) applyView(pv.view, pv.zoom); }, 1500);
     return;
   }
   if (userChose) return;
+  // recenterCamera() приводить до ладу внутрішній масштаб переглядача: без нього
+  // setCameraLookAt ставить камеру правильно, але кістка малюється крапкою.
+  // Чекаємо, поки її анімація добіжить, і аж тоді ставимо свій ракурс — інакше
+  // перебиваємо recenter на півдорозі й масштаб лишається зламаним.
   api.recenterCamera();
-  setTimeout(() => { if (api && !userChose && partId === currentPart) applyView('default'); }, 400);
+  setTimeout(() => { if (api && !userChose && partId === currentPart) applyView('default'); }, 1500);
 }
 
 function applyView(viewId, zoom = 1) {
