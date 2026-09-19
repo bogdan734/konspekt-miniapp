@@ -27,7 +27,7 @@ let radius = 1;          // відстань стартової камери
 let currentPart = PARTS[0].id;
 let pendingView = null;  // ракурс, який треба застосувати щойно скан завантажиться
 let selectedId = null;
-let autoFramed = false;  // чи вже вписали модель у кадр після завантаження
+let userChose = false;   // користувачка вже обрала ракурс або структуру сама
 
 // ---------- завантаження скану ----------
 function loadPart(partId) {
@@ -35,7 +35,7 @@ function loadPart(partId) {
   if (!part) return;
   currentPart = partId;
   api = null;
-  autoFramed = false;
+  userChose = false;   // новий скан знову вписуємо самі
   loader.hidden = false;
   loader.textContent = `Завантажую скан: ${part.ua.toLowerCase()}…`;
   renderPartButtons();
@@ -54,16 +54,11 @@ function loadPart(partId) {
           // ні (у щелепи роздута коробка), тому відстань беремо з даних частини.
           if (!err && camera) center = camera.target.slice();
           radius = part.distance;
-          if (pendingView) {
-            applyView(pendingView.view, pendingView.zoom);
-            pendingView = null;
-            autoFramed = true;
-          } else if (!autoFramed) {
-            // Вписуємо модель один раз на завантаження: viewerready може
-            // спрацювати повторно і тоді скидав би вже обраний ракурс.
-            applyView('default');
-            autoFramed = true;
-          }
+          frameAfterLoad(partId);
+          // viewerready спрацьовує ще до того, як скан домалювався повністю, і
+          // Sketchfab після цього сам переставляє камеру. Тому вписуємо ще раз
+          // згодом — але тільки якщо користувачка ще нічого не обрала сама.
+          setTimeout(() => frameAfterLoad(partId), 2500);
         });
       });
     },
@@ -87,6 +82,23 @@ function loadPart(partId) {
 }
 
 // ---------- камера ----------
+// Вписує щойно завантажений скан. recenterCamera() приводить до ладу внутрішній
+// масштаб переглядача (без нього наш ракурс може дати кістку-крапку), і вже
+// після цього ставимо свій загальний ракурс.
+function frameAfterLoad(partId) {
+  if (!api || partId !== currentPart) return;
+  if (pendingView) {
+    const pv = pendingView;
+    pendingView = null;
+    userChose = true;
+    applyView(pv.view, pv.zoom);
+    return;
+  }
+  if (userChose) return;
+  api.recenterCamera();
+  setTimeout(() => { if (api && !userChose && partId === currentPart) applyView('default'); }, 400);
+}
+
 function applyView(viewId, zoom = 1) {
   const view = viewById[viewId] ?? viewById.default;
   if (!api || !view?.dir) return;
@@ -118,10 +130,10 @@ for (const view of VIEWS) {
   const btn = document.createElement('button');
   btn.className = 'view-btn';
   btn.textContent = view.ua;
-  btn.onclick = () => applyView(view.id);
+  btn.onclick = () => { userChose = true; applyView(view.id); };
   viewButtons.append(btn);
 }
-document.getElementById('resetView').onclick = () => applyView('default');
+document.getElementById('resetView').onclick = () => { userChose = true; applyView('default'); };
 
 // ---------- список структур ----------
 function selectStructure(structure) {
@@ -137,6 +149,7 @@ function selectStructure(structure) {
     pendingView = { view: structure.view, zoom: STRUCTURE_ZOOM };
     loadPart(structure.part);
   } else {
+    userChose = true;
     applyView(structure.view, STRUCTURE_ZOOM);
   }
 }
