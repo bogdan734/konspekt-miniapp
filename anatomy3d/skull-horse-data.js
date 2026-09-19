@@ -28,8 +28,11 @@ export const PARTS = [
     uid: "29cdb2050b624aa7bfeff0f9a292da98",
     url: "https://sketchfab.com/3d-models/equus-caballus-mandible-29cdb2050b624aa7bfeff0f9a292da98",
     // У цього скану роздута габаритна коробка: рідна камера Sketchfab стоїть на
-    // відстані ~8600 і кістка виглядає крапкою. Тому відстань задана вручну.
+    // відстані ~8600 і кістка виглядає крапкою. Тому відстань задана вручну, і
+    // після recenterCamera() (яка теж міряє по коробці й відлітає задалеко)
+    // ракурс треба виставити ще раз.
     distance: 600,
+    refitAfterRecenter: true,
   },
 ];
 
