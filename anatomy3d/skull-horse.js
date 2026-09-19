@@ -171,20 +171,41 @@ document.getElementById('resetView').onclick = () => {
 // щокадру питаємо у Sketchfab, куди ця точка потрапляє на екрані.
 const markerEl = document.getElementById('marker');
 const markerLabelEl = document.getElementById('markerLabel');
+let lastCamDir = null;    // одиничний напрямок від цілі до камери
 let markerPoint = null;   // [x, y, z] у координатах моделі
 let markerText = '';
 let markerBusy = false;
+let markerViewDir = null; // ракурс, під яким точка звірена з кісткою
 
-function setMarker(point, text) {
+// Точки орієнтирів звірені кожна під своїм ракурсом: на екрані вони лягають
+// точно на потрібне місце кістки. Але глибину (відстань уздовж погляду) на
+// суцільному скані перевірити нічим, тож варто сильно повернути модель — і
+// пляма з'їжджає вбік. Тому показуємо підсвітку лише поблизу «свого» ракурсу,
+// а далі плавно гасимо: краще не показати, ніж показати не на тому місці.
+const MARKER_FULL = 0.72;  // cos ~44° — показуємо на повну
+const MARKER_FADE = 0.25;  // cos ~75° — тут уже сховано
+
+function setMarker(point, text, viewDir) {
   markerPoint = point ?? null;
   markerText = text ?? '';
+  markerViewDir = viewDir ?? null;
   markerLabelEl.textContent = markerText;
   if (!markerPoint) hideMarker();
+}
+
+// Наскільки поточний напрямок камери збігається з ракурсом звірки (1 = точно).
+function markerAlignment() {
+  if (!markerViewDir || !lastCamDir) return 1;
+  const d = markerViewDir;
+  const len = Math.hypot(d[0], d[1], d[2]) || 1;
+  return (d[0] / len) * lastCamDir[0] + (d[1] / len) * lastCamDir[1] + (d[2] / len) * lastCamDir[2];
 }
 
 function hideMarker() {
   markerEl.classList.remove('on');
   markerLabelEl.classList.remove('on');
+  markerEl.style.opacity = '';
+  markerLabelEl.style.opacity = '';
 }
 
 function trackMarker() {
@@ -209,11 +230,28 @@ function trackMarker() {
     markerEl.style.top = `${y}px`;
     markerLabelEl.style.left = `${x}px`;
     markerLabelEl.style.top = `${y}px`;
+    // Чим далі камера від «свого» ракурсу, тим менше довіри до глибини точки.
+    const align = markerAlignment();
+    if (align <= MARKER_FADE) { hideMarker(); return; }
+    const strength = Math.min(1, (align - MARKER_FADE) / (MARKER_FULL - MARKER_FADE));
+    markerEl.style.opacity = String(strength);
+    markerLabelEl.style.opacity = String(strength);
     markerEl.classList.add('on');
     if (markerText) markerLabelEl.classList.add('on');
   });
 }
 requestAnimationFrame(trackMarker);
+
+// Напрямок камери оновлюємо рідше за кадри — цього досить, щоб гасити пляму.
+setInterval(() => {
+  if (!api) return;
+  api.getCameraLookAt((err, cam) => {
+    if (err || !cam) return;
+    const d = [cam.position[0] - cam.target[0], cam.position[1] - cam.target[1], cam.position[2] - cam.target[2]];
+    const len = Math.hypot(d[0], d[1], d[2]) || 1;
+    lastCamDir = [d[0] / len, d[1] / len, d[2] / len];
+  });
+}, 200);
 
 // ---------- список структур ----------
 function selectStructure(structure) {
@@ -225,7 +263,7 @@ function selectStructure(structure) {
   for (const btn of structureList.querySelectorAll('.struct-btn')) {
     btn.classList.toggle('active', btn.dataset.id === structure.id);
   }
-  setMarker(structure.point, structure.ua);
+  setMarker(structure.point, structure.ua, viewById[structure.view]?.dir);
   if (structure.part !== currentPart) {
     pendingView = { view: structure.view, zoom: STRUCTURE_ZOOM };
     loadPart(structure.part);

@@ -88,14 +88,12 @@ export const STRUCTURES = [
   },
   {
     id: "canalis-alaris", part: "cranium", view: "ventral",
-    point: [-80, -330, -40],
     category: "Видові ознаки коня",
     ua: "Криловий канал", la: "canalis alaris",
     text: "Питання, яке питають саме по коню. Канал проходить через крилоподібний відросток клиноподібної кістки і має ТРИ отвори: 1) аборальний, або великий криловий — foramen alare magnum; 2) оральний криловий — foramen alare orale, відкривається у круглий отвір; 3) малий криловий — foramen alare parvum, відкривається у вискову ямку.",
   },
   {
     id: "crista-sagittalis", part: "cranium", view: "dorsal",
-    point: [-115, -287, 80],
     category: "Видові ознаки коня",
     ua: "Зовнішній сагітальний гребінь", la: "crista sagittalis externa",
     text: "У коня йде по середній лінії тім'яної кістки і ділить її зовнішню поверхню на широку вискову площадку і вузьку тім'яну смужку. У собаки гребінь теж високий, а от у корови і свині його немає — там поверхню ділить висковий гребінь (crista temporalis).",
@@ -109,7 +107,6 @@ export const STRUCTURES = [
   },
   {
     id: "foramen-magnum", part: "cranium", view: "caudal",
-    point: [-152, -287, 12],
     category: "Мозковий череп",
     ua: "Великий потиличний отвір", la: "foramen occipitale magnum",
     text: "Через нього довгастий мозок переходить у спинний. У коня і корови отвір круглий, у свині й собаки — трикутний.",
