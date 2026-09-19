@@ -21,11 +21,10 @@
         },
         {
           "id": "T2",
-          "title": "Методичка: хребці й череп (с. 11–45)",
+          "title": "Методичка: хребці (с. 11–23)",
           "label": "T2",
           "syllabus": [
-            "T1",
-            "T2"
+            "T1"
           ],
           "notes": "anatomy-ua-full/T2/notes.json",
           "lesson": "anatomy-ua-full/T2/lesson.json",
@@ -43,6 +42,18 @@
           "lesson": "anatomy-ua-full/T3/lesson.json",
           "quiz": "anatomy-ua-full/T3/quiz.json",
           "cards": "anatomy-ua-full/T3/cards.json"
+        },
+        {
+          "id": "T4",
+          "title": "Методичка: череп (с. 24–45)",
+          "label": "T4",
+          "syllabus": [
+            "T2"
+          ],
+          "notes": "anatomy-ua-full/T4/notes.json",
+          "lesson": "anatomy-ua-full/T4/lesson.json",
+          "quiz": "anatomy-ua-full/T4/quiz.json",
+          "cards": "anatomy-ua-full/T4/cards.json"
         }
       ]
     },
