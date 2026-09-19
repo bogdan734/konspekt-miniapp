@@ -80,82 +80,84 @@ function toothRow(id, count, group, { start, step, size, rot = 0 }) {
 // Пропорції коня: череп довгий і вузький (у натурі ~527 x 193 x 149 мм), тому
 // лицевий відділ займає більше половини довжини — на відміну від коротшого й
 // ширшого черепа ВРХ. Вісь Z — ростро-каудальна (+Z до носа), Y — дорзо-
-// вентральна, X — медіо-латеральна.
+// вентральна, X — медіо-латеральна. Мозковий відділ: z -8.5..-2,
+// очна ямка ~z -1.5, зубна аркада z +1..+6, беззуба діастема z +7..+11,
+// різці z +12..+14 — саме ця довга діастема й робить голову коня «довгою».
 function buildCranium() {
   const group = new THREE.Group();
 
   // Потилична кістка
-  const occ = new THREE.Mesh(new THREE.SphereGeometry(2.9, 22, 16), boneMat());
-  occ.scale.set(1.12, 1.0, 0.6);
-  occ.position.set(0, 0.7, -7.2);
+  const occ = new THREE.Mesh(new THREE.SphereGeometry(2.8, 22, 16), boneMat());
+  occ.scale.set(1.1, 1.05, 0.62);
+  occ.position.set(0, 0.9, -7.0);
   addPart('occipitale', occ, group);
 
   // Великий потиличний отвір — у коня круглий
-  const fm = new THREE.Mesh(new THREE.TorusGeometry(0.62, 0.18, 10, 20), boneMat());
-  fm.position.set(0, -0.55, -8.15);
+  const fm = new THREE.Mesh(new THREE.TorusGeometry(0.6, 0.17, 10, 20), boneMat());
+  fm.position.set(0, -0.5, -7.95);
   addPart('foramen-magnum', fm, group);
-  const fmHole = new THREE.Mesh(new THREE.CircleGeometry(0.62, 20), mat(0x2a2620));
-  fmHole.position.set(0, -0.55, -8.22);
+  const fmHole = new THREE.Mesh(new THREE.CircleGeometry(0.6, 20), mat(0x2a2620));
+  fmHole.position.set(0, -0.5, -8.02);
   addPart('foramen-magnum', fmHole, group);
 
   // Потиличні виростки — ними череп сидить на атланті
   for (const side of [-1, 1]) {
-    const c = new THREE.Mesh(new THREE.SphereGeometry(0.46, 12, 10), darkMat());
-    c.scale.set(1, 0.8, 1.35);
-    c.position.set(side * 1.05, -1.05, -8.2);
+    const c = new THREE.Mesh(new THREE.SphereGeometry(0.45, 12, 10), darkMat());
+    c.scale.set(1, 0.8, 1.3);
+    c.position.set(side * 1.0, -1.0, -8.0);
     addPart('condylus', c, group);
   }
 
-  // Тім'яні кістки
+  // Тім'яні кістки — дах мозкової коробки
   for (const side of [-1, 1]) {
-    const p = new THREE.Mesh(new THREE.BoxGeometry(1.9, 0.5, 2.8), boneMat());
-    p.position.set(side * 1.45, 2.85, -5.5);
-    p.rotation.z = -side * 0.14;
+    const p = new THREE.Mesh(new THREE.BoxGeometry(1.8, 0.5, 3.0), boneMat());
+    p.position.set(side * 1.35, 2.75, -5.2);
+    p.rotation.z = -side * 0.13;
     addPart('parietale', p, group);
   }
 
   // Зовнішній сагітальний гребінь — видова ознака коня (у ВРХ його немає)
-  const crest = new THREE.Mesh(new THREE.BoxGeometry(0.34, 0.85, 3.4), boneMat());
-  crest.position.set(0, 3.35, -5.6);
+  const crest = new THREE.Mesh(new THREE.BoxGeometry(0.32, 0.8, 3.4), boneMat());
+  crest.position.set(0, 3.2, -5.3);
   addPart('crista-sagittalis', crest, group);
 
-  // Лобова кістка
-  const fr = new THREE.Mesh(new THREE.BoxGeometry(5.9, 0.65, 4.4), boneMat());
-  fr.position.set(0, 3.05, -1.9);
+  // Лобова кістка: лоб коня плавно переходить у спинку носа
+  const fr = new THREE.Mesh(new THREE.BoxGeometry(5.4, 0.62, 4.6), boneMat());
+  fr.position.set(0, 2.85, -1.7);
   addPart('frontale', fr, group);
-  const frSlope = new THREE.Mesh(new THREE.BoxGeometry(4.4, 0.6, 2.6), boneMat());
-  frSlope.position.set(0, 2.8, 1.0);
-  frSlope.rotation.x = -0.18;
+  const frSlope = new THREE.Mesh(new THREE.BoxGeometry(3.8, 0.58, 2.8), boneMat());
+  frSlope.rotation.x = -0.14;
+  frSlope.position.set(0, 2.6, 1.2);
   addPart('frontale', frSlope, group);
 
   // Вискові кістки із зовнішнім слуховим проходом
   for (const side of [-1, 1]) {
-    const t = new THREE.Mesh(new THREE.SphereGeometry(1.35, 16, 12), boneMat());
-    t.scale.set(1, 0.85, 1.2);
-    t.position.set(side * 2.95, 1.0, -5.4);
+    const t = new THREE.Mesh(new THREE.SphereGeometry(1.3, 16, 12), boneMat());
+    t.scale.set(1, 0.85, 1.25);
+    t.position.set(side * 2.75, 0.9, -5.1);
     addPart('temporale', t, group);
-    const meat = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.22, 0.6, 10), darkMat());
+    const meat = new THREE.Mesh(new THREE.CylinderGeometry(0.2, 0.2, 0.6, 10), darkMat());
     meat.rotation.z = Math.PI / 2;
-    meat.position.set(side * 3.55, 0.9, -5.9);
+    meat.position.set(side * 3.3, 0.8, -5.7);
     addPart('temporale', meat, group);
   }
 
   // Очні ямки: у коня кільце замкнене повністю
   for (const side of [-1, 1]) {
-    const o = new THREE.Mesh(new THREE.TorusGeometry(1.2, 0.2, 10, 22), boneMat());
+    const o = new THREE.Mesh(new THREE.TorusGeometry(1.15, 0.2, 10, 22), boneMat());
     o.rotation.y = Math.PI / 2;
-    o.position.set(side * 3.15, 1.75, -1.5);
+    o.position.set(side * 2.95, 1.6, -1.4);
     addPart('orbita', o, group);
   }
 
   // Виличні дуги — ланцюжок сегментів між заданими точками
-  const zygoPts = [[3.15, 0.7, -4.4], [3.3, 0.2, -2.6], [3.05, -0.1, -0.4], [2.55, -0.35, 1.6]];
+  const zygoPts = [[2.9, 0.6, -4.2], [3.05, 0.15, -2.4], [2.85, -0.15, -0.4], [2.45, -0.4, 1.4]];
   for (const side of [-1, 1]) {
     for (let i = 0; i < zygoPts.length - 1; i++) {
       const a = new THREE.Vector3(side * zygoPts[i][0], zygoPts[i][1], zygoPts[i][2]);
       const b = new THREE.Vector3(side * zygoPts[i + 1][0], zygoPts[i + 1][1], zygoPts[i + 1][2]);
       const dir = new THREE.Vector3().subVectors(b, a);
-      const seg = new THREE.Mesh(new THREE.CylinderGeometry(0.24, 0.24, dir.length(), 10), boneMat());
+      const seg = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.22, dir.length(), 10), boneMat());
       seg.position.copy(a).add(b).multiplyScalar(0.5);
       seg.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), dir.clone().normalize());
       addPart('arcus-zygomaticus', seg, group);
@@ -164,73 +166,73 @@ function buildCranium() {
 
   // Клиноподібна кістка і криловий канал (у коня з трьома отворами)
   for (const side of [-1, 1]) {
-    const sph = new THREE.Mesh(new THREE.BoxGeometry(0.85, 0.9, 1.5), boneMat());
-    sph.position.set(side * 1.5, -0.5, -3.0);
+    const sph = new THREE.Mesh(new THREE.BoxGeometry(0.8, 0.85, 1.6), boneMat());
+    sph.position.set(side * 1.3, -0.7, -2.8);
     addPart('sphenoidale', sph, group);
-    const canal = new THREE.Mesh(new THREE.CylinderGeometry(0.17, 0.17, 1.4, 10), mat(COLOR.canal));
+    const canal = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.16, 1.5, 10), mat(COLOR.canal));
     canal.rotation.x = Math.PI / 2;
-    canal.position.set(side * 1.95, -0.95, -2.9);
+    canal.position.set(side * 1.75, -1.05, -2.7);
     addPart('canalis-alaris', canal, group);
   }
 
-  // Носові кістки: у коня назальний кінець загострений
   for (const side of [-1, 1]) {
-    const n = new THREE.Mesh(new THREE.CylinderGeometry(0.3, 0.45, 9.0, 14), boneMat());
-    n.rotation.x = Math.PI / 2;
-    n.scale.x = 0.62;
-    n.position.set(side * 0.62, 2.5, 5.6);
-    addPart('nasale', n, group);
-    const tip = new THREE.Mesh(new THREE.ConeGeometry(0.26, 1.5, 10), boneMat());
-    tip.rotation.x = Math.PI / 2;
-    tip.position.set(side * 0.5, 2.2, 10.7);
-    addPart('nasale', tip, group);
-  }
-
-  // Слізні кістки
-  for (const side of [-1, 1]) {
-    const l = new THREE.Mesh(new THREE.BoxGeometry(0.8, 0.95, 0.5), boneMat());
-    l.position.set(side * 2.95, 1.05, 0.2);
-    addPart('lacrimale', l, group);
-  }
-
-  for (const side of [-1, 1]) {
-    // Верхня щелепа
-    const mx = new THREE.Mesh(new THREE.BoxGeometry(0.95, 2.3, 8.4), boneMat());
-    mx.position.set(side * 2.2, -0.85, 4.4);
+    // Верхня щелепа: зубна частина
+    const mx = new THREE.Mesh(new THREE.BoxGeometry(0.95, 3.0, 7.2), boneMat());
+    mx.position.set(side * 2.05, -0.4, 3.4);
     addPart('maxilla', mx, group);
+    // і беззуба частина — діастема, куди лягають вудила
+    const bar = new THREE.Mesh(new THREE.BoxGeometry(0.8, 1.7, 4.6), boneMat());
+    bar.position.set(side * 1.7, -0.95, 9.2);
+    addPart('maxilla', bar, group);
 
     // Лицевий ГРЕБІНЬ — головна видова ознака коня проти ВРХ
-    const cf = new THREE.Mesh(new THREE.BoxGeometry(0.34, 0.52, 4.4), boneMat());
-    cf.position.set(side * 2.76, -0.45, 3.2);
+    const cf = new THREE.Mesh(new THREE.BoxGeometry(0.32, 0.5, 4.6), boneMat());
+    cf.position.set(side * 2.68, -0.35, 3.3);
     addPart('crista-facialis', cf, group);
     const tuber = new THREE.Mesh(new THREE.SphereGeometry(0.3, 10, 8), boneMat());
-    tuber.position.set(side * 2.76, -0.45, 5.5);
+    tuber.position.set(side * 2.68, -0.35, 5.7);
     addPart('crista-facialis', tuber, group);
 
-    // Підочноямковий отвір
-    const fio = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.16, 0.4, 10), darkMat());
+    // Підочноямковий отвір — трохи вище й попереду початку гребеня
+    const fio = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 0.4, 10), darkMat());
     fio.rotation.z = Math.PI / 2;
-    fio.position.set(side * 2.58, 0.2, 6.6);
+    fio.position.set(side * 2.5, 0.5, 6.9);
     addPart('foramen-infraorbitale', fio, group);
 
     // Щічні зуби
     toothRow('dentes', 6, group, {
-      start: [side * 2.05, -2.05, 1.5], step: 0.92, size: [0.62, 0.6, 0.78],
+      start: [side * 1.95, -2.05, 1.2], step: 0.95, size: [0.62, 0.6, 0.8],
     });
+
+    // Слізна кістка — на межі орбіти й лиця
+    const l = new THREE.Mesh(new THREE.BoxGeometry(0.75, 0.9, 0.5), boneMat());
+    l.position.set(side * 2.6, 0.95, 0.2);
+    addPart('lacrimale', l, group);
+
+    // Носова кістка: лежить на спинці носа й спускається до загостреного кінця
+    const n = new THREE.Mesh(new THREE.CylinderGeometry(0.26, 0.44, 10.2, 14), boneMat());
+    n.rotation.x = Math.PI / 2 + 0.085;
+    n.scale.x = 0.62;
+    n.position.set(side * 0.58, 1.85, 5.9);
+    addPart('nasale', n, group);
+    const tip = new THREE.Mesh(new THREE.ConeGeometry(0.24, 1.4, 10), boneMat());
+    tip.rotation.x = Math.PI / 2 + 0.085;
+    tip.position.set(side * 0.5, 0.92, 11.4);
+    addPart('nasale', tip, group);
   }
 
   // Різцева кістка: у коня — З луночками для верхніх різців
-  const incBody = new THREE.Mesh(new THREE.BoxGeometry(2.0, 1.15, 2.8), boneMat());
-  incBody.position.set(0, -1.15, 11.7);
+  const incBody = new THREE.Mesh(new THREE.BoxGeometry(2.0, 1.5, 3.0), boneMat());
+  incBody.position.set(0, -1.15, 12.3);
   addPart('incisivum', incBody, group);
-  const incNose = new THREE.Mesh(new THREE.SphereGeometry(1.15, 16, 12), boneMat());
-  incNose.scale.set(0.85, 0.65, 0.9);
-  incNose.position.set(0, -1.0, 12.9);
+  const incNose = new THREE.Mesh(new THREE.SphereGeometry(1.1, 16, 12), boneMat());
+  incNose.scale.set(0.9, 0.72, 0.85);
+  incNose.position.set(0, -0.95, 13.5);
   addPart('incisivum', incNose, group);
   for (let i = 0; i < 6; i++) {
     const t = i - 2.5;
-    const tooth = new THREE.Mesh(new THREE.BoxGeometry(0.34, 0.65, 0.34), toothMat());
-    tooth.position.set(t * 0.36, -1.95, 12.9 - Math.abs(t) * 0.14);
+    const tooth = new THREE.Mesh(new THREE.BoxGeometry(0.34, 0.7, 0.34), toothMat());
+    tooth.position.set(t * 0.36, -2.0, 13.4 - Math.abs(t) * 0.16);
     addPart('incisivum', tooth, group);
   }
 
@@ -246,39 +248,39 @@ function buildMandible() {
 
   for (const side of [-1, 1]) {
     // Гілка з суглобовим і вінцевим відростками
-    const ram = new THREE.Mesh(new THREE.BoxGeometry(0.5, 3.0, 1.8), boneMat());
-    ram.position.set(side * 2.95, 1.1, -0.3);
+    const ram = new THREE.Mesh(new THREE.BoxGeometry(0.5, 3.0, 1.9), boneMat());
+    ram.position.set(side * 2.6, 1.0, -0.2);
     addPart('ramus', ram, group);
-    const cond = new THREE.Mesh(new THREE.SphereGeometry(0.38, 10, 8), darkMat());
-    cond.position.set(side * 2.95, 2.6, -0.3);
+    const cond = new THREE.Mesh(new THREE.SphereGeometry(0.36, 10, 8), darkMat());
+    cond.position.set(side * 2.6, 2.45, -0.3);
     addPart('ramus', cond, group);
-    const cor = new THREE.Mesh(new THREE.ConeGeometry(0.34, 1.9, 10), boneMat());
-    cor.rotation.x = -0.28;
-    cor.position.set(side * 2.8, 2.5, 0.7);
+    const cor = new THREE.Mesh(new THREE.ConeGeometry(0.32, 1.8, 10), boneMat());
+    cor.rotation.x = -0.26;
+    cor.position.set(side * 2.45, 2.4, 0.8);
     addPart('ramus', cor, group);
 
-    // Корінна частина тіла
-    const body = new THREE.Mesh(new THREE.BoxGeometry(0.8, 1.35, 9.4), boneMat());
-    body.position.set(side * 2.05, -0.35, 4.9);
-    body.rotation.y = -side * 0.1;
+    // Корінна частина тіла — дотягується аж до різцевої частини
+    const body = new THREE.Mesh(new THREE.BoxGeometry(0.8, 1.5, 13.4), boneMat());
+    body.position.set(side * 1.95, -1.0, 7.5);
+    body.rotation.y = -side * 0.055;
     addPart('pars-molaris', body, group);
-    const ment = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 0.35, 10), darkMat());
+    const ment = new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.14, 0.35, 10), darkMat());
     ment.rotation.z = Math.PI / 2;
-    ment.position.set(side * 2.3, -0.3, 8.6);
+    ment.position.set(side * 2.2, -0.9, 12.3);
     addPart('pars-molaris', ment, group);
     toothRow('pars-molaris', 6, group, {
-      start: [side * 1.98, 0.45, 2.0], step: 0.92, size: [0.58, 0.55, 0.78],
+      start: [side * 1.9, -0.2, 5.9], step: 0.95, size: [0.6, 0.55, 0.8],
     });
   }
 
   // Різцева частина тіла з нижніми різцями
-  const chin = new THREE.Mesh(new THREE.BoxGeometry(2.1, 1.25, 2.3), boneMat());
-  chin.position.set(0, -0.2, 11.3);
+  const chin = new THREE.Mesh(new THREE.BoxGeometry(2.1, 1.5, 2.4), boneMat());
+  chin.position.set(0, -0.85, 16.3);
   addPart('pars-incisiva', chin, group);
   for (let i = 0; i < 6; i++) {
     const t = i - 2.5;
-    const tooth = new THREE.Mesh(new THREE.BoxGeometry(0.32, 0.62, 0.32), toothMat());
-    tooth.position.set(t * 0.34, 0.62, 12.0 - Math.abs(t) * 0.12);
+    const tooth = new THREE.Mesh(new THREE.BoxGeometry(0.32, 0.68, 0.32), toothMat());
+    tooth.position.set(t * 0.34, 0.15, 16.9 - Math.abs(t) * 0.14);
     addPart('pars-incisiva', tooth, group);
   }
 
