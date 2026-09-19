@@ -54,12 +54,14 @@ function loadPart(partId) {
           // ні (у щелепи роздута коробка), тому відстань беремо з даних частини.
           if (!err && camera) center = camera.target.slice();
           radius = part.distance;
-          frameAfterLoad(partId);
-          // viewerready спрацьовує ще до того, як скан домалювався повністю, і
-          // Sketchfab після цього сам переставляє камеру. Тому вписуємо ще раз
-          // згодом — але тільки якщо користувачка ще нічого не обрала сама.
-          setTimeout(() => frameAfterLoad(partId), 3000);
-          setTimeout(() => frameAfterLoad(partId), 9000);
+          // viewerready спрацьовує задовго до того, як скан дотягнеться
+          // повністю, і Sketchfab дорогою ще кілька разів сам переставляє
+          // камеру. Тому вписуємо модель не раз, а кількома заходами, доки
+          // все не вляжеться. Щойно користувачка торкнеться керування —
+          // userChose стає true і заходи припиняються.
+          for (const delay of [0, 4000, 9000, 16000, 25000, 35000]) {
+            setTimeout(() => frameAfterLoad(partId), delay);
+          }
         });
       });
     },
@@ -146,7 +148,13 @@ for (const view of VIEWS) {
   btn.onclick = () => { userChose = true; applyView(view.id); };
   viewButtons.append(btn);
 }
-document.getElementById('resetView').onclick = () => { userChose = true; applyView('default'); };
+// «Скинути вигляд» — це завжди робоча кнопка-рятівниця: applyView задає
+// напрямок, а recenterCamera() слідом гарантовано вписує модель у кадр.
+document.getElementById('resetView').onclick = () => {
+  userChose = true;
+  applyView('default');
+  setTimeout(() => api?.recenterCamera(), 900);
+};
 
 // ---------- список структур ----------
 function selectStructure(structure) {
