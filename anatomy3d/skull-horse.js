@@ -138,7 +138,13 @@ function renderPartButtons() {
     const btn = document.createElement('button');
     btn.className = `part-btn${part.id === currentPart ? ' on' : ''}`;
     btn.textContent = part.ua;
-    btn.onclick = () => { if (part.id !== currentPart) loadPart(part.id); };
+    btn.onclick = () => {
+      if (part.id === currentPart) return;
+      setMarker(null);   // точка належала іншій кістці
+      selectedId = null;
+      infoCard.hidden = true;
+      loadPart(part.id);
+    };
     partButtons.append(btn);
   }
 }
@@ -159,6 +165,52 @@ document.getElementById('resetView').onclick = () => {
   setTimeout(() => api?.recenterCamera(), 2200);
 };
 
+// ---------- маркер обраної структури ----------
+// Скан — суцільна зшита поверхня: окремої кістки як об'єкта в ньому немає, тому
+// підсвітити сам меш неможливо. Натомість тримаємо кільце на 3D-точці кістки:
+// щокадру питаємо у Sketchfab, куди ця точка потрапляє на екрані.
+const markerEl = document.getElementById('marker');
+const markerLabelEl = document.getElementById('markerLabel');
+let markerPoint = null;   // [x, y, z] у координатах моделі
+let markerText = '';
+let markerBusy = false;
+
+function setMarker(point, text) {
+  markerPoint = point ?? null;
+  markerText = text ?? '';
+  markerLabelEl.textContent = markerText;
+  if (!markerPoint) hideMarker();
+}
+
+function hideMarker() {
+  markerEl.classList.remove('on');
+  markerLabelEl.classList.remove('on');
+}
+
+function trackMarker() {
+  requestAnimationFrame(trackMarker);
+  if (!api || !markerPoint || markerBusy) return;
+  markerBusy = true;
+  api.getWorldToScreenCoordinates(markerPoint, res => {
+    markerBusy = false;
+    const c = res?.canvasCoord;
+    if (!c) { hideMarker(); return; }
+    const x = c[0] ?? c['0'];
+    const y = c[1] ?? c['1'];
+    const box = frame.getBoundingClientRect();
+    if (!Number.isFinite(x) || !Number.isFinite(y)
+        || x < 0 || y < 0 || x > box.width || y > box.height) { hideMarker(); return; }
+    markerEl.style.transform = '';
+    markerEl.style.left = `${x}px`;
+    markerEl.style.top = `${y}px`;
+    markerLabelEl.style.left = `${x}px`;
+    markerLabelEl.style.top = `${y}px`;
+    markerEl.classList.add('on');
+    if (markerText) markerLabelEl.classList.add('on');
+  });
+}
+requestAnimationFrame(trackMarker);
+
 // ---------- список структур ----------
 function selectStructure(structure) {
   selectedId = structure.id;
@@ -169,6 +221,7 @@ function selectStructure(structure) {
   for (const btn of structureList.querySelectorAll('.struct-btn')) {
     btn.classList.toggle('active', btn.dataset.id === structure.id);
   }
+  setMarker(structure.point, structure.ua);
   if (structure.part !== currentPart) {
     pendingView = { view: structure.view, zoom: STRUCTURE_ZOOM };
     loadPart(structure.part);
