@@ -473,7 +473,9 @@ let jawOpen = false;
 const jawBtn = document.getElementById('toggleJaw');
 function animateJaw(open, duration = 550) {
   const start = mandible.rotation.x;
-  const target = open ? -0.5 : 0;
+  // Щелепа тягнеться від суглоба вперед (+Z), тому опускає підборіддя саме
+  // ДОДАТНИЙ кут: від'ємний задирав би її догори.
+  const target = open ? 0.32 : 0;
   const t0 = performance.now();
   function step(now) {
     const t = Math.min(1, (now - t0) / duration);
