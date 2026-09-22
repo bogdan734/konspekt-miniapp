@@ -822,264 +822,10 @@
   {
     "topicID": "T4",
     "kind": "latin",
-    "front": "maxilla",
-    "back": "верхня щелепа",
-    "sourceSegmentIDs": [
-      81
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "term",
-    "front": "Частини верхньої щелепи",
-    "back": "тіло, піднебінний відросток, носова пластинка",
-    "sourceSegmentIDs": [
-      82
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "tuber maxillae",
-    "back": "горб верхньої щелепи — поруч три отвори",
-    "sourceSegmentIDs": [
-      83
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "foramen maxillare",
-    "back": "щелеповий отвір — у підочний канал",
-    "sourceSegmentIDs": [
-      83
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "foramen sphenopalatinum",
-    "back": "клинопіднебінний отвір — у носову порожнину",
-    "sourceSegmentIDs": [
-      83
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "foramen palatinum caudale",
-    "back": "задній піднебінний отвір — у піднебінний канал",
-    "sourceSegmentIDs": [
-      83
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "foramen palatinum majus",
-    "back": "великий піднебінний отвір — у твердому піднебінні",
-    "sourceSegmentIDs": [
-      83
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "canalis infraorbitalis",
-    "back": "підочний канал",
-    "sourceSegmentIDs": [
-      83
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "foramen infraorbitale",
-    "back": "підочноямковий отвір — вихід підочного каналу",
-    "sourceSegmentIDs": [
-      85
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "canalis maxilloincisivus",
-    "back": "верхньощелеповий різцевий канал",
-    "sourceSegmentIDs": [
-      85
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "crista conchalis ventralis",
-    "back": "гребінь вентральної раковини — на носовій поверхні щелепи",
-    "sourceSegmentIDs": [
-      85
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "sulcus nasolacrimalis",
-    "back": "слізно-носова борозна",
-    "sourceSegmentIDs": [
-      85
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "term",
-    "front": "Підочний отвір: рівень зуба по видах",
-    "back": "кінь 3-й моляр; корова 1-й; свиня 3–4-й; собака 3-й",
-    "sourceSegmentIDs": [
-      87
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "term",
-    "front": "Щелепова пазуха по видах",
-    "back": "кінь два відділи; корова зі слізним міхуром; свиня невелика; собака слабка",
-    "sourceSegmentIDs": [
-      87
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "tuber malare",
-    "back": "лицевий горб — корова",
-    "sourceSegmentIDs": [
-      89
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "term",
-    "front": "Іклова ямка на верхній щелепі",
-    "back": "свиня (fossa canina)",
-    "sourceSegmentIDs": [
-      89,
-      116
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "os nasale",
-    "back": "носова кістка — дах носової порожнини",
-    "sourceSegmentIDs": [
-      91
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "incisura nasomaxillaris",
-    "back": "носо-щелепова вирізка; у собаки відсутня",
-    "sourceSegmentIDs": [
-      91,
-      92
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "term",
-    "front": "Назальний кінець носової кістки по видах",
-    "back": "кінь загострений; корова роздвоєний; свиня звужений; собака роздвоєний",
-    "sourceSegmentIDs": [
-      92
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "os incisivum",
-    "back": "різцева кістка",
-    "sourceSegmentIDs": [
-      93
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "fissura palatina",
-    "back": "піднебінна щілина різцевої кістки",
-    "sourceSegmentIDs": [
-      93
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "term",
-    "front": "Різцева кістка корови",
-    "back": "тіло без луночок; піднебінна щілина велика овальна; різцева щілина між тілами",
-    "sourceSegmentIDs": [
-      94
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "os lacrimale",
-    "back": "слізна кістка",
-    "sourceSegmentIDs": [
-      95
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "fossa sacci lacrimalis",
-    "back": "ямка слізного мішка",
-    "sourceSegmentIDs": [
-      95
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "canalis nasolacrimalis",
-    "back": "слізно-носовий канал — від foramen lacrimale",
-    "sourceSegmentIDs": [
-      95
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "vomer",
-    "back": "леміш — обмежує хоани медіально",
-    "sourceSegmentIDs": [
-      97
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "ala vomeris",
-    "back": "крило леміша — на тілі клиноподібної",
-    "sourceSegmentIDs": [
-      97
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "term",
-    "front": "Леміш свині",
-    "back": "дуже довгий, досягає різцевих кісток",
-    "sourceSegmentIDs": [
-      98
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
     "front": "os ethmoidale",
     "back": "решітчаста кістка",
     "sourceSegmentIDs": [
-      99
+      81
     ]
   },
   {
@@ -1088,7 +834,7 @@
     "front": "labyrinthus ethmoidalis",
     "back": "лабіринт решітчастої кістки — турбіналії",
     "sourceSegmentIDs": [
-      100
+      82
     ]
   },
   {
@@ -1097,8 +843,8 @@
     "front": "lamina cribrosa",
     "back": "решітчаста пластинка — з отворами, нюхові ямки",
     "sourceSegmentIDs": [
-      100,
-      102
+      82,
+      84
     ]
   },
   {
@@ -1107,8 +853,8 @@
     "front": "lamina perpendicularis",
     "back": "перпендикулярна пластинка — переходить у перегородку носа",
     "sourceSegmentIDs": [
-      100,
-      103
+      82,
+      85
     ]
   },
   {
@@ -1117,8 +863,8 @@
     "front": "lamina papyracea",
     "back": "паперова пластинка — бокова стінка лабіринту",
     "sourceSegmentIDs": [
-      100,
-      103
+      82,
+      85
     ]
   },
   {
@@ -1127,7 +873,7 @@
     "front": "crista galli",
     "back": "півнячий гребінь між нюховими ямками",
     "sourceSegmentIDs": [
-      102
+      84
     ]
   },
   {
@@ -1136,7 +882,7 @@
     "front": "fossa olfactoria",
     "back": "нюхова ямка на решітчастій пластинці",
     "sourceSegmentIDs": [
-      102
+      84
     ]
   },
   {
@@ -1145,7 +891,7 @@
     "front": "Ендо- vs ектотурбіналії",
     "back": "медіальні крупні й нечисленні / латеральні дрібні й численні",
     "sourceSegmentIDs": [
-      101
+      83
     ]
   },
   {
@@ -1154,161 +900,7 @@
     "front": "Турбіналії: кінь / корова / свиня / собака",
     "back": "6+25 · 5+18 · 7+18 · 4+6",
     "sourceSegmentIDs": [
-      104
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "concha nasalis dorsalis / ventralis",
-    "back": "дорзальна і вентральна носові раковини",
-    "sourceSegmentIDs": [
-      105
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "sinus conchofrontalis",
-    "back": "лобо-раковинна пазуха коня",
-    "sourceSegmentIDs": [
-      106
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "sinus conchomaxillaris",
-    "back": "раковинно-щелепова пазуха коня",
-    "sourceSegmentIDs": [
-      106
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "mandibula",
-    "back": "нижня щелепа — тіло + гілка",
-    "sourceSegmentIDs": [
-      109
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "pars incisiva / pars molaris",
-    "back": "різцева і корінна частини тіла нижньої щелепи",
-    "sourceSegmentIDs": [
-      110,
-      111
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "foramen mentale",
-    "back": "підборідний отвір — вихід нижньощелепового каналу",
-    "sourceSegmentIDs": [
-      111
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "canalis mandibularis",
-    "back": "нижньощелеповий канал",
-    "sourceSegmentIDs": [
-      111
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "processus condylaris",
-    "back": "суглобовий відросток гілки",
-    "sourceSegmentIDs": [
-      112
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "incisura mandibulae",
-    "back": "щелепова вирізка між відростками гілки",
-    "sourceSegmentIDs": [
-      112
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "fossa pterygoidea",
-    "back": "крилова ямка — медіально на гілці",
-    "sourceSegmentIDs": [
-      112
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "foramen mandibulae",
-    "back": "нижньощелеповий отвір — вхід у канал",
-    "sourceSegmentIDs": [
-      112
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "fossa masseterica",
-    "back": "ямка жувального м'яза — латерально на гілці",
-    "sourceSegmentIDs": [
-      112
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "angulus mandibulae",
-    "back": "щелеповий кут",
-    "sourceSegmentIDs": [
-      113
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "spatium intermandibulare",
-    "back": "міжщелеповий простір",
-    "sourceSegmentIDs": [
-      113
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "os rostrale",
-    "back": "кістка рила — свиня",
-    "sourceSegmentIDs": [
-      115
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "os zygomaticum",
-    "back": "вилична кістка — processus temporalis, processus frontalis",
-    "sourceSegmentIDs": [
-      119
-    ]
-  },
-  {
-    "topicID": "T4",
-    "kind": "latin",
-    "front": "os palatinum / os pterygoideum",
-    "back": "піднебінна і крилоподібна кістки",
-    "sourceSegmentIDs": [
-      119
+      86
     ]
   },
   {
@@ -1317,7 +909,7 @@
     "front": "crista nuchae",
     "back": "карковий гребінь потиличної кістки",
     "sourceSegmentIDs": [
-      120
+      89
     ]
   },
   {
@@ -1326,7 +918,7 @@
     "front": "protuberantia intercornualis",
     "back": "міжрогове підвищення",
     "sourceSegmentIDs": [
-      118
+      88
     ]
   },
   {
@@ -1335,7 +927,7 @@
     "front": "linea temporalis",
     "back": "скронева (вискова) лінія лобової кістки",
     "sourceSegmentIDs": [
-      118
+      88
     ]
   }
 ]

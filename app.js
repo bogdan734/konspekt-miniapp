@@ -182,6 +182,7 @@ async function boot() {
       ]);
       data.material[`${subject.id}/${topic.id}`] = { notes, lesson, quiz, cards };
     })));
+  rehomeReviews();
 
   wireScreen();
   current = store.get('subject', null)
@@ -204,6 +205,33 @@ function migrateReviews() {
     }
   }
   if (moved) store.set('reviews', fixed);
+}
+
+/// A topic that gets split in two moves some cards to a new topic id. Their
+/// review history follows them: a key whose card is gone from its topic but
+/// sits in exactly one other topic of the same subject is renamed there.
+function rehomeReviews() {
+  const states = store.get('reviews', {});
+  const homes = {};
+  for (const subject of data.subjects) {
+    for (const topic of subject.topics) {
+      for (const card of data.material[`${subject.id}/${topic.id}`]?.cards ?? []) {
+        (homes[`${subject.id}:${card.front}`] ??= new Set()).add(card.topicID);
+      }
+    }
+  }
+  let moved = false;
+  for (const name of Object.keys(states)) {
+    const [subjectID, topicID, ...rest] = name.split(':');
+    const front = rest.join(':');
+    const here = homes[`${subjectID}:${front}`];
+    if (!here || here.has(topicID) || here.size !== 1) continue;
+    const target = `${subjectID}:${[...here][0]}:${front}`;
+    if (!(target in states)) states[target] = states[name];
+    delete states[name];
+    moved = true;
+  }
+  if (moved) store.set('reviews', states);
 }
 
 const subjectByID = id => data.subjects.find(s => s.id === id);
@@ -809,7 +837,7 @@ function renderTopicNotes(subject, topic) {
     view.append(promo);
   }
 
-  if (subject.id === 'anatomy-ua-full' && topic.id === 'T4') {
+  if (subject.id === 'anatomy-ua-full' && ['T4', 'T5'].includes(topic.id)) {
     const promo = el('div', 'card');
     promo.append(el('h2', null, '3D: череп коня'));
 

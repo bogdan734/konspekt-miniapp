@@ -45,7 +45,7 @@
         },
         {
           "id": "T4",
-          "title": "Методичка: череп (с. 24–45)",
+          "title": "Методичка: череп — мозковий відділ",
           "label": "T4",
           "syllabus": [
             "T2"
@@ -54,6 +54,18 @@
           "lesson": "anatomy-ua-full/T4/lesson.json",
           "quiz": "anatomy-ua-full/T4/quiz.json",
           "cards": "anatomy-ua-full/T4/cards.json"
+        },
+        {
+          "id": "T5",
+          "title": "Методичка: щелепи — лицевий відділ черепа",
+          "label": "T5",
+          "syllabus": [
+            "T2"
+          ],
+          "notes": "anatomy-ua-full/T5/notes.json",
+          "lesson": "anatomy-ua-full/T5/lesson.json",
+          "quiz": "anatomy-ua-full/T5/quiz.json",
+          "cards": "anatomy-ua-full/T5/cards.json"
         }
       ]
     },
