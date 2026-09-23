@@ -1,0 +1,305 @@
+[
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Vm",
+    "back": "22,4 л/моль — молярний об'єм газу (н. у.)",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Na (число Авогадро)",
+    "back": "6,02·10²³ моль⁻¹",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Дано масу в грамах → ν = ?",
+    "back": "ν = m / M",
+    "sourceSegmentIDs": [
+      2,
+      8
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Дано об'єм газу → ν = ?",
+    "back": "ν = V / Vm",
+    "sourceSegmentIDs": [
+      4,
+      8
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Дано кількість частинок → ν = ?",
+    "back": "ν = N / Na",
+    "sourceSegmentIDs": [
+      6,
+      8
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "m і M — різниця",
+    "back": "m — маса, г; M — молярна маса, г/моль",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "ν для 18 г H₂O",
+    "back": "1 моль (18 / 18)",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "ν для 11,2 л H₂",
+    "back": "0,5 моль (11,2 / 22,4)",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "ν для 12,04·10²³ молекул",
+    "back": "2 моль",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Закон еквівалентів",
+    "back": "m₁ / m₂ = Mекв₁ / Mекв₂",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв елемента",
+    "back": "M / (n · Val) — n атомів, Val валентність",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв оксиду — ділимо на",
+    "back": "кількість атомів елемента × його валентність",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв CaO",
+    "back": "56 / 2 = 28 г/моль",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв Al₂O₃",
+    "back": "102 / 6 = 17 г/моль",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв Fe₂O₃",
+    "back": "160 / 6 = 26,67 г/моль",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Валентність Fe у Fe₂O₃ і чому",
+    "back": "III: O завжди II, 3·2 = 6 на два атоми Fe",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв основи — ділимо на",
+    "back": "кількість груп OH",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Маса і валентність групи OH",
+    "back": "17; валентність I",
+    "sourceSegmentIDs": [
+      15,
+      17
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв NaOH",
+    "back": "40 / 1 = 40 г/моль",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв Ca(OH)₂",
+    "back": "74 / 2 = 37 г/моль",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв Al(OH)₃",
+    "back": "78 / 3 = 26 г/моль",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв Fe(OH)₂",
+    "back": "90 / 2 = 45 г/моль",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв кислоти — ділимо на",
+    "back": "кількість атомів H",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв HCl",
+    "back": "36,5 г/моль",
+    "sourceSegmentIDs": [
+      21
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв H₂SO₄",
+    "back": "98 / 2 = 49 г/моль",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв солі — ділимо на",
+    "back": "z = атоми металу × валентність металу",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв NaCl",
+    "back": "58,5 г/моль",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mекв CaCl₂",
+    "back": "111 / 2 = 55,5 г/моль",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Масова частка w",
+    "back": "n · Ar / Mr · 100%",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Ar: H, O, P, S",
+    "back": "1, 16, 31, 32",
+    "sourceSegmentIDs": [
+      27,
+      29
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "Mr H₃PO₄ і H₂SO₄",
+    "back": "обидві 98",
+    "sourceSegmentIDs": [
+      27,
+      29
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "w у H₃PO₄: H / P / O",
+    "back": "3,06% / 31,63% / 65,31%",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T1",
+    "kind": "term",
+    "front": "w у H₂SO₄: H / S / O",
+    "back": "2,04% / 32,65% / 65,31%",
+    "sourceSegmentIDs": [
+      30
+    ]
+  }
+]

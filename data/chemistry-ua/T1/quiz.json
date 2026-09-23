@@ -1,0 +1,483 @@
+{
+  "questions": [
+    {
+      "prompt": "Чому дорівнює молярний об'єм газу за нормальних умов?",
+      "options": [
+        "6,02 л/моль",
+        "22,4 л/моль",
+        "18 л/моль",
+        "1 л/моль"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vm = 22,4 л/моль.",
+      "sourceSegmentIDs": [
+        1
+      ]
+    },
+    {
+      "prompt": "Число Авогадро:",
+      "options": [
+        "6,02·10⁻²³",
+        "6,02·10²³",
+        "22,4·10²³",
+        "12,04·10²³"
+      ],
+      "correctIndex": 1,
+      "explanation": "6,02·10²³ моль⁻¹ — степінь додатний.",
+      "sourceSegmentIDs": [
+        1
+      ]
+    },
+    {
+      "prompt": "У задачі дано масу речовини в грамах. Яку формулу беремо?",
+      "options": [
+        "ν = V / Vm",
+        "ν = N / Na",
+        "ν = m / M",
+        "w = n·Ar / Mr"
+      ],
+      "correctIndex": 2,
+      "explanation": "Грами → ν = m / M.",
+      "sourceSegmentIDs": [
+        2,
+        8
+      ]
+    },
+    {
+      "prompt": "У задачі дано об'єм газу. Яку формулу беремо?",
+      "options": [
+        "ν = m / M",
+        "ν = V / Vm",
+        "ν = N / Na",
+        "Mекв = M / z"
+      ],
+      "correctIndex": 1,
+      "explanation": "Об'єм газу → ν = V / Vm.",
+      "sourceSegmentIDs": [
+        4,
+        8
+      ]
+    },
+    {
+      "prompt": "Дано кількість молекул. Яку формулу беремо?",
+      "options": [
+        "ν = N / Na",
+        "ν = V / Vm",
+        "ν = m / M",
+        "m₁/m₂ = Mекв₁/Mекв₂"
+      ],
+      "correctIndex": 0,
+      "explanation": "Частинки → ν = N / Na.",
+      "sourceSegmentIDs": [
+        6,
+        8
+      ]
+    },
+    {
+      "prompt": "Що позначає велика M?",
+      "options": [
+        "Масу, г",
+        "Молярну масу, г/моль",
+        "Молярний об'єм",
+        "Масову частку"
+      ],
+      "correctIndex": 1,
+      "explanation": "Мала m — маса, велика M — молярна маса.",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "prompt": "Скільки моль у 18 г води?",
+      "options": [
+        "0,5",
+        "1",
+        "2",
+        "18"
+      ],
+      "correctIndex": 1,
+      "explanation": "M(H₂O) = 18 г/моль → 18/18 = 1 моль.",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "prompt": "Скільки моль в 11,2 л водню (н. у.)?",
+      "options": [
+        "0,5",
+        "1",
+        "2",
+        "11,2"
+      ],
+      "correctIndex": 0,
+      "explanation": "11,2 / 22,4 = 0,5 моль.",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "prompt": "Скільки моль становлять 12,04·10²³ молекул?",
+      "options": [
+        "1",
+        "2",
+        "6,02",
+        "12,04"
+      ],
+      "correctIndex": 1,
+      "explanation": "12,04·10²³ / 6,02·10²³ = 2 моль.",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "prompt": "Для яких речовин працює ν = V / Vm?",
+      "options": [
+        "Для всіх",
+        "Тільки для газів",
+        "Тільки для рідин",
+        "Тільки для солей"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vm = 22,4 л/моль — молярний об'єм газу.",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "prompt": "Закон еквівалентів:",
+      "options": [
+        "m₁ · m₂ = Mекв₁ · Mекв₂",
+        "m₁ / m₂ = Mекв₁ / Mекв₂",
+        "ν = m / M",
+        "w = n·Ar / Mr"
+      ],
+      "correctIndex": 1,
+      "explanation": "Маси реагентів відносяться як їхні молярні маси еквівалентів.",
+      "sourceSegmentIDs": [
+        9
+      ]
+    },
+    {
+      "prompt": "Молярна маса еквівалента елемента:",
+      "options": [
+        "M · n · Val",
+        "M / (n · Val)",
+        "M / Na",
+        "M / Vm"
+      ],
+      "correctIndex": 1,
+      "explanation": "n — атоми елемента у формулі, Val — валентність.",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "prompt": "Mекв CaO:",
+      "options": [
+        "56",
+        "28",
+        "14",
+        "112"
+      ],
+      "correctIndex": 1,
+      "explanation": "56 / (1·2) = 28 г/моль.",
+      "sourceSegmentIDs": [
+        12
+      ]
+    },
+    {
+      "prompt": "На яке число ділимо молярну масу Al₂O₃?",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "5"
+      ],
+      "correctIndex": 2,
+      "explanation": "2 атоми Al × валентність III = 6.",
+      "sourceSegmentIDs": [
+        13
+      ]
+    },
+    {
+      "prompt": "Mекв Al₂O₃:",
+      "options": [
+        "17 г/моль",
+        "18 г/моль",
+        "34 г/моль",
+        "51 г/моль"
+      ],
+      "correctIndex": 0,
+      "explanation": "M = 102; 102 / 6 = 17.",
+      "sourceSegmentIDs": [
+        13
+      ]
+    },
+    {
+      "prompt": "Яка валентність Fe у Fe₂O₃?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "VI"
+      ],
+      "correctIndex": 2,
+      "explanation": "O — II, три атоми дають 6 на два атоми Fe → III.",
+      "sourceSegmentIDs": [
+        14
+      ]
+    },
+    {
+      "prompt": "Mекв Fe₂O₃:",
+      "options": [
+        "80",
+        "53,3",
+        "26,67",
+        "160"
+      ],
+      "correctIndex": 2,
+      "explanation": "160 / 6 = 26,67 г/моль.",
+      "sourceSegmentIDs": [
+        14
+      ]
+    },
+    {
+      "prompt": "Mекв основи — молярну масу ділимо на:",
+      "options": [
+        "валентність металу",
+        "кількість груп OH",
+        "кількість атомів O",
+        "2"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mекв = M / кількість OH.",
+      "sourceSegmentIDs": [
+        15
+      ]
+    },
+    {
+      "prompt": "Mекв NaOH:",
+      "options": [
+        "20",
+        "40",
+        "80",
+        "17"
+      ],
+      "correctIndex": 1,
+      "explanation": "M = 40, OH одна → 40.",
+      "sourceSegmentIDs": [
+        16
+      ]
+    },
+    {
+      "prompt": "Mекв Ca(OH)₂:",
+      "options": [
+        "74",
+        "37",
+        "24,7",
+        "57"
+      ],
+      "correctIndex": 1,
+      "explanation": "M = 74, OH дві → 37.",
+      "sourceSegmentIDs": [
+        17
+      ]
+    },
+    {
+      "prompt": "Mекв Al(OH)₃:",
+      "options": [
+        "78",
+        "39",
+        "26",
+        "17"
+      ],
+      "correctIndex": 2,
+      "explanation": "M = 78, OH три → 26.",
+      "sourceSegmentIDs": [
+        18
+      ]
+    },
+    {
+      "prompt": "Mекв Fe(OH)₂:",
+      "options": [
+        "90",
+        "45",
+        "30",
+        "73"
+      ],
+      "correctIndex": 1,
+      "explanation": "M = 90, OH дві → 45.",
+      "sourceSegmentIDs": [
+        19
+      ]
+    },
+    {
+      "prompt": "Mекв кислоти — молярну масу ділимо на:",
+      "options": [
+        "кількість атомів O",
+        "кількість атомів H",
+        "валентність кислотного залишку",
+        "4"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mекв = M / кількість H.",
+      "sourceSegmentIDs": [
+        20
+      ]
+    },
+    {
+      "prompt": "Mекв HCl:",
+      "options": [
+        "36,5",
+        "18,25",
+        "35,5",
+        "73"
+      ],
+      "correctIndex": 0,
+      "explanation": "H один → 36,5 г/моль.",
+      "sourceSegmentIDs": [
+        21
+      ]
+    },
+    {
+      "prompt": "Mекв H₂SO₄:",
+      "options": [
+        "98",
+        "49",
+        "32,7",
+        "24,5"
+      ],
+      "correctIndex": 1,
+      "explanation": "M = 98, H два → 49.",
+      "sourceSegmentIDs": [
+        22
+      ]
+    },
+    {
+      "prompt": "Для солі z дорівнює:",
+      "options": [
+        "кількості атомів кислотного залишку",
+        "кількості атомів металу × валентність металу",
+        "кількості атомів O",
+        "завжди 1"
+      ],
+      "correctIndex": 1,
+      "explanation": "z = n(металу) · Val(металу).",
+      "sourceSegmentIDs": [
+        23
+      ]
+    },
+    {
+      "prompt": "Mекв NaCl:",
+      "options": [
+        "58,5",
+        "29,25",
+        "23",
+        "35,5"
+      ],
+      "correctIndex": 0,
+      "explanation": "z = 1·1 = 1 → 58,5.",
+      "sourceSegmentIDs": [
+        24
+      ]
+    },
+    {
+      "prompt": "Mекв CaCl₂:",
+      "options": [
+        "111",
+        "55,5",
+        "37",
+        "75,5"
+      ],
+      "correctIndex": 1,
+      "explanation": "M = 111, z = 1·2 = 2 → 55,5.",
+      "sourceSegmentIDs": [
+        25
+      ]
+    },
+    {
+      "prompt": "Формула масової частки елемента:",
+      "options": [
+        "w = Mr / (n·Ar)",
+        "w = n·Ar / Mr · 100%",
+        "w = m / M",
+        "w = V / Vm"
+      ],
+      "correctIndex": 1,
+      "explanation": "n — атоми, Ar — атомна маса, Mr — молекулярна маса.",
+      "sourceSegmentIDs": [
+        26
+      ]
+    },
+    {
+      "prompt": "Mr ортофосфатної кислоти H₃PO₄:",
+      "options": [
+        "98",
+        "82",
+        "100",
+        "97"
+      ],
+      "correctIndex": 0,
+      "explanation": "3 + 31 + 64 = 98.",
+      "sourceSegmentIDs": [
+        27
+      ]
+    },
+    {
+      "prompt": "Масова частка Фосфору в H₃PO₄:",
+      "options": [
+        "3,06%",
+        "31,63%",
+        "65,31%",
+        "32,65%"
+      ],
+      "correctIndex": 1,
+      "explanation": "31 / 98 ≈ 31,63%.",
+      "sourceSegmentIDs": [
+        28
+      ]
+    },
+    {
+      "prompt": "Масова частка Оксигену в H₂SO₄:",
+      "options": [
+        "32,65%",
+        "2,04%",
+        "65,31%",
+        "49%"
+      ],
+      "correctIndex": 2,
+      "explanation": "64 / 98 ≈ 65,31%.",
+      "sourceSegmentIDs": [
+        30
+      ]
+    },
+    {
+      "prompt": "Масова частка Сульфуру в H₂SO₄:",
+      "options": [
+        "32,65%",
+        "31,63%",
+        "16,33%",
+        "65,31%"
+      ],
+      "correctIndex": 0,
+      "explanation": "32 / 98 ≈ 32,65%.",
+      "sourceSegmentIDs": [
+        30
+      ]
+    },
+    {
+      "prompt": "Як перевірити розв'язок задачі на масові частки?",
+      "options": [
+        "Сума часток = 100%",
+        "Сума = Mr",
+        "Сума = 1 моль",
+        "Ніяк"
+      ],
+      "correctIndex": 0,
+      "explanation": "2,04 + 32,65 + 65,31 = 100%.",
+      "sourceSegmentIDs": [
+        30
+      ]
+    }
+  ]
+}

@@ -98,6 +98,18 @@
       "curriculum": null,
       "topics": [
         {
+          "id": "T1",
+          "title": "Основні поняття і закони хімії",
+          "label": "T1",
+          "syllabus": [
+            "T1"
+          ],
+          "notes": "chemistry-ua/T1/notes.json",
+          "lesson": "chemistry-ua/T1/lesson.json",
+          "quiz": "chemistry-ua/T1/quiz.json",
+          "cards": "chemistry-ua/T1/cards.json"
+        },
+        {
           "id": "T3",
           "title": "Основні класи неорганічних сполук",
           "label": "T3",
