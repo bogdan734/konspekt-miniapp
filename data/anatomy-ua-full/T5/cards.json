@@ -141,7 +141,7 @@
     "back": "свиня (fossa canina)",
     "sourceSegmentIDs": [
       9,
-      30
+      62
     ]
   },
   {
@@ -205,7 +205,7 @@
     "front": "os lacrimale",
     "back": "слізна кістка",
     "sourceSegmentIDs": [
-      15
+      16
     ]
   },
   {
@@ -214,7 +214,7 @@
     "front": "fossa sacci lacrimalis",
     "back": "ямка слізного мішка",
     "sourceSegmentIDs": [
-      15
+      16
     ]
   },
   {
@@ -223,7 +223,7 @@
     "front": "canalis nasolacrimalis",
     "back": "слізно-носовий канал — від foramen lacrimale",
     "sourceSegmentIDs": [
-      15
+      16
     ]
   },
   {
@@ -232,7 +232,7 @@
     "front": "vomer",
     "back": "леміш — обмежує хоани медіально",
     "sourceSegmentIDs": [
-      17
+      33
     ]
   },
   {
@@ -241,7 +241,7 @@
     "front": "ala vomeris",
     "back": "крило леміша — на тілі клиноподібної",
     "sourceSegmentIDs": [
-      17
+      33
     ]
   },
   {
@@ -250,7 +250,7 @@
     "front": "Леміш свині",
     "back": "дуже довгий, досягає різцевих кісток",
     "sourceSegmentIDs": [
-      18
+      34
     ]
   },
   {
@@ -259,7 +259,7 @@
     "front": "concha nasalis dorsalis / ventralis",
     "back": "дорзальна і вентральна носові раковини",
     "sourceSegmentIDs": [
-      19
+      35
     ]
   },
   {
@@ -268,7 +268,7 @@
     "front": "sinus conchofrontalis",
     "back": "лобо-раковинна пазуха коня",
     "sourceSegmentIDs": [
-      20
+      36
     ]
   },
   {
@@ -277,7 +277,7 @@
     "front": "sinus conchomaxillaris",
     "back": "раковинно-щелепова пазуха коня",
     "sourceSegmentIDs": [
-      20
+      36
     ]
   },
   {
@@ -286,7 +286,7 @@
     "front": "mandibula",
     "back": "нижня щелепа — тіло + гілка",
     "sourceSegmentIDs": [
-      23
+      39
     ]
   },
   {
@@ -295,8 +295,8 @@
     "front": "pars incisiva / pars molaris",
     "back": "різцева і корінна частини тіла нижньої щелепи",
     "sourceSegmentIDs": [
-      24,
-      25
+      40,
+      41
     ]
   },
   {
@@ -305,7 +305,7 @@
     "front": "foramen mentale",
     "back": "підборідний отвір — вихід нижньощелепового каналу",
     "sourceSegmentIDs": [
-      25
+      41
     ]
   },
   {
@@ -314,7 +314,7 @@
     "front": "canalis mandibularis",
     "back": "нижньощелеповий канал",
     "sourceSegmentIDs": [
-      25
+      41
     ]
   },
   {
@@ -323,7 +323,7 @@
     "front": "processus condylaris",
     "back": "суглобовий відросток гілки",
     "sourceSegmentIDs": [
-      26
+      42
     ]
   },
   {
@@ -332,7 +332,7 @@
     "front": "incisura mandibulae",
     "back": "щелепова вирізка між відростками гілки",
     "sourceSegmentIDs": [
-      26
+      42
     ]
   },
   {
@@ -341,7 +341,7 @@
     "front": "fossa pterygoidea",
     "back": "крилова ямка — медіально на гілці",
     "sourceSegmentIDs": [
-      26
+      42
     ]
   },
   {
@@ -350,7 +350,7 @@
     "front": "foramen mandibulae",
     "back": "нижньощелеповий отвір — вхід у канал",
     "sourceSegmentIDs": [
-      26
+      42
     ]
   },
   {
@@ -359,7 +359,7 @@
     "front": "fossa masseterica",
     "back": "ямка жувального м'яза — латерально на гілці",
     "sourceSegmentIDs": [
-      26
+      42
     ]
   },
   {
@@ -368,7 +368,7 @@
     "front": "angulus mandibulae",
     "back": "щелеповий кут",
     "sourceSegmentIDs": [
-      27
+      43
     ]
   },
   {
@@ -377,16 +377,17 @@
     "front": "spatium intermandibulare",
     "back": "міжщелеповий простір",
     "sourceSegmentIDs": [
-      27
+      43
     ]
   },
   {
     "topicID": "T5",
     "kind": "latin",
     "front": "os rostrale",
-    "back": "кістка рила — свиня",
+    "back": "кістка рила — свиня; на тілах різцевих кісток, основа рила",
     "sourceSegmentIDs": [
-      29
+      58,
+      61
     ]
   },
   {
@@ -395,7 +396,7 @@
     "front": "os zygomaticum",
     "back": "вилична кістка — processus temporalis, processus frontalis",
     "sourceSegmentIDs": [
-      32
+      64
     ]
   },
   {
@@ -404,7 +405,289 @@
     "front": "os palatinum / os pterygoideum",
     "back": "піднебінна і крилоподібна кістки",
     "sourceSegmentIDs": [
-      32
+      64
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "tuberculum lacrimale nasale",
+    "back": "назальний слізний горбик — кінь",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "tuberculum lacrimale caudale",
+    "back": "каудальний слізний горбик — кінь",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "bulla lacrimalis",
+    "back": "слізний міхур — корова",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Слізна кістка собаки",
+    "back": "лицевої поверхні немає; слізний отвір широкий",
+    "sourceSegmentIDs": [
+      17,
+      18
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Слізна кістка свині",
+    "back": "іклова ямка і слізний горбик на лицевій поверхні; подвійний слізний отвір",
+    "sourceSegmentIDs": [
+      17,
+      18
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Частини виличної кістки",
+    "back": "лицева, орбітальна, між ними орбітальний край",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Вилична кістка: відростки по видах",
+    "back": "корова і свиня — 2 (лобовий, висковий); собака — 4; кінь — широка жувальна поверхня",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "os palatinum",
+    "back": "піднебінна кістка",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Пластинки піднебінної кістки",
+    "back": "горизонтальна (піднебінна) і вертикальна (носова)",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Горизонтальна пластинка піднебінної",
+    "back": "каудальний відділ твердого піднебіння; обмежує хоану",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Вертикальна пластинка піднебінної",
+    "back": "латеральний край хоани, стінка носової порожнини і клинопіднебінної ямки",
+    "sourceSegmentIDs": [
+      27
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Піднебінна кістка корови",
+    "back": "горизонтальна пластинка дуже широка: піднебінно-щелепова пазуха і великий піднебінний отвір",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "os pterygoideum",
+    "back": "крилоподібна кістка — тонка пластинка, латерально обмежує хоану",
+    "sourceSegmentIDs": [
+      30
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "hamulus",
+    "back": "гак крилоподібної кістки — у коня чітко виражений",
+    "sourceSegmentIDs": [
+      30,
+      31
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Нижня щелепа: парна чи непарна",
+    "back": "кінь і свиня — непарна; корова — парна (симфіз); собака — парна, не зростається",
+    "sourceSegmentIDs": [
+      44
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Підборідний отвір по видах",
+    "back": "кінь 1, корова 1, свиня множинний, собака 2",
+    "sourceSegmentIDs": [
+      48
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Зуби на половині нижньої щелепи",
+    "back": "кінь 3 різці + 6 корінних (+ікло у жеребця); корова 4 + 6; свиня і собака 3 + 7 + ікло",
+    "sourceSegmentIDs": [
+      46
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Суглобовий відросток нижньої щелепи корови",
+    "back": "сідлоподібний",
+    "sourceSegmentIDs": [
+      47
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Кутовий відросток нижньої щелепи",
+    "back": "собака",
+    "sourceSegmentIDs": [
+      48
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "os hyoideum",
+    "back": "під'язикова кістка",
+    "sourceSegmentIDs": [
+      49,
+      50
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "basihyoideum",
+    "back": "тіло під'язикової кістки",
+    "sourceSegmentIDs": [
+      51,
+      65
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "thyrohyoideum",
+    "back": "великі (гортанні) роги під'язикової кістки",
+    "sourceSegmentIDs": [
+      51,
+      65
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "keratohyoideum",
+    "back": "малі (язикові) роги під'язикової кістки",
+    "sourceSegmentIDs": [
+      51,
+      65
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "epihyoideum",
+    "back": "дистальний членик гілки — з'єднується з малим рогом",
+    "sourceSegmentIDs": [
+      53,
+      65
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "stylohyoideum",
+    "back": "середній, найдовший членик гілки",
+    "sourceSegmentIDs": [
+      53,
+      65
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "tympanohyoideum",
+    "back": "проксимальний, хрящовий членик — до вискової кістки",
+    "sourceSegmentIDs": [
+      53,
+      65
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "processus lingualis",
+    "back": "язиковий відросток під'язикової кістки",
+    "sourceSegmentIDs": [
+      54,
+      65
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "latin",
+    "front": "angulus stylohyoideus",
+    "back": "шилопід'язиковий кут",
+    "sourceSegmentIDs": [
+      65
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Проксимальний членик під'язикової фіксується",
+    "back": "кінь, корова — на під'язиковому відростку вискової кістки; свиня, собака — на соскоподібній частині",
+    "sourceSegmentIDs": [
+      57
+    ]
+  },
+  {
+    "topicID": "T5",
+    "kind": "term",
+    "front": "Під'язикова кістка свині",
+    "back": "тіло масивне; дистальний членик — еластична зв'язка",
+    "sourceSegmentIDs": [
+      54,
+      55
     ]
   }
 ]
