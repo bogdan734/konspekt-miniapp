@@ -1,0 +1,369 @@
+{
+  "title": "Голосове: лопатка і тазова кістка",
+  "summary": "Лабораторна з Теми 3 (скелет кінцівок), відновлена з голосового запису: лопатка — поверхні, краї, кути, хрящ, ость з акроміоном, три ямки, дзьобоподібний відросток; тазова кістка — три кістки, кульшова западина, затульний отвір, маклак. Запис шумний: це каркас теми, видові таблиці додамо з методички.",
+  "sections": [
+    {
+      "heading": "Яка будова лопатки: поверхні, краї й кути?",
+      "body": "Лопатка (scapula) має:\n• дві поверхні — латеральну (facies lateralis) і медіальну, або реберну (facies medialis s. costalis);\n• три краї — краніальний (margo cranialis), дорсальний (margo dorsalis) і каудальний (margo caudalis); дорсальний край — основа лопатки;\n• три кути — краніальний (angulus cranialis), каудальний (angulus caudalis) і вентральний, або суглобовий (angulus ventralis s. articularis).",
+      "sourceSegmentIDs": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "heading": "Що таке лопатковий хрящ і в кого він слабкий?",
+      "body": "Лопатковий хрящ (cartilago scapulae) кріпиться до дорсального краю — основи лопатки.\nУ свині й собаки він розвинений слабо. У собаки ще й краї лопатки заокруглені.",
+      "sourceSegmentIDs": [
+        2,
+        3
+      ]
+    },
+    {
+      "heading": "Що лежить на суглобовому куті лопатки?",
+      "body": "На вентральному (суглобовому) куті — суглобова западина (cavitas glenoidalis) для з'єднання з плечовою кісткою; над нею — шийка лопатки (collum scapulae).\nНад суглобовою западиною — надсуглобовий горбок (tuberculum supraglenoidale), або горб лопатки, з дзьобоподібним відростком (processus coracoideus). Цей відросток — залишок коракоїдної кістки, яка у птахів збережена окремою кісткою.",
+      "sourceSegmentIDs": [
+        4,
+        9
+      ]
+    },
+    {
+      "heading": "Що таке ость лопатки і які ямки вона розділяє?",
+      "body": "Ость лопатки (spina scapulae) йде по латеральній поверхні. На ній — горбок ості (tuber spinae scapulae), а закінчується вона акроміоном (acromion).\nОсть ділить латеральну поверхню на дві ямки: надостьову (fossa supraspinata) — краніально і підостьову (fossa infraspinata) — каудально.",
+      "sourceSegmentIDs": [
+        5,
+        7
+      ]
+    },
+    {
+      "heading": "У кого є акроміон?",
+      "body": "Акроміон (acromion) — кінець ості лопатки.\nУ коня його немає; у корови і собаки є.",
+      "sourceSegmentIDs": [
+        5,
+        6
+      ]
+    },
+    {
+      "heading": "Що є на медіальній поверхні лопатки?",
+      "body": "На медіальній (реберній) поверхні:\n1) підлопаткова ямка (fossa subscapularis) — третя ямка лопатки;\n2) зубчаста поверхня (facies serrata) — для прикріплення вентрального зубчастого м'яза.",
+      "sourceSegmentIDs": [
+        8
+      ]
+    },
+    {
+      "heading": "Чи є у свійських тварин ключиця?",
+      "body": "Ключиці (clavicula) у свійських тварин немає. Лише у собаки може бути невелика рудиментарна кісточка в товщі плечоголовного м'яза.",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "heading": "З яких кісток складається тазова кістка і де вони зростаються?",
+      "body": "Тазова кістка (os coxae) складається з трьох кісток: клубової (os ilium), сідничної (os ischii) і лобкової (os pubis).\nУсі три зростаються в ділянці кульшової западини (acetabulum).\nПрава і ліва тазові кістки з'єднуються тазовим зрощенням (symphysis pelvina).\nЛобкова і сіднична кістки обмежують затульний (закритий) отвір (foramen obturatum).",
+      "sourceSegmentIDs": [
+        11,
+        12
+      ]
+    },
+    {
+      "heading": "Що таке маклак і що згадували про сідничну кістку?",
+      "body": "Маклак — це клубовий горб (tuber coxae) на крилі клубової кістки; у корови він добре помітний.\nСіднична кістка має тіло і пластинку; по краю — сіднична вирізка (incisura ischiadica). Решту про сідничну й лобкову кістки в записі не розібрати — треба методичка.",
+      "sourceSegmentIDs": [
+        13,
+        14
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "scapula",
+      "latin": null,
+      "definition": "лопатка"
+    },
+    {
+      "term": "facies medialis s. costalis",
+      "latin": null,
+      "definition": "медіальна, або реберна, поверхня лопатки"
+    },
+    {
+      "term": "margo dorsalis",
+      "latin": null,
+      "definition": "дорсальний край — основа лопатки, до нього кріпиться хрящ"
+    },
+    {
+      "term": "cartilago scapulae",
+      "latin": null,
+      "definition": "лопатковий хрящ; слабкий у свині й собаки"
+    },
+    {
+      "term": "angulus ventralis s. articularis",
+      "latin": null,
+      "definition": "вентральний, або суглобовий, кут лопатки"
+    },
+    {
+      "term": "cavitas glenoidalis",
+      "latin": null,
+      "definition": "суглобова западина для плечової кістки"
+    },
+    {
+      "term": "spina scapulae",
+      "latin": null,
+      "definition": "ость лопатки — ділить латеральну поверхню на дві ямки"
+    },
+    {
+      "term": "acromion",
+      "latin": null,
+      "definition": "кінець ості; немає у коня, є у корови й собаки"
+    },
+    {
+      "term": "fossa supraspinata / infraspinata / subscapularis",
+      "latin": null,
+      "definition": "надостьова, підостьова і підлопаткова ямки"
+    },
+    {
+      "term": "facies serrata",
+      "latin": null,
+      "definition": "зубчаста поверхня — для вентрального зубчастого м'яза"
+    },
+    {
+      "term": "processus coracoideus",
+      "latin": null,
+      "definition": "дзьобоподібний відросток — залишок коракоїдної кістки"
+    },
+    {
+      "term": "os coxae",
+      "latin": null,
+      "definition": "тазова кістка: клубова + сіднична + лобкова"
+    },
+    {
+      "term": "acetabulum",
+      "latin": null,
+      "definition": "кульшова западина — місце зрощення трьох кісток таза"
+    },
+    {
+      "term": "foramen obturatum",
+      "latin": null,
+      "definition": "затульний (закритий) отвір — між лобковою і сідничною кістками"
+    },
+    {
+      "term": "tuber coxae",
+      "latin": null,
+      "definition": "клубовий горб — маклак"
+    }
+  ],
+  "homework": [
+    {
+      "kind": "term",
+      "prompt": "Назви поверхні, краї й кути лопатки латиною.",
+      "referenceAnswer": "Поверхні: facies lateralis, facies medialis s. costalis. Краї: margo cranialis, margo dorsalis (основа, до неї кріпиться cartilago scapulae), margo caudalis. Кути: angulus cranialis, angulus caudalis, angulus ventralis s. articularis.",
+      "rubric": [
+        "дві поверхні",
+        "три краї",
+        "три кути"
+      ],
+      "sourceSegmentIDs": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "kind": "openQuestion",
+      "prompt": "Порівняй лопатку коня, корови, свині та собаки за акроміоном і лопатковим хрящем (за заняттям).",
+      "referenceAnswer": "Акроміону немає у коня; є у корови і собаки. Лопатковий хрящ слабкий у свині й собаки. Про акроміон свині в записі не сказано — звір з методичкою.",
+      "rubric": [
+        "кінь без акроміона",
+        "корова і собака з акроміоном",
+        "хрящ слабкий у свині й собаки"
+      ],
+      "sourceSegmentIDs": [
+        3,
+        6
+      ]
+    },
+    {
+      "kind": "term",
+      "prompt": "Назви три ямки лопатки і що їх розділяє або де вони лежать.",
+      "referenceAnswer": "Надостьова (fossa supraspinata) — краніально від ості; підостьова (fossa infraspinata) — каудально від ості; підлопаткова (fossa subscapularis) — на медіальній поверхні. Надостьову й підостьову розділяє ость (spina scapulae).",
+      "rubric": [
+        "три ямки латиною",
+        "ость розділяє дві",
+        "підлопаткова — медіально"
+      ],
+      "sourceSegmentIDs": [
+        7,
+        8
+      ]
+    },
+    {
+      "kind": "term",
+      "prompt": "З яких кісток складається тазова кістка, де вони зростаються і який отвір обмежують лобкова й сіднична?",
+      "referenceAnswer": "Os ilium, os ischii, os pubis; зростаються в ділянці кульшової западини (acetabulum); лобкова і сіднична обмежують затульний отвір (foramen obturatum).",
+      "rubric": [
+        "три кістки",
+        "acetabulum",
+        "foramen obturatum"
+      ],
+      "sourceSegmentIDs": [
+        11,
+        12
+      ]
+    },
+    {
+      "kind": "caseStudy",
+      "prompt": "Лопатка з акроміоном на кінці ості, слабким лопатковим хрящем і заокругленими краями. Чия вона?",
+      "referenceAnswer": "Собаки: акроміон є у корови й собаки, а слабкий хрящ і заокруглені краї — ознаки собаки.",
+      "rubric": [
+        "собака",
+        "акроміон відсікає коня",
+        "хрящ відсікає корову"
+      ],
+      "sourceSegmentIDs": [
+        3,
+        6
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "front": "scapula",
+      "back": "лопатка",
+      "sourceSegmentIDs": [
+        1
+      ]
+    },
+    {
+      "front": "facies lateralis",
+      "back": "латеральна поверхня лопатки",
+      "sourceSegmentIDs": [
+        1
+      ]
+    },
+    {
+      "front": "facies medialis s. costalis",
+      "back": "медіальна (реберна) поверхня лопатки",
+      "sourceSegmentIDs": [
+        1
+      ]
+    },
+    {
+      "front": "margo cranialis",
+      "back": "краніальний край лопатки",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "front": "margo dorsalis",
+      "back": "дорсальний край — основа лопатки",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "front": "margo caudalis",
+      "back": "каудальний край лопатки",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "front": "cartilago scapulae",
+      "back": "лопатковий хрящ — на дорсальному краї",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "front": "Лопатковий хрящ слабкий у",
+      "back": "свині й собаки",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "front": "angulus cranialis",
+      "back": "краніальний кут лопатки",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "front": "angulus caudalis",
+      "back": "каудальний кут лопатки",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "front": "angulus ventralis s. articularis",
+      "back": "вентральний (суглобовий) кут лопатки",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "front": "cavitas glenoidalis",
+      "back": "суглобова западина лопатки",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "front": "collum scapulae",
+      "back": "шийка лопатки",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "front": "spina scapulae",
+      "back": "ость лопатки",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "front": "tuber spinae scapulae",
+      "back": "горбок ості лопатки",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "front": "acromion",
+      "back": "акроміон — кінець ості",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "front": "Акроміон: у кого є, у кого немає",
+      "back": "немає у коня; є у корови й собаки",
+      "sourceSegmentIDs": [
+        6
+      ]
+    },
+    {
+      "front": "fossa supraspinata",
+      "back": "надостьова ямка — краніально від ості",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "front": "fossa infraspinata",
+      "back": "підостьова ямка — каудально від ості",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "front": "fossa subscapularis",
+      "back": "підлопаткова ямка — медіальна поверхня",
+      "sourceSegmentIDs": [
+        8
+      ]
+    }
+  ]
+}

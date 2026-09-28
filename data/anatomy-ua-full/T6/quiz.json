@@ -1,0 +1,298 @@
+{
+  "questions": [
+    {
+      "prompt": "Лопатка латиною:",
+      "options": [
+        "clavicula",
+        "scapula",
+        "humerus",
+        "os coxae"
+      ],
+      "correctIndex": 1,
+      "explanation": "scapula.",
+      "sourceSegmentIDs": [
+        1
+      ]
+    },
+    {
+      "prompt": "Скільки поверхонь має лопатка?",
+      "options": [
+        "Одну",
+        "Дві",
+        "Три",
+        "Чотири"
+      ],
+      "correctIndex": 1,
+      "explanation": "Латеральна і медіальна (реберна).",
+      "sourceSegmentIDs": [
+        1
+      ]
+    },
+    {
+      "prompt": "Медіальну поверхню лопатки ще називають:",
+      "options": [
+        "зубчастою",
+        "реберною — facies costalis",
+        "суглобовою",
+        "остьовою"
+      ],
+      "correctIndex": 1,
+      "explanation": "facies medialis s. costalis — до грудної стінки.",
+      "sourceSegmentIDs": [
+        1
+      ]
+    },
+    {
+      "prompt": "Який край лопатки — її основа?",
+      "options": [
+        "Краніальний",
+        "Дорсальний",
+        "Каудальний",
+        "Вентральний"
+      ],
+      "correctIndex": 1,
+      "explanation": "До дорсального краю кріпиться лопатковий хрящ.",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "prompt": "До якого краю кріпиться лопатковий хрящ?",
+      "options": [
+        "Краніального",
+        "Каудального",
+        "Дорсального",
+        "До суглобового кута"
+      ],
+      "correctIndex": 2,
+      "explanation": "cartilago scapulae — на дорсальному краї.",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "prompt": "У кого лопатковий хрящ розвинений слабо?",
+      "options": [
+        "У коня і корови",
+        "У свині й собаки",
+        "Тільки у коня",
+        "У корови"
+      ],
+      "correctIndex": 1,
+      "explanation": "Так на занятті.",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "prompt": "Скільки кутів у лопатки?",
+      "options": [
+        "Два",
+        "Три",
+        "Чотири",
+        "П'ять"
+      ],
+      "correctIndex": 1,
+      "explanation": "Краніальний, каудальний, вентральний (суглобовий).",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "prompt": "Суглобовий кут лопатки інакше називають:",
+      "options": [
+        "краніальним",
+        "каудальним",
+        "вентральним",
+        "дорсальним"
+      ],
+      "correctIndex": 2,
+      "explanation": "angulus ventralis s. articularis.",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "prompt": "Що лежить на суглобовому куті лопатки?",
+      "options": [
+        "Акроміон",
+        "Суглобова западина — cavitas glenoidalis",
+        "Підлопаткова ямка",
+        "Лопатковий хрящ"
+      ],
+      "correctIndex": 1,
+      "explanation": "Для з'єднання з плечовою кісткою; над нею — шийка.",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "prompt": "Чим закінчується ость лопатки?",
+      "options": [
+        "Горбком",
+        "Акроміоном",
+        "Хрящем",
+        "Суглобовою западиною"
+      ],
+      "correctIndex": 1,
+      "explanation": "acromion.",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "prompt": "У кого немає акроміону?",
+      "options": [
+        "У коня",
+        "У корови",
+        "У собаки",
+        "У всіх є"
+      ],
+      "correctIndex": 0,
+      "explanation": "Кінь; у корови і собаки є.",
+      "sourceSegmentIDs": [
+        6
+      ]
+    },
+    {
+      "prompt": "Що ділить латеральну поверхню лопатки на дві ямки?",
+      "options": [
+        "Шийка",
+        "Ость",
+        "Зубчаста поверхня",
+        "Хрящ"
+      ],
+      "correctIndex": 1,
+      "explanation": "spina scapulae.",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "prompt": "Надостьова ямка лежить відносно ості:",
+      "options": [
+        "каудально",
+        "краніально",
+        "медіально",
+        "вентрально"
+      ],
+      "correctIndex": 1,
+      "explanation": "fossa supraspinata — краніально, infraspinata — каудально.",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "prompt": "Де лежить підлопаткова ямка?",
+      "options": [
+        "На латеральній поверхні",
+        "На медіальній поверхні",
+        "На ості",
+        "На суглобовому куті"
+      ],
+      "correctIndex": 1,
+      "explanation": "fossa subscapularis.",
+      "sourceSegmentIDs": [
+        8
+      ]
+    },
+    {
+      "prompt": "Для чого зубчаста поверхня (facies serrata) лопатки?",
+      "options": [
+        "Для суглоба",
+        "Для вентрального зубчастого м'яза",
+        "Для хряща",
+        "Для ключиці"
+      ],
+      "correctIndex": 1,
+      "explanation": "На медіальній поверхні.",
+      "sourceSegmentIDs": [
+        8
+      ]
+    },
+    {
+      "prompt": "Дзьобоподібний відросток (processus coracoideus) — це:",
+      "options": [
+        "частина ості",
+        "залишок коракоїдної кістки, окремої у птахів",
+        "рудимент ключиці",
+        "частина хряща"
+      ],
+      "correctIndex": 1,
+      "explanation": "Сидить на надсуглобовому горбку.",
+      "sourceSegmentIDs": [
+        9
+      ]
+    },
+    {
+      "prompt": "Чи є ключиця у собаки?",
+      "options": [
+        "Повноцінна",
+        "Може бути рудимент у плечоголовному м'язі",
+        "Зростається з лопаткою",
+        "Є тільки у цуценят"
+      ],
+      "correctIndex": 1,
+      "explanation": "У свійських тварин ключиці немає; у собаки — невелика кісточка в м'язі.",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "prompt": "З яких кісток складається тазова кістка?",
+      "options": [
+        "Клубова, сіднична, лобкова",
+        "Клубова, крижова, стегнова",
+        "Лобкова, крижова, хвостова",
+        "Сіднична, стегнова, лобкова"
+      ],
+      "correctIndex": 0,
+      "explanation": "os ilium, os ischii, os pubis.",
+      "sourceSegmentIDs": [
+        11
+      ]
+    },
+    {
+      "prompt": "Де зростаються три кістки таза?",
+      "options": [
+        "У затульному отворі",
+        "У кульшовій западині",
+        "У тазовому зрощенні",
+        "На маклаку"
+      ],
+      "correctIndex": 1,
+      "explanation": "acetabulum.",
+      "sourceSegmentIDs": [
+        12
+      ]
+    },
+    {
+      "prompt": "Затульний отвір (foramen obturatum) обмежують:",
+      "options": [
+        "клубова і сіднична",
+        "лобкова і сіднична",
+        "клубова і лобкова",
+        "крижова і клубова"
+      ],
+      "correctIndex": 1,
+      "explanation": "Так на занятті.",
+      "sourceSegmentIDs": [
+        12
+      ]
+    },
+    {
+      "prompt": "Маклак — це:",
+      "options": [
+        "сідничний горб",
+        "клубовий горб — tuber coxae",
+        "кульшова западина",
+        "лобковий гребінь"
+      ],
+      "correctIndex": 1,
+      "explanation": "На крилі клубової кістки; у корови добре помітний.",
+      "sourceSegmentIDs": [
+        13
+      ]
+    }
+  ]
+}

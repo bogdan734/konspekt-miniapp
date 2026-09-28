@@ -66,6 +66,18 @@
           "lesson": "anatomy-ua-full/T5/lesson.json",
           "quiz": "anatomy-ua-full/T5/quiz.json",
           "cards": "anatomy-ua-full/T5/cards.json"
+        },
+        {
+          "id": "T6",
+          "title": "Голосове: лопатка і тазова кістка",
+          "label": "T6ГС",
+          "syllabus": [
+            "T3"
+          ],
+          "notes": "anatomy-ua-full/T6/notes.json",
+          "lesson": "anatomy-ua-full/T6/lesson.json",
+          "quiz": "anatomy-ua-full/T6/quiz.json",
+          "cards": "anatomy-ua-full/T6/cards.json"
         }
       ]
     },

@@ -1,0 +1,299 @@
+[
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "scapula",
+    "back": "лопатка",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "facies lateralis",
+    "back": "латеральна поверхня лопатки",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "facies medialis s. costalis",
+    "back": "медіальна (реберна) поверхня лопатки",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "margo cranialis",
+    "back": "краніальний край лопатки",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "margo dorsalis",
+    "back": "дорсальний край — основа лопатки",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "margo caudalis",
+    "back": "каудальний край лопатки",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "cartilago scapulae",
+    "back": "лопатковий хрящ — на дорсальному краї",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "term",
+    "front": "Лопатковий хрящ слабкий у",
+    "back": "свині й собаки",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "angulus cranialis",
+    "back": "краніальний кут лопатки",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "angulus caudalis",
+    "back": "каудальний кут лопатки",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "angulus ventralis s. articularis",
+    "back": "вентральний (суглобовий) кут лопатки",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "cavitas glenoidalis",
+    "back": "суглобова западина лопатки",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "collum scapulae",
+    "back": "шийка лопатки",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "spina scapulae",
+    "back": "ость лопатки",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "tuber spinae scapulae",
+    "back": "горбок ості лопатки",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "acromion",
+    "back": "акроміон — кінець ості",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "term",
+    "front": "Акроміон: у кого є, у кого немає",
+    "back": "немає у коня; є у корови й собаки",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "fossa supraspinata",
+    "back": "надостьова ямка — краніально від ості",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "fossa infraspinata",
+    "back": "підостьова ямка — каудально від ості",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "fossa subscapularis",
+    "back": "підлопаткова ямка — медіальна поверхня",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "facies serrata",
+    "back": "зубчаста поверхня — для вентрального зубчастого м'яза",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "tuberculum supraglenoidale",
+    "back": "надсуглобовий горбок (горб лопатки)",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "processus coracoideus",
+    "back": "дзьобоподібний відросток — залишок коракоїдної кістки",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "clavicula",
+    "back": "ключиця — у свійських немає; у собаки рудимент у м'язі",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "os coxae",
+    "back": "тазова кістка",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "os ilium",
+    "back": "клубова кістка",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "os ischii",
+    "back": "сіднична кістка",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "os pubis",
+    "back": "лобкова кістка",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "acetabulum",
+    "back": "кульшова западина — зрощення трьох кісток таза",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "symphysis pelvina",
+    "back": "тазове зрощення",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "foramen obturatum",
+    "back": "затульний отвір — лобкова + сіднична",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "tuber coxae",
+    "back": "клубовий горб — маклак",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T6",
+    "kind": "latin",
+    "front": "incisura ischiadica",
+    "back": "сіднична вирізка",
+    "sourceSegmentIDs": [
+      14
+    ]
+  }
+]
