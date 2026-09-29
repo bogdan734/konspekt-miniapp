@@ -1,0 +1,438 @@
+{
+  "questions": [
+    {
+      "prompt": "Скільки родів у латинській мові?",
+      "options": [
+        "Два",
+        "Три",
+        "Чотири",
+        "П'ять"
+      ],
+      "correctIndex": 1,
+      "explanation": "masculinum, femininum, neutrum.",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "prompt": "Середній рід латиною:",
+      "options": [
+        "masculinum",
+        "femininum",
+        "neutrum",
+        "singularis"
+      ],
+      "correctIndex": 2,
+      "explanation": "Скорочено n.",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "prompt": "Що означає f після слова в словнику?",
+      "options": [
+        "Однину",
+        "Жіночий рід",
+        "Відміну",
+        "Множину"
+      ],
+      "correctIndex": 1,
+      "explanation": "femininum.",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "prompt": "Якого роду vertebra, хоча «хребець» — чоловічого?",
+      "options": [
+        "Чоловічого",
+        "Жіночого",
+        "Середнього",
+        "Залежить від тексту"
+      ],
+      "correctIndex": 1,
+      "explanation": "vertebra, ae f.",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "prompt": "Якого роду os, ossis (кістка)?",
+      "options": [
+        "Чоловічого",
+        "Жіночого",
+        "Середнього",
+        "Спільного"
+      ],
+      "correctIndex": 2,
+      "explanation": "os, ossis n.",
+      "sourceSegmentIDs": [
+        4
+      ]
+    },
+    {
+      "prompt": "Однина латиною:",
+      "options": [
+        "pluralis",
+        "singularis",
+        "casus",
+        "genus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Множина — pluralis.",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "prompt": "Множина від os (кістка):",
+      "options": [
+        "osi",
+        "ossa",
+        "osses",
+        "ossae"
+      ],
+      "correctIndex": 1,
+      "explanation": "os — ossa.",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "prompt": "Скільки відмінків у латинській мові?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "correctIndex": 1,
+      "explanation": "В українській 7 — латина не має окремого місцевого.",
+      "sourceSegmentIDs": [
+        6
+      ]
+    },
+    {
+      "prompt": "Родовий відмінок латиною:",
+      "options": [
+        "Nominativus",
+        "Genetivus",
+        "Dativus",
+        "Ablativus"
+      ],
+      "correctIndex": 1,
+      "explanation": "Genetivus — кого? чого?",
+      "sourceSegmentIDs": [
+        8
+      ]
+    },
+    {
+      "prompt": "Називний відмінок латиною:",
+      "options": [
+        "Nominativus",
+        "Accusativus",
+        "Vocativus",
+        "Genetivus"
+      ],
+      "correctIndex": 0,
+      "explanation": "хто? що?",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "prompt": "Ablativus відповідає українському відмінку:",
+      "options": [
+        "родовому",
+        "давальному",
+        "орудному",
+        "знахідному"
+      ],
+      "correctIndex": 2,
+      "explanation": "Орудний (відкладний): ким? чим?",
+      "sourceSegmentIDs": [
+        11
+      ]
+    },
+    {
+      "prompt": "Accusativus — це:",
+      "options": [
+        "знахідний",
+        "кличний",
+        "давальний",
+        "називний"
+      ],
+      "correctIndex": 0,
+      "explanation": "кого? що?",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "prompt": "Який відмінок відповідає на питання «чого?»",
+      "options": [
+        "Nominativus",
+        "Genetivus",
+        "Accusativus",
+        "Dativus"
+      ],
+      "correctIndex": 1,
+      "explanation": "corpus vertebrae — тіло (чого?) хребця.",
+      "sourceSegmentIDs": [
+        8
+      ]
+    },
+    {
+      "prompt": "Який відмінок у термінології не вживається?",
+      "options": [
+        "Genetivus",
+        "Nominativus",
+        "Vocativus",
+        "Ablativus"
+      ],
+      "correctIndex": 2,
+      "explanation": "Кличний — звертання.",
+      "sourceSegmentIDs": [
+        12
+      ]
+    },
+    {
+      "prompt": "Які відмінки головні в анатомічних термінах?",
+      "options": [
+        "Nom. і Gen.",
+        "Dat. і Abl.",
+        "Acc. і Voc.",
+        "Усі однаково"
+      ],
+      "correctIndex": 0,
+      "explanation": "Решта — для рецептури.",
+      "sourceSegmentIDs": [
+        13
+      ]
+    },
+    {
+      "prompt": "Скільки відмін у латинській мові?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctIndex": 2,
+      "explanation": "I–V.",
+      "sourceSegmentIDs": [
+        14
+      ]
+    },
+    {
+      "prompt": "За чим визначають відміну?",
+      "options": [
+        "За закінченням Nom. sing.",
+        "За закінченням Gen. sing.",
+        "За родом",
+        "За числом"
+      ],
+      "correctIndex": 1,
+      "explanation": "Саме тому словникова форма містить закінчення Gen.",
+      "sourceSegmentIDs": [
+        14
+      ]
+    },
+    {
+      "prompt": "Gen. sing. на -ae — це відміна:",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "V"
+      ],
+      "correctIndex": 0,
+      "explanation": "vertebra, ae f.",
+      "sourceSegmentIDs": [
+        15
+      ]
+    },
+    {
+      "prompt": "Gen. sing. на -i — це відміна:",
+      "options": [
+        "I",
+        "II",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 1,
+      "explanation": "musculus, i m.",
+      "sourceSegmentIDs": [
+        16
+      ]
+    },
+    {
+      "prompt": "Gen. sing. на -is — це відміна:",
+      "options": [
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 1,
+      "explanation": "os, ossis n.",
+      "sourceSegmentIDs": [
+        17
+      ]
+    },
+    {
+      "prompt": "Gen. sing. на -us — це відміна:",
+      "options": [
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 2,
+      "explanation": "processus, us m.",
+      "sourceSegmentIDs": [
+        18
+      ]
+    },
+    {
+      "prompt": "Gen. sing. на -ei — це відміна:",
+      "options": [
+        "I",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 3,
+      "explanation": "facies, ei f.",
+      "sourceSegmentIDs": [
+        19
+      ]
+    },
+    {
+      "prompt": "До якої відміни належить processus, us m?",
+      "options": [
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gen. -us.",
+      "sourceSegmentIDs": [
+        18
+      ]
+    },
+    {
+      "prompt": "До якої відміни належить facies, ei f?",
+      "options": [
+        "I",
+        "III",
+        "IV",
+        "V"
+      ],
+      "correctIndex": 3,
+      "explanation": "Gen. -ei.",
+      "sourceSegmentIDs": [
+        19
+      ]
+    },
+    {
+      "prompt": "Словникова форма іменника складається з:",
+      "options": [
+        "Nom. sing. і Nom. pl.",
+        "Nom. sing., закінчення Gen. sing. і роду",
+        "Gen. sing. і Gen. pl.",
+        "основи й роду"
+      ],
+      "correctIndex": 1,
+      "explanation": "vertebra, ae f.",
+      "sourceSegmentIDs": [
+        20
+      ]
+    },
+    {
+      "prompt": "Основа слова corpus, oris n:",
+      "options": [
+        "corp-",
+        "corpus-",
+        "corpor-",
+        "cor-"
+      ],
+      "correctIndex": 2,
+      "explanation": "Gen. corpor-is без -is.",
+      "sourceSegmentIDs": [
+        21
+      ]
+    },
+    {
+      "prompt": "Що означає os, oris n?",
+      "options": [
+        "Кістка",
+        "Рот",
+        "Кістки",
+        "Отвір"
+      ],
+      "correctIndex": 1,
+      "explanation": "Кістка — os, ossis n.",
+      "sourceSegmentIDs": [
+        22
+      ]
+    },
+    {
+      "prompt": "Іменник II відміни на -um — якого роду?",
+      "options": [
+        "Чоловічого",
+        "Жіночого",
+        "Середнього",
+        "Будь-якого"
+      ],
+      "correctIndex": 2,
+      "explanation": "ligamentum, sternum, tuberculum.",
+      "sourceSegmentIDs": [
+        23
+      ]
+    },
+    {
+      "prompt": "Іменник IV відміни на -u — якого роду?",
+      "options": [
+        "Чоловічого",
+        "Жіночого",
+        "Середнього",
+        "Спільного"
+      ],
+      "correctIndex": 2,
+      "explanation": "cornu, genu.",
+      "sourceSegmentIDs": [
+        24
+      ]
+    },
+    {
+      "prompt": "manus, us (кисть) — якого роду?",
+      "options": [
+        "Чоловічого",
+        "Жіночого",
+        "Середнього",
+        "Не має роду"
+      ],
+      "correctIndex": 1,
+      "explanation": "Виняток серед IV відміни на -us.",
+      "sourceSegmentIDs": [
+        24
+      ]
+    },
+    {
+      "prompt": "У терміні fossa atlantis слово atlantis стоїть у:",
+      "options": [
+        "Nom. sing.",
+        "Gen. sing.",
+        "Acc. sing.",
+        "Nom. pl."
+      ],
+      "correctIndex": 1,
+      "explanation": "atlas, antis m, III — ямка (чого?) атланта.",
+      "sourceSegmentIDs": [
+        25
+      ]
+    }
+  ]
+}

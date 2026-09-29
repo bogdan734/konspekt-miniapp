@@ -1,0 +1,381 @@
+{
+  "title": "Іменник: граматичні категорії",
+  "summary": "Під домашнє завдання «вивчити граматичні категорії іменника»: рід, число, відмінок і відміна, словникова форма, основа слова, зв'язок роду із закінченням і родовий відмінок в анатомічних термінах. Приклади — з анатомії. Складено за стандартним курсом, звір з поясненням викладача.",
+  "sections": [
+    {
+      "heading": "Які граматичні категорії має латинський іменник?",
+      "body": "Латинський іменник (nomen substantivum) має три граматичні категорії:\n1) рід — genus;\n2) число — numerus;\n3) відмінок — casus.\nКрім того, кожен іменник належить до однієї з п'яти відмін (declinatio) — типів відмінювання. Тож на питання «назви категорії» можна назвати й відміну четвертою.",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "heading": "Скільки родів у латинській мові і як їх позначають?",
+      "body": "Три роди: чоловічий — masculinum (m), жіночий — femininum (f), середній — neutrum (n). У словнику рід пишуть скороченням після слова.\nРід часто не збігається з українським: vertebra (f) — хребець (ч. р.); os (n) — кістка (ж. р.); costa (f) — ребро (с. р.); cartilago (f) — хрящ (ч. р.). Тому рід вчать разом зі словом.",
+      "sourceSegmentIDs": [
+        3,
+        4
+      ]
+    },
+    {
+      "heading": "Які числа має латинський іменник?",
+      "body": "Два числа (numerus): однина — singularis (sing.) і множина — pluralis (pl.).\nПриклади: vertebra — vertebrae (хребці); musculus — musculi (м'язи); os — ossa (кістки).",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "heading": "Скільки відмінків у латинській мові? Назви їх з українськими відповідниками.",
+      "body": "Шість відмінків (casus); в українській сім — окремого місцевого латина не має.\n1) Nominativus (Nom.) — називний: хто? що? — vertebra.\n2) Genetivus (Gen.) — родовий: кого? чого? — corpus vertebrae, тіло хребця.\n3) Dativus (Dat.) — давальний: кому? чому?\n4) Accusativus (Acc.) — знахідний: кого? що?\n5) Ablativus (Abl.) — орудний (відкладний): ким? чим?; з прийменниками — де? з чим?\n6) Vocativus (Voc.) — кличний: звертання; у термінології не вживається.\nВ анатомії головні — Nom. і Gen.",
+      "sourceSegmentIDs": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "heading": "Що таке відміна і як її визначити?",
+      "body": "Відміна (declinatio) — тип відмінювання. Їх п'ять. Відміну визначають за закінченням родового відмінка однини (Gen. sing.), а не називного:\n• I — -ae: vertebra, ae f;\n• II — -i: musculus, i m; ligamentum, i n;\n• III — -is: os, ossis n; foramen, inis n;\n• IV — -us: processus, us m; cornu, us n;\n• V — -ei: facies, ei f.\nЗапам'ятати: -ae, -i, -is, -us, -ei — по порядку від I до V.",
+      "sourceSegmentIDs": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "heading": "Що таке словникова форма іменника?",
+      "body": "Словникова форма має три частини:\n1) Nom. sing. повністю;\n2) закінчення Gen. sing. (у III відміні — разом з частиною основи);\n3) рід.\nПриклади: vertebra, ae f; musculus, i m; os, ossis n; foramen, inis n; processus, us m; facies, ei f.\nСаме за другою частиною (Gen. sing.) визначають відміну.",
+      "sourceSegmentIDs": [
+        20
+      ]
+    },
+    {
+      "heading": "Як знайти основу іменника?",
+      "body": "Основа — це Gen. sing. без закінчення: vertebr-ae → vertebr-; muscul-i → muscul-; oss-is → oss-; corpor-is → corpor-; foramin-is → foramin-. Від основи утворюються всі інші відмінки.\nПастка: os, ossis n — кістка, а os, oris n — рот: Nom. однаковий, Gen. різний. Тому словникову форму вчать повністю.",
+      "sourceSegmentIDs": [
+        21,
+        22
+      ]
+    },
+    {
+      "heading": "Як рід пов'язаний із закінченням називного відмінка?",
+      "body": "I відміна: на -a — жіночий рід (vertebra, costa, fossa).\nII відміна: на -us, -er — чоловічий (musculus); на -um — середній (ligamentum, sternum, tuberculum).\nIV відміна: на -us — чоловічий (processus, arcus, meatus, sinus), але manus, us f (кисть) — жіночий; на -u — середній (cornu, genu).\nV відміна: на -es — жіночий (facies).\nIII відміна: закінчення різні — рід перевіряють за словником (os n, dens m, cartilago f, margo m).",
+      "sourceSegmentIDs": [
+        23,
+        24
+      ]
+    },
+    {
+      "heading": "Навіщо родовий відмінок в анатомічних термінах?",
+      "body": "Другий іменник у терміні стоїть у родовому відмінку й відповідає на питання «чого?»:\n• corpus vertebrae — тіло хребця (vertebra, ae f, I);\n• arcus vertebrae — дуга хребця;\n• fossa atlantis — ямка атланта (atlas, antis m, III);\n• dens axis — зуб осьового хребця (axis, is m, III);\n• angulus mandibulae — кут нижньої щелепи (mandibula, ae f, I);\n• crista galli — півнячий гребінь (gallus, i m, II).\nЗнаючи Gen. sing., такі терміни складаєш сама.",
+      "sourceSegmentIDs": [
+        8,
+        25
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "genus",
+      "latin": null,
+      "definition": "рід: masculinum (m), femininum (f), neutrum (n)"
+    },
+    {
+      "term": "numerus",
+      "latin": null,
+      "definition": "число: singularis, pluralis"
+    },
+    {
+      "term": "casus",
+      "latin": null,
+      "definition": "відмінок; у латині 6"
+    },
+    {
+      "term": "declinatio",
+      "latin": null,
+      "definition": "відміна — тип відмінювання; у латині 5"
+    },
+    {
+      "term": "Nominativus",
+      "latin": null,
+      "definition": "називний: хто? що?"
+    },
+    {
+      "term": "Genetivus",
+      "latin": null,
+      "definition": "родовий: кого? чого?"
+    },
+    {
+      "term": "Dativus",
+      "latin": null,
+      "definition": "давальний: кому? чому?"
+    },
+    {
+      "term": "Accusativus",
+      "latin": null,
+      "definition": "знахідний: кого? що?"
+    },
+    {
+      "term": "Ablativus",
+      "latin": null,
+      "definition": "орудний (відкладний): ким? чим?"
+    },
+    {
+      "term": "Vocativus",
+      "latin": null,
+      "definition": "кличний: звертання"
+    },
+    {
+      "term": "словникова форма",
+      "latin": null,
+      "definition": "Nom. sing., закінчення Gen. sing., рід: vertebra, ae f"
+    },
+    {
+      "term": "основа",
+      "latin": null,
+      "definition": "Gen. sing. без закінчення: oss-is → oss-"
+    }
+  ],
+  "homework": [
+    {
+      "kind": "term",
+      "prompt": "Назви граматичні категорії латинського іменника й коротко поясни кожну.",
+      "referenceAnswer": "Рід (genus): m, f, n. Число (numerus): singularis, pluralis. Відмінок (casus): шість — Nom., Gen., Dat., Acc., Abl., Voc. Плюс відміна (declinatio): п'ять типів відмінювання, визначаються за Gen. sing.",
+      "rubric": [
+        "рід з трьома родами",
+        "число з двома числами",
+        "шість відмінків",
+        "відміна за Gen. sing."
+      ],
+      "sourceSegmentIDs": [
+        2,
+        3,
+        5,
+        6,
+        14
+      ]
+    },
+    {
+      "kind": "term",
+      "prompt": "Назви шість відмінків латиною, українською й з питаннями.",
+      "referenceAnswer": "Nominativus — називний (хто? що?); Genetivus — родовий (кого? чого?); Dativus — давальний (кому? чому?); Accusativus — знахідний (кого? що?); Ablativus — орудний (ким? чим?); Vocativus — кличний (звертання).",
+      "rubric": [
+        "усі шість латиною",
+        "українські назви",
+        "питання"
+      ],
+      "sourceSegmentIDs": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "kind": "openQuestion",
+      "prompt": "Визнач відміну, рід і основу: vertebra, ae f; musculus, i m; os, ossis n; processus, us m; facies, ei f.",
+      "referenceAnswer": "vertebra — I відміна (-ae), жіночий, основа vertebr-; musculus — II (-i), чоловічий, muscul-; os — III (-is), середній, oss-; processus — IV (-us), чоловічий, основа process-; facies — V (-ei), жіночий, основа faci-.",
+      "rubric": [
+        "відміна за Gen.",
+        "рід",
+        "основа"
+      ],
+      "sourceSegmentIDs": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        21
+      ]
+    },
+    {
+      "kind": "openQuestion",
+      "prompt": "Запиши словникову форму: хребець, м'яз, кістка, отвір, відросток, поверхня.",
+      "referenceAnswer": "vertebra, ae f; musculus, i m; os, ossis n; foramen, inis n; processus, us m; facies, ei f.",
+      "rubric": [
+        "три частини в кожному",
+        "правильний Gen.",
+        "правильний рід"
+      ],
+      "sourceSegmentIDs": [
+        20
+      ]
+    },
+    {
+      "kind": "caseStudy",
+      "prompt": "Переклади й поясни, у якому відмінку й чому стоїть друге слово: corpus vertebrae, fossa atlantis, angulus mandibulae.",
+      "referenceAnswer": "Тіло хребця, ямка атланта, кут нижньої щелепи. Друге слово — Genetivus singularis, бо відповідає на питання «чого?»: vertebra, ae f → vertebrae; atlas, antis m → atlantis; mandibula, ae f → mandibulae.",
+      "rubric": [
+        "переклад",
+        "Genetivus",
+        "словникова форма другого слова"
+      ],
+      "sourceSegmentIDs": [
+        8,
+        25
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "front": "genus",
+      "back": "рід",
+      "sourceSegmentIDs": [
+        2,
+        3
+      ]
+    },
+    {
+      "front": "numerus",
+      "back": "число",
+      "sourceSegmentIDs": [
+        2,
+        5
+      ]
+    },
+    {
+      "front": "casus",
+      "back": "відмінок",
+      "sourceSegmentIDs": [
+        2,
+        6
+      ]
+    },
+    {
+      "front": "declinatio",
+      "back": "відміна",
+      "sourceSegmentIDs": [
+        2,
+        14
+      ]
+    },
+    {
+      "front": "masculinum (m)",
+      "back": "чоловічий рід",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "front": "femininum (f)",
+      "back": "жіночий рід",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "front": "neutrum (n)",
+      "back": "середній рід",
+      "sourceSegmentIDs": [
+        3
+      ]
+    },
+    {
+      "front": "singularis",
+      "back": "однина",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "front": "pluralis",
+      "back": "множина",
+      "sourceSegmentIDs": [
+        5
+      ]
+    },
+    {
+      "front": "Nominativus",
+      "back": "називний: хто? що?",
+      "sourceSegmentIDs": [
+        7
+      ]
+    },
+    {
+      "front": "Genetivus",
+      "back": "родовий: кого? чого?",
+      "sourceSegmentIDs": [
+        8
+      ]
+    },
+    {
+      "front": "Dativus",
+      "back": "давальний: кому? чому?",
+      "sourceSegmentIDs": [
+        9
+      ]
+    },
+    {
+      "front": "Accusativus",
+      "back": "знахідний: кого? що?",
+      "sourceSegmentIDs": [
+        10
+      ]
+    },
+    {
+      "front": "Ablativus",
+      "back": "орудний (відкладний): ким? чим?",
+      "sourceSegmentIDs": [
+        11
+      ]
+    },
+    {
+      "front": "Vocativus",
+      "back": "кличний: звертання",
+      "sourceSegmentIDs": [
+        12
+      ]
+    },
+    {
+      "front": "Категорії іменника",
+      "back": "рід, число, відмінок (+ відміна)",
+      "sourceSegmentIDs": [
+        2
+      ]
+    },
+    {
+      "front": "Скільки відмінків / відмін",
+      "back": "6 відмінків, 5 відмін",
+      "sourceSegmentIDs": [
+        6,
+        14
+      ]
+    },
+    {
+      "front": "Відміну визначають за",
+      "back": "закінченням Gen. sing.",
+      "sourceSegmentIDs": [
+        14
+      ]
+    },
+    {
+      "front": "Gen. sing.: I–V відміни",
+      "back": "-ae, -i, -is, -us, -ei",
+      "sourceSegmentIDs": [
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "front": "Словникова форма",
+      "back": "Nom. sing. + закінчення Gen. sing. + рід",
+      "sourceSegmentIDs": [
+        20
+      ]
+    }
+  ]
+}

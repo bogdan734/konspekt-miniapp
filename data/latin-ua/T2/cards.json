@@ -1,0 +1,372 @@
+[
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "genus",
+    "back": "рід",
+    "sourceSegmentIDs": [
+      2,
+      3
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "numerus",
+    "back": "число",
+    "sourceSegmentIDs": [
+      2,
+      5
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "casus",
+    "back": "відмінок",
+    "sourceSegmentIDs": [
+      2,
+      6
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "declinatio",
+    "back": "відміна",
+    "sourceSegmentIDs": [
+      2,
+      14
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "masculinum (m)",
+    "back": "чоловічий рід",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "femininum (f)",
+    "back": "жіночий рід",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "neutrum (n)",
+    "back": "середній рід",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "singularis",
+    "back": "однина",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "pluralis",
+    "back": "множина",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "Nominativus",
+    "back": "називний: хто? що?",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "Genetivus",
+    "back": "родовий: кого? чого?",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "Dativus",
+    "back": "давальний: кому? чому?",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "Accusativus",
+    "back": "знахідний: кого? що?",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "Ablativus",
+    "back": "орудний (відкладний): ким? чим?",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "Vocativus",
+    "back": "кличний: звертання",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Категорії іменника",
+    "back": "рід, число, відмінок (+ відміна)",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Скільки відмінків / відмін",
+    "back": "6 відмінків, 5 відмін",
+    "sourceSegmentIDs": [
+      6,
+      14
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Відміну визначають за",
+    "back": "закінченням Gen. sing.",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Gen. sing.: I–V відміни",
+    "back": "-ae, -i, -is, -us, -ei",
+    "sourceSegmentIDs": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Словникова форма",
+    "back": "Nom. sing. + закінчення Gen. sing. + рід",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "term",
+    "front": "Основа іменника",
+    "back": "Gen. sing. без закінчення",
+    "sourceSegmentIDs": [
+      21
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "vertebra, ae f",
+    "back": "хребець — I відміна",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "costa, ae f",
+    "back": "ребро — I відміна",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "scapula, ae f",
+    "back": "лопатка — I відміна",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "musculus, i m",
+    "back": "м'яз — II відміна",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "ligamentum, i n",
+    "back": "зв'язка — II відміна",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "sternum, i n",
+    "back": "грудина — II відміна",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "os, ossis n",
+    "back": "кістка — III відміна",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "os, oris n",
+    "back": "рот — III відміна",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "dens, dentis m",
+    "back": "зуб — III відміна",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "foramen, inis n",
+    "back": "отвір — III відміна",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "corpus, oris n",
+    "back": "тіло — III відміна",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "processus, us m",
+    "back": "відросток — IV відміна",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "arcus, us m",
+    "back": "дуга — IV відміна",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "cornu, us n",
+    "back": "ріг — IV відміна",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "facies, ei f",
+    "back": "поверхня — V відміна",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "manus, us f",
+    "back": "кисть — IV відміна, жіночий рід (виняток)",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "cartilago, inis f",
+    "back": "хрящ — III відміна, жіночий рід",
+    "sourceSegmentIDs": [
+      4,
+      24
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "margo, inis m",
+    "back": "край — III відміна, чоловічий рід",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T2",
+    "kind": "latin",
+    "front": "corpus vertebrae",
+    "back": "тіло хребця — vertebrae у Gen. sing.",
+    "sourceSegmentIDs": [
+      25
+    ]
+  }
+]
