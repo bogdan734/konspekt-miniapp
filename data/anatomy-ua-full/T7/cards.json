@@ -1,0 +1,623 @@
+[
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "sutura plana",
+    "back": "плоский шов (напр. sutura internasalis)",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "sutura serrata",
+    "back": "зубчастий шов (напр. sutura fronto-parietalis)",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "sutura squamosa",
+    "back": "лускоподібний шов (напр. sutura parieto-temporalis)",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio temporo-mandibularis",
+    "back": "висково-нижньощелеповий суглоб",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Особливість висковощелепного суглоба",
+    "back": "суглобовий диск із фіброзного хряща ділить порожнину на 2 відділи",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Каудальна зв'язка висковощелепного суглоба є у…",
+    "back": "корови і коня",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio atlanto-occipitalis",
+    "back": "потилично-атлантний суглоб",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Тип потилично-атлантного суглоба",
+    "back": "еліпсоподібний: згинання, розгинання, невеликі бічні рухи",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "membrana atlanto-occipitalis dorsalis et ventralis",
+    "back": "дорсальна і вентральна потилично-атлантні мембрани",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamenta laterale atlantis",
+    "back": "бокові зв'язки атланта — від яремних відростків до крил",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio atlanto-axialis",
+    "back": "атлантно-осьовий суглоб",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Тип атлантно-осьового суглоба",
+    "back": "обертаючий — повороти голови",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Зі скількох суглобів складається атлантно-осьовий",
+    "back": "з трьох: один непарний і два парних",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "membrana atlanto-axialis seu epistrophica",
+    "back": "дорсальна мембрана атлантно-осьового суглоба",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamentum dentis dorsale",
+    "back": "дорсальна зв'язка зубоподібного відростка — у коня",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamentum dentis ventrale",
+    "back": "вентральна зв'язка зуба — додатково у корови",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamenta alaria",
+    "back": "крилові зв'язки — у свині й собаки",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamentum transversum atlantis",
+    "back": "поперечна зв'язка атланта у хребетному каналі",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "fibrocartilago intervertebralis",
+    "back": "міжхребцевий хрящ",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "annulus fibrosus",
+    "back": "фіброзне (периферичне) кільце міжхребцевого хряща",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "nucleus pulposus",
+    "back": "пульпозне ядро — залишок спинної струни",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Функція міжхребцевого хряща",
+    "back": "з'єднує тіла хребців і виконує ресорну функцію",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamentum longitudinale dorsale",
+    "back": "дорсальна поздовжня зв'язка — у хребетному каналі",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamentum longitudinale ventrale",
+    "back": "вентральна поздовжня — від останніх грудних до крижової кістки",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamenta flava",
+    "back": "жовті зв'язки між дужками хребців",
+    "sourceSegmentIDs": [
+      29
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamenta interspinalia",
+    "back": "міжостисті зв'язки",
+    "sourceSegmentIDs": [
+      30
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamenta supraspinalia",
+    "back": "надостисті зв'язки",
+    "sourceSegmentIDs": [
+      30
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "У кого немає міжостистих зв'язок",
+    "back": "у собак — замінені міжостистими м'язами",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamentum nuchae",
+    "back": "вийна (каркова) зв'язка",
+    "sourceSegmentIDs": [
+      32
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Частини вийної зв'язки",
+    "back": "канатикова і пластинчаста",
+    "sourceSegmentIDs": [
+      32
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "У кого немає вийної зв'язки",
+    "back": "у свині",
+    "sourceSegmentIDs": [
+      33
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "pars cucullaris",
+    "back": "капішоноподібна частина вийної зв'язки (корова, кінь)",
+    "sourceSegmentIDs": [
+      34
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Три бурси вийної зв'язки коня",
+    "back": "bursa nuchalis cranialis, bursa nuchalis caudalis, bursa cucullaris",
+    "sourceSegmentIDs": [
+      35
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamenta intertransversaria",
+    "back": "міжпоперечні зв'язки; у собаки відсутні",
+    "sourceSegmentIDs": [
+      36
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio capituli costae",
+    "back": "суглоб голівки ребра (за NAV — capitis costae)",
+    "sourceSegmentIDs": [
+      39
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamentum capituli costae radiatum",
+    "back": "радіальна зв'язка голівки ребра",
+    "sourceSegmentIDs": [
+      40
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligamentum conjugale costarum",
+    "back": "з'єднувальна зв'язка реберних голівок",
+    "sourceSegmentIDs": [
+      40
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio tuberculi costae",
+    "back": "суглоб горбика ребра",
+    "sourceSegmentIDs": [
+      41
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Тип суглобів голівки і горбика ребра",
+    "back": "комбінований; одновісні обертальні, у ВРХ і коня горбика — сідлоподібний",
+    "sourceSegmentIDs": [
+      43
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Реберно-хрящові суглоби: свиня / корова",
+    "back": "свиня — на 2-5 ребрі, корова — на 2-11 ребрі",
+    "sourceSegmentIDs": [
+      44
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulationes sterno-costales",
+    "back": "грудинно-реберні суглоби",
+    "sourceSegmentIDs": [
+      45
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "fascia endothoracica",
+    "back": "внутрішньогрудна фасція — з'єднує ребра між собою",
+    "sourceSegmentIDs": [
+      46
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "arcus costarum",
+    "back": "реберна дуга",
+    "sourceSegmentIDs": [
+      46
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio intersternalis",
+    "back": "міжгрудинний суглоб",
+    "sourceSegmentIDs": [
+      48
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "П'ять груп суглобів кінцівок",
+    "back": "прості багатовісні; прості одновісні; складні; тугий; міжпальцеві зв'язки",
+    "sourceSegmentIDs": [
+      49
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio humeri",
+    "back": "плечовий суглоб — простий багатовісний",
+    "sourceSegmentIDs": [
+      50
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio carpea",
+    "back": "зап'ястковий суглоб — 3 суглоби і 3 порожнини",
+    "sourceSegmentIDs": [
+      59
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "art. radiocarpea",
+    "back": "зап'ястковопроменевий суглоб — проксимальна порожнина",
+    "sourceSegmentIDs": [
+      60
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "art. intercarpea",
+    "back": "міжзап'ястковий суглоб — середня порожнина",
+    "sourceSegmentIDs": [
+      61
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "art. carpometacarpea",
+    "back": "зап'ястковоп'ястковий суглоб — дистальна порожнина",
+    "sourceSegmentIDs": [
+      62
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "До скількох градусів обмежене розгинання зап'ястка",
+    "back": "до 180°",
+    "sourceSegmentIDs": [
+      63
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "У кого немає дорсальної косої зв'язки зап'ястка",
+    "back": "у коня",
+    "sourceSegmentIDs": [
+      65
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio tarsi",
+    "back": "заплесновий (скаковий) суглоб — 4 суглоби і 4 порожнини",
+    "sourceSegmentIDs": [
+      72
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "art. talocruralis",
+    "back": "гомілковотаранний суглоб — найбільша порожнина",
+    "sourceSegmentIDs": [
+      73
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "art. tarsometatarsea",
+    "back": "заплесноплесновий суглоб — найвужча порожнина",
+    "sourceSegmentIDs": [
+      73
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Гвинтоподібний гомілковотаранний суглоб у…",
+    "back": "собаки і коня",
+    "sourceSegmentIDs": [
+      79
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio genus",
+    "back": "колінний суглоб: femorotibialis + femoropatellaris",
+    "sourceSegmentIDs": [
+      80
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "meniscus lateralis et medialis",
+    "back": "латеральний і медіальний меніски колінного суглоба",
+    "sourceSegmentIDs": [
+      82
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligg. genus cruciata",
+    "back": "хрестоподібні зв'язки колінного суглоба",
+    "sourceSegmentIDs": [
+      82
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio femoropatellaris",
+    "back": "суглоб наколінка",
+    "sourceSegmentIDs": [
+      83
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Скільки прямих зв'язок наколінка у собаки",
+    "back": "одна — тільки середня",
+    "sourceSegmentIDs": [
+      85
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio sacroiliaca",
+    "back": "крижовоклубовий суглоб — тугий",
+    "sourceSegmentIDs": [
+      87
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "lig. sacro-spino-tuberale",
+    "back": "крижовосіднична (широка тазова) зв'язка",
+    "sourceSegmentIDs": [
+      88
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "У кого крижовосіднична зв'язка зветься lig. sacro-tuberale",
+    "back": "у собак — іде тільки до сідничного горба",
+    "sourceSegmentIDs": [
+      89
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio phalangis secunda",
+    "back": "суглоб II фаланги (вінцевий)",
+    "sourceSegmentIDs": [
+      53
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "articulatio phalangis tertia",
+    "back": "суглоб III фаланги",
+    "sourceSegmentIDs": [
+      55
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "term",
+    "front": "Як зветься суглоб III фаланги у собаки і в копитних",
+    "back": "у собаки кігтьовий, у корови і свині — копитцевий",
+    "sourceSegmentIDs": [
+      56
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "lig. phalango-sesamoideum",
+    "back": "човниково-копитна зв'язка коня",
+    "sourceSegmentIDs": [
+      57
+    ]
+  },
+  {
+    "topicID": "T7",
+    "kind": "latin",
+    "front": "ligg. interdigitale cruciatum",
+    "back": "міжратичні хрестоподібні зв'язки — свиня і жуйні",
+    "sourceSegmentIDs": [
+      92
+    ]
+  }
+]

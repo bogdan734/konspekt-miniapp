@@ -78,6 +78,18 @@
           "lesson": "anatomy-ua-full/T6/lesson.json",
           "quiz": "anatomy-ua-full/T6/quiz.json",
           "cards": "anatomy-ua-full/T6/cards.json"
+        },
+        {
+          "id": "T7",
+          "title": "Підручник: з'єднання кісток — синдесмологія (с. 83-96)",
+          "label": null,
+          "syllabus": [
+            "T4"
+          ],
+          "notes": "anatomy-ua-full/T7/notes.json",
+          "lesson": "anatomy-ua-full/T7/lesson.json",
+          "quiz": "anatomy-ua-full/T7/quiz.json",
+          "cards": "anatomy-ua-full/T7/cards.json"
         }
       ]
     },
