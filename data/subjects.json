@@ -90,6 +90,18 @@
           "lesson": "anatomy-ua-full/T7/lesson.json",
           "quiz": "anatomy-ua-full/T7/quiz.json",
           "cards": "anatomy-ua-full/T7/cards.json"
+        },
+        {
+          "id": "T8",
+          "title": "Підручник: м'язи голови і початок м'язів грудної кінцівки (с. 98–102)",
+          "label": "T8",
+          "syllabus": [
+            "T5"
+          ],
+          "notes": "anatomy-ua-full/T8/notes.json",
+          "lesson": "anatomy-ua-full/T8/lesson.json",
+          "quiz": "anatomy-ua-full/T8/quiz.json",
+          "cards": "anatomy-ua-full/T8/cards.json"
         }
       ]
     },

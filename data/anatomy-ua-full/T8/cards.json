@@ -1,0 +1,493 @@
+[
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. orbicularis oris",
+    "back": "коловий м'яз рота — стискає губи, закриває ротовий отвір",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. incisivus maxillaris / mandibularis",
+    "back": "різцеві м'язи — антагоністи колового м'яза рота",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. mentalis",
+    "back": "підборідний м'яз — зморщує шкіру підборіддя",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. zygomaticus",
+    "back": "виличний м'яз — відтягує кут рота назад і вверх",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. cutaneus labiorum",
+    "back": "шкірний м'яз губ — відтягує кут рота назад і вниз",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. levator nasolabialis",
+    "back": "носогубний підіймач — припіднімає верхню губу, розширює ніздрі",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. malaris",
+    "back": "зовнішній щічний м'яз — тягне щоку дорзально",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. caninus",
+    "back": "ікловий м'яз — розширює ніздрю",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. levator labii maxillaris",
+    "back": "спеціальний підіймач верхньої губи",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. depressor labii maxillaris",
+    "back": "опускач верхньої губи — лише у свині й корови",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. depressor labii mandibularis",
+    "back": "опускач нижньої губи — у собаки відсутній",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. buccinator",
+    "back": "щічний м'яз — проштовхує їжу на корінні зуби",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. transversus nasi",
+    "back": "поперечний м'яз носа — розширює ніздрі",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. lateralis nasi (m. dilatator nasi)",
+    "back": "боковий м'яз носа / розширювач носа — у коня 4 дилататори, у корови 2 частини",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. masseter",
+    "back": "великий жувальний м'яз — стискає щелепи",
+    "sourceSegmentIDs": [
+      21
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. temporalis",
+    "back": "скроневий м'яз — стискає щелепи; дуже добрий у собаки",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. pterygoideus",
+    "back": "крилоподібний м'яз — стискає щелепи, тягне вперед",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. digastricus",
+    "back": "двочеревцевий м'яз — опускає щелепу",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. jugulomandibularis",
+    "back": "яремнощелеповий м'яз — лише у коня",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. supraspinatus",
+    "back": "надостьовий (передостий) м'яз — екстензор плеча",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "m. cutaneus omobrachialis",
+    "back": "підшкірний лопатко-плечовий м'яз — у жуйних між листками поверхневої фасції",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "fascia capitis superficialis",
+    "back": "поверхнева фасція голови — під шкірою, між листками м'язи голови",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "fascia capitis profunda",
+    "back": "глибока фасція голови",
+    "sourceSegmentIDs": [
+      1,
+      3
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "fascia temporalis superficialis",
+    "back": "поверхнева скронева фасція — на скроневому м'язі",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "fascia parotideomasseterica",
+    "back": "навколовушножувальна фасція — на навколовушній залозі й жувальному м'язі",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "fascia frontalis",
+    "back": "лобна фасція — в ділянці лоба",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "fascia buccalis",
+    "back": "щічна фасція — в ділянці носа і щоки",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "fascia submandibularis",
+    "back": "підщелепна фасція — в підщелепній області",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "fascia buccopharyngea",
+    "back": "щічноглоткова фасція — утворює lig. pterygomandibulare, закінчується на під'язиковій кістці",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "lig. pterygomandibulare",
+    "back": "крилоподібнощелепова зв'язка — утворена щічноглотковою фасцією",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "fascia temporalis profunda",
+    "back": "глибока скронева фасція — зростається зі скроневим м'язом",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "latin",
+    "front": "fascia membri thoracici",
+    "back": "фасції грудної кінцівки — поверхнева й глибока",
+    "sourceSegmentIDs": [
+      26,
+      27
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Мімічні м'язи: які це",
+    "back": "коловий рота, різцеві, підборідний, виличний, шкірний губ, носогубний підіймач, зовнішній щічний, ікловий, спец. підіймач, опускачі губ, щічний, поперечний і боковий м'язи носа",
+    "sourceSegmentIDs": [
+      5,
+      18
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Жувальні м'язи: які це",
+    "back": "великий жувальний, скроневий, крилоподібний, двочеревцевий, яремнощелеповий",
+    "sourceSegmentIDs": [
+      21,
+      25
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Виличний vs шкірний м'яз губ",
+    "back": "виличний — назад і вверх; шкірний — назад і вниз",
+    "sourceSegmentIDs": [
+      8,
+      9
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Виличний м'яз: початок у коня / собаки / корови й свині",
+    "back": "лицевий гребінь / scutulum / фасція великого жувального м'яза",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Носогубний підіймач: у коня / корови / собаки / свині",
+    "back": "дві гілки / зливається з підшкірним м'язом лоба і носа / широкий / вузький",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Ікловий м'яз: початок у собаки / свині / корови / коня",
+    "back": "спереду підочного отвору / іклова ямка / лицевий горбик / виличний гребінь",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Спеціальний підіймач верхньої губи: собака / свиня / корова / кінь",
+    "back": "розширює ніздрю / укріплює рило / розширює ніздрю (до носогубного дзеркала) / підіймає губу",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Де є опускач верхньої губи",
+    "back": "лише у свині (фіксує хоботок) і корови (опускає верхню губу)",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Де відсутній опускач нижньої губи",
+    "back": "у собаки",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Щічний м'яз: розвиток",
+    "back": "слабкий у собак, сильний у травоїдних",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Коловий м'яз рота: розвиток",
+    "back": "найкращий у дрібних жуйних і коня, слабший у корови, свині, особливо слабкий у собаки",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Великий жувальний: початок → прикріплення",
+    "back": "лицевий гребінь і вилична дуга → ямка жувального м'яза",
+    "sourceSegmentIDs": [
+      21
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Скроневий м'яз: початок → прикріплення",
+    "back": "скронева ямка й скроневий гребінь → м'язовий відросток нижньої щелепи",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Крилоподібний м'яз: початок → прикріплення",
+    "back": "піднебінна й крилоподібна кістки → крилова ямка і задній край гілки",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Двочеревцевий м'яз: початок → прикріплення",
+    "back": "яремний відросток → вентральний край тіла нижньої щелепи",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Двочеревцевий у собаки й свині",
+    "back": "одне черевце; у коня його сухожилок іде крізь шилопід'язиковий м'яз",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Яремнощелеповий м'яз: функція",
+    "back": "двосторонньо — опускає щелепу; односторонньо — повертає її в свій бік",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Надостьовий м'яз: початок → прикріплення",
+    "back": "передостна ямка → латеральний і медіальний горбки плечової кістки (двома ніжками)",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Надостьовий м'яз у собаки / коня й свині",
+    "back": "слабка або відсутня медіальна ніжка / частково з'єднується з глибоким грудним м'язом",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Поверхнева фасція грудної кінцівки: де",
+    "back": "латеральна ділянка лопатки й плеча; у жуйних містить підшкірний лопатко-плечовий м'яз",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Глибока фасція на зап'ястку формує",
+    "back": "фіброзну піхву сухожилля й поперечну зв'язку зап'ястка",
+    "sourceSegmentIDs": [
+      27
+    ]
+  },
+  {
+    "topicID": "T8",
+    "kind": "term",
+    "front": "Назви п'ять поверхневих фасцій голови",
+    "back": "скронева, навколовушножувальна, лобна, щічна, підщелепна",
+    "sourceSegmentIDs": [
+      2
+    ]
+  }
+]
