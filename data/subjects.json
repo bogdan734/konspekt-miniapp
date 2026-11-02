@@ -102,6 +102,18 @@
           "lesson": "anatomy-ua-full/T8/lesson.json",
           "quiz": "anatomy-ua-full/T8/quiz.json",
           "cards": "anatomy-ua-full/T8/cards.json"
+        },
+        {
+          "id": "T9",
+          "title": "Голосові: м'язи грудної кінцівки — плече, лікоть, зап'ясток, пальці",
+          "label": "T9ГС",
+          "syllabus": [
+            "T7"
+          ],
+          "notes": "anatomy-ua-full/T9/notes.json",
+          "lesson": "anatomy-ua-full/T9/lesson.json",
+          "quiz": "anatomy-ua-full/T9/quiz.json",
+          "cards": "anatomy-ua-full/T9/cards.json"
         }
       ]
     },

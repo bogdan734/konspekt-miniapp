@@ -1,0 +1,439 @@
+[
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. subscapularis",
+    "back": "підлопатковий м'яз — аддуктор плеча; медіально, у підлопатковій ямці",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. infraspinatus",
+    "back": "підостьовий (заостьовий) м'яз — абдуктор плеча",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. supraspinatus",
+    "back": "передостьовий (надостьовий) м'яз — розгинач плеча",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. coracobrachialis",
+    "back": "дзьобоплечовий м'яз — розгинач плеча; від дзьобоподібного відростка до круглої горбистості",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. deltoideus",
+    "back": "дельтоподібний м'яз — згинач плеча; від ості лопатки до дельтоподібної шорсткості",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. teres major",
+    "back": "великий круглий м'яз — згинач плеча",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. teres minor",
+    "back": "малий круглий м'яз — згинач плеча; під підостьовим",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. articularis humeri",
+    "back": "м'яз суглобової капсули плеча — напружує капсулу; у коня",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. biceps brachii",
+    "back": "двоголовий м'яз плеча — згинач ліктя; кінець на шорсткості променевої кістки",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. brachialis",
+    "back": "плечовий м'яз — згинач ліктя; під двоголовим",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. triceps brachii",
+    "back": "триголовий м'яз плеча — розгинач ліктя; три головки",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. tensor fasciae antebrachii",
+    "back": "напружувач фасції передпліччя — розгинач ліктя",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. anconeus",
+    "back": "ліктьовий м'яз — розгинач ліктя; під латеральною головкою триголового",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "tuber olecrani",
+    "back": "ліктьовий горб — на ньому закінчуються всі розгиначі ліктя",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. supinator brevis",
+    "back": "короткий супінатор — на горбистості променевої кістки",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. supinator longus",
+    "back": "довгий супінатор — на дистальному епіфізі променевої кістки",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. pronator teres",
+    "back": "круглий пронатор — з медіальної сторони",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. pronator quadratus",
+    "back": "квадратний пронатор — заповнює міжкісткові простори",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. extensor carpi radialis",
+    "back": "променевий розгинач зап'ястка — дорсальна стінка; до п'ясткових кісток",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. abductor pollicis longus",
+    "back": "довгий відвідний м'яз першого пальця — розгинач зап'ястка; йде косо",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. extensor carpi ulnaris",
+    "back": "ліктьовий розгинач зап'ястка — розгинач лише у собаки; в інших згинач",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. flexor carpi radialis",
+    "back": "променевий згинач зап'ястка",
+    "sourceSegmentIDs": [
+      27
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. flexor carpi ulnaris",
+    "back": "ліктьовий згинач зап'ястка",
+    "sourceSegmentIDs": [
+      27
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "os carpi accessorium",
+    "back": "додаткова кісточка зап'ястка — до неї йде ліктьовий розгинач",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. flexor digitorum superficialis",
+    "back": "поверхневий згинач пальців — від горба, закінчується раніше",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. flexor digitorum profundus",
+    "back": "глибокий згинач пальців — три головки, до останньої фаланги",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. extensor digitorum communis",
+    "back": "загальний розгинач пальців — сухожилки до кожного пальця",
+    "sourceSegmentIDs": [
+      30
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "m. extensor digitorum lateralis",
+    "back": "бічний розгинач пальців — закінчується на п'ясткових кістках",
+    "sourceSegmentIDs": [
+      30
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "mm. interossei",
+    "back": "міжкісткові м'язи — короткі м'язи кисті; сесамоподібні кістки",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "latin",
+    "front": "mm. lumbricales",
+    "back": "червоподібні м'язи — короткі м'язи кисті; з'єднують пальці",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Скільки м'язів діє на плечовий, ліктьовий і променеліктьовий суглоби?",
+    "back": "8, 5 і 4",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Як поділяються м'язи плечового суглоба?",
+    "back": "1 аддуктор, 1 абдуктор, 2 розгиначі, 3 згиначі (+ капсульний м'яз у коня)",
+    "sourceSegmentIDs": [
+      4,
+      11
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Назви аддуктор і абдуктор плечового суглоба",
+    "back": "Аддуктор — підлопатковий; абдуктор — підостьовий",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Назви розгиначі плечового суглоба",
+    "back": "Передостьовий і дзьобоплечовий",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Назви згиначі плечового суглоба",
+    "back": "Дельтоподібний, малий круглий, великий круглий",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Де лежать аддуктори, а де абдуктори?",
+    "back": "Аддуктори — з медіальної сторони, абдуктори — з латеральної",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Які три м'язи названі за ямками лопатки?",
+    "back": "Передостьовий, підостьовий, підлопатковий",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Назви згиначі й розгиначі ліктьового суглоба",
+    "back": "Згиначі: плечовий, двоголовий. Розгиначі: триголовий, напружувач фасції передпліччя, ліктьовий м'яз",
+    "sourceSegmentIDs": [
+      12,
+      17
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Назви головки триголового м'яза плеча",
+    "back": "Довга, латеральна, медіальна",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Де закінчуються розгиначі ліктя?",
+    "back": "На ліктьовому горбі (tuber olecrani)",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Скільки м'язів діє на променеліктьовий суглоб і які?",
+    "back": "Чотири: супінатори (короткий, довгий) і пронатори (круглий, квадратний)",
+    "sourceSegmentIDs": [
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "У яких видів розвинені супінатори й пронатори?",
+    "back": "Собака — добре, кіт — ще більше; кінь і корова — немає; свиня — частково",
+    "sourceSegmentIDs": [
+      21
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Скільки м'язів діє на зап'ястковий суглоб і як вони поділяються?",
+    "back": "П'ять: 2 розгиначі (дорсально) і 3 згиначі (пальмарно)",
+    "sourceSegmentIDs": [
+      23,
+      27
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Чим особливий ліктьовий розгинач зап'ястка?",
+    "back": "Розгинач лише у собаки; у коня, корови, жуйних, свині й кота — згинач",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Назви згиначі пальців",
+    "back": "Поверхневий і глибокий",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Назви розгиначі пальців",
+    "back": "Загальний і бічний",
+    "sourceSegmentIDs": [
+      30
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Які короткі м'язи є на кисті?",
+    "back": "Міжкісткові й червоподібні",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T9",
+    "kind": "term",
+    "front": "Що є на пальцях — м'язи чи сухожилки?",
+    "back": "Лише сухожилки; усі м'язи лежать вище",
+    "sourceSegmentIDs": [
+      22
+    ]
+  }
+]
