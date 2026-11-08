@@ -77,7 +77,10 @@ def main() -> int:
                 subject["curriculum"] = target
 
             notes_dir = ROOT / "notes" / curriculum_id
-            for notes_file in sorted(notes_dir.glob("T*.json")) if notes_dir.exists() else []:
+            # числом, не рядком: інакше T10 стане між T1 і T2
+            topic_files = sorted(notes_dir.glob("T*.json"),
+                                 key=lambda p: int(re.sub(r"\D", "", p.stem) or 0)) if notes_dir.exists() else []
+            for notes_file in topic_files:
                 notes = json.loads(notes_file.read_text(encoding="utf-8"))
                 topic_id = notes["topicID"]
                 built = ROOT / "generated" / curriculum_id / topic_id

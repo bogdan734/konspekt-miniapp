@@ -114,6 +114,18 @@
           "lesson": "anatomy-ua-full/T9/lesson.json",
           "quiz": "anatomy-ua-full/T9/quiz.json",
           "cards": "anatomy-ua-full/T9/cards.json"
+        },
+        {
+          "id": "T10",
+          "title": "Підручник Рудика: будова шкіри — епідерміс, власна шкіра, підшкірна основа (с. 222–224)",
+          "label": "T10",
+          "syllabus": [
+            "T8"
+          ],
+          "notes": "anatomy-ua-full/T10/notes.json",
+          "lesson": "anatomy-ua-full/T10/lesson.json",
+          "quiz": "anatomy-ua-full/T10/quiz.json",
+          "cards": "anatomy-ua-full/T10/cards.json"
         }
       ]
     },
