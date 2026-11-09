@@ -126,6 +126,18 @@
           "lesson": "anatomy-ua-full/T10/lesson.json",
           "quiz": "anatomy-ua-full/T10/quiz.json",
           "cards": "anatomy-ua-full/T10/cards.json"
+        },
+        {
+          "id": "T11",
+          "title": "Підручник Рудика: похідні шкіри — волосся, залози, молочні залози (с. 224–230)",
+          "label": "T11",
+          "syllabus": [
+            "T8"
+          ],
+          "notes": "anatomy-ua-full/T11/notes.json",
+          "lesson": "anatomy-ua-full/T11/lesson.json",
+          "quiz": "anatomy-ua-full/T11/quiz.json",
+          "cards": "anatomy-ua-full/T11/cards.json"
         }
       ]
     },
