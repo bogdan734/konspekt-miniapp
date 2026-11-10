@@ -138,6 +138,18 @@
           "lesson": "anatomy-ua-full/T11/lesson.json",
           "quiz": "anatomy-ua-full/T11/quiz.json",
           "cards": "anatomy-ua-full/T11/cards.json"
+        },
+        {
+          "id": "T12",
+          "title": "Підручник Рудика: рогові утвори шкіри — роги, м'якуші, копито, ратиці, кігті (с. 230–234)",
+          "label": "T12",
+          "syllabus": [
+            "T8"
+          ],
+          "notes": "anatomy-ua-full/T12/notes.json",
+          "lesson": "anatomy-ua-full/T12/lesson.json",
+          "quiz": "anatomy-ua-full/T12/quiz.json",
+          "cards": "anatomy-ua-full/T12/cards.json"
         }
       ]
     },
