@@ -1,0 +1,571 @@
+[
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "lingua",
+    "back": "язик (s. glossa): рухливий м'язовий орган на дні ротової порожнини",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "apex linguae",
+    "back": "верхівка язика: рухлива, має дорсальну й вентральну поверхні та два бічні краї",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "corpus linguae",
+    "back": "тіло язика: основна частина між кутніми зубами",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "radix linguae",
+    "back": "корінь язика: найбільш слабко виражена задня частина, прилягає до надгортанника",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "dorsum linguae",
+    "back": "спинка язика: виступаюча частина тіла",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "facies laterales",
+    "back": "бічні поверхні тіла язика",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "frenulum linguae",
+    "back": "уздечка язика: подвійна складка слизової оболонки під верхівкою",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "plica glossoepiglottica",
+    "back": "язиконадгортанна складка: на переході кореня язика до надгортанника",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "papillae fungiformes",
+    "back": "грибоподібні сосочки: смакові; на верхівці й тілі, особливо по краях",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "papillae vallatae",
+    "back": "валикоподібні сосочки: смакові; поглиблення з валиком, на тілі біля кореня",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "papillae foliatae",
+    "back": "листкоподібні сосочки: смакові; по одному з кожного боку кореня; у ВРХ немає",
+    "sourceSegmentIDs": [
+      11,
+      16
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "papillae filiformes",
+    "back": "ниткоподібні сосочки: механічні; надають язику бархатистого вигляду",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "papillae conicae",
+    "back": "конічні сосочки: механічні; на корені; у коня немає",
+    "sourceSegmentIDs": [
+      14,
+      17
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "gll. linguales",
+    "back": "язикові слизові залози кореня й країв язика",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "tonsilla lingualis",
+    "back": "язиковий мигдалик: лімфоїдна тканина в стінках крипт кореня; в собаки немає",
+    "sourceSegmentIDs": [
+      15,
+      19
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "tonsilla paraepiglottica",
+    "back": "білянадгортанний мигдалик: парний, у свині",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "torus linguae",
+    "back": "подушка язика ВРХ: на спинці, відокремлена пограничною борозною",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "sulcus terminalis",
+    "back": "погранична борозна: відокремлює подушку язика ВРХ; збільшує рухливість переднього відділу",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "lyssa",
+    "back": "язиковий хрящ ВРХ: слабко розвинутий, у вентральній частині перегородки язика",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "sulcus medianus linguae",
+    "back": "язикова борозна по середині язика собаки",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. lingualis proprius",
+    "back": "власний м'яз язика: поперечні, перпендикулярні й поздовжні пучки",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. myloglossus",
+    "back": "щелепно-язиковий м'яз: від нижньої щелепи; в собаки немає",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. mylohyoideus",
+    "back": "щелепно-під'язиковий м'яз: від базигіоїда, язикового відростка й сухожилкового тяжа",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. styloglossus",
+    "back": "шилоязиковий м'яз: від дистальної третини стилогіоїда до тіла й верхівки язика",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. chondroglossus",
+    "back": "хрящоязиковий м'яз: від дистального кінця стилогіоїда; у свині немає",
+    "sourceSegmentIDs": [
+      27,
+      28
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. genioglossus",
+    "back": "підборідно-язиковий м'яз: масивний; від підборіддя до верхівки, тіла й кореня язика",
+    "sourceSegmentIDs": [
+      29
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. genioepiglotticus",
+    "back": "підборідно-надгортанний м'яз: вентральні пучки підборідно-язикового (кінь, собака)",
+    "sourceSegmentIDs": [
+      29
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. hyoglossus",
+    "back": "під'язиково-язиковий м'яз: від базигіоїда й тиреогіоїда до кореня, тіла й верхівки язика",
+    "sourceSegmentIDs": [
+      30
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. geniohyoideus",
+    "back": "підборідно-під'язиковий м'яз: веретеноподібний, від підборіддя до язикового відростка",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. stylohyoideus",
+    "back": "шилопід'язиковий м'яз: від м'язового відростка стилогіоїда до базигіоїда",
+    "sourceSegmentIDs": [
+      32
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. occipitohyoideus",
+    "back": "потилично-під'язиковий м'яз: від яремного відростка потиличної кістки до стилогіоїда",
+    "sourceSegmentIDs": [
+      36
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. ceratohyoideus",
+    "back": "ріжково-під'язиковий м'яз: тонка слабка пластинка",
+    "sourceSegmentIDs": [
+      37
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. ceratoglossus",
+    "back": "ріжково-язиковий м'яз: від епігіоїда й кератогіоїда до кореня язика; у свині немає",
+    "sourceSegmentIDs": [
+      38
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. thyrohyoideus",
+    "back": "щитопід'язиковий м'яз: від щитоподібного хряща до тиреогіоїда",
+    "sourceSegmentIDs": [
+      39
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. hyoepiglotticus",
+    "back": "під'язиково-надгортанний м'яз: закінчується в основі надгортанника",
+    "sourceSegmentIDs": [
+      40
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. hyoideus transversus",
+    "back": "під'язиковий поперечний м'яз: сполучає епігіоїди (кінь); у свині зв'язка; у ВРХ і собаки немає",
+    "sourceSegmentIDs": [
+      41
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. sternohyoideus",
+    "back": "груднино-під'язиковий м'яз: від ручки груднини до базигіоїда",
+    "sourceSegmentIDs": [
+      42
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. sternothyroideus",
+    "back": "груднино-щитоподібний м'яз: до щитоподібного хряща гортані",
+    "sourceSegmentIDs": [
+      43
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "latin",
+    "front": "m. omohyoideus",
+    "back": "лопатково-під'язиковий м'яз: до базигіоїда; в собаки немає",
+    "sourceSegmentIDs": [
+      44
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Функції язика?",
+    "back": "захоплює, утримує й переміщує корм; приймає воду; орган смаку; у собак — терморегуляція",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Верхівка язика у відсотках?",
+    "back": "м'ясоїдні 37 %; свиня 31 %; ВРХ 30 %; кінь 20 %",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Тіло язика у відсотках?",
+    "back": "жуйні й кінь 59–60 %; свиня 52 %; собака 42 %",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Корінь язика у відсотках?",
+    "back": "жуйні 10 %; кінь 14 %; свиня 17 %",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Механічні й смакові сосочки?",
+    "back": "механічні — ниткоподібні, конічні; смакові — грибоподібні, валикоподібні, листкоподібні",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Де смакові цибулини валикоподібних і листкоподібних сосочків?",
+    "back": "валикоподібні — на бічних стінках валика; листкоподібні — у товщі стінки сосочків",
+    "sourceSegmentIDs": [
+      10,
+      11
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Язик ВРХ?",
+    "back": "товстий, грубий; уздечка подвійна; подушка й sulcus terminalis; lyssa; валикоподібних 16–40; листкоподібних немає",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Язик коня?",
+    "back": "без подушки й хряща; ниткоподібні м'які, тонкі, довгі; валикоподібних частіше два; листкоподібні видовжені; конічних немає",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Язик свині?",
+    "back": "вузький, довга верхівка; довгі конічні на корені; валикоподібні по одному з боку; tonsilla paraepiglottica",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Язик собаки?",
+    "back": "широкий, загострені краї; sulcus medianus; валикоподібних по 2–3; язиковий хрящ; без язикового мигдалика",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Рис. 5.11: 1–8?",
+    "back": "apex; corpus; radix; torus linguae; papillae fungiformes; vallatae; foliatae; conicae",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Рис. 5.11: 9–13?",
+    "back": "tonsilla palatina; plica glossoepiglottica; arcus palatoglossus; fossulae tonsillares; epiglottis",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Рис. 5.12: 1–8 (і 3′)?",
+    "back": "genioglossus; geniohyoideus; myloglossus; 3′ mylohyoideus; 4 geniohyoideus internus; genioepiglotticus; hyoglossus; styloglossus; chondroglossus",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Рис. 5.12: 9–17?",
+    "back": "stylopharyngeus; stylohyoideum; stylohyoideus; digastricus; thyrohyoideus; sternothyroideus; sternohyoideus; lingua; occipitohyoideus",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Рис. 5.13: 1–6′?",
+    "back": "geniohyoideus; genioglossus; styloglossus; sternohyoideus; 4′ mylohyoideus; masseter; temporalis; 6′ hyoglossus",
+    "sourceSegmentIDs": [
+      49
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Рис. 5.13: літери?",
+    "back": "а — взяття їжі; б — початок жування; в, д — активне жування; г, е — перед ковтанням та ковтання",
+    "sourceSegmentIDs": [
+      49
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Яких м'язів немає в яких тварин?",
+    "back": "myloglossus — собака; chondroglossus — свиня; ceratoglossus — свиня; hyoideus transversus — ВРХ і собака (у свині зв'язка); omohyoideus — собака",
+    "sourceSegmentIDs": [
+      23,
+      28,
+      38,
+      41,
+      44
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Щелепно-під'язиковий м'яз: до якого рівня?",
+    "back": "жуйні й кінь — 1-й премоляр; собака — 2–3-й премоляр; свиня — 1-й моляр",
+    "sourceSegmentIDs": [
+      24,
+      25
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Щелепно-язиковий м'яз: до якого рівня?",
+    "back": "жуйні й кінь — 3-й премоляр; свиня — останній моляр",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Взяття їжі (коза): послідовність?",
+    "back": "першим підборідно-під'язиковий (+ груднино-під'язиковий); підборідно-язиковий через 3 мс; жувальний не активний, висковий слабко",
+    "sourceSegmentIDs": [
+      45
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Початок жування (коза): послідовність?",
+    "back": "підборідно-під'язиковий й груднино-під'язиковий; через 4 мс підборідно-язиковий; ще через 2 мс шилоязиковий й щелепно-під'язиковий; під'язиково-язиковий через 18 мс; висковий через 8 мс (макс. 50)",
+    "sourceSegmentIDs": [
+      46
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Активне жування (коза): що змінюється?",
+    "back": "зростає активність груднино-під'язикового й щелепно-під'язикового; знижується під'язиково-язикового; підборідно-язиковий 7 мс, щелепно-під'язиковий 9, під'язиково-язиковий 14, жувальний 24 мс",
+    "sourceSegmentIDs": [
+      47,
+      48
+    ]
+  },
+  {
+    "topicID": "T14",
+    "kind": "term",
+    "front": "Перед ковтанням і під час ковтання (коза)?",
+    "back": "перед: активність під'язикових м'язів різко знижується (крім під'язиково-язикового), активні жувальний і висковий; ковтання: жувальний зникає, першим підборідно-під'язиковий, під'язиково-язиковий через 13 мс",
+    "sourceSegmentIDs": [
+      50
+    ]
+  }
+]

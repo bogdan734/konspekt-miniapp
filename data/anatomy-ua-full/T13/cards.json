@@ -1,0 +1,571 @@
+[
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "cavum oris",
+    "back": "ротова порожнина: початковий відділ апарату травлення",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "vestibulum oris",
+    "back": "присінок рота: простір між губами, щоками й зубами",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "cavum oris proprium",
+    "back": "власне порожнина рота",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "rima oris",
+    "back": "ротова щілина: вхід у ротову порожнину",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "fauces",
+    "back": "зів: вихід з ротової порожнини в глотку",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "labia oris",
+    "back": "губи рота: шкірно-м'язові утвори, що обмежують вхід у ротову порожнину",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "labium superius",
+    "back": "верхня губа",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "labium inferius",
+    "back": "нижня губа",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "angulus oris",
+    "back": "кут рота: де з'єднуються верхня й нижня губи",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "gll. labiales",
+    "back": "губні залози: у слизовій губ; особливо розвинені у травоїдних",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "pili tactiles",
+    "back": "дотикове волосся: товсте й довге, на шкірі губ",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "planum nasolabiale",
+    "back": "носогубне дзеркало: шкіра верхньої губи ВРХ",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "philtrum",
+    "back": "фільтр: жолобок верхньої губи коня; поздовжня борозенка верхньої губи собаки",
+    "sourceSegmentIDs": [
+      8,
+      11
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "mentum",
+    "back": "підборіддя: у нього переходить нижня губа коня",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "planum rostrale",
+    "back": "дзеркальце рила: з ним зливається верхня губа свині",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "buccae",
+    "back": "щоки: бічні стінки ротової порожнини",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "plica pterygomandibularis",
+    "back": "крило-нижньощелепна складка: до неї тягнуться щоки; з верхньої щелепи на нижню позаду кутніх зубів",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "gingivae",
+    "back": "ясна: слизова оболонка зубних країв щелеп; без підслизової основи",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "palatum durum",
+    "back": "тверде піднебіння: слизова оболонка склепіння ротової порожнини",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "raphe palatini",
+    "back": "піднебінний шов: по середній лінії твердого піднебіння",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "rugae palatinae",
+    "back": "піднебінні валики (зморшки) обабіч шва",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "papilla incisiva",
+    "back": "різцевий сосочок: позаду різців на піднебінному шві; у коня його немає",
+    "sourceSegmentIDs": [
+      23,
+      26
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "ductus incisivus",
+    "back": "різцева протока: сполучає носову порожнину з ротовою; у коня її немає",
+    "sourceSegmentIDs": [
+      23,
+      26
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "gll. palatinae",
+    "back": "слизові піднебінні залози: задня частина твердого й м'яке піднебіння",
+    "sourceSegmentIDs": [
+      24,
+      31
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "palatum molle",
+    "back": "м'яке піднебіння: продовження твердого каудально",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "velum palatinum",
+    "back": "піднебінна завіска (інша назва м'якого піднебіння)",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "arcus palatinus",
+    "back": "піднебінна дуга: вільний кінець м'якого піднебіння, формує зів",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "arcus palatopharyngeus",
+    "back": "піднебінно-глоткова дуга: складка на стінку глотки в бік стравоходу",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "arcus palatoglossus",
+    "back": "піднебінно-язикова дуга: складка на корінь язика й на межі з тілом",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "m. palatinus",
+    "back": "піднебінний м'яз: до краю хоан на піднебінних кістках і до піднебінної дуги",
+    "sourceSegmentIDs": [
+      34
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "m. tensor veli palatini",
+    "back": "напружувач м'якого піднебіння: від м'язового відростка вискової кістки через гачок крилоподібної; допомагає проковтувати грудку",
+    "sourceSegmentIDs": [
+      35
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "m. levator veli palatini",
+    "back": "підіймач м'якого піднебіння: піднімає його й розширює зів",
+    "sourceSegmentIDs": [
+      36
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "tonsilla palatina",
+    "back": "піднебінний мигдалик (парний)",
+    "sourceSegmentIDs": [
+      39
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "fossulae tonsillares",
+    "back": "мигдаликові ямочки: численні на мигдаликах коня",
+    "sourceSegmentIDs": [
+      39
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "latin",
+    "front": "tonsilla veli palatini",
+    "back": "непарний мигдалик коня в передній частині м'якого піднебіння",
+    "sourceSegmentIDs": [
+      40
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Рис. 5.6: 1–7?",
+    "back": "labium superius; labium inferius; angulus oris; nares; diverticulum nasi; planum nasolabiale; planum nasale",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Рис. 5.9: 1–5?",
+    "back": "papilla incisiva; ductus incisivus; raphe palatini; rugae palatinae; papilla buccales",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Рис. 5.10: 1–7?",
+    "back": "піднебінний апоневроз; піднебінний м'яз; напружувач; гачок крилоподібної кістки; піднебінно-глотковий м'яз; підіймач; щічно-глотковий м'яз",
+    "sourceSegmentIDs": [
+      33
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Рис. 5.11: 9 і 11?",
+    "back": "tonsilla palatina; arcus palatoglossus",
+    "sourceSegmentIDs": [
+      38
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Рис. 5.7: А і Б?",
+    "back": "типи дерматогліфів носогубного дзеркала: А — гілка; Б — крона",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Літери видів на рис. 5.6 і 5.9?",
+    "back": "5.6: А — ВРХ, Б — кінь, В — свиня, Г — собака; 5.9: А — кінь, Б — ВРХ, В — свиня, Г — собака",
+    "sourceSegmentIDs": [
+      4,
+      25
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Нерви губ?",
+    "back": "рухові — n. facialis (VII); чутливі — n. maxillaris, n. mandibularis (V)",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Нерви щік?",
+    "back": "n. buccalis (чутливий); n. facialis (руховий)",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Нерви твердого піднебіння?",
+    "back": "n. palatinus major",
+    "sourceSegmentIDs": [
+      29
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Судини твердого піднебіння?",
+    "back": "a. palatina major, a. sphenopalatina",
+    "sourceSegmentIDs": [
+      30
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Нерви м'якого піднебіння й мигдаликів?",
+    "back": "n. palatinus major, plexus pharyngeus",
+    "sourceSegmentIDs": [
+      41
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Судини м'якого піднебіння й мигдаликів?",
+    "back": "a. palatina ascendens, a. palatina minor",
+    "sourceSegmentIDs": [
+      42
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Судини губ і щік?",
+    "back": "гілки a. facialis",
+    "sourceSegmentIDs": [
+      13,
+      21
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Рівні, на яких відкривається сосочок протоки привушної залози в щоках?",
+    "back": "ВРХ — 3–4-й верхній кутній зуб; кінь — 3-й; свиня — 4–5-й; собака — 3-й",
+    "sourceSegmentIDs": [
+      16,
+      17,
+      19
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Скільки піднебінних валиків у ВРХ, коня, свині й собаки?",
+    "back": "ВРХ — близько 20 парних; кінь — 18–24; свиня — 20–25 у кожній половині; собака — до 10",
+    "sourceSegmentIDs": [
+      24,
+      26,
+      27,
+      28
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Довжина губ порівняно з довжиною щік?",
+    "back": "собака — в 2,2 раза більша; свиня — в 1,3 раза; жуйні й кінь — 0,6 довжини щік",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Співвідношення твердого й м'якого піднебіння?",
+    "back": "жуйні 2,7 : 1; кінь 2 : 1; свиня 2,6 : 1; собака 1,7 : 1; верблюд 1,9 : 1",
+    "sourceSegmentIDs": [
+      37
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Чого немає на твердому піднебінні коня?",
+    "back": "різцевого сосочка й різцевої протоки",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Чому піднебіння коня схильне до набряків?",
+    "back": "надзвичайно багате на венозні сплетення в кілька рядів",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "М'яке піднебіння собаки, коня, верблюда?",
+    "back": "собака — коротке, можна дихати ротом; кінь — довге, перекриває доступ повітря; верблюд — довге, горизонтально назад зверху від гортані",
+    "sourceSegmentIDs": [
+      37
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Піднебінні мигдалики ВРХ, собаки, коня, свині?",
+    "back": "ВРХ — овальні, часточкові; собака — у глибоких синусах; кінь — дифузні, з ямочками; свиня — на всій вентральній поверхні м'якого піднебіння",
+    "sourceSegmentIDs": [
+      39
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Епітелій м'якого піднебіння з боку рота й з боку повітря?",
+    "back": "з боку рота — багатошаровий плоский; з боку повітря — псевдобагатошаровий миготливий",
+    "sourceSegmentIDs": [
+      31
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Носогубне дзеркало ВРХ: норма й хвороба?",
+    "back": "норма — вологе й холодне; хвороба — гаряче й сухе",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Що утворюють жуйні на місці відсутніх верхніх різців?",
+    "back": "зубну пластинку (слизова оболонка значної товщини)",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Особливості ясен?",
+    "back": "підслизової основи немає; малочутливі, надзвичайно багаті на судини",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Шари губ зсередини назовні?",
+    "back": "слизова оболонка — м'язовий шар — шкіра",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T13",
+    "kind": "term",
+    "front": "Шари щік?",
+    "back": "зовні шкіра, зсередини слизова оболонка, посередині м'язи",
+    "sourceSegmentIDs": [
+      14
+    ]
+  }
+]

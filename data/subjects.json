@@ -150,6 +150,42 @@
           "lesson": "anatomy-ua-full/T12/lesson.json",
           "quiz": "anatomy-ua-full/T12/quiz.json",
           "cards": "anatomy-ua-full/T12/cards.json"
+        },
+        {
+          "id": "T13",
+          "title": "Підручник Рудика: ротова порожнина — губи, щоки, ясна, піднебіння, мигдалики (с. 247–254)",
+          "label": "T13",
+          "syllabus": [
+            "T9"
+          ],
+          "notes": "anatomy-ua-full/T13/notes.json",
+          "lesson": "anatomy-ua-full/T13/lesson.json",
+          "quiz": "anatomy-ua-full/T13/quiz.json",
+          "cards": "anatomy-ua-full/T13/cards.json"
+        },
+        {
+          "id": "T14",
+          "title": "Підручник Рудика: язик, сосочки, м'язи язика й під'язикового апарату (с. 254–261)",
+          "label": "T14",
+          "syllabus": [
+            "T9"
+          ],
+          "notes": "anatomy-ua-full/T14/notes.json",
+          "lesson": "anatomy-ua-full/T14/lesson.json",
+          "quiz": "anatomy-ua-full/T14/quiz.json",
+          "cards": "anatomy-ua-full/T14/cards.json"
+        },
+        {
+          "id": "T15",
+          "title": "Підручник Рудика: залози ротової порожнини — привушна, піднижньощелепна, під'язикова, щічні (с. 261–264)",
+          "label": "T15",
+          "syllabus": [
+            "T9"
+          ],
+          "notes": "anatomy-ua-full/T15/notes.json",
+          "lesson": "anatomy-ua-full/T15/lesson.json",
+          "quiz": "anatomy-ua-full/T15/quiz.json",
+          "cards": "anatomy-ua-full/T15/cards.json"
         }
       ]
     },

@@ -1,0 +1,391 @@
+[
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "glandulae oris",
+    "back": "залози ротової порожнини: пристінні й застінні",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "gl. parotis",
+    "back": "привушна залоза: найбільша й найкомпактніша; під шкірою вентральніше від основи вушної раковини",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "ductus parotideus",
+    "back": "стенонова протока: загальна протока привушної залози",
+    "sourceSegmentIDs": [
+      2
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "gn. oticum",
+    "back": "вушний вузол: через нього парасимпатичні волокна до привушної залози",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "gl. submandibularis",
+    "back": "піднижньощелепна залоза: від атланта до підщелепного простору; серозно-слизовий секрет",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "ductus submandibularis",
+    "back": "вартонова протока: піднижньощелепної залози; відкривається на під'язиковій бородавці",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "caruncula sublingualis",
+    "back": "під'язикова бородавка: сюди відкриваються протоки піднижньощелепної й однопротокової під'язикової залоз",
+    "sourceSegmentIDs": [
+      9,
+      17
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "gl. sublingualis",
+    "back": "під'язикова залоза: ВРХ — багато- й однопротокова; кінь — лише багатопротокова; свиня, собака — подвійна",
+    "sourceSegmentIDs": [
+      16,
+      18,
+      19,
+      20
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "gl. sublingualis polystomatica",
+    "back": "багатопротокова під'язикова: пакетики під слизовою дна рота між язиком і яснами",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "ductus sublinguales minores",
+    "back": "рівінієві протоки: численні протоки багатопротокової під'язикової; бічна частина дна рота",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "gl. sublingualis monostomatica",
+    "back": "однопротокова під'язикова: дорсально до передньої ділянки багатопротокової",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "ductus sublingualis major",
+    "back": "бартолінова протока: однопротокової під'язикової; разом з вартоновою до під'язикової бородавки",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "gll. buccales",
+    "back": "щічні залози: під слизовою або в товщі щічного м'яза; добре розвинуті у травоїдних",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "gll. buccales dorsales",
+    "back": "дорсальні щічні: уздовж альвеолярного краю верхньої щелепи",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "gll. buccales intermediae",
+    "back": "проміжні щічні: у ВРХ дуже сконцентровані, великі біля кута губ",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "gll. buccales ventrales",
+    "back": "вентральні щічні: на рівні нижніх кутніх зубів; у ВРХ зливаються з губними залозами",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "gl. zygomatica",
+    "back": "вилична залоза: дорсальна щічна залоза собаки в ділянці орбіти; 4–5 проток",
+    "sourceSegmentIDs": [
+      27
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "latin",
+    "front": "chorda tympani",
+    "back": "барабанна струна: нерв піднижньощелепної залози (з n. lingualis)",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Поділ залоз ротової порожнини?",
+    "back": "пристінні: губні, щічні, піднебінні, язикові; застінні: привушні, піднижньощелепні, під'язикові",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Рівні відкриття протоки привушної залози?",
+    "back": "ВРХ — 4-й верхній кутній зуб; кінь — 3-й (низький сосочок); свиня — 4-й чи 5-й; собака — 3-й",
+    "sourceSegmentIDs": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Привушна залоза: форма у ВРХ, коня, собаки?",
+    "back": "ВРХ — видовжена, звужується донизу; кінь — чотирикутна; собака — округла (слабкий розвиток)",
+    "sourceSegmentIDs": [
+      2,
+      6
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Привушна залоза ВРХ: колір, особливість протоки?",
+    "back": "бурувато-червона; верхня частина ширша; протока через судинну вирізку; у овець — по зовнішній поверхні жувального м'яза",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Привушна залоза коня й свині?",
+    "back": "кінь — найбільша, сіра чи жовто-червона; свиня — у жировій тканині, трикутна",
+    "sourceSegmentIDs": [
+      4,
+      5
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Привушна залоза: нерви й судини?",
+    "back": "парасимпатичні через gn. oticum; чутливі від n. zygomaticus та n. auriculotemporalis; a. auricularis caudalis, r. massetericus",
+    "sourceSegmentIDs": [
+      7,
+      8
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Піднижньощелепна залоза ВРХ?",
+    "back": "від атланта до підщелепного простору; майже стикається з протилежною; більша від привушної, жовтувата; вартонова протока",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Піднижньощелепна залоза коня?",
+    "back": "видовжена, до атланта; частково під привушною, частково під яремно-щелепним, двочеревцевим, крилоподібним м'язами",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Піднижньощелепна залоза свині й собаки?",
+    "back": "свиня — невелика, червонувата, прикрита привушною, протока біля уздечки; собака — округла, як привушна, нижче неї, протока на під'язиковій бородавці",
+    "sourceSegmentIDs": [
+      12,
+      13
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Піднижньощелепна залоза: нерви й судини?",
+    "back": "chorda tympani, n. lingualis; a. lingualis",
+    "sourceSegmentIDs": [
+      14,
+      15
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Під'язикова залоза коня?",
+    "back": "лише багатопротокова; від підборіддя до 3-го кутнього зуба; валик; близько тридцяти проток",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Під'язикова залоза свині?",
+    "back": "подвійна; багатопротокова в ростральній частині дна; однопротокова стрічкоподібна, до піднижньощелепної",
+    "sourceSegmentIDs": [
+      19
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Під'язикова залоза собаки?",
+    "back": "подвійна; багатопротокова видовжена, вузька; більшість її проток впадає в протоку сильно розвинутої однопротокової",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Під'язикова залоза: нерви й судини?",
+    "back": "n. lingualis; a. lingualis",
+    "sourceSegmentIDs": [
+      21,
+      22
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Щічні залози ВРХ: три ряди?",
+    "back": "дорсальні (уздовж альвеолярного краю); проміжні (великі біля кута губ); вентральні (зливаються з губними)",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Щічні залози коня?",
+    "back": "дорсальні: задня ділянка під жувальним м'язом, за щелеповий горб; вентральні: між жувальним м'язом і кутом губ, прикриті щічним м'язом й опускачем нижньої губи",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Щічні залози свині й собаки?",
+    "back": "свиня — дорсальні на рівні верхніх, вентральні нижніх кутніх зубів; собака — вилична залоза, вентральні слабкі від ікла до 3-го кутнього зуба",
+    "sourceSegmentIDs": [
+      26,
+      27
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Щічні залози: нерви й судини?",
+    "back": "n. buccalis; a. facialis",
+    "sourceSegmentIDs": [
+      28,
+      29
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Рис. 5.14: літери?",
+    "back": "А — ВРХ; Б — собака; В — свиня; Г — кінь",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Рис. 5.14: 1–5?",
+    "back": "gl. parotis; ductus parotideus (1′); gl. submandibularis; ductus submandibularis (2′); gll. buccales ventrales; dorsales; intermediae",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Рис. 5.14: 6–13?",
+    "back": "n. buccalis; v. buccalis; gl. sublingualis polystomatica; monostomatica (9); ductus sublingualis major (9′); gll. palatinae; gl. zygomatica (11); caruncula sublingualis (12); gll. labiales (13)",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Імена проток слинних залоз?",
+    "back": "стенонова — привушна; вартонова — піднижньощелепна; рівінієві — багатопротокова під'язикова; бартолінова — однопротокова під'язикова",
+    "sourceSegmentIDs": [
+      2,
+      9,
+      16,
+      17
+    ]
+  },
+  {
+    "topicID": "T15",
+    "kind": "term",
+    "front": "Яка залоза більша: привушна чи піднижньощелепна?",
+    "back": "загалом привушна найбільша; у ВРХ піднижньощелепна більша від привушної; у собаки однакові",
+    "sourceSegmentIDs": [
+      2,
+      9,
+      13
+    ]
+  }
+]
