@@ -186,6 +186,18 @@
           "lesson": "anatomy-ua-full/T15/lesson.json",
           "quiz": "anatomy-ua-full/T15/quiz.json",
           "cards": "anatomy-ua-full/T15/cards.json"
+        },
+        {
+          "id": "T16",
+          "title": "Лекція (джерело не названо): піднебіння, дно рота, язик й м'язи язика (с. 7–10)",
+          "label": "T16",
+          "syllabus": [
+            "T9"
+          ],
+          "notes": "anatomy-ua-full/T16/notes.json",
+          "lesson": "anatomy-ua-full/T16/lesson.json",
+          "quiz": "anatomy-ua-full/T16/quiz.json",
+          "cards": "anatomy-ua-full/T16/cards.json"
         }
       ]
     },

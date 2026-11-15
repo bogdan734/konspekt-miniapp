@@ -1,0 +1,340 @@
+[
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "palatum molle",
+    "back": "м'яке піднебіння = піднебінна завіска (velum palatinum): складка слизової з м'язами й залозами",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "arcus palatinus",
+    "back": "піднебінна дуга: вільний край завіски; з коренем язика формує зів",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "isthmus faucium",
+    "back": "зів: вхід із ротової порожнини в глотку",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "arcus pharyngopalatinus",
+    "back": "піднебінно-глоткова дуга: від піднебінної дуги до глотки",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "arcus glossopalatinus",
+    "back": "піднебінно-язикова дуга: від завіски до кореня язика",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "tonsillae palatinae",
+    "back": "піднебінні мигдалики: між дугами; слизові залози й лімфатичні вузли",
+    "sourceSegmentIDs": [
+      6,
+      9
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "sinus tonsillaris",
+    "back": "пазуха мигдалика: в ній мигдалики собаки й корови",
+    "sourceSegmentIDs": [
+      10,
+      12
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "tonsilla veli palatini impar",
+    "back": "непарний мигдалик завіски: свиня (дифузний), кінь",
+    "sourceSegmentIDs": [
+      10,
+      12
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "m. palatinus",
+    "back": "піднебінний м'яз: від хоан до піднебінної дуги; скорочує завіску після ковтання",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "m. levator veli palatini",
+    "back": "піднімач завіски: від м'язового відростка кам'янистої кістки; піднімає її",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "m. tensor veli palatini",
+    "back": "напружувач завіски: через гачок клиноподібної кістки; напружує її",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "plica sublingualis",
+    "back": "під'язикова складка: обабіч язика; отвори коротких проток під'язикової залози",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "frenulum linguae",
+    "back": "уздечка язика: складка слизової під кінчиком язика",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "caruncula sublingualis",
+    "back": "під'язикова бородавка: сюди довгі протоки під'язикової й протока підщелепової залоз",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "lingua seu glossa",
+    "back": "язик: м'язовий орган зі сосочками; смак, корм, у собак терморегуляція",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "radix linguae",
+    "back": "корінь язика: до надгортанника; одна дорсальна поверхня",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "corpus linguae",
+    "back": "тіло язика: вздовж корінних зубів; спинка й дві бічні поверхні",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "apex linguae",
+    "back": "верхівка язика: найрухливіша; дорсальна й вентральна поверхні",
+    "sourceSegmentIDs": [
+      16
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "plica glossoepiglottica media et lateralis",
+    "back": "три язиконадгортанні складки на надгортаннику",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "papillae filiformes",
+    "back": "ниткоподібні сосочки: механічні, тіло й верхівка, бархатистий вигляд",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "papillae conicae",
+    "back": "конічні сосочки: механічні, на корені",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "papillae fungiformes",
+    "back": "грибоподібні сосочки: смакові; тіло, кінчик, краї серед ниткоподібних",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "papillae foliatae",
+    "back": "листкоподібні сосочки: смакові; спереду піднебінно-язикової дужки",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "papillae vallatae",
+    "back": "валикоподібні сосочки: смакові; тіло біля кореня, 1–3 пари",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "m. lingualis",
+    "back": "язиковий м'яз: основний м'яз язика; поздовжні, поперечні, перпендикулярні пучки",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "m. genioglossus",
+    "back": "від підборідного кута нижньої щелепи до верхівки й тіла язика; тягне вперед",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "latin",
+    "front": "m. hyoglossus",
+    "back": "від тіла й гортанних ріжків під'язикової кістки; сплющує корінь, тягне назад",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "term",
+    "front": "Піднебінні валики: скільки в яких тварин?",
+    "back": "собака 6–9 (10); свиня 20–22; корова 15–20; кінь 16–18",
+    "sourceSegmentIDs": [
+      1,
+      3
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "term",
+    "front": "Корова: які валики спереду й ззаду?",
+    "back": "передні із зубцями; задні гладенькі й широкі",
+    "sourceSegmentIDs": [
+      1
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "term",
+    "front": "М'яке піднебіння у собаки, свині, корови, коня?",
+    "back": "собака — не досягає кореня язика; свиня — коротка, товста; корова — до верхівки надгортанника; кінь — дуже довга, не дихає ротом",
+    "sourceSegmentIDs": [
+      10,
+      12
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "term",
+    "front": "Дно рота: бородавки у собаки, свині, корови, коня?",
+    "back": "собака — маленькі; свиня — немає, є отвори проток; корова — великі, щільні; кінь — добре виражені",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "term",
+    "front": "Епітелій м'якого піднебіння з двох боків?",
+    "back": "ротова — багатошаровий плоский; глоткова — миготливий; залози: слизові піднебінні й серозні",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "term",
+    "front": "Механічні й смакові сосочки?",
+    "back": "механічні — ниткоподібні, конічні; смакові — грибоподібні, валикоподібні, листкоподібні",
+    "sourceSegmentIDs": [
+      17
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "term",
+    "front": "Де сосочки язика?",
+    "back": "ниткоподібні — тіло, верхівка; конічні — корінь; грибоподібні — тіло, кінчик, краї; листкоподібні — спереду дужки; валикоподібні — біля кореня",
+    "sourceSegmentIDs": [
+      18
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "term",
+    "front": "m. styloglossus: початок і функція?",
+    "back": "від переднього кінця більшої гілки під'язикової кістки до верхівки; скорочує язик",
+    "sourceSegmentIDs": [
+      21
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "term",
+    "front": "m. geniohyoideus: початок і функція?",
+    "back": "від підборідного кута до тіла або язикового відростка під'язикової кістки; тягне язик вперед",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T16",
+    "kind": "term",
+    "front": "m. transversus mandibulae?",
+    "back": "оральна й аборальна частини; починаються на linea mylohyoidea; кріпляться в серединному сухожилковому шві (опис оральної частини обривається)",
+    "sourceSegmentIDs": [
+      25
+    ]
+  }
+]
