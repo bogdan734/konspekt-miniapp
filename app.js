@@ -524,7 +524,7 @@ function variantOf(pool, seed) {
 
 const variantKey = (subject, topic) => `variant:${subject.id}:${topic.id}`;
 
-/// Тест і домашнє стосуються однієї теми, а тем у предмета буває кілька.
+/// Домашнє стосується однієї теми, а тем у предмета буває кілька.
 function chosenTopic(subject, kind) {
   const ready = topicsWith(subject, kind);
   return ready.find(topic => topic.id === drill.topic) ?? ready[0];
@@ -641,8 +641,29 @@ function renderCards() {
 
 function renderQuiz() {
   const subject = subjectByID(current);
-  const topic = chosenTopic(subject, 'quiz');
-  view.append(topicStrip(subject, 'quiz', topic));
+  const ready = topicsWith(subject, 'quiz');
+  const topic = ready.find(item => item.id === drill.topic) ?? (ready.length === 1 ? ready[0] : null);
+
+  // Тест завжди за однією темою: спершу її обирають зі списку.
+  if (!topic) {
+    return view.append(topicList(subject, ready, {
+      title: 'Обери тему для тесту',
+      meta: item => `${materialOf(subject, item).quiz.questions.length} пит.`,
+      pick: item => {
+        drill.topic = item.id;
+        drill.answers = {};
+        tg?.HapticFeedback?.selectionChanged?.();
+        render('drill');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      },
+    }));
+  }
+
+  if (ready.length > 1) {
+    const back = el('button', 'go ghost', '← Усі теми');
+    back.onclick = () => { drill.topic = null; render('drill'); };
+    view.append(back);
+  }
   const pool = materialOf(subject, topic).quiz.questions;
 
   // Відповіді належать одному варіанту одного предмета; перемкнулися — почали заново.
@@ -663,6 +684,7 @@ function renderQuiz() {
   const progress = el('div', 'card');
   progress.append(el('h2', null,
     `Варіант ${seed} · ${answered} з ${questions.length}`));
+  progress.append(el('div', 'small topic-line', `<b>${topicLabel(subject, topic)}</b> · ${topic.title}`));
   const bar = el('div', 'bar', '<i></i>');
   bar.firstChild.style.transform = `scaleX(${answered / questions.length})`;
   progress.append(bar);
@@ -792,7 +814,12 @@ function renderNotes() {
   }
 
   const topic = ready.find(item => item.id === openTopic) ?? (ready.length === 1 ? ready[0] : null);
-  if (!topic) return view.append(topicList(subject, ready));
+  if (!topic) {
+    return view.append(topicList(subject, ready, {
+      title: 'Теми з конспектом',
+      pick: item => { openTopic = item.id; render('notes'); },
+    }));
+  }
 
   if (ready.length > 1) {
     const back = el('button', 'go ghost', '← Усі теми');
@@ -802,15 +829,17 @@ function renderNotes() {
   renderTopicNotes(subject, topic);
 }
 
-function topicList(subject, topics) {
+/// Список тем: конспект і тест відкривають його однаково, різниться лише дія по тапу.
+function topicList(subject, topics, { title, pick, meta }) {
   const box = el('div', 'card');
-  box.append(el('h2', null, 'Теми з конспектом'));
+  box.append(el('h2', null, title));
   for (const topic of topics) {
     const row = el('button', 'topic-row');
     row.innerHTML = `<span class="tag">${topicLabel(subject, topic)}</span>
       <span class="name">${topic.title}</span>
+      ${meta ? `<span class="meta">${meta(topic)}</span>` : ''}
       <span class="chev">${svg('<path d="m9 18 6-6-6-6"/>')}</span>`;
-    row.onclick = () => { openTopic = topic.id; render('notes'); };
+    row.onclick = () => pick(topic);
     box.append(row);
   }
   return box;

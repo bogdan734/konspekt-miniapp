@@ -179,8 +179,13 @@
     font-variant-numeric: tabular-nums;
   }
   .topic-row .name { flex: 1; font-size: 15px; line-height: 1.3; }
+  .topic-row .meta {
+    flex: none; font-size: 12px; font-weight: 700; color: var(--muted);
+    font-variant-numeric: tabular-nums; white-space: nowrap;
+  }
   .topic-row .chev { color: var(--muted); flex: none; }
   .topic-row[disabled] { opacity: .5; }
+  .topic-line { margin-bottom: 10px; }
   .empty-note { color: var(--muted); font-size: 14px; padding: 4px 0 2px; }
   .seg { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
          background: var(--card); padding: 4px; border-radius: var(--r-md); }
@@ -288,6 +293,6 @@
 </header>
 <main id="view"></main>
 <nav id="tabs" aria-label="Розділи"></nav>
-<script type="module" src="app.js?v=cae74263ac"></script>
+<script type="module" src="app.js?v=4d27367482"></script>
 </body>
 </html>
