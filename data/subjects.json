@@ -325,6 +325,27 @@
       ]
     },
     {
+      "id": "histology-ua",
+      "title": "Гістологія",
+      "short": "Гістологія",
+      "hue": 168,
+      "curriculum": null,
+      "topics": [
+        {
+          "id": "T1",
+          "title": "Хрящова й кісткова тканини (гістологія, розд. 9, с. 202–220)",
+          "label": "T1",
+          "syllabus": [
+            "T1"
+          ],
+          "notes": "histology-ua/T1/notes.json",
+          "lesson": "histology-ua/T1/lesson.json",
+          "quiz": "histology-ua/T1/quiz.json",
+          "cards": "histology-ua/T1/cards.json"
+        }
+      ]
+    },
+    {
       "id": "history-ua",
       "title": "Історія України та цивілізаційний процес",
       "short": "Історія",
@@ -350,14 +371,6 @@
       "title": "Основи національного спротиву",
       "short": "Спротив",
       "hue": 14,
-      "curriculum": null,
-      "topics": []
-    },
-    {
-      "id": "subject-168",
-      "title": "Гістологія",
-      "short": "Гістологія",
-      "hue": 168,
       "curriculum": null,
       "topics": []
     },
