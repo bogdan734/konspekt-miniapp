@@ -198,6 +198,18 @@
           "lesson": "anatomy-ua-full/T16/lesson.json",
           "quiz": "anatomy-ua-full/T16/quiz.json",
           "cards": "anatomy-ua-full/T16/cards.json"
+        },
+        {
+          "id": "T17",
+          "title": "Лекція Присяжнюка «Органи травлення»: ротова порожнина, язик, зуби (с. 2–14)",
+          "label": "T17",
+          "syllabus": [
+            "T9"
+          ],
+          "notes": "anatomy-ua-full/T17/notes.json",
+          "lesson": "anatomy-ua-full/T17/lesson.json",
+          "quiz": "anatomy-ua-full/T17/quiz.json",
+          "cards": "anatomy-ua-full/T17/cards.json"
         }
       ]
     },

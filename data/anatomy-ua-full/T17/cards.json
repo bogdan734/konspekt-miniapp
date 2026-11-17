@@ -1,0 +1,1118 @@
+[
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "cavum oris",
+    "back": "ротова порожнина: початковий розширений відділ травної трубки; захоплення й механічна обробка їжі",
+    "sourceSegmentIDs": [
+      3
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "vestibulum oris",
+    "back": "присінок рота: підковоподібний простір між зубними дугами та губами й щоками",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "cavum oris proprium",
+    "back": "власна ротова порожнина: за зубними дугами; заповнена язиком і підщелеповими залозами",
+    "sourceSegmentIDs": [
+      5
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "rima oris",
+    "back": "ротова щілина: вхід у присінок між верхньою й нижньою губами",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "angulus oris",
+    "back": "кут рота: де губи латерально з'єднуються",
+    "sourceSegmentIDs": [
+      4
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "labia",
+    "back": "губи: шкірно-м'язові утворення; орган дотику корму",
+    "sourceSegmentIDs": [
+      6
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "gll. labiales",
+    "back": "губні залози: слизові або серозні; біля кутів рота",
+    "sourceSegmentIDs": [
+      7
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "philtrum",
+    "back": "борозенка верхньої губи собаки",
+    "sourceSegmentIDs": [
+      8
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "rostrum",
+    "back": "рило: у нього переходить верхня губа свині",
+    "sourceSegmentIDs": [
+      9
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "planum nasolabiale",
+    "back": "носогубне дзеркальце корови: шкіра верхньої губи, пігментоване",
+    "sourceSegmentIDs": [
+      10
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "mentum",
+    "back": "підборіддя: у нього переходить нижня губа коня",
+    "sourceSegmentIDs": [
+      11
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "buccae",
+    "back": "щоки: шкірно-м'язові складки з слизовою з боку присінка",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "plica pterygomandibularis",
+    "back": "крило-нижньощелепна складка: до неї тягнуться щоки; позаду корінних зубів",
+    "sourceSegmentIDs": [
+      12
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "papilla salivalis parotidea",
+    "back": "слинний сосочок щоки: на рівні верхніх корінних зубів (3–5); протока привушної залози",
+    "sourceSegmentIDs": [
+      14
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "gl. zygomatica",
+    "back": "вилична залоза: дорсальні змішані щічні залози собаки",
+    "sourceSegmentIDs": [
+      15
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "palatum durum",
+    "back": "тверде піднебіння: кісткове; шов, валики, різцевий сосочок",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "raphe palatini",
+    "back": "піднебінний шов: посередині твердого піднебіння",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "rugae palatinae",
+    "back": "піднебінні валики: обабіч шва; каудально згладжуються",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "papilla incisiva",
+    "back": "різцевий сосочок: позаду різців на піднебінному шві",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "ductus nasopalatinus",
+    "back": "носопіднебінний канал: з'єднує носову й ротову порожнини",
+    "sourceSegmentIDs": [
+      20
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "gll. palatinae",
+    "back": "піднебінні залози: слизові; ззаду на твердому піднебінні й під слизовою ротової поверхні завіски",
+    "sourceSegmentIDs": [
+      22
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "plexus venosus palatini",
+    "back": "венозне сплетення піднебіння: міцне, під слизовою твердого піднебіння коня",
+    "sourceSegmentIDs": [
+      23
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "palatum molle",
+    "back": "м'яке піднебіння = піднебінна завіска (velum palatinum): складка слизової з м'язами й залозами",
+    "sourceSegmentIDs": [
+      24
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "arcus palatinus",
+    "back": "піднебінна дуга: вільний край завіски; з коренем язика формує зів",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "isthmus faucium",
+    "back": "зів: вхід із ротової порожнини в глотку",
+    "sourceSegmentIDs": [
+      25
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "arcus pharyngopalatinus",
+    "back": "піднебінно-глоткова дуга: від піднебінної дуги до глотки",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "arcus glossopalatinus",
+    "back": "піднебінно-язикова дуга: від завіски до кореня язика",
+    "sourceSegmentIDs": [
+      26
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "tonsillae palatinae",
+    "back": "піднебінні мигдалики: між дугами; слизові залози й лімфатичні вузли",
+    "sourceSegmentIDs": [
+      26,
+      29
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "sinus tonsillaris",
+    "back": "пазуха мигдалика: в ній мигдалики собаки й корови",
+    "sourceSegmentIDs": [
+      30,
+      32
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "tonsilla veli palatini impar",
+    "back": "непарний мигдалик завіски: свиня (дифузний), кінь",
+    "sourceSegmentIDs": [
+      30,
+      32
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. palatinus",
+    "back": "піднебінний м'яз: від хоан до піднебінної дуги; скорочує завіску після ковтання",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. levator veli palatini",
+    "back": "піднімач завіски: від м'язового відростка кам'янистої кістки; піднімає її",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. tensor veli palatini",
+    "back": "напружувач завіски: через гачок клиноподібної кістки; напружує її",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "plica sublingualis",
+    "back": "під'язикова складка: обабіч язика; отвори коротких проток під'язикової залози",
+    "sourceSegmentIDs": [
+      33
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "frenulum linguae",
+    "back": "вуздечка язика: складка слизової під кінчиком язика",
+    "sourceSegmentIDs": [
+      33
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "caruncula sublingualis",
+    "back": "під'язикова бородавка: довгі протоки під'язикової й протока підщелепової залози",
+    "sourceSegmentIDs": [
+      33
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "radix linguae",
+    "back": "корінь язика: від коренів зубів до надгортанника; одна дорзальна поверхня",
+    "sourceSegmentIDs": [
+      36
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "corpus linguae",
+    "back": "тіло язика: спинка й дві бічні поверхні; уздовж корінних зубів",
+    "sourceSegmentIDs": [
+      36
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "apex linguae",
+    "back": "верхівка язика: передня, найрухливіша частина",
+    "sourceSegmentIDs": [
+      36
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "plica glossoepiglottica",
+    "back": "язиконадгортанні складки: їх три (media et lateralis)",
+    "sourceSegmentIDs": [
+      37
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "papillae filiformes",
+    "back": "ниткоподібні сосочки: на тілі й верхівці; бархатний вигляд; механічні",
+    "sourceSegmentIDs": [
+      38
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "papillae conicae",
+    "back": "конічні сосочки: на корені язика; механічні",
+    "sourceSegmentIDs": [
+      38
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "papillae fungiformes",
+    "back": "грибоподібні сосочки: на тілі, кінчику й краях серед ниткоподібних; смакові",
+    "sourceSegmentIDs": [
+      38
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "papillae foliatae",
+    "back": "листкоподібні сосочки: спереду піднебінно-язикової дужки; смакові",
+    "sourceSegmentIDs": [
+      38
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "papillae vallatae",
+    "back": "валикоподібні сосочки: на тілі біля кореня, 1–3 пари; смакові",
+    "sourceSegmentIDs": [
+      38
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "gll. linguales",
+    "back": "язикові залози: слизові або змішані; в слизовій кореня й країв язика",
+    "sourceSegmentIDs": [
+      39
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "tonsilla lingualis",
+    "back": "язиковий мигдалик: лімфоїдна тканина кореня язика; у собаки його немає",
+    "sourceSegmentIDs": [
+      39,
+      47
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "fossulae tonsillares",
+    "back": "мигдаликові ямки: на слизовій над скупченнями лімфоїдної тканини язика",
+    "sourceSegmentIDs": [
+      39
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "sulcus medianus linguae",
+    "back": "язикова борозна: на спинці язика собаки",
+    "sourceSegmentIDs": [
+      47
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "lyssa",
+    "back": "язиковий хрящ: рудимент внутрішньоязикової кістки; є в собаки й свині; у коня немає",
+    "sourceSegmentIDs": [
+      47,
+      49,
+      51
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "papillae tonsillares",
+    "back": "мигдаликоподібні сосочки: конусоподібні сосочки язика свині з фолікулами мигдалика",
+    "sourceSegmentIDs": [
+      49
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "tonsilla paraepiglottica",
+    "back": "навкологортанний мигдалик: парний, у свині",
+    "sourceSegmentIDs": [
+      49
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "torus linguae",
+    "back": "подушка язика: потовщення спинки язика корови",
+    "sourceSegmentIDs": [
+      50
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "sulcus terminalis",
+    "back": "погранична борозна: відокремлює подушку язика корови від передньої частини",
+    "sourceSegmentIDs": [
+      50
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. lingualis",
+    "back": "язиковий м'яз: основний м'яз язика; поздовжні, поперечні, перпендикулярні пучки",
+    "sourceSegmentIDs": [
+      40
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. styloglossus",
+    "back": "бічний язиковий м'яз: від більшої гілки під'язикової кістки до верхівки; скорочує язик",
+    "sourceSegmentIDs": [
+      41
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. genioglossus",
+    "back": "підборідно-язиковий м'яз: від підборідного кута; відтягує язик від піднебіння, тягне вперед",
+    "sourceSegmentIDs": [
+      42
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. hyoglossus",
+    "back": "основний язиковий м'яз: від тіла й гортанних ріжків під'язикової кістки; сплющує корінь, тягне назад",
+    "sourceSegmentIDs": [
+      43
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. geniohyoideus",
+    "back": "підборідно-під'язиковий м'яз: від підборідного кута до під'язикової кістки; тягне язик уперед",
+    "sourceSegmentIDs": [
+      44
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. transversus mandibulae",
+    "back": "поперечний міжщелеповий м'яз: оральна й аборальна частини; від linea mylohyoidea до серединного шва",
+    "sourceSegmentIDs": [
+      45
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "linea mylohyoidea",
+    "back": "лінія на нижній щелепі, звідки починається m. transversus mandibulae",
+    "sourceSegmentIDs": [
+      45
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. mylohyoideus",
+    "back": "щелепно-під'язиковий м'яз: припіднімає язик при жуванні, притискує до піднебіння",
+    "sourceSegmentIDs": [
+      46
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. myloglossus",
+    "back": "щелепно-язиковий м'яз: оральна частина поперечного міжщелепового м'яза",
+    "sourceSegmentIDs": [
+      45,
+      46
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. stylohyoideus",
+    "back": "у лекції «під'язиковий м'яз»: від середньої гілки під'язикової кістки до гортанних ріжків",
+    "sourceSegmentIDs": [
+      52
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "m. keratohyoideus",
+    "back": "ріжково-під'язиковий м'яз: від гортанних гілок до малої гілки; зближує гілки",
+    "sourceSegmentIDs": [
+      52
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "dentes",
+    "back": "зуби: міцні органи в зубних комірках; захоплюють, подрібнюють корм, захист і напад",
+    "sourceSegmentIDs": [
+      55
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "arcus dentalis maxillaris et mandibularis",
+    "back": "зубна дуга верхньої й нижньої щелепи",
+    "sourceSegmentIDs": [
+      55
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "alveola dentis",
+    "back": "зубна комірка (альвеола) в щелепі",
+    "sourceSegmentIDs": [
+      55,
+      54
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "dentes incisivi",
+    "back": "різці (I): по три з боку; зачепи, середні, окрайки",
+    "sourceSegmentIDs": [
+      56,
+      57
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "dentes canini",
+    "back": "ікла (C): по одному з боку на кожній щелепі",
+    "sourceSegmentIDs": [
+      56,
+      57
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "dentes praemolares",
+    "back": "премоляри (P): корінні зуби; 3–4",
+    "sourceSegmentIDs": [
+      56,
+      57
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "dentes molares",
+    "back": "моляри (M): корінні зуби; 3, рідше 2–4",
+    "sourceSegmentIDs": [
+      56,
+      57
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "dentes decidui",
+    "back": "молочні зуби: коротші й менші; молярів немає",
+    "sourceSegmentIDs": [
+      58
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "dentes permanentes",
+    "back": "постійні зуби: замінюють молочні",
+    "sourceSegmentIDs": [
+      58
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "dentes brachiodontes",
+    "back": "короткокоронкові зуби: коронка, шийка, корінь; собака, свиня, різці жуйних",
+    "sourceSegmentIDs": [
+      59,
+      64
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "dentes hypselodontes",
+    "back": "довгокоронкові зуби: довга коронка в луночці; кінь, кутні жуйних, ікла свині",
+    "sourceSegmentIDs": [
+      65,
+      67,
+      69
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "corona dentis",
+    "back": "коронка зуба: над яснами; клин (різці), конус (ікла), горбики (моляри)",
+    "sourceSegmentIDs": [
+      59
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "collum dentis",
+    "back": "шийка зуба: де коронка переходить у корінь; до неї кріпляться ясна",
+    "sourceSegmentIDs": [
+      60
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "radix dentis",
+    "back": "корінь зуба: у комірці; 1 до 3–4 коренів",
+    "sourceSegmentIDs": [
+      60
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "lig. dentale",
+    "back": "зубна зв'язка: періодонт, надкістниця кореня й луночки",
+    "sourceSegmentIDs": [
+      60
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "facies labialis et buccalis",
+    "back": "губна або щічна поверхня коронки: до присінка",
+    "sourceSegmentIDs": [
+      59
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "facies lingualis",
+    "back": "язикова поверхня коронки: до язика",
+    "sourceSegmentIDs": [
+      59
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "facies masticatoria",
+    "back": "жувальна поверхня коронки: до протилежного зуба",
+    "sourceSegmentIDs": [
+      59
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "dentinum",
+    "back": "дентин: основа зуба; 70–80 % мінеральних речовин",
+    "sourceSegmentIDs": [
+      61
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "substantia adamantina",
+    "back": "емаль: на коронці; найтвердіша; 98 % мінеральних речовин",
+    "sourceSegmentIDs": [
+      63
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "cementum",
+    "back": "цемент: на корені; схожий на кістку; 60–70 %",
+    "sourceSegmentIDs": [
+      63
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "cavum dentis",
+    "back": "порожнина зуба: вхід з боку верхівки кореня",
+    "sourceSegmentIDs": [
+      62
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "pulpa dentis",
+    "back": "пульпа: сполучна тканина, судини, нерви",
+    "sourceSegmentIDs": [
+      62
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "lophodontes",
+    "back": "складчасті зуби: конуси після стирання стають складками; кінь",
+    "sourceSegmentIDs": [
+      66
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "selenodontes",
+    "back": "місяцеподібні зуби: серпоподібні конуси; жуйні",
+    "sourceSegmentIDs": [
+      66
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "dens lupinus",
+    "back": "вовчий зуб: собака — перший нижній премоляр; свиня — перший премоляр; кінь — додатковий верхній",
+    "sourceSegmentIDs": [
+      68,
+      69,
+      74
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "latin",
+    "front": "dentes sectoris",
+    "back": "січні зуби собаки: 4-й верхній премоляр і 1-й нижній моляр (у тестах dentes sectorii)",
+    "sourceSegmentIDs": [
+      68
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "зубна зірка",
+    "back": "темніший дентин, що заростає порожнину при стиранні зуба",
+    "sourceSegmentIDs": [
+      64
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "зубна чашка (лійка)",
+    "back": "між конусами коронки; одна при двох конусах, дві при 4–5",
+    "sourceSegmentIDs": [
+      66
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "зачепи й окрайки",
+    "back": "зачепи — медіальні різці, окрайки — латеральні",
+    "sourceSegmentIDs": [
+      57
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "ізогнатні й анізогнатні щелепи",
+    "back": "ізогнатні — собака, свиня; анізогнатні — корова, кінь",
+    "sourceSegmentIDs": [
+      68,
+      69,
+      70,
+      74
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "піднебінні валики: собака, свиня, корова, кінь",
+    "back": "6–9 (10); 20–22; 15–20 (передні із зубцями); 16–18",
+    "sourceSegmentIDs": [
+      21,
+      23
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "кут рота й ротова щілина у собаки та свині",
+    "back": "ротова щілина велика; кут на рівні 3–4 корінного зуба",
+    "sourceSegmentIDs": [
+      8,
+      9
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "слинний сосочок щоки: собака, свиня, корова, кінь",
+    "back": "на рівні 3-го; 4–5-го; 5-го; 3-го корінного зуба",
+    "sourceSegmentIDs": [
+      15,
+      17,
+      18,
+      19
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "щоки: найкоротші й найдовші",
+    "back": "найкоротші у собаки, найдовші у жуйних",
+    "sourceSegmentIDs": [
+      13
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "м'яке піднебіння: собака, свиня, корова, кінь",
+    "back": "не досягає кореня язика; коротка й товста; до верхівки надгортанника; дуже довга",
+    "sourceSegmentIDs": [
+      30,
+      32
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "чому кінь не дихає ротом",
+    "back": "завіска дуже довга й сягає кореня язика в основі надгортанника",
+    "sourceSegmentIDs": [
+      32
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "валикоподібні сосочки: собака, свиня, корова, кінь",
+    "back": "2–3 пари; пара; 8–17; пара (іноді третій непарний)",
+    "sourceSegmentIDs": [
+      47,
+      49,
+      50,
+      51
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "язик собаки",
+    "back": "довгий, широкий, тонкий; борозна; lyssa; без язикового мигдалика; терморегуляція",
+    "sourceSegmentIDs": [
+      47,
+      35
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "язик свині",
+    "back": "довгий, вузький, загострений; lyssa; пара валикоподібних; мигдаликоподібні сосочки",
+    "sourceSegmentIDs": [
+      49
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "язик корови",
+    "back": "подушка (torus linguae) і погранична борозна; 8–17 валикоподібних",
+    "sourceSegmentIDs": [
+      50
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "язик коня",
+    "back": "слизова щільна; без подушки й хряща; пара валикоподібних; конічних немає",
+    "sourceSegmentIDs": [
+      51
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "під'язикові бородавки: собака, свиня, корова, кінь",
+    "back": "маленькі; немає (але отвори проток); великі, щільні; добре виражені",
+    "sourceSegmentIDs": [
+      34
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "зубні формули постійних зубів",
+    "back": "собака 3142/3143 (42); свиня 3143 (44); ВРХ 0033/4033 (32); кінь 3133 (40)",
+    "sourceSegmentIDs": [
+      68,
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "зубні формули молочних зубів",
+    "back": "собака 3140/3140; свиня 3130; ВРХ 0030/4030; кінь 3130",
+    "sourceSegmentIDs": [
+      68,
+      69,
+      70,
+      71
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "які зуби короткокоронкові",
+    "back": "собака, свиня (крім іклів), різці жуйних",
+    "sourceSegmentIDs": [
+      64,
+      69
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "які зуби довгокоронкові",
+    "back": "кінь, кутні зуби жуйних, ікла свині",
+    "sourceSegmentIDs": [
+      67,
+      69
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "мінеральні речовини: емаль, дентин, цемент",
+    "back": "98 %; 70–80 %; 60–70 %",
+    "sourceSegmentIDs": [
+      61,
+      63
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "жувальна поверхня різця коня з віком",
+    "back": "поперечно-овальна → округла → трикутна → знову овальна; зміна через 6 років, спочатку внизу",
+    "sourceSegmentIDs": [
+      71
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "вік коня: на чому визначають",
+    "back": "терміни зміни зубів; форма жувальної поверхні; передній контур зубів (дуга → клин)",
+    "sourceSegmentIDs": [
+      74,
+      72
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "дентин, емаль, цемент: де лежать",
+    "back": "дентин — основа; емаль — на коронці; цемент — на корені (у довгокоронкових вкриває й емаль)",
+    "sourceSegmentIDs": [
+      61,
+      63,
+      67
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "м'язи піднебінної завіски: що роблять",
+    "back": "palatinus скорочує; levator піднімає; tensor напружує",
+    "sourceSegmentIDs": [
+      28
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "м'язи язика: що роблять",
+    "back": "styloglossus скорочує; genioglossus тягне вперед; hyoglossus тягне назад; geniohyoideus тягне вперед",
+    "sourceSegmentIDs": [
+      41,
+      42,
+      43,
+      44
+    ]
+  },
+  {
+    "topicID": "T17",
+    "kind": "term",
+    "front": "губні залози: тип і положення",
+    "back": "слизові або серозні; під слизовою або в м'язовому шарі",
+    "sourceSegmentIDs": [
+      7
+    ]
+  }
+]
